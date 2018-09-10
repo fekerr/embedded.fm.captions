@@ -1,0 +1,3506 @@
+0:00:29.910,0:00:36.400
+why aren't you guarding its 256 I've
+
+0:00:34.480,0:00:42.550
+rolled over to zero and so I thought it
+
+0:00:36.400,0:00:46.660
+would just be silence right I mean it's
+
+0:00:42.550,0:00:48.850
+it's it's an 8-bit integer so now it's
+
+0:00:46.660,0:00:51.550
+256 so therefore it's zero and then
+
+0:00:48.850,0:00:54.250
+that's just silence why don't we just
+
+0:00:51.550,0:00:57.610
+not really it's an episode because then
+
+0:00:54.250,0:01:01.390
+how are we ever gonna get to 257 that
+
+0:00:57.610,0:01:03.730
+doesn't fit in eight bits there's a lot
+
+0:01:01.390,0:01:05.530
+of problems with this logic well there
+
+0:01:03.730,0:01:07.690
+was that a release episode zero but we
+
+0:01:05.530,0:01:12.100
+never made an episode zero we foolishly
+
+0:01:07.690,0:01:16.270
+started with one all right if you were
+
+0:01:12.100,0:01:18.010
+still listening welcome to our bedded as
+
+0:01:16.270,0:01:20.200
+you can tell this is gonna be a little
+
+0:01:18.010,0:01:23.020
+bit of a silly show where we answer a
+
+0:01:20.200,0:01:26.850
+listener questions and talk about how
+
+0:01:23.020,0:01:31.270
+you can be a rockstar programmer okay
+
+0:01:26.850,0:01:33.970
+okay and since it is episode 256 at the
+
+0:01:31.270,0:01:36.670
+first order of business his lightning
+
+0:01:33.970,0:01:38.920
+round now is the cupcakes you got
+
+0:01:36.670,0:01:40.510
+cupcakes right I have this plan where I
+
+0:01:38.920,0:01:42.940
+just mash them in my mouth Cookie
+
+0:01:40.510,0:01:45.280
+Monster style and the the sprinkles and
+
+0:01:42.940,0:01:48.100
+the the confetti cake goes everywhere
+
+0:01:45.280,0:01:50.080
+until my microphone is encrusted in
+
+0:01:48.100,0:01:52.320
+frosting and sugar and that's how I'll
+
+0:01:50.080,0:01:54.640
+always be I think we're gonna do that
+
+0:01:52.320,0:01:57.520
+there's some astronaut ice cream on a
+
+0:01:54.640,0:02:01.130
+desk but that's all I don't have any
+
+0:01:57.520,0:02:03.140
+cupcakes this is not a good start
+
+0:02:01.130,0:02:06.229
+we could go out for cupcakes after the
+
+0:02:03.140,0:02:09.170
+show and then cut in the portion of us
+
+0:02:06.229,0:02:10.489
+sounding like Cookie Monster yeah I I
+
+0:02:09.170,0:02:12.290
+don't think that's gonna work that's
+
+0:02:10.489,0:02:14.750
+just you're saying you don't want
+
+0:02:12.290,0:02:17.599
+cupcakes we don't need to record the
+
+0:02:14.750,0:02:19.010
+cupcakes I'm not I'm never saying it
+
+0:02:17.599,0:02:20.830
+they record the cupcakes it'll sound a
+
+0:02:19.010,0:02:25.310
+lot like the first minute of the show
+
+0:02:20.830,0:02:27.440
+with chewing sounds okay let's uh yes
+
+0:02:25.310,0:02:30.050
+hi welcome to the show what a show is
+
+0:02:27.440,0:02:31.970
+this this is show 256 this isn't bad
+
+0:02:30.050,0:02:34.190
+labor the parts I didn't better you did
+
+0:02:31.970,0:02:38.120
+I have introduced you your your Chris
+
+0:02:34.190,0:02:39.830
+Chris white and I'm Elysia white and we
+
+0:02:38.120,0:02:41.000
+do this show about engineering and
+
+0:02:39.830,0:02:45.140
+cupcakes about what it's about
+
+0:02:41.000,0:02:47.630
+sometimes let's see first I have random
+
+0:02:45.140,0:02:49.450
+news to get out of the way first of the
+
+0:02:47.630,0:02:53.060
+news bits is that we have a newsletter
+
+0:02:49.450,0:02:55.760
+in case news about news you prefer email
+
+0:02:53.060,0:02:58.819
+as the way to get information about the
+
+0:02:55.760,0:03:00.980
+show and blog
+
+0:02:58.819,0:03:04.790
+apparently RSS is dead I keep hearing
+
+0:03:00.980,0:03:10.340
+this but the newsletter is basically
+
+0:03:04.790,0:03:13.040
+just RSS and email next next I'm sure
+
+0:03:10.340,0:03:15.350
+that now having started the show that
+
+0:03:13.040,0:03:16.970
+now is when you say you know what I wish
+
+0:03:15.350,0:03:21.500
+I could support these people in the
+
+0:03:16.970,0:03:24.350
+effort they put into this show if you
+
+0:03:21.500,0:03:26.569
+feel that way you are welcome to support
+
+0:03:24.350,0:03:28.579
+us on patreon which is this little
+
+0:03:26.569,0:03:31.040
+program where you put in your credit
+
+0:03:28.579,0:03:33.350
+card and then every month they take out
+
+0:03:31.040,0:03:36.350
+a dollar or four or however many dollars
+
+0:03:33.350,0:03:38.389
+you tell them they can take out and in
+
+0:03:36.350,0:03:41.870
+return for that you get the satisfaction
+
+0:03:38.389,0:03:46.790
+of knowing that our guests have better
+
+0:03:41.870,0:03:49.940
+mics and that you buy us cupcakes which
+
+0:03:46.790,0:03:52.519
+and they can join our competitive him
+
+0:03:49.940,0:03:54.829
+slack group right that is true that is
+
+0:03:52.519,0:03:56.209
+part of the posts in the patreon and
+
+0:03:54.829,0:03:58.730
+things go on there
+
+0:03:56.209,0:04:01.370
+jobs are posted conversations happen and
+
+0:03:58.730,0:04:03.530
+sometimes we're out sometimes we're
+
+0:04:01.370,0:04:05.060
+around and sometimes we're not and
+
+0:04:03.530,0:04:10.520
+I have to say they're a very interesting
+
+0:04:05.060,0:04:12.410
+group of people for yeah about all kinds
+
+0:04:10.520,0:04:15.920
+of things and so it's a lot of people
+
+0:04:12.410,0:04:17.989
+now actually it's what it's over a
+
+0:04:15.920,0:04:20.690
+hundred club something like up yeah and
+
+0:04:17.989,0:04:22.820
+and people have offered electrical help
+
+0:04:20.690,0:04:26.510
+or software help or what chip should I
+
+0:04:22.820,0:04:28.880
+use in this yeah it's really cool
+
+0:04:26.510,0:04:32.570
+one other reason to support on patreon
+
+0:04:28.880,0:04:35.570
+is the idea that we might do transcripts
+
+0:04:32.570,0:04:37.730
+yeah yeah you can hear Christopher's
+
+0:04:35.570,0:04:40.910
+excitement about that
+
+0:04:37.730,0:04:44.780
+let me guess them but a couple of people
+
+0:04:40.910,0:04:48.230
+vast for various reasons and one of our
+
+0:04:44.780,0:04:52.910
+listeners has offered to try out doing
+
+0:04:48.230,0:04:56.330
+them and Thank You Fred and if it goes
+
+0:04:52.910,0:04:58.340
+well then we might do more pay for
+
+0:04:56.330,0:05:00.229
+professional services so far is just
+
+0:04:58.340,0:05:03.710
+going to do a couple to see if anybody
+
+0:05:00.229,0:05:06.560
+actually uses them so if you want to say
+
+0:05:03.710,0:05:10.010
+yes I would use them then go ahead and
+
+0:05:06.560,0:05:11.840
+let me know on email or just really want
+
+0:05:10.010,0:05:14.600
+to use them not oh that sounds like a
+
+0:05:11.840,0:05:16.729
+great idea but you know you have to
+
+0:05:14.600,0:05:21.620
+think deep in your head would I actually
+
+0:05:16.729,0:05:22.789
+use these not yeah because if fred is
+
+0:05:21.620,0:05:25.490
+doing it out of the goodness of his
+
+0:05:22.789,0:05:28.610
+heart and I don't want to to ask him to
+
+0:05:25.490,0:05:30.289
+do a bunch because he's a embedded
+
+0:05:28.610,0:05:35.240
+systems professional and has things to
+
+0:05:30.289,0:05:37.160
+do but I mean it it's pretty expensive
+
+0:05:35.240,0:05:38.750
+once we've got dollar a minute it's like
+
+0:05:37.160,0:05:41.000
+a dollar I don't it that's especially
+
+0:05:38.750,0:05:46.729
+since our material is technical so we
+
+0:05:41.000,0:05:49.039
+don't want we can't just do the auto
+
+0:05:46.729,0:05:50.630
+cheapest automated no right now Google
+
+0:05:49.039,0:05:53.000
+does automate it on YouTube that's
+
+0:05:50.630,0:05:55.850
+pretty pretty it is pretty bad every
+
+0:05:53.000,0:05:58.750
+every week I look to see exactly how the
+
+0:05:55.850,0:06:02.600
+intro is how they spelled my name or
+
+0:05:58.750,0:06:04.760
+what they did instead of my name I liked
+
+0:06:02.600,0:06:08.960
+the day we were I'm under the sea white
+
+0:06:04.760,0:06:12.210
+yeah that was nice but it would help
+
+0:06:08.960,0:06:15.600
+people like
+
+0:06:12.210,0:06:18.979
+Okarche who wanted us to put in time
+
+0:06:15.600,0:06:23.729
+stops and markers in the show notes so
+
+0:06:18.979,0:06:25.139
+chapters I can do chapters the one of
+
+0:06:23.729,0:06:26.940
+the programs i used to put the podcast
+
+0:06:25.139,0:06:30.030
+together supports inserting chapter
+
+0:06:26.940,0:06:32.130
+marks I've thought about it it requires
+
+0:06:30.030,0:06:36.120
+me to pay a different kind of attention
+
+0:06:32.130,0:06:38.850
+well while we're recording or while I'm
+
+0:06:36.120,0:06:43.110
+editing to actually generate topical
+
+0:06:38.850,0:06:45.599
+chapter marks because we often do random
+
+0:06:43.110,0:06:47.970
+yeah and I would rather have a good
+
+0:06:45.599,0:06:50.840
+conversation I didn't have topics if
+
+0:06:47.970,0:06:54.889
+people again if people really want this
+
+0:06:50.840,0:06:58.050
+we need to have some more volume of
+
+0:06:54.889,0:07:00.180
+requests because it is it is a pain in
+
+0:06:58.050,0:07:01.919
+the neck and I think if we did
+
+0:07:00.180,0:07:03.419
+transcripts then that would solve some
+
+0:07:01.919,0:07:06.770
+of his problems too sure because he
+
+0:07:03.419,0:07:09.060
+could his goal was to skip to the
+
+0:07:06.770,0:07:11.880
+something excited mentioned in the show
+
+0:07:09.060,0:07:14.099
+notes so if we had the transcripts he
+
+0:07:11.880,0:07:15.570
+could find that of course I don't know
+
+0:07:14.099,0:07:17.070
+where to put the transcripts but we'll
+
+0:07:15.570,0:07:18.810
+figure that out when it comes to it
+
+0:07:17.070,0:07:22.169
+we'll have to get our web point we have
+
+0:07:18.810,0:07:23.550
+one the website a website yeah yeah we
+
+0:07:22.169,0:07:28.320
+do have a website just like the
+
+0:07:23.550,0:07:28.860
+transcript in that episode thing do you
+
+0:07:28.320,0:07:30.449
+hear something
+
+0:07:28.860,0:07:33.270
+yeah I can't wants to join the show
+
+0:07:30.449,0:07:37.349
+she's like it's 256 it's time for me to
+
+0:07:33.270,0:07:39.090
+be on again but last I checked she drew
+
+0:07:37.349,0:07:43.590
+tired so I don't know what let's just
+
+0:07:39.090,0:07:45.599
+gonna talk about okay do you want to do
+
+0:07:43.590,0:07:47.789
+listener questions first or Rockstar
+
+0:07:45.599,0:07:54.240
+programming skills do like your listener
+
+0:07:47.789,0:07:56.190
+questions okay from Behati get a go who
+
+0:07:54.240,0:07:59.580
+enjoys our podcast has been tinkering
+
+0:07:56.190,0:08:02.520
+with the st micro f1 series that's one
+
+0:07:59.580,0:08:05.449
+of their low-end playing around with the
+
+0:08:02.520,0:08:09.240
+hal and the standard peripheral library
+
+0:08:05.449,0:08:10.740
+library is poorly documented mmm he said
+
+0:08:09.240,0:08:17.789
+it not me
+
+0:08:10.740,0:08:21.389
+or possibly and yeah anyway well I
+
+0:08:17.789,0:08:24.419
+should have read it out as as Behati
+
+0:08:21.389,0:08:25.080
+because I don't know it's it's not great
+
+0:08:24.419,0:08:29.190
+it
+
+0:08:25.080,0:08:31.440
+and how do you want to know what we use
+
+0:08:29.190,0:08:35.550
+for programming est macro bare metal or
+
+0:08:31.440,0:08:42.839
+micro libraries or what I don't use s T
+
+0:08:35.550,0:08:45.270
+so violate this to you um it depends on
+
+0:08:42.839,0:08:47.940
+which chip you have and what you're
+
+0:08:45.270,0:08:50.790
+doing with it I had a client recently
+
+0:08:47.940,0:08:55.950
+who was relatively an experienced client
+
+0:08:50.790,0:08:59.370
+wanted a demo system and wanted to be
+
+0:08:55.950,0:09:02.459
+able to modify things after I was not no
+
+0:08:59.370,0:09:04.770
+longer part of the project I put them on
+
+0:09:02.459,0:09:07.680
+embed which has an operating system it
+
+0:09:04.770,0:09:11.579
+has a Hal it has lots of nice fun things
+
+0:09:07.680,0:09:13.550
+it has a compiler and it is not
+
+0:09:11.579,0:09:16.050
+something I would do for high production
+
+0:09:13.550,0:09:18.149
+but it is a great place to start it's
+
+0:09:16.050,0:09:22.100
+it's more complicated than Arduino and
+
+0:09:18.149,0:09:24.990
+less complicated than any other option
+
+0:09:22.100,0:09:29.310
+for another client I recently used cube
+
+0:09:24.990,0:09:33.149
+which is estie's linked together all of
+
+0:09:29.310,0:09:36.149
+the i/o pins and set up your clocks and
+
+0:09:33.149,0:09:39.390
+it's all graphical and then it spits out
+
+0:09:36.149,0:09:41.820
+a bunch of code and it has all your
+
+0:09:39.390,0:09:43.230
+drivers written for you and you can even
+
+0:09:41.820,0:09:44.610
+set up DMA it's actually really great
+
+0:09:43.230,0:09:47.339
+for setting up da makes it makes it kind
+
+0:09:44.610,0:09:51.020
+of easy and straightforward but that's
+
+0:09:47.339,0:09:55.050
+not a replacement for how that generates
+
+0:09:51.020,0:09:57.209
+everything you need to do to call Hal so
+
+0:09:55.050,0:09:59.990
+it's it's actually a hardware
+
+0:09:57.209,0:10:04.220
+abstraction layer made graphical and
+
+0:09:59.990,0:10:06.329
+then setup according to how you want so
+
+0:10:04.220,0:10:07.860
+you decide how you want your chip
+
+0:10:06.329,0:10:09.540
+configure it your knots or a bunch of
+
+0:10:07.860,0:10:12.390
+questions and this graphical thing and
+
+0:10:09.540,0:10:14.970
+it spits out headers basically and some
+
+0:10:12.390,0:10:18.209
+code that sets up the chip the way you
+
+0:10:14.970,0:10:20.399
+want this configuration don't want these
+
+0:10:18.209,0:10:21.660
+GPIO is to go do this in this
+
+0:10:20.399,0:10:24.240
+configuration of what these clocks
+
+0:10:21.660,0:10:25.529
+configured this way and then it spits
+
+0:10:24.240,0:10:27.510
+all that out for you yeah that seems
+
+0:10:25.529,0:10:28.920
+very useful but that does that that
+
+0:10:27.510,0:10:35.610
+doesn't blow your code or anything it's
+
+0:10:28.920,0:10:38.010
+just right as he's how is not the most
+
+0:10:35.610,0:10:41.520
+efficient oh because Cube calls the
+
+0:10:38.010,0:10:44.160
+coz cube cause the hot gotcha and the
+
+0:10:41.520,0:10:46.320
+standard prefer a library which I mean
+
+0:10:44.160,0:10:50.070
+it's not bad but it does things like
+
+0:10:46.320,0:10:51.530
+every time you toggle a GPIO it checks
+
+0:10:50.070,0:10:54.090
+to see if the GPIO is valid
+
+0:10:51.530,0:10:56.730
+that's great sometimes but if you
+
+0:10:54.090,0:10:59.490
+actually want to go fast you have to
+
+0:10:56.730,0:11:04.650
+trust that your GPIO is valid and just
+
+0:10:59.490,0:11:06.930
+do the one clock cycle thing it also
+
+0:11:04.650,0:11:09.720
+because it does things like check to see
+
+0:11:06.930,0:11:13.410
+the GPIO is valid each time that is code
+
+0:11:09.720,0:11:15.570
+and it puts a lot of that code in a lot
+
+0:11:13.410,0:11:19.620
+of codes you don't need a lot of code
+
+0:11:15.570,0:11:21.570
+you maybe don't want and so yeah it
+
+0:11:19.620,0:11:25.200
+bloats your code and it slows your
+
+0:11:21.570,0:11:27.870
+processor it is very easy though if you
+
+0:11:25.200,0:11:30.690
+are running a cortex m0 with only a
+
+0:11:27.870,0:11:32.760
+little bit of flash space you probably
+
+0:11:30.690,0:11:35.400
+want to go straight bare-metal if you
+
+0:11:32.760,0:11:36.240
+are running a cortex m4 and it's twice
+
+0:11:35.400,0:11:40.080
+as big as you need
+
+0:11:36.240,0:11:42.150
+use cute makes it easy so yeah it
+
+0:11:40.080,0:11:47.280
+depends it was a long minute say it
+
+0:11:42.150,0:11:49.710
+depends well good yeah I kicked bringing
+
+0:11:47.280,0:11:51.840
+up cube is a a lot of people are
+
+0:11:49.710,0:11:54.600
+advocating for and against it some of
+
+0:11:51.840,0:11:57.810
+them the same people at the same time so
+
+0:11:54.600,0:11:58.740
+it's kind of hard to decide but it seems
+
+0:11:57.810,0:12:04.170
+like one of the things you could start
+
+0:11:58.740,0:12:05.670
+with and see what it does yes it is a
+
+0:12:04.170,0:12:07.650
+good place to start with because it
+
+0:12:05.670,0:12:09.900
+shows you what it's doing it doesn't
+
+0:12:07.650,0:12:12.420
+generate library code you can't read it
+
+0:12:09.900,0:12:14.490
+generates C codes you can read and even
+
+0:12:12.420,0:12:16.830
+the how things it calls into you can
+
+0:12:14.490,0:12:19.200
+read and then you can strip out what you
+
+0:12:16.830,0:12:20.880
+don't want and even from my kind of
+
+0:12:19.200,0:12:22.410
+osmotic experience with s T it seems
+
+0:12:20.880,0:12:25.800
+like some of those configuration things
+
+0:12:22.410,0:12:29.010
+are really challenging without something
+
+0:12:25.800,0:12:31.710
+like this like the clock setup but I've
+
+0:12:29.010,0:12:33.390
+seen diagrams so the clock tree is you
+
+0:12:31.710,0:12:37.260
+could put it on your wall and you know
+
+0:12:33.390,0:12:41.100
+it has 40 different nodes that you have
+
+0:12:37.260,0:12:44.690
+to figure out it's true and it does make
+
+0:12:41.100,0:12:47.760
+it easier to set up like I said I used a
+
+0:12:44.690,0:12:50.610
+cube recently for a professional project
+
+0:12:47.760,0:12:51.779
+because it was a little simpler it was
+
+0:12:50.610,0:12:53.579
+also simpler to explain
+
+0:12:51.779,0:12:55.860
+the client what I was doing although
+
+0:12:53.579,0:12:57.420
+later the client wanted to swap pins and
+
+0:12:55.860,0:12:59.730
+I was like should I tell him to do it
+
+0:12:57.420,0:13:02.459
+and cube should I just go ahead and use
+
+0:12:59.730,0:13:03.449
+the code and never regenerate or should
+
+0:13:02.459,0:13:06.839
+I just do this myself
+
+0:13:03.449,0:13:11.579
+I chose the latter that is the question
+
+0:13:06.839,0:13:13.889
+with auto-generated stuff is do you use
+
+0:13:11.579,0:13:15.329
+the auto generation graphical tool all
+
+0:13:13.889,0:13:18.029
+the time whenever you make a change or
+
+0:13:15.329,0:13:20.399
+do you use it to get your first cut of
+
+0:13:18.029,0:13:22.709
+setup code and then from then on
+
+0:13:20.399,0:13:24.809
+maintain in his code I mean his
+
+0:13:22.709,0:13:26.790
+arguments both ways but I would kind of
+
+0:13:24.809,0:13:27.959
+like cut and run how sure during the
+
+0:13:26.790,0:13:29.939
+initial setup and things were working
+
+0:13:27.959,0:13:32.279
+and if you had to make changes make him
+
+0:13:29.939,0:13:33.629
+in the code it's a choice because you
+
+0:13:32.279,0:13:34.829
+don't know and you should document what
+
+0:13:33.629,0:13:37.379
+you're doing because you don't want
+
+0:13:34.829,0:13:38.759
+someone woman later and then again right
+
+0:13:37.379,0:13:41.399
+and you might get a different version
+
+0:13:38.759,0:13:43.410
+right they might update it and then you
+
+0:13:41.399,0:13:45.329
+go in and auto-generated to make a small
+
+0:13:43.410,0:13:46.439
+change and suddenly everything's changed
+
+0:13:45.329,0:13:48.389
+and you've got this massive patch and
+
+0:13:46.439,0:13:49.649
+you're not even sure if it's changed
+
+0:13:48.389,0:13:51.839
+anything substantive right so you to be
+
+0:13:49.649,0:13:55.170
+careful with auto-generated code well
+
+0:13:51.839,0:13:58.559
+that's one reason that in Andrews blog
+
+0:13:55.170,0:14:00.750
+he he very specifically says don't put
+
+0:13:58.559,0:14:03.779
+any code in main like put like the one
+
+0:14:00.750,0:14:06.809
+line that calls your functions the there
+
+0:14:03.779,0:14:09.269
+should be an an it call an a loop call
+
+0:14:06.809,0:14:10.470
+and you just call those and nothing else
+
+0:14:09.269,0:14:12.120
+goes in main because you never know
+
+0:14:10.470,0:14:12.509
+what's gonna change or what's gonna be
+
+0:14:12.120,0:14:14.490
+killed
+
+0:14:12.509,0:14:16.199
+he's written a lot about this he really
+
+0:14:14.490,0:14:19.350
+has so if you want to know more about
+
+0:14:16.199,0:14:21.470
+cube NST and and what's in there check
+
+0:14:19.350,0:14:26.009
+out and raise embedded Wednesday plug
+
+0:14:21.470,0:14:27.839
+okay you highlighted the Hippocratic
+
+0:14:26.009,0:14:29.579
+oath for connected medical devices I
+
+0:14:27.839,0:14:30.779
+highlighted it so I could open it and
+
+0:14:29.579,0:14:33.360
+look at it and see what it was because
+
+0:14:30.779,0:14:36.569
+there was no description so we might as
+
+0:14:33.360,0:14:40.980
+well talk about now yes so you have a
+
+0:14:36.569,0:14:44.160
+link in here and it's a long URL I'm not
+
+0:14:40.980,0:14:45.929
+gonna repeat but I'll be in the show
+
+0:14:44.160,0:14:46.980
+notes but basically it's a document
+
+0:14:45.929,0:14:48.569
+called the Hippocratic oath for
+
+0:14:46.980,0:14:50.129
+connected medical devices where did this
+
+0:14:48.569,0:14:53.009
+come from
+
+0:14:50.129,0:14:58.170
+I am the Calvary org which is one of
+
+0:14:53.009,0:15:02.129
+those organizations that works to make
+
+0:14:58.170,0:15:04.570
+security and privacy more understandable
+
+0:15:02.129,0:15:07.190
+to both see
+
+0:15:04.570,0:15:10.639
+consumer and engineering communities
+
+0:15:07.190,0:15:13.790
+that you've come by I was looking around
+
+0:15:10.639,0:15:16.339
+for trying to explain to a potential
+
+0:15:13.790,0:15:21.079
+client that their plan for ble on their
+
+0:15:16.339,0:15:23.050
+medical device was not kosher which they
+
+0:15:21.079,0:15:25.240
+did eventually take that advice and
+
+0:15:23.050,0:15:28.370
+start to understand what the HIPAA
+
+0:15:25.240,0:15:31.550
+compliance would mean for them so the
+
+0:15:28.370,0:15:33.470
+traditional Hippocratic oath I don't
+
+0:15:31.550,0:15:35.240
+know if it's always laid out in its
+
+0:15:33.470,0:15:40.490
+complete form but it seems rather simple
+
+0:15:35.240,0:15:44.319
+and short I will do no harm and let's
+
+0:15:40.490,0:15:46.730
+look it up yeah but you've read this one
+
+0:15:44.319,0:15:49.819
+I'm assuming yes yes
+
+0:15:46.730,0:15:52.069
+so okay it's quite that it's actually
+
+0:15:49.819,0:15:56.959
+it's in ancient Greek so I can't I can't
+
+0:15:52.069,0:15:59.329
+read it well I don't know the alphabet
+
+0:15:56.959,0:16:01.730
+either so that that makes it a little
+
+0:15:59.329,0:16:04.699
+bit more difficult not to be confused
+
+0:16:01.730,0:16:07.819
+with hypocrisy by the way yes that's
+
+0:16:04.699,0:16:12.980
+important I swear by Apollo the healer
+
+0:16:07.819,0:16:16.339
+well that's an interesting start okay
+
+0:16:12.980,0:16:20.000
+well basically it's the core of it is
+
+0:16:16.339,0:16:24.949
+first you no harm so this is similar
+
+0:16:20.000,0:16:27.500
+idea this is a similar idea in taking
+
+0:16:24.949,0:16:29.690
+responsibility for the ethics of medical
+
+0:16:27.500,0:16:30.170
+devices particularly connected medical
+
+0:16:29.690,0:16:33.410
+devices
+
+0:16:30.170,0:16:35.180
+I will revere and protect human life and
+
+0:16:33.410,0:16:37.160
+always act for the benefit of my
+
+0:16:35.180,0:16:39.649
+patients I recognize that all systems
+
+0:16:37.160,0:16:42.589
+fail inherent defects and adverse
+
+0:16:39.649,0:16:44.630
+conditions are inevitable and it goes on
+
+0:16:42.589,0:16:47.569
+from there where it talks about how
+
+0:16:44.630,0:16:49.220
+failure impacts patient safety and how
+
+0:16:47.569,0:16:52.699
+we have to be resilient against
+
+0:16:49.220,0:16:55.750
+accidents and intentional adversaries
+
+0:16:52.699,0:16:55.750
+such as hackers
+
+0:16:55.950,0:17:02.400
+and it goes on to talk about cyber
+
+0:16:59.070,0:17:05.280
+safety in the design and and evidence
+
+0:17:02.400,0:17:08.550
+capture so that you can figure out when
+
+0:17:05.280,0:17:11.220
+something goes bad and I just I wanted
+
+0:17:08.550,0:17:12.720
+to bring this up as a people wonder well
+
+0:17:11.220,0:17:15.750
+what do I have to do what are my
+
+0:17:12.720,0:17:18.089
+responsibilities you don't have to take
+
+0:17:15.750,0:17:20.040
+this oath but you should at least look
+
+0:17:18.089,0:17:23.820
+at it it's rather long to take as an
+
+0:17:20.040,0:17:27.320
+oath stay allowed but it goes through
+
+0:17:23.820,0:17:30.210
+what all these things means about
+
+0:17:27.320,0:17:33.270
+working with third parties and shared
+
+0:17:30.210,0:17:35.250
+responsibilities and testing I just it's
+
+0:17:33.270,0:17:39.950
+a pretty long document that talks about
+
+0:17:35.250,0:17:42.600
+as an engineer yeah what should your
+
+0:17:39.950,0:17:46.590
+ethical responsibilities be towards the
+
+0:17:42.600,0:17:49.050
+people who maybe have your device
+
+0:17:46.590,0:17:50.520
+implanted in them I think the core of it
+
+0:17:49.050,0:17:53.280
+is the same first you no harm and then
+
+0:17:50.520,0:17:57.600
+they go on to describe in several ways
+
+0:17:53.280,0:18:00.420
+how to accomplish that yeah that's
+
+0:17:57.600,0:18:04.740
+that's excellent I wished I'd had that
+
+0:18:00.420,0:18:09.470
+many times at least at a minimum to show
+
+0:18:04.740,0:18:11.910
+to people yes this is even more
+
+0:18:09.470,0:18:15.540
+convincing than hey I don't look good in
+
+0:18:11.910,0:18:16.830
+orange right I'm not I'm really glad
+
+0:18:15.540,0:18:20.160
+somebody put this together it's actually
+
+0:18:16.830,0:18:24.950
+a few years old yes it is it's not new
+
+0:18:20.160,0:18:28.650
+and I bet someone had pointed to any
+
+0:18:24.950,0:18:33.410
+swearing to God's here which is an
+
+0:18:28.650,0:18:38.700
+oversight no Apollo here no no Apollo no
+
+0:18:33.410,0:18:41.000
+SLPs no hygeia no pen SIA panacea so I
+
+0:18:38.700,0:18:43.500
+think I think they need to add that take
+
+0:18:41.000,0:18:47.040
+okay what do you think the guards should
+
+0:18:43.500,0:18:48.840
+be for a technology related thing I mean
+
+0:18:47.040,0:18:51.960
+I don't want to swear to woz he's not
+
+0:18:48.840,0:18:58.340
+really a god what book am I thinking of
+
+0:18:51.960,0:18:58.340
+the head weird emergent cyber gods
+
+0:18:58.510,0:19:02.620
+half of them that have been reading oh
+
+0:19:00.570,0:19:04.810
+you know what I think was the Hyperion
+
+0:19:02.620,0:19:08.800
+series later that's an Hyperion series
+
+0:19:04.810,0:19:11.050
+there there were gods called Aloha or
+
+0:19:08.800,0:19:13.660
+something that lived in in their
+
+0:19:11.050,0:19:14.500
+equivalent of the universe wide Internet
+
+0:19:13.660,0:19:16.540
+yeah
+
+0:19:14.500,0:19:18.010
+Aloha are usually if who do you think
+
+0:19:16.540,0:19:20.860
+yeah that's what they were modeled after
+
+0:19:18.010,0:19:22.150
+okay anyway this is cool you should
+
+0:19:20.860,0:19:23.410
+check it out especially if you work on
+
+0:19:22.150,0:19:24.880
+medical devices any of you who don't
+
+0:19:23.410,0:19:26.770
+work on medical devices you know what
+
+0:19:24.880,0:19:29.190
+some of this applies to all kinds of
+
+0:19:26.770,0:19:32.980
+things if you're working on automotive
+
+0:19:29.190,0:19:36.040
+airplanes involve safety take a look at
+
+0:19:32.980,0:19:43.930
+this please see from Paul sort of in Li
+
+0:19:36.040,0:19:46.150
+related but not really make recently had
+
+0:19:43.930,0:19:48.370
+an article where they talked about how
+
+0:19:46.150,0:19:51.880
+to tighten security for do-it-yourself
+
+0:19:48.370,0:19:54.370
+IOT gadgets so please stop putting those
+
+0:19:51.880,0:19:58.510
+raspberry PI's unprotected with no
+
+0:19:54.370,0:20:01.810
+password on the raw Internet people do
+
+0:19:58.510,0:20:06.250
+that do beautifully people do that let's
+
+0:20:01.810,0:20:09.550
+just punch an IP hole in make scene make
+
+0:20:06.250,0:20:12.160
+magazine has top tips to tighten your
+
+0:20:09.550,0:20:15.100
+security so I will link to that it's
+
+0:20:12.160,0:20:16.810
+copyrighted but it might be worth a
+
+0:20:15.100,0:20:18.550
+discussion just going through all the
+
+0:20:16.810,0:20:19.330
+lists and talking about each I don't
+
+0:20:18.550,0:20:20.860
+think we're going to do that today
+
+0:20:19.330,0:20:25.000
+though cuz we have a lot to do and we
+
+0:20:20.860,0:20:27.550
+stuff to buy cupcakes all right where do
+
+0:20:25.000,0:20:29.140
+you want to talk about it I read it at
+
+0:20:27.550,0:20:31.740
+the time but I don't have any particular
+
+0:20:29.140,0:20:34.210
+memory of it I mean where we should be
+
+0:20:31.740,0:20:36.520
+breathe through it real quick and change
+
+0:20:34.210,0:20:38.980
+the default user password obvious but
+
+0:20:36.520,0:20:40.570
+yes purple eyes there are default user
+
+0:20:38.980,0:20:43.750
+passwords yes
+
+0:20:40.570,0:20:48.610
+I mean if it's raspberry or pie its
+
+0:20:43.750,0:20:50.560
+default disable password login with SSH
+
+0:20:48.610,0:20:52.270
+which you know we all use it for
+
+0:20:50.560,0:20:57.550
+debugging another one you might not be
+
+0:20:52.270,0:21:00.490
+aware is enabled yeah up to ear OS
+
+0:20:57.550,0:21:03.730
+because they don't just make the updates
+
+0:21:00.490,0:21:08.020
+for fun sometimes they do well sometimes
+
+0:21:03.730,0:21:11.360
+it you have a firewall yeah yeah I mean
+
+0:21:08.020,0:21:13.490
+these are motherhood and apple pie stuff
+
+0:21:11.360,0:21:14.900
+this was like the time that Chris and I
+
+0:21:13.490,0:21:18.050
+are having this long discussion and I
+
+0:21:14.900,0:21:21.380
+came down strongly in favor of reading
+
+0:21:18.050,0:21:25.130
+he pointed out to me that this was not
+
+0:21:21.380,0:21:26.690
+news and then they have some stuff for
+
+0:21:25.130,0:21:30.530
+all devices interestingly they say use a
+
+0:21:26.690,0:21:31.850
+VPN oh I see to get into your home stuff
+
+0:21:30.530,0:21:35.000
+that makes sense I would not recommend
+
+0:21:31.850,0:21:37.360
+necessarily using a VPN for your general
+
+0:21:35.000,0:21:40.070
+use there's a lot of those out there and
+
+0:21:37.360,0:21:42.650
+people make a big deal out of protecting
+
+0:21:40.070,0:21:44.720
+your security from the ISPs by using a
+
+0:21:42.650,0:21:47.120
+VPN for all of your surfing and whatnot
+
+0:21:44.720,0:21:50.600
+I have a mixed feelings about that
+
+0:21:47.120,0:21:53.750
+because you're just transferring your
+
+0:21:50.600,0:21:55.910
+trust to somebody else do you trust
+
+0:21:53.750,0:21:57.680
+random VPN company more than your ISP
+
+0:21:55.910,0:22:02.030
+maybe but it's at least a question you
+
+0:21:57.680,0:22:05.810
+should ask random VPN company has less
+
+0:22:02.030,0:22:07.370
+vested interest in controlling you yes
+
+0:22:05.810,0:22:07.940
+but you know nothing about them well
+
+0:22:07.370,0:22:10.340
+there is that
+
+0:22:07.940,0:22:12.170
+that that is that is a little nervous
+
+0:22:10.340,0:22:13.550
+making their entire business model could
+
+0:22:12.170,0:22:14.750
+be stealing your stuff and selling it
+
+0:22:13.550,0:22:15.890
+and they could be based in a country
+
+0:22:14.750,0:22:17.900
+you're not aware of something anyway
+
+0:22:15.890,0:22:22.610
+just know what you're doing but yeah
+
+0:22:17.900,0:22:24.920
+good stuff and it's worth it's worth at
+
+0:22:22.610,0:22:29.120
+least especially with the Linux based
+
+0:22:24.920,0:22:31.340
+ports like the Raspberry Pi or you might
+
+0:22:29.120,0:22:34.040
+not be aware of things that are open by
+
+0:22:31.340,0:22:42.320
+default or at least more open than you
+
+0:22:34.040,0:22:44.860
+want cool Tyler is a firmware engineer
+
+0:22:42.320,0:22:47.420
+working at a start-up in New York City
+
+0:22:44.860,0:22:51.730
+and it's thinking about starting to meet
+
+0:22:47.420,0:22:53.960
+up Tyler wants to attract other
+
+0:22:51.730,0:22:57.590
+engineers and people interested in
+
+0:22:53.960,0:22:59.870
+embedded systems to attend others
+
+0:22:57.590,0:23:04.640
+looking for people interested in joining
+
+0:22:59.870,0:23:05.810
+presenting something something yeah it
+
+0:23:04.640,0:23:07.700
+would have been good if I had replied to
+
+0:23:05.810,0:23:08.690
+Tyler and said ok do you have a plan but
+
+0:23:07.700,0:23:12.110
+at this point
+
+0:23:08.690,0:23:13.910
+Tyler has just said like let's do a
+
+0:23:12.110,0:23:17.810
+meet-up in New York City you put this
+
+0:23:13.910,0:23:20.060
+and enough I know if you would like to
+
+0:23:17.810,0:23:22.880
+speak at Tyler's event or you would like
+
+0:23:20.060,0:23:23.580
+to be connected with Tyler or something
+
+0:23:22.880,0:23:26.580
+yes
+
+0:23:23.580,0:23:30.000
+feel free to email me show at embedded
+
+0:23:26.580,0:23:33.300
+FM I do eventually read all of the
+
+0:23:30.000,0:23:35.940
+emails I don't reply to them all the
+
+0:23:33.300,0:23:38.400
+time are well organized yeah well there
+
+0:23:35.940,0:23:41.280
+are still some sticker offers that are
+
+0:23:38.400,0:23:45.120
+like six months old so I will eventually
+
+0:23:41.280,0:23:47.160
+get to you I promise I now we have a
+
+0:23:45.120,0:23:51.300
+bunch of C++ questions these are your
+
+0:23:47.160,0:23:55.380
+favorite ah yes
+
+0:23:51.300,0:24:00.900
+okay just listen to number 247 on C++
+
+0:23:55.380,0:24:02.990
+with Jason Turner and was thinking is
+
+0:24:00.900,0:24:06.330
+that an interesting question of whether
+
+0:24:02.990,0:24:09.390
+the language properties of C++ help the
+
+0:24:06.330,0:24:12.330
+compiler generate optimal code are also
+
+0:24:09.390,0:24:14.250
+helpful for the programmer to write and
+
+0:24:12.330,0:24:17.190
+understand and maintain in a complex
+
+0:24:14.250,0:24:18.960
+project well I guess we have to define
+
+0:24:17.190,0:24:20.940
+what the language properties of C++
+
+0:24:18.960,0:24:22.800
+which help the compiler generate optimal
+
+0:24:20.940,0:24:25.230
+code are those some of the things we
+
+0:24:22.800,0:24:30.660
+talked about with Jason some of the
+
+0:24:25.230,0:24:36.210
+iterators some of the libraries I think
+
+0:24:30.660,0:24:37.680
+that my answer is generally yes most of
+
+0:24:36.210,0:24:39.630
+those things are helpful to the
+
+0:24:37.680,0:24:41.910
+programmers that they aren't necessarily
+
+0:24:39.630,0:24:43.620
+helpful to C programmers who don't know
+
+0:24:41.910,0:24:48.900
+them because there's always a learning
+
+0:24:43.620,0:24:51.720
+curve but the whole idea behind C++ is
+
+0:24:48.900,0:24:53.670
+to generate more structured code write
+
+0:24:51.720,0:24:56.100
+gain objects the whole object-oriented
+
+0:24:53.670,0:24:58.740
+mindset whether or not you like it or
+
+0:24:56.100,0:25:01.320
+not the impetus behind it was to
+
+0:24:58.740,0:25:05.910
+structure your code in a more modular
+
+0:25:01.320,0:25:08.490
+fashion so I think to the extent that
+
+0:25:05.910,0:25:10.650
+those structural things help the
+
+0:25:08.490,0:25:15.360
+compiler I'm not sure that some of them
+
+0:25:10.650,0:25:17.820
+do that the answer is yes but smaller
+
+0:25:15.360,0:25:20.720
+details like the newer features like
+
+0:25:17.820,0:25:20.720
+iterators and such
+
+0:25:20.850,0:25:25.320
+they're more expressive and by
+
+0:25:24.179,0:25:27.110
+expressive I mean you're able to
+
+0:25:25.320,0:25:31.889
+accomplish more complicated things in
+
+0:25:27.110,0:25:34.289
+less code so it depends on how you feel
+
+0:25:31.889,0:25:36.000
+about expressive languages if you feel
+
+0:25:34.289,0:25:37.799
+that Express of languages help you
+
+0:25:36.000,0:25:42.419
+organize your code better and produce
+
+0:25:37.799,0:25:44.340
+better code then also yes but if you
+
+0:25:42.419,0:25:46.529
+feel like expressive languages are hard
+
+0:25:44.340,0:25:48.809
+to learn and complicated from a
+
+0:25:46.529,0:25:51.960
+syntactic standpoint because you have to
+
+0:25:48.809,0:25:53.970
+know all these weird idioms and ways of
+
+0:25:51.960,0:25:56.100
+doing things that maybe you could do and
+
+0:25:53.970,0:26:00.360
+see quite easily because the only how to
+
+0:25:56.100,0:26:03.590
+know a few key words then know you can
+
+0:26:00.360,0:26:06.840
+be a bad programmer in any language
+
+0:26:03.590,0:26:09.029
+right yes I think I think a lot of these
+
+0:26:06.840,0:26:11.250
+arguments about which language is better
+
+0:26:09.029,0:26:14.190
+and people get in their minds that don't
+
+0:26:11.250,0:26:17.610
+C++ is terrible or oh you should all be
+
+0:26:14.190,0:26:20.580
+using C sharp or you know Haskell's the
+
+0:26:17.610,0:26:22.590
+way to go or whatever you mistrust and
+
+0:26:20.580,0:26:29.519
+Erlang and go or we have to say those or
+
+0:26:22.590,0:26:31.919
+people will email the rest is bad Thanks
+
+0:26:29.519,0:26:36.899
+how did I just one more email I'd spend
+
+0:26:31.919,0:26:39.149
+people to don't love me if I say Russ is
+
+0:26:36.899,0:26:43.529
+bad I'll get email it doesn't have to be
+
+0:26:39.149,0:26:47.990
+good email no where was my point my
+
+0:26:43.529,0:26:49.640
+point was it's
+
+0:26:47.990,0:26:52.160
+there's nothing magical about any of
+
+0:26:49.640,0:26:54.050
+these things I feel I mean there's
+
+0:26:52.160,0:26:58.160
+nothing great about CEA's language
+
+0:26:54.050,0:27:03.290
+except it was it's very old it's very
+
+0:26:58.160,0:27:04.910
+easy to shoot your foot off but you know
+
+0:27:03.290,0:27:07.400
+there's there's good things about it and
+
+0:27:04.910,0:27:09.800
+there's bad things about it and if you
+
+0:27:07.400,0:27:11.450
+don't know what you're doing if you
+
+0:27:09.800,0:27:14.030
+aren't using the language kind of the
+
+0:27:11.450,0:27:15.950
+way it was intended then it's easy to
+
+0:27:14.030,0:27:17.660
+write terrible code and people tell me
+
+0:27:15.950,0:27:19.550
+oh I've heard people say all the time I
+
+0:27:17.660,0:27:23.720
+was he plus plus you it just makes
+
+0:27:19.550,0:27:26.240
+spaghetti code and my projects that I've
+
+0:27:23.720,0:27:29.480
+done C++ on you can make spaghetti code
+
+0:27:26.240,0:27:31.820
+in any language and I do think it's it's
+
+0:27:29.480,0:27:33.500
+you know it's all of our biases about
+
+0:27:31.820,0:27:35.510
+what we've seen in a particular language
+
+0:27:33.500,0:27:38.090
+and my bias against Trust has nothing to
+
+0:27:35.510,0:27:40.070
+do with rust have never used rusts since
+
+0:27:38.090,0:27:42.910
+its point it's stupid it's just named a
+
+0:27:40.070,0:27:45.710
+language after something awful okay yeah
+
+0:27:42.910,0:27:48.700
+rust maybe you know if I used rest I
+
+0:27:45.710,0:27:53.290
+might become an advocate for it so my my
+
+0:27:48.700,0:27:58.400
+my character persona playing a rust
+
+0:27:53.290,0:28:01.460
+adversaries it's just that I I tend to
+
+0:27:58.400,0:28:03.740
+think that more lines of code are harder
+
+0:28:01.460,0:28:05.929
+to maintain that's true but if they're
+
+0:28:03.740,0:28:08.780
+in a language you don't know then
+
+0:28:05.929,0:28:10.880
+they're impossible to maintain so if
+
+0:28:08.780,0:28:16.820
+you're going to have expressive
+
+0:28:10.880,0:28:21.380
+idiomatic C++ then you have to learn
+
+0:28:16.820,0:28:24.370
+that language you can't I mean wait if
+
+0:28:21.380,0:28:27.620
+you ever look at my Python code I write
+
+0:28:24.370,0:28:30.320
+C in Python it's it's not pretty I
+
+0:28:27.620,0:28:33.980
+occasionally manage to do a dictionary
+
+0:28:30.320,0:28:39.260
+slice that looks good but overall no not
+
+0:28:33.980,0:28:42.050
+so much and so and yet I can read the
+
+0:28:39.260,0:28:43.610
+Python that's pretty although once they
+
+0:28:42.050,0:28:46.400
+get multiple them doesn't one line I'm
+
+0:28:43.610,0:28:48.380
+kind of lost cuz I just yeah and I think
+
+0:28:46.400,0:28:49.550
+easily distract I think we can talk
+
+0:28:48.380,0:28:51.710
+about two different things right we can
+
+0:28:49.550,0:28:52.429
+talk about that syntactic we just don't
+
+0:28:51.710,0:28:56.030
+know the language
+
+0:28:52.429,0:28:57.770
+yeah don't know it with a facility to to
+
+0:28:56.030,0:29:01.230
+read it and it's easier to not know a
+
+0:28:57.770,0:29:03.090
+language that's more expressive
+
+0:29:01.230,0:29:05.520
+and it was those features of the
+
+0:29:03.090,0:29:10.560
+language the Jason was talking about as
+
+0:29:05.520,0:29:14.010
+far as optimizing it to be better so to
+
+0:29:10.560,0:29:16.590
+pull back from the yes a little bit in
+
+0:29:14.010,0:29:21.360
+principle you can generate cleaner nicer
+
+0:29:16.590,0:29:23.910
+code but it's harder to read for the
+
+0:29:21.360,0:29:27.810
+completely uninitiated fluent non-fluent
+
+0:29:23.910,0:29:29.370
+programmer and you know what the same
+
+0:29:27.810,0:29:31.220
+principles that make good code apply to
+
+0:29:29.370,0:29:35.120
+all languages right modularity
+
+0:29:31.220,0:29:39.030
+testability interfaces testability
+
+0:29:35.120,0:29:42.950
+keeping things small and tight using the
+
+0:29:39.030,0:29:42.950
+language to its best abilities Oh
+
+0:29:43.220,0:29:51.570
+sometimes I mean I have seen a sim I
+
+0:29:47.460,0:29:54.000
+have seen C I've seen assembly written
+
+0:29:51.570,0:29:56.790
+in C basically yeah I've seen C
+
+0:29:54.000,0:29:59.820
+programmers who don't really bother with
+
+0:29:56.790,0:30:01.790
+for loops who only know that the while
+
+0:29:59.820,0:30:04.830
+loop is a thing
+
+0:30:01.790,0:30:07.500
+there are ways in any language you can
+
+0:30:04.830,0:30:09.060
+make it look terrible and illegible and
+
+0:30:07.500,0:30:11.370
+the best you can do
+
+0:30:09.060,0:30:14.310
+oh well yeah let's just talk smack about
+
+0:30:11.370,0:30:17.060
+Perl you really want some emails don't
+
+0:30:14.310,0:30:17.060
+you are you lonely
+
+0:30:17.490,0:30:24.060
+yeah and C++ is not easy to learn no
+
+0:30:21.180,0:30:26.360
+it's not gonna not gonna deny that so
+
+0:30:24.060,0:30:31.980
+let's go on to the next C++ question
+
+0:30:26.360,0:30:34.710
+which Jason Turner stated that c-sharp
+
+0:30:31.980,0:30:40.950
+and Java have much big coders backs Kodi
+
+0:30:34.710,0:30:42.810
+code code specifications then C++ I
+
+0:30:40.950,0:30:45.170
+would put that down to my sugar crash
+
+0:30:42.810,0:30:48.690
+except Christopher didn't get cupcakes I
+
+0:30:45.170,0:30:50.640
+didn't know I was supposed to C sharp
+
+0:30:48.690,0:30:54.210
+and Java have much bigger code specs
+
+0:30:50.640,0:30:57.840
+than C++ but surely C++ and Java are
+
+0:30:54.210,0:31:00.270
+higher-level languages there thank you
+
+0:30:57.840,0:31:03.150
+guys I think at this point C++ is pretty
+
+0:31:00.270,0:31:04.230
+high level I mean this I guess they have
+
+0:31:03.150,0:31:07.380
+garbage collectors so they make them
+
+0:31:04.230,0:31:09.420
+higher level I think they have big
+
+0:31:07.380,0:31:11.070
+libraries of support stuff which makes
+
+0:31:09.420,0:31:12.790
+their specs better bigger does that make
+
+0:31:11.070,0:31:14.740
+them a higher-level language
+
+0:31:12.790,0:31:17.080
+I don't know agglomerating libraries
+
+0:31:14.740,0:31:19.060
+doesn't count as language to me
+
+0:31:17.080,0:31:20.740
+so glommer 80 yeah i glommer a ting
+
+0:31:19.060,0:31:23.380
+that's a words that aggregation and
+
+0:31:20.740,0:31:27.070
+conglomeration at the same time glommer
+
+0:31:23.380,0:31:29.590
+aiding agglomeration it's right here
+
+0:31:27.070,0:31:33.280
+it's word did you just add it to the
+
+0:31:29.590,0:31:37.390
+wiki dictionary no economies of
+
+0:31:33.280,0:31:41.140
+agglomeration anyway
+
+0:31:37.390,0:31:43.840
+it's perfectly common that word okay so
+
+0:31:41.140,0:31:46.540
+the answer here is I don't know yeah I
+
+0:31:43.840,0:31:49.540
+don't know I I think I tend to think of
+
+0:31:46.540,0:31:52.030
+C++ Java C sharp had around the same
+
+0:31:49.540,0:31:54.690
+level and the reason Java and c-sharp
+
+0:31:52.030,0:31:57.190
+have bigger specs is because they have
+
+0:31:54.690,0:31:58.960
+frameworks attached to them and C++ does
+
+0:31:57.190,0:32:02.380
+not count frameworks as part of a
+
+0:31:58.960,0:32:07.240
+language yeah if you added C++ and
+
+0:32:02.380,0:32:11.350
+OpenCV and C++ as a single spec then it
+
+0:32:07.240,0:32:16.720
+would be enormous yeah okay so this
+
+0:32:11.350,0:32:19.000
+question I believe we can answer today
+
+0:32:16.720,0:32:25.600
+on questions we won't and can't answer
+
+0:32:19.000,0:32:28.240
+but we will talk about rayon I am
+
+0:32:25.600,0:32:29.830
+currently taking a see a slash C++
+
+0:32:28.240,0:32:32.830
+programming class and my instructor
+
+0:32:29.830,0:32:35.350
+insists on us using not using
+
+0:32:32.830,0:32:39.550
+parenthesis unless they are absolutely
+
+0:32:35.350,0:32:42.580
+needed you banging the table yes
+
+0:32:39.550,0:32:45.040
+to paraphrase phrase the teachers line
+
+0:32:42.580,0:32:46.960
+of reasoning use of unnecessary of
+
+0:32:45.040,0:32:48.730
+parenthesis clutters the code and
+
+0:32:46.960,0:32:49.900
+advertises the programmers lack of
+
+0:32:48.730,0:32:53.740
+knowledge understanding or and
+
+0:32:49.900,0:32:55.360
+experience Ryan says I don't have a
+
+0:32:53.740,0:32:57.310
+problem with this it's his class so I
+
+0:32:55.360,0:32:58.960
+should play by his rules I tend to think
+
+0:32:57.310,0:33:02.040
+it's just a balancing act it's okay to
+
+0:32:58.960,0:33:03.700
+use quote unnecessary parens judiciously
+
+0:33:02.040,0:33:04.870
+especially if you think there's a good
+
+0:33:03.700,0:33:06.870
+chance your expression it could be
+
+0:33:04.870,0:33:08.050
+misread by others or the future you
+
+0:33:06.870,0:33:10.120
+after all
+
+0:33:08.050,0:33:11.950
+I doubt that the typical competent
+
+0:33:10.120,0:33:14.590
+professional programmer has memorized
+
+0:33:11.950,0:33:19.450
+the entire operator precedence chart so
+
+0:33:14.590,0:33:22.240
+ran your instincts are 100% correct in
+
+0:33:19.450,0:33:23.770
+every way and your professor whomever
+
+0:33:22.240,0:33:25.970
+they are
+
+0:33:23.770,0:33:29.570
+doesn't listen to that a professional
+
+0:33:25.970,0:33:31.400
+programmer and they have a weird sense
+
+0:33:29.570,0:33:34.330
+of aesthetics that has nothing to do
+
+0:33:31.400,0:33:39.800
+with clean code or maintainability
+
+0:33:34.330,0:33:42.080
+parentheses cost nothing and while it is
+
+0:33:39.800,0:33:44.210
+possible to use so many that makeup
+
+0:33:42.080,0:33:46.400
+becomes unreadable I think the
+
+0:33:44.210,0:33:48.530
+likelihood of that is far less than
+
+0:33:46.400,0:33:50.360
+using too few and getting into serious
+
+0:33:48.530,0:33:54.560
+problems because you screw up an
+
+0:33:50.360,0:34:00.320
+operator precedence or some weird
+
+0:33:54.560,0:34:02.030
+casting thing use them did you know
+
+0:34:00.320,0:34:06.680
+there's no przemek instruction being
+
+0:34:02.030,0:34:09.890
+generated if you run out of parentheses
+
+0:34:06.680,0:34:13.340
+I believe and Ray will strip your soul
+
+0:34:09.890,0:34:16.760
+ship you some from Canada artisanal
+
+0:34:13.340,0:34:18.860
+parentheses yes yeah I I was pretty sure
+
+0:34:16.760,0:34:22.400
+you'd answer I was shocked when I saw
+
+0:34:18.860,0:34:24.790
+this it's like who would argue for for
+
+0:34:22.400,0:34:27.890
+using the minimum parentheses necessary
+
+0:34:24.790,0:34:30.020
+why I you don't do that big man hands
+
+0:34:27.890,0:34:32.360
+you don't do that in men I'm for doing
+
+0:34:30.020,0:34:33.860
+reams of homework right in like physics
+
+0:34:32.360,0:34:39.260
+and math do you write parentheses on
+
+0:34:33.860,0:34:45.610
+stuff so you don't screw up III know I
+
+0:34:39.260,0:34:48.020
+know I know I'm I'm not yeah sorry I
+
+0:34:45.610,0:34:51.980
+anybody who wants to argue with the lack
+
+0:34:48.020,0:34:55.250
+of parentheses being better you can send
+
+0:34:51.980,0:35:00.170
+emails I mean it's one thing to say you
+
+0:34:55.250,0:35:02.810
+shouldn't wear socks with sandals and I
+
+0:35:00.170,0:35:05.620
+I actually want to know what happens if
+
+0:35:02.810,0:35:07.970
+your professor tries to teach Lisp I
+
+0:35:05.620,0:35:13.400
+believe his head will explode
+
+0:35:07.970,0:35:15.110
+it's a see us professor okay what did
+
+0:35:13.400,0:35:16.760
+the parentheses do to this person is
+
+0:35:15.110,0:35:17.300
+what I want to know yeah what's the
+
+0:35:16.760,0:35:21.020
+story there
+
+0:35:17.300,0:35:27.710
+what's the what's the backstory yes you
+
+0:35:21.020,0:35:29.360
+don't get disobey okay now now for the
+
+0:35:27.710,0:35:34.060
+the part you've all been waiting for
+
+0:35:29.360,0:35:34.060
+what the end of the show
+
+0:35:35.150,0:35:41.760
+like those Muppets do you want to talk
+
+0:35:38.910,0:35:43.050
+about the new Muppet movie no I don't
+
+0:35:41.760,0:35:48.680
+know anything about it what I've told
+
+0:35:43.050,0:35:54.060
+you rock star rock star programming
+
+0:35:48.680,0:35:58.290
+something that is often I termed as you
+
+0:35:54.060,0:36:00.840
+know kind of people put it on job wrecks
+
+0:35:58.290,0:36:05.100
+we want a rock star programmer or ninja
+
+0:36:00.840,0:36:07.470
+code ninja and then other people say why
+
+0:36:05.100,0:36:09.570
+don't we just have to have a developer
+
+0:36:07.470,0:36:12.720
+why don't we just have people who do
+
+0:36:09.570,0:36:14.310
+their jobs why do we have dad corns and
+
+0:36:12.720,0:36:17.130
+and do you really want to work with the
+
+0:36:14.310,0:36:24.720
+rock star the trash hotel rooms know
+
+0:36:17.130,0:36:28.320
+constantly drug drunk yeah um so but we
+
+0:36:24.720,0:36:31.230
+want to go beyond that on how you can be
+
+0:36:28.320,0:36:35.240
+a rock star programmer without trashing
+
+0:36:31.230,0:36:37.230
+the hotel room so this this guy Dylan BT
+
+0:36:35.240,0:36:38.150
+forgive me if I've mispronounced your
+
+0:36:37.230,0:36:42.420
+name
+
+0:36:38.150,0:36:48.060
+has proposed the Rockstar programming
+
+0:36:42.420,0:36:49.830
+language it is turing-complete and the
+
+0:36:48.060,0:36:53.330
+cool thing about it is it's like you
+
+0:36:49.830,0:36:58.190
+could actually do it and how it works is
+
+0:36:53.330,0:37:03.920
+all of your language keywords and such
+
+0:36:58.190,0:37:06.690
+go together to construct lyrics so yeah
+
+0:37:03.920,0:37:10.310
+so somebody so he's got an example of
+
+0:37:06.690,0:37:12.510
+his buzz in the most poetic
+
+0:37:10.310,0:37:15.090
+implementation you can you can be less
+
+0:37:12.510,0:37:17.310
+poetic well do you want to talk about
+
+0:37:15.090,0:37:18.510
+what fizzbuzz is and ruin all of the
+
+0:37:17.310,0:37:25.440
+interviews that are gonna happen next
+
+0:37:18.510,0:37:28.320
+week as buzz as they sit okay s word
+
+0:37:25.440,0:37:31.230
+gonna be fizzbuzz is a basic programming
+
+0:37:28.320,0:37:32.850
+interview question on the complexity
+
+0:37:31.230,0:37:34.800
+level of store copy or maybe a little
+
+0:37:32.850,0:37:38.240
+less oh no I think this buzz is a little
+
+0:37:34.800,0:37:41.340
+more right okay it's a very reasonable
+
+0:37:38.240,0:37:44.910
+often used programming you go through a
+
+0:37:41.340,0:37:46.410
+loop incrementing a value and if it's
+
+0:37:44.910,0:37:48.750
+modulo 3
+
+0:37:46.410,0:37:52.680
+I'm doing this from memory you print
+
+0:37:48.750,0:37:58.920
+fizz if it's modulo 5 you print buzz if
+
+0:37:52.680,0:38:03.240
+it's modulo both you do newline or put
+
+0:37:58.920,0:38:05.400
+in the cursors character to shake the
+
+0:38:03.240,0:38:06.630
+screen I don't know what does it do
+
+0:38:05.400,0:38:10.950
+it's supposed to print out something
+
+0:38:06.630,0:38:16.049
+like 1 to fizz for buzz fizz 7/8
+
+0:38:10.950,0:38:18.150
+fizzbuzz 11 fizz 1314 fizzes right okay
+
+0:38:16.049,0:38:20.309
+so it's both you didyou fizzes anyway so
+
+0:38:18.150,0:38:24.270
+yeah the simple little tip a little
+
+0:38:20.309,0:38:26.309
+problem so you can see you'd have for i
+
+0:38:24.270,0:38:30.059
+equals 0 for e and I equals 0 to
+
+0:38:26.309,0:38:32.849
+whatever and you'd have if give the
+
+0:38:30.059,0:38:34.470
+whole answer me you know if this is
+
+0:38:32.849,0:38:35.910
+modulo 3 then we print this if it's
+
+0:38:34.470,0:38:39.000
+modular private we print this and blah
+
+0:38:35.910,0:38:41.039
+blah and you can do some clever things
+
+0:38:39.000,0:38:44.309
+and and people look for the clever
+
+0:38:41.039,0:38:50.369
+things anyway in rockstar they give an
+
+0:38:44.309,0:38:51.990
+implementation that is basic modulus
+
+0:38:50.369,0:38:54.539
+takes number and divider yeah yeah
+
+0:38:51.990,0:38:56.849
+number is as high as divisor that's so
+
+0:38:54.539,0:38:59.460
+fun this is just a while loop and it
+
+0:38:56.849,0:39:01.589
+goes through and it it has a limit it
+
+0:38:59.460,0:39:04.829
+has a counter or fizzes three buzzes
+
+0:39:01.589,0:39:08.069
+fives and it will it will shout things
+
+0:39:04.829,0:39:11.299
+anyway boring but the but you can
+
+0:39:08.069,0:39:15.960
+there's idiomatic poetic literals and
+
+0:39:11.299,0:39:18.599
+idiomatic rock star who's gonna say this
+
+0:39:15.960,0:39:20.760
+I thought you were not gonna sing it
+
+0:39:18.599,0:39:23.819
+there's no the melody do you want me to
+
+0:39:20.760,0:39:25.799
+no good because I I sang last midnight
+
+0:39:23.819,0:39:28.020
+takes your heart in your soul while your
+
+0:39:25.799,0:39:29.660
+heart is as high as your soul put your
+
+0:39:28.020,0:39:32.460
+heart without your soul into your heart
+
+0:39:29.660,0:39:34.319
+give back your heart desire is a
+
+0:39:32.460,0:39:38.579
+love-struck Ladykiller my world is
+
+0:39:34.319,0:39:41.609
+nothing fire is ice hate is water until
+
+0:39:38.579,0:39:43.950
+my world is desire build my world up if
+
+0:39:41.609,0:39:45.539
+midnight taking my world fire is nothing
+
+0:39:43.950,0:39:48.480
+at midnight taking my world hate is
+
+0:39:45.539,0:39:49.020
+nothing shout fizzbuzz take it to the
+
+0:39:48.480,0:39:52.440
+top
+
+0:39:49.020,0:39:56.010
+if midnight taking my world fire is
+
+0:39:52.440,0:39:57.660
+nothing shout fizz take it to the top
+
+0:39:56.010,0:39:58.810
+if midnight taking my world hate is
+
+0:39:57.660,0:40:03.240
+nothing
+
+0:39:58.810,0:40:05.500
+buzz take it to the top whisper my world
+
+0:40:03.240,0:40:09.340
+I'm waiting for the compiler to come out
+
+0:40:05.500,0:40:14.280
+for this so the great and clever thing
+
+0:40:09.340,0:40:14.280
+the little genius bit is how he did
+
+0:40:14.580,0:40:20.050
+numeric literals so like if you want a
+
+0:40:17.080,0:40:21.520
+number right you want five or three for
+
+0:40:20.050,0:40:24.100
+fizzbuzz so the great thing about this
+
+0:40:21.520,0:40:26.740
+is he's made it so you could put almost
+
+0:40:24.100,0:40:31.090
+anything in to make numbers up which
+
+0:40:26.740,0:40:33.390
+allows you much more lyrical fun so so
+
+0:40:31.090,0:40:36.220
+tommy was a love-struck Ladykiller
+
+0:40:33.390,0:40:39.450
+initializes the value to me with the
+
+0:40:36.220,0:40:43.720
+value of 100 because a is one
+
+0:40:39.450,0:40:46.570
+love-struck is 10 and Ladykiller is
+
+0:40:43.720,0:40:50.200
+tensile so that's one zero zero sweet
+
+0:40:46.570,0:40:53.290
+Lucy was a dancer initializes sweet Lucy
+
+0:40:50.200,0:40:55.600
+with the value 16 one character and
+
+0:40:53.290,0:40:58.540
+dancer has six yes and you can do floats
+
+0:40:55.600,0:41:01.030
+- so he's got my dreams were ice a life
+
+0:40:58.540,0:41:05.610
+unfulfilled waking everybody up taking
+
+0:41:01.030,0:41:07.930
+Bruce pills initializes my dreams to PI
+
+0:41:05.610,0:41:13.650
+because there's a period after ice
+
+0:41:07.930,0:41:17.110
+so we're ice three Eric yeah Isis 3 3 .
+
+0:41:13.650,0:41:19.990
+1 4 yeah so it all works so there's a
+
+0:41:17.110,0:41:25.410
+whole specification that goes over how
+
+0:41:19.990,0:41:25.410
+to how to do loops take it to the top
+
+0:41:25.530,0:41:37.390
+it's part of the loop and and you can
+
+0:41:31.330,0:41:39.250
+it has neat keywords but it's less about
+
+0:41:37.390,0:41:41.740
+the keywords and more about their
+
+0:41:39.250,0:41:44.080
+ability to use different variables and
+
+0:41:41.740,0:41:45.910
+how they do it and it's only a
+
+0:41:44.080,0:41:48.730
+specification there is no weather for it
+
+0:41:45.910,0:41:50.140
+yet there may be soon that's wrong we
+
+0:41:48.730,0:41:51.700
+the last time we looked at this was a
+
+0:41:50.140,0:41:53.380
+couple of months ago and I've scrolled
+
+0:41:51.700,0:41:57.220
+down a couple of weeks ago all right
+
+0:41:53.380,0:42:00.610
+there are now 12 implementations oh my
+
+0:41:57.220,0:42:04.510
+goodness there are JavaScript a lexer
+
+0:42:00.610,0:42:07.410
+Java there's a whole set up right now
+
+0:42:04.510,0:42:07.410
+not Alexa
+
+0:42:08.970,0:42:14.740
+ml Python transpiler Ruby transpiler you
+
+0:42:12.850,0:42:19.890
+can you can build your career on this
+
+0:42:14.740,0:42:21.130
+now syntax highlighting 4 vs code
+
+0:42:19.890,0:42:23.470
+anymore
+
+0:42:21.130,0:42:26.230
+awesome Dylan you've done a miraculous
+
+0:42:23.470,0:42:30.430
+thing and I hope it brings you great
+
+0:42:26.230,0:42:34.090
+fame and joy in your life because I love
+
+0:42:30.430,0:42:37.360
+it there was there was the reasoning
+
+0:42:34.090,0:42:38.430
+behind it and that was one of those but
+
+0:42:37.360,0:42:40.690
+why
+
+0:42:38.430,0:42:41.890
+mainly because if we make rock star a
+
+0:42:40.690,0:42:43.570
+real and completely pointless
+
+0:42:41.890,0:42:44.890
+programming language then recruiters and
+
+0:42:43.570,0:42:48.400
+hiring managers won't be able to talk
+
+0:42:44.890,0:42:51.370
+about rock star developers anymore uh
+
+0:42:48.400,0:42:53.500
+and and Dylan is also mentioning making
+
+0:42:51.370,0:42:56.400
+stickers it's a certified rockstar
+
+0:42:53.500,0:42:59.770
+developer I will buy one I'll buy ten I
+
+0:42:56.400,0:43:01.740
+it's so we talk about languages we talk
+
+0:42:59.770,0:43:05.350
+about C++ and having to know it and
+
+0:43:01.740,0:43:07.830
+having to do it idiomatic ly and then we
+
+0:43:05.350,0:43:13.720
+look at these specifications of
+
+0:43:07.830,0:43:17.110
+languages that are odd and created for
+
+0:43:13.720,0:43:21.370
+their oddness more than their utility
+
+0:43:17.110,0:43:24.220
+although the poetic nature of it I like
+
+0:43:21.370,0:43:26.680
+it would draw me to read more codes and
+
+0:43:24.220,0:43:29.050
+to puzzle it out which is not something
+
+0:43:26.680,0:43:30.490
+I necessarily want to do if you
+
+0:43:29.050,0:43:32.470
+definitely would have to puzzle it out
+
+0:43:30.490,0:43:35.800
+this is I think you can read this and
+
+0:43:32.470,0:43:39.550
+say oh that's what this does but it is
+
+0:43:35.800,0:43:41.140
+it is pretty and we don't usually have a
+
+0:43:39.550,0:43:42.970
+lot of languages that are pretty of
+
+0:43:41.140,0:43:45.580
+course we don't even have languages that
+
+0:43:42.970,0:43:51.820
+are specified a lot of times a real
+
+0:43:45.580,0:43:53.710
+specification really rust I'm looking at
+
+0:43:51.820,0:43:55.080
+you I think you're gonna get email about
+
+0:43:53.710,0:43:58.330
+that
+
+0:43:55.080,0:44:02.980
+there's no rough specification I think
+
+0:43:58.330,0:44:04.450
+there is I thought there wasn't a couple
+
+0:44:02.980,0:44:06.580
+of the new languages people say oh you
+
+0:44:04.450,0:44:07.990
+should learn that and it's and I look it
+
+0:44:06.580,0:44:10.740
+up and I'm like yeah there is no
+
+0:44:07.990,0:44:14.470
+official specification for that language
+
+0:44:10.740,0:44:18.160
+forgive me if I don't want to write
+
+0:44:14.470,0:44:20.420
+something that is not only new doesn't
+
+0:44:18.160,0:44:21.770
+run on any of my platform
+
+0:44:20.420,0:44:25.490
+doesn't have a debugger I know how to
+
+0:44:21.770,0:44:29.540
+use which is my fault not theirs I just
+
+0:44:25.490,0:44:32.030
+I yeah how do you not have a
+
+0:44:29.540,0:44:35.930
+specification I just have you found it
+
+0:44:32.030,0:44:37.730
+yet I see you googling over there though
+
+0:44:35.930,0:44:40.220
+how hard is it I mean you just type in
+
+0:44:37.730,0:44:41.900
+rust specification or maybe rust
+
+0:44:40.220,0:44:44.240
+language because you know rust is a
+
+0:44:41.900,0:44:47.300
+thing I talked to rust specification I
+
+0:44:44.240,0:44:50.330
+don't get anything about the language
+
+0:44:47.300,0:44:52.850
+until like the eighth and then I'm the
+
+0:44:50.330,0:44:54.980
+rust documentation and then there's
+
+0:44:52.850,0:44:58.460
+the-- how do we keep banging on rust
+
+0:44:54.980,0:45:00.800
+it's I don't care I know nothing about
+
+0:44:58.460,0:45:03.050
+it other than people say we should learn
+
+0:45:00.800,0:45:05.950
+it with such vehement I just kind of
+
+0:45:03.050,0:45:08.750
+walk away gives me a reason to learn
+
+0:45:05.950,0:45:11.210
+well that's the other thing is that with
+
+0:45:08.750,0:45:12.980
+these languages some people really enjoy
+
+0:45:11.210,0:45:15.890
+learning new languages and that's what
+
+0:45:12.980,0:45:18.910
+power to uh vine but I have to get
+
+0:45:15.890,0:45:22.130
+things done I don't like doing things
+
+0:45:18.910,0:45:23.060
+things are bad I got Christopher an
+
+0:45:22.130,0:45:26.930
+outdoor couch
+
+0:45:23.060,0:45:29.120
+guess what he's working on what do you
+
+0:45:26.930,0:45:32.030
+mean oh I'm working up physically on the
+
+0:45:29.120,0:45:36.260
+couch yeah that that was what I'm sure
+
+0:45:32.030,0:45:42.140
+that was what I meant what am i working
+
+0:45:36.260,0:45:48.100
+on utan mostly yeah I moved from that
+
+0:45:42.140,0:45:48.100
+sort of greenish gloves like beige
+
+0:45:48.460,0:45:54.290
+anyway sorry rust people I don't we
+
+0:45:51.500,0:45:56.480
+don't really mean it don't know anything
+
+0:45:54.290,0:45:59.420
+about your language other than and like
+
+0:45:56.480,0:46:01.880
+it quite a lot and it will only be it
+
+0:45:59.420,0:46:03.560
+will only be karmic retribution when I'm
+
+0:46:01.880,0:46:06.290
+forced to learn it when it finally takes
+
+0:46:03.560,0:46:08.360
+over yes that is true that would be
+
+0:46:06.290,0:46:10.700
+perfect
+
+0:46:08.360,0:46:13.400
+retribution but no I don't see a
+
+0:46:10.700,0:46:16.250
+specification anyway so yeah Rockstar
+
+0:46:13.400,0:46:19.310
+pretty cool pretty cool and I like joke
+
+0:46:16.250,0:46:21.920
+projects like this because not only are
+
+0:46:19.310,0:46:23.840
+they funny but they're good learning
+
+0:46:21.920,0:46:25.340
+experiences because I bet you could look
+
+0:46:23.840,0:46:28.130
+at some of those implementations and
+
+0:46:25.340,0:46:32.630
+learn a lot about parsing and lexing
+
+0:46:28.130,0:46:33.900
+languages and stuff like that and it's
+
+0:46:32.630,0:46:35.220
+always more fun to learn
+
+0:46:33.900,0:46:38.250
+about that stuff with an example if it's
+
+0:46:35.220,0:46:42.840
+amusing then sometimes I really shine it
+
+0:46:38.250,0:46:45.230
+for ya so more power to you oh there's a
+
+0:46:42.840,0:46:49.380
+subreddit yeah and the developers
+
+0:46:45.230,0:46:51.770
+developers discord group so yes you've
+
+0:46:49.380,0:46:55.380
+written some code and released it lately
+
+0:46:51.770,0:46:59.460
+on this list there's nothing else on the
+
+0:46:55.380,0:47:01.110
+list so I'm adding things yeah I after
+
+0:46:59.460,0:47:04.080
+our conversation about you've given up
+
+0:47:01.110,0:47:07.560
+on embedded completely no no now you're
+
+0:47:04.080,0:47:09.330
+a Python developer no trace or JSON
+
+0:47:07.560,0:47:10.770
+actually I've been doing a lot with JSON
+
+0:47:09.330,0:47:12.750
+which isn't even a language against the
+
+0:47:10.770,0:47:17.060
+advice of practically everyone on
+
+0:47:12.750,0:47:22.380
+Twitter people have opinions I really do
+
+0:47:17.060,0:47:26.820
+okay so I get episode I realized that I
+
+0:47:22.380,0:47:30.420
+don't often put my small projects and
+
+0:47:26.820,0:47:34.620
+get for reasons that I don't know I mean
+
+0:47:30.420,0:47:37.110
+kit not get oh I don't version control
+
+0:47:34.620,0:47:40.650
+some of my personal projects yet out of
+
+0:47:37.110,0:47:43.800
+town it's true if something is dumb and
+
+0:47:40.650,0:47:45.390
+small I'm like why bother and one of
+
+0:47:43.800,0:47:49.800
+those things that was on the why bother
+
+0:47:45.390,0:47:56.400
+list was my little tracery robot you can
+
+0:47:49.800,0:47:59.460
+put together a JSON set of rules that
+
+0:47:56.400,0:48:02.220
+follow the tracery mapping and you can
+
+0:47:59.460,0:48:04.470
+make a generative robot for Twitter
+
+0:48:02.220,0:48:07.830
+so I think we've talked about this
+
+0:48:04.470,0:48:09.360
+before but like endless screaming is one
+
+0:48:07.830,0:48:12.630
+of them that puts in a random number of
+
+0:48:09.360,0:48:17.160
+A's in ours and geez and h's yeah some I
+
+0:48:12.630,0:48:20.100
+got I put in one that is the things you
+
+0:48:17.160,0:48:22.140
+should the things to remind me to say
+
+0:48:20.100,0:48:24.900
+things to people who are going through
+
+0:48:22.140,0:48:26.850
+bad situations in their lives so that I
+
+0:48:24.900,0:48:29.640
+don't feel overwhelmed with this feeling
+
+0:48:26.850,0:48:32.420
+of I don't know what to say the little
+
+0:48:29.640,0:48:35.070
+robot just kind of sends me things and
+
+0:48:32.420,0:48:37.800
+if I like what it says and it applies to
+
+0:48:35.070,0:48:40.890
+someone I know I will sometimes just you
+
+0:48:37.800,0:48:46.470
+know go ahead and riff off for my robot
+
+0:48:40.890,0:48:47.170
+wrote and it has been using robots to
+
+0:48:46.470,0:48:50.920
+humanize
+
+0:48:47.170,0:48:53.470
+I think it's a good approach to life but
+
+0:48:50.920,0:48:56.109
+it's just I mean it's it's a JSON set of
+
+0:48:53.470,0:48:59.290
+things and it's it's a couple hundred
+
+0:48:56.109,0:49:01.329
+lines long now and it lives on quick
+
+0:48:59.290,0:49:03.640
+BOTS done cheap or cheap butts done
+
+0:49:01.329,0:49:07.329
+quick or whatever that is and so why do
+
+0:49:03.640,0:49:10.839
+I need to commit it unless I ever want
+
+0:49:07.329,0:49:14.380
+to you know not trash everything or lose
+
+0:49:10.839,0:49:17.799
+it and so I finally committed that and
+
+0:49:14.380,0:49:21.339
+then along those same lines I wanted to
+
+0:49:17.799,0:49:26.079
+I wanted to read some old blogs but
+
+0:49:21.339,0:49:31.599
+reading old blogs is kind of a pain you
+
+0:49:26.079,0:49:35.020
+I can either page back or I can't and
+
+0:49:31.599,0:49:36.010
+read them in the wrong order or I can't
+
+0:49:35.020,0:49:38.710
+start at the beginning
+
+0:49:36.010,0:49:43.119
+and go to their website and try to never
+
+0:49:38.710,0:49:45.280
+close that tab as I update so I wanted
+
+0:49:43.119,0:49:49.960
+something that would reblog things that
+
+0:49:45.280,0:49:53.410
+would take a blog an RSS feed and it
+
+0:49:49.960,0:49:57.160
+would send me one post every day or
+
+0:49:53.410,0:50:00.069
+every n hours and then I could read the
+
+0:49:57.160,0:50:03.250
+blog in order at a rate that is faster
+
+0:50:00.069,0:50:06.970
+than they published but will eventually
+
+0:50:03.250,0:50:09.430
+put me up to date and so I made that in
+
+0:50:06.970,0:50:11.619
+Python well no I made part of that in
+
+0:50:09.430,0:50:14.770
+Python I'm still working on but I also
+
+0:50:11.619,0:50:16.420
+posted that code and I used the readme
+
+0:50:14.770,0:50:19.420
+as a bit of a chance for a creative
+
+0:50:16.420,0:50:22.720
+writing project not as creative as
+
+0:50:19.420,0:50:24.970
+Rockstar programming though and so I'm
+
+0:50:22.720,0:50:29.770
+I'm playing with Python and yeah I'm
+
+0:50:24.970,0:50:34.059
+between gigs right now I have a long
+
+0:50:29.770,0:50:37.839
+slow gig starting soon but I'm gonna
+
+0:50:34.059,0:50:40.720
+need either a couple of fasts short gigs
+
+0:50:37.839,0:50:43.720
+or at least one more long slow kick to
+
+0:50:40.720,0:50:46.750
+keep me amused so if you want me to
+
+0:50:43.720,0:50:51.190
+program preferably in C or C++ which I'm
+
+0:50:46.750,0:50:53.740
+not terrible that rust I can even do
+
+0:50:51.190,0:50:56.829
+Python machine learning oh you know I do
+
+0:50:53.740,0:50:58.720
+want to mention I put together after
+
+0:50:56.829,0:50:59.930
+some frustration with myself with
+
+0:50:58.720,0:51:01.730
+machine learning
+
+0:50:59.930,0:51:02.960
+I put together a list of all the things
+
+0:51:01.730,0:51:05.420
+I've learned in the last year about
+
+0:51:02.960,0:51:08.240
+machine learning and it came out as a
+
+0:51:05.420,0:51:10.070
+really good blog post I'm very proud of
+
+0:51:08.240,0:51:11.690
+it so if you are interested in machine
+
+0:51:10.070,0:51:14.780
+learning or have been working on it or
+
+0:51:11.690,0:51:17.570
+want to know more about it check out the
+
+0:51:14.780,0:51:21.020
+blog it's I think it's 17 machine
+
+0:51:17.570,0:51:23.290
+learning tools yeah there's a good post
+
+0:51:21.020,0:51:25.850
+so that's that's what I'm working on
+
+0:51:23.290,0:51:28.430
+no it's my chair squeaking not the
+
+0:51:25.850,0:51:30.530
+headphones sorry
+
+0:51:28.430,0:51:33.410
+side cupcakes you wouldn't I don't have
+
+0:51:30.530,0:51:35.660
+a chair squeak remover I have a lot of
+
+0:51:33.410,0:51:36.970
+stuff audio tools but chairs quick River
+
+0:51:35.660,0:51:42.440
+they haven't come in yet
+
+0:51:36.970,0:51:44.540
+that's sad so I thought maybe we should
+
+0:51:42.440,0:51:49.940
+just stop now wasn't there something
+
+0:51:44.540,0:51:53.150
+else no I mean it's 2:56 stop the
+
+0:51:49.940,0:51:54.380
+podcast yeah stand it end it well I mean
+
+0:51:53.150,0:51:55.700
+you'd be kind of disappointing to other
+
+0:51:54.380,0:51:58.010
+people I've scheduled through October
+
+0:51:55.700,0:52:00.950
+but we could just call it a different
+
+0:51:58.010,0:52:03.020
+podcast after that and start over I'd be
+
+0:52:00.950,0:52:09.080
+kind of fun I'd be kind of fun did not
+
+0:52:03.020,0:52:16.310
+have any listeners again my brain works
+
+0:52:09.080,0:52:18.320
+okay it just is so if you're the still
+
+0:52:16.310,0:52:22.010
+listening please I'm subscribed so that
+
+0:52:18.320,0:52:25.720
+at least I can feel a sense of fun that
+
+0:52:22.010,0:52:28.190
+we had back in May of 2013 when we had
+
+0:52:25.720,0:52:29.960
+20 people downloading our first episode
+
+0:52:28.190,0:52:32.030
+and we were really excited I had to go
+
+0:52:29.960,0:52:35.380
+out by myself yesterday I had to
+
+0:52:32.030,0:52:38.960
+interact with strangers who literally
+
+0:52:35.380,0:52:42.770
+demanded eye contact and chitchat it was
+
+0:52:38.960,0:52:45.400
+horrifying when did you do that I mean I
+
+0:52:42.770,0:52:45.400
+got the kitty litter
+
+0:52:45.880,0:52:50.750
+alright let's um let's close this up
+
+0:52:48.680,0:52:54.470
+thank you to Christopher for whatever
+
+0:52:50.750,0:52:55.760
+lack of cupcakes go get some cupcakes
+
+0:52:54.470,0:53:00.920
+stop squeak in your chair and grieve the
+
+0:52:55.760,0:53:02.090
+maybe the poo I'm sorry we don't record
+
+0:53:00.920,0:53:04.010
+in the mornings yes
+
+0:53:02.090,0:53:07.130
+thank you for listening thank you for
+
+0:53:04.010,0:53:09.590
+continuing listing it has been a pretty
+
+0:53:07.130,0:53:11.000
+fun ride with the last 256 episodes
+
+0:53:09.590,0:53:12.740
+except this one
+
+0:53:11.000,0:53:13.610
+we don't well there are a couple
+
+0:53:12.740,0:53:17.990
+exceptions
+
+0:53:13.610,0:53:21.890
+we don't plan on stopping soon so that
+
+0:53:17.990,0:53:29.720
+was all not real and we do like hearing
+
+0:53:21.890,0:53:32.060
+from you except about rest rest need to
+
+0:53:29.720,0:53:35.720
+find a new a new target of our ire we
+
+0:53:32.060,0:53:39.320
+can go back to pick nobody cares about
+
+0:53:35.720,0:53:42.050
+pick if you would like to contact us hit
+
+0:53:39.320,0:53:46.270
+the contact link at embedded fm you
+
+0:53:42.050,0:53:52.370
+would like to not contact us hit the
+
+0:53:46.270,0:53:55.640
+about link on it there will be show
+
+0:53:52.370,0:53:58.430
+notes that will take you to the Calvary
+
+0:53:55.640,0:54:02.780
+I am Calvary oath for medical devices
+
+0:53:58.430,0:54:05.480
+that make seen homebrew IOT projects and
+
+0:54:02.780,0:54:07.250
+of course the rock star programming
+
+0:54:05.480,0:54:10.160
+languages alright
+
+0:54:07.250,0:54:14.180
+and now Winnie the Pooh you might
+
+0:54:10.160,0:54:16.850
+remember last time when he was holding a
+
+0:54:14.180,0:54:21.800
+balloon and singing hoping the bees
+
+0:54:16.850,0:54:22.650
+would think he was a cloud the bees were
+
+0:54:21.800,0:54:24.870
+still buzzing a
+
+0:54:22.650,0:54:27.780
+suspiciously as ever some of them indeed
+
+0:54:24.870,0:54:30.360
+left their nest and flew all around the
+
+0:54:27.780,0:54:33.660
+cloud as it began the second verse of
+
+0:54:30.360,0:54:35.340
+this song one be sat down on the nose of
+
+0:54:33.660,0:54:36.590
+the cloud for a moment and then got up
+
+0:54:35.340,0:54:39.930
+again
+
+0:54:36.590,0:54:43.710
+Christopher Robin called out the cloud
+
+0:54:39.930,0:54:46.170
+yes I've been thinking I have come to
+
+0:54:43.710,0:54:51.360
+the very important decision these are
+
+0:54:46.170,0:54:54.540
+the wrong sorts of bees are they quite
+
+0:54:51.360,0:54:56.580
+the wrong sort so I think they would
+
+0:54:54.540,0:55:01.350
+make the wrong sort of honey shouldn't
+
+0:54:56.580,0:55:06.810
+you would they yes so I think I shall
+
+0:55:01.350,0:55:09.090
+come down how asked you Winnie the Pooh
+
+0:55:06.810,0:55:11.970
+hadn't thought about this if you let go
+
+0:55:09.090,0:55:13.680
+over the string he would fall bump and
+
+0:55:11.970,0:55:16.160
+he didn't like the idea of that so he
+
+0:55:13.680,0:55:18.720
+thought for a long time and then he said
+
+0:55:16.160,0:55:20.730
+Christopher Robin you must shoot the
+
+0:55:18.720,0:55:25.650
+balloon with your gun have you got your
+
+0:55:20.730,0:55:28.680
+gun of course I have you said but if I
+
+0:55:25.650,0:55:33.000
+did that it would spoil the balloon you
+
+0:55:28.680,0:55:36.590
+said but if you don't said Pooh I shall
+
+0:55:33.000,0:55:39.480
+have to let go and that would spoil me
+
+0:55:36.590,0:55:41.310
+when you put it like that you saw how it
+
+0:55:39.480,0:55:46.260
+was and you aimed very carefully at the
+
+0:55:41.310,0:55:50.310
+balloon and fired Oh Oh said Pooh did I
+
+0:55:46.260,0:55:55.920
+miss you asked you didn't exactly miss
+
+0:55:50.310,0:55:58.380
+said Pooh but you missed the balloon I'm
+
+0:55:55.920,0:55:59.880
+so sorry you said and you fired again
+
+0:55:58.380,0:56:02.400
+and this time you hit the balloon and
+
+0:55:59.880,0:56:05.070
+the air came slowly out and Winnie the
+
+0:56:02.400,0:56:07.680
+Pooh floated down to the ground but his
+
+0:56:05.070,0:56:09.960
+arms were so stiff from holding onto the
+
+0:56:07.680,0:56:11.490
+string of the balloon all that time that
+
+0:56:09.960,0:56:13.470
+they stayed up straight in the air for
+
+0:56:11.490,0:56:15.510
+more than a week and whenever a fly came
+
+0:56:13.470,0:56:21.240
+and settled on his nose he had to blow
+
+0:56:15.510,0:56:25.790
+it off and I think but I'm not sure that
+
+0:56:21.240,0:56:25.790
+this is why he's always been called to
+
+0:56:28.220,0:56:32.610
+embeded is an independently produced
+
+0:56:30.660,0:56:35.100
+radio show that focuses on the many
+
+0:56:32.610,0:56:36.990
+aspects of engineering it is a
+
+0:56:35.100,0:56:38.900
+production of logical elegance and
+
+0:56:36.990,0:56:41.610
+embedded software consulting company in
+
+0:56:38.900,0:56:43.860
+California if there are advertisements
+
+0:56:41.610,0:56:46.050
+in the show we did not put them there
+
+0:56:43.860,0:56:48.960
+and do not receive money from them at
+
+0:56:46.050,0:56:53.510
+this time our sponsors are logical
+
+0:56:48.960,0:56:53.510
+elegance and listeners like you

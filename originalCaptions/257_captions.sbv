@@ -1,0 +1,3906 @@
+0:00:03.640,0:00:09.370
+[Music]
+
+0:00:05.730,0:00:12.549
+hello I'm Elysia white and this is
+
+0:00:09.370,0:00:15.040
+embedded my co-host is Christopher white
+
+0:00:12.549,0:00:17.560
+and our guest this week is Derek Franek
+
+0:00:15.040,0:00:20.530
+who will be telling us about FIRST
+
+0:00:17.560,0:00:23.500
+Robotics what it's like competing and
+
+0:00:20.530,0:00:26.860
+how you might get involved hi Derek
+
+0:00:23.500,0:00:30.550
+nice to talk to you today hello could
+
+0:00:26.860,0:00:32.680
+you tell us a bit about yourself yeah so
+
+0:00:30.550,0:00:33.400
+I'm a senior at Carmel High School in
+
+0:00:32.680,0:00:35.440
+Indiana
+
+0:00:33.400,0:00:39.040
+I'm the robotics design lead on a
+
+0:00:35.440,0:00:40.540
+robotics team the tech hounds and I've
+
+0:00:39.040,0:00:43.660
+spent all four years of my high school
+
+0:00:40.540,0:00:45.070
+career on the team and hopefully future
+
+0:00:43.660,0:00:50.170
+plan to go into electrical engineering
+
+0:00:45.070,0:00:53.950
+at Purdue all right and I know you have
+
+0:00:50.170,0:00:55.600
+heard the show a few times and so you
+
+0:00:53.950,0:00:57.910
+already know about lightning around and
+
+0:00:55.600,0:00:58.150
+we're going to skip straight to it all
+
+0:00:57.910,0:01:02.050
+right
+
+0:00:58.150,0:01:03.130
+what's your favorite class my favorite
+
+0:01:02.050,0:01:07.000
+class
+
+0:01:03.130,0:01:09.659
+digit electronics what's one thing you
+
+0:01:07.000,0:01:13.750
+were surprised to learn in the last year
+
+0:01:09.659,0:01:15.610
+the seventh company's selling out of
+
+0:01:13.750,0:01:17.880
+products can be a bigger issue than you
+
+0:01:15.610,0:01:17.880
+think
+
+0:01:18.120,0:01:24.280
+hardware or software hardware most
+
+0:01:22.570,0:01:28.380
+exciting and science fiction concept you
+
+0:01:24.280,0:01:31.450
+think will be real in your lifetime
+
+0:01:28.380,0:01:35.680
+flying cars what's a tip you think
+
+0:01:31.450,0:01:41.710
+everyone should know I tip everyone
+
+0:01:35.680,0:01:46.900
+should know don't I'll order your PCBs
+
+0:01:41.710,0:01:49.210
+as soon as you finish designing them how
+
+0:01:46.900,0:01:51.750
+long should you wait give it a night at
+
+0:01:49.210,0:01:54.729
+least and then head over one more time I
+
+0:01:51.750,0:02:00.390
+have a whole drawer full of failed ones
+
+0:01:54.729,0:02:03.970
+because of that favorite fictional robot
+
+0:02:00.390,0:02:05.770
+r2d2 you have to have you know just be
+
+0:02:03.970,0:02:06.070
+sad about that that's that's the right
+
+0:02:05.770,0:02:10.359
+answer
+
+0:02:06.070,0:02:12.749
+yeah it really is favorite animal sky
+
+0:02:10.359,0:02:12.749
+bison
+
+0:02:14.670,0:02:23.290
+some people will get that hopefully yeah
+
+0:02:17.760,0:02:28.510
+and at what age are people old hey I
+
+0:02:23.290,0:02:34.990
+just it's just his opinion um people get
+
+0:02:28.510,0:02:37.420
+old when when they stop being able to do
+
+0:02:34.990,0:02:48.250
+everything they were able to do earlier
+
+0:02:37.420,0:02:52.989
+in life of 20 good luck on stage yeah
+
+0:02:48.250,0:02:56.170
+the youth opinion of people get old okay
+
+0:02:52.989,0:02:59.560
+tell me about tech hats yes so tech
+
+0:02:56.170,0:03:03.010
+hones is a robotics team in Carmel High
+
+0:02:59.560,0:03:05.140
+School it competes in FRC which is FIRST
+
+0:03:03.010,0:03:07.390
+Robotics Competition it's a subsidiary
+
+0:03:05.140,0:03:09.670
+of first which stands for for the
+
+0:03:07.390,0:03:13.810
+inspiration recognition of science the
+
+0:03:09.670,0:03:15.820
+technology it's a large competition of
+
+0:03:13.810,0:03:17.860
+thousands of different teams throughout
+
+0:03:15.820,0:03:20.500
+the world that are given a game and we
+
+0:03:17.860,0:03:22.150
+design we design a robot based on the
+
+0:03:20.500,0:03:25.060
+games parameters and then compete in
+
+0:03:22.150,0:03:28.060
+competitions in the earlier part of the
+
+0:03:25.060,0:03:29.650
+year and there are different levels to
+
+0:03:28.060,0:03:33.459
+first I mean this is a high school
+
+0:03:29.650,0:03:34.930
+version but there are other competition
+
+0:03:33.459,0:03:38.580
+areas yes
+
+0:03:34.930,0:03:40.840
+so first prides itself on going having
+
+0:03:38.580,0:03:44.500
+competitions through all levels of
+
+0:03:40.840,0:03:47.140
+primary in high school so they start off
+
+0:03:44.500,0:03:50.110
+with FLL junior which is FIRST LEGO
+
+0:03:47.140,0:03:52.360
+League which is for younger kindergarten
+
+0:03:50.110,0:03:55.930
+elementary school kids and then they
+
+0:03:52.360,0:03:58.930
+have a regular FLL league which is
+
+0:03:55.930,0:04:01.930
+upwards later elementary school through
+
+0:03:58.930,0:04:04.739
+middle school and then what they have is
+
+0:04:01.930,0:04:07.239
+called FTC which is FIRST Tech Challenge
+
+0:04:04.739,0:04:10.120
+it's essentially kind of a scaled down
+
+0:04:07.239,0:04:11.620
+version of FRC so you're still built
+
+0:04:10.120,0:04:15.340
+this one you're actually building robots
+
+0:04:11.620,0:04:17.680
+with manufactured parts or vex parts or
+
+0:04:15.340,0:04:19.840
+some kind of material up as opposed to
+
+0:04:17.680,0:04:22.690
+Legos and then once you get into high
+
+0:04:19.840,0:04:25.900
+school you can compete in FRC which is
+
+0:04:22.690,0:04:29.020
+the large large largest scale that
+
+0:04:25.900,0:04:30.820
+first offers and by large I mean these
+
+0:04:29.020,0:04:31.810
+were a hundred and twenty pound robots
+
+0:04:30.820,0:04:34.780
+Wow
+
+0:04:31.810,0:04:36.820
+yeah yeah it the robots generally every
+
+0:04:34.780,0:04:38.740
+year it's roughly 120 pounds
+
+0:04:36.820,0:04:40.330
+they're obviously dimensional
+
+0:04:38.740,0:04:42.580
+constraints that we have to work around
+
+0:04:40.330,0:04:44.350
+year-to-year changes based on the game
+
+0:04:42.580,0:04:46.240
+so a couple years ago we had to do a
+
+0:04:44.350,0:04:49.539
+robot that was trade a robot that was
+
+0:04:46.240,0:04:52.000
+less than like 40 30 something inches
+
+0:04:49.539,0:04:56.050
+and then this year our robot since the
+
+0:04:52.000,0:04:58.210
+game involved moving objects to 7 or
+
+0:04:56.050,0:05:00.400
+8-feet our robot had a large elevator
+
+0:04:58.210,0:05:02.620
+and it's in its lowest position it was
+
+0:05:00.400,0:05:05.050
+still 5 feet tall so they vary from year
+
+0:05:02.620,0:05:07.900
+to year okay so you talk about these
+
+0:05:05.050,0:05:11.169
+games and if I understand correctly like
+
+0:05:07.900,0:05:13.650
+the first league in January says ok
+
+0:05:11.169,0:05:17.349
+here's the game you have six weeks
+
+0:05:13.650,0:05:19.810
+essentially that's the gist of first is
+
+0:05:17.349,0:05:21.940
+they yeah in January the first week of
+
+0:05:19.810,0:05:23.830
+January generally they they have a
+
+0:05:21.940,0:05:25.720
+livestream event where they present the
+
+0:05:23.830,0:05:27.550
+game and they release the game manual
+
+0:05:25.720,0:05:29.530
+that gives you all the information that
+
+0:05:27.550,0:05:33.340
+you need to be able to design around
+
+0:05:29.530,0:05:35.050
+what the game objects and obstacles in
+
+0:05:33.340,0:05:37.900
+the game and then you have pretty much
+
+0:05:35.050,0:05:39.849
+you have a very consistent rulebook and
+
+0:05:37.900,0:05:42.430
+what can and cannot be on your robot and
+
+0:05:39.849,0:05:44.530
+then you are just given you can do
+
+0:05:42.430,0:05:45.849
+whatever you want at that point and it's
+
+0:05:44.530,0:05:49.710
+your team's decision how you're gonna
+
+0:05:45.849,0:05:53.409
+play the game okay until the 2018 game
+
+0:05:49.710,0:05:55.180
+you said involved an elevator and moving
+
+0:05:53.409,0:05:57.430
+things tell me more about the 2018 games
+
+0:05:55.180,0:05:59.320
+yeah so the 2018 game this year is
+
+0:05:57.430,0:06:01.510
+called powerup it was an 8-bit video
+
+0:05:59.320,0:06:03.400
+game theme so the pout they're like
+
+0:06:01.510,0:06:06.220
+power cubes can like pac-man pellets or
+
+0:06:03.400,0:06:09.039
+something like that and the game
+
+0:06:06.220,0:06:12.940
+essentially can be described as teeter
+
+0:06:09.039,0:06:14.620
+totters almost where the the crates was
+
+0:06:12.940,0:06:17.349
+there essentially milk crates they just
+
+0:06:14.620,0:06:19.479
+have like a wrapper around them you're
+
+0:06:17.349,0:06:21.909
+the goal of the game is to be able to
+
+0:06:19.479,0:06:23.889
+tilt the scale in your favor there's
+
+0:06:21.909,0:06:25.840
+three sets of scales two short scales
+
+0:06:23.889,0:06:28.150
+and one large scale in the middle and
+
+0:06:25.840,0:06:30.310
+then if you control the scale you're in
+
+0:06:28.150,0:06:32.860
+one point per second for as long as you
+
+0:06:30.310,0:06:34.240
+control the scale as well as cubes can
+
+0:06:32.860,0:06:36.880
+also be placed in what's called the
+
+0:06:34.240,0:06:39.010
+exchange which can then be used to earn
+
+0:06:36.880,0:06:39.569
+power-ups to like boost your score for
+
+0:06:39.010,0:06:42.389
+ten second
+
+0:06:39.569,0:06:44.550
+you get double points or force control
+
+0:06:42.389,0:06:47.279
+of the scale so even if the opponent
+
+0:06:44.550,0:06:48.839
+team has control of the scale you take
+
+0:06:47.279,0:06:50.879
+control of the scale for 10 seconds so
+
+0:06:48.839,0:06:53.399
+adds a little bit of strategy to the
+
+0:06:50.879,0:06:56.550
+game okay so you have how many teams
+
+0:06:53.399,0:06:59.129
+playing on the field at once so the
+
+0:06:56.550,0:07:02.339
+teams are broken up into two alliances
+
+0:06:59.129,0:07:04.409
+one in each side of consisting of three
+
+0:07:02.339,0:07:06.709
+robots so there's three teams per side
+
+0:07:04.409,0:07:09.599
+for a total of six robots on the field
+
+0:07:06.709,0:07:11.369
+okay and then there are three different
+
+0:07:09.599,0:07:14.969
+scales and you want to control the
+
+0:07:11.369,0:07:18.029
+scales and you want to take your milk
+
+0:07:14.969,0:07:20.759
+crates to to the scales to certain other
+
+0:07:18.029,0:07:22.469
+places the main objective is to the
+
+0:07:20.759,0:07:23.879
+scale so you basically want to have more
+
+0:07:22.469,0:07:26.520
+crates than the other team so yours
+
+0:07:23.879,0:07:27.930
+weighs down and tilts in your favour so
+
+0:07:26.520,0:07:30.300
+that's when you start earning points and
+
+0:07:27.930,0:07:32.550
+then there's also the exchange where you
+
+0:07:30.300,0:07:34.019
+put cubes in and then it's up to you
+
+0:07:32.550,0:07:35.939
+when you want to use those power-ups
+
+0:07:34.019,0:07:38.639
+during the game to give you kind of an
+
+0:07:35.939,0:07:41.999
+advantage so you're working with
+
+0:07:38.639,0:07:44.189
+different teams how how long do you have
+
+0:07:41.999,0:07:47.159
+to coordinate with these other teams so
+
+0:07:44.189,0:07:49.259
+generally it's a pretty limited time
+
+0:07:47.159,0:07:51.509
+frame of win you know at the competition
+
+0:07:49.259,0:07:53.669
+usually that the night of before the
+
+0:07:51.509,0:07:57.059
+matches start they'll release the
+
+0:07:53.669,0:07:58.289
+schedule and you'll know what teams what
+
+0:07:57.059,0:08:00.119
+teams you'll be playing with so
+
+0:07:58.289,0:08:02.729
+generally that first night and the day
+
+0:08:00.119,0:08:04.110
+in the morning of the competition you'll
+
+0:08:02.729,0:08:06.149
+see people going around through the pits
+
+0:08:04.110,0:08:08.519
+with a spreadsheet and taking pictures
+
+0:08:06.149,0:08:10.559
+and writing down information about what
+
+0:08:08.519,0:08:13.319
+every row every team can do so you can
+
+0:08:10.559,0:08:14.639
+plan ahead not a lot of time there's not
+
+0:08:13.319,0:08:16.860
+a lot of times you can't really like
+
+0:08:14.639,0:08:18.749
+design your robot in the during build
+
+0:08:16.860,0:08:21.749
+season with another team for the
+
+0:08:18.749,0:08:24.240
+intention of working with them and back
+
+0:08:21.749,0:08:26.759
+to this six weeks you have six weeks to
+
+0:08:24.240,0:08:29.459
+write all of the hardware read all the
+
+0:08:26.759,0:08:31.740
+software for this do you get to do you
+
+0:08:29.459,0:08:34.889
+get a base model robot do you have to
+
+0:08:31.740,0:08:36.089
+design a whole robot six weeks how how
+
+0:08:34.889,0:08:37.560
+does the six weeks work with the
+
+0:08:36.089,0:08:39.689
+hardware part of it I saw with the
+
+0:08:37.560,0:08:41.370
+hardware part I was gonna say software
+
+0:08:39.689,0:08:43.319
+would love if they got six weeks to
+
+0:08:41.370,0:08:45.209
+actually work on the drive on the
+
+0:08:43.319,0:08:48.000
+hardware but it usually gets push to the
+
+0:08:45.209,0:08:51.300
+very end unfortunately but for the
+
+0:08:48.000,0:08:53.220
+hardware they do offer what is called a
+
+0:08:51.300,0:08:56.329
+kit bot which essentially for rook
+
+0:08:53.220,0:08:58.800
+in newer teams they offer basically
+
+0:08:56.329,0:09:00.360
+essentially just a drivetrain that you
+
+0:08:58.800,0:09:02.279
+can have as a frame so you can kind of
+
+0:09:00.360,0:09:04.319
+build off of that so it gives it doesn't
+
+0:09:02.279,0:09:06.420
+make the learning curve as hard to get
+
+0:09:04.319,0:09:10.050
+started into the team or into the game
+
+0:09:06.420,0:09:12.300
+but we build everything from scratch we
+
+0:09:10.050,0:09:14.939
+designer on drive trains and we design
+
+0:09:12.300,0:09:16.829
+most of our gear boxes are off-the-shelf
+
+0:09:14.939,0:09:19.110
+but other than that we design all the
+
+0:09:16.829,0:09:22.139
+mechanisms mechanisms ourself within
+
+0:09:19.110,0:09:24.449
+those six weeks within those six weeks
+
+0:09:22.139,0:09:26.040
+so this isn't I got the idea this was
+
+0:09:24.449,0:09:28.860
+like a year-round thing where you
+
+0:09:26.040,0:09:30.810
+essentially make little I want to say
+
+0:09:28.860,0:09:34.379
+Lego blocks but that's not right
+
+0:09:30.810,0:09:35.939
+make interchangeable parts or multiple
+
+0:09:34.379,0:09:38.310
+different kinds of robots one of which
+
+0:09:35.939,0:09:40.860
+might meet the specifications this year
+
+0:09:38.310,0:09:43.860
+know you design and build your entire
+
+0:09:40.860,0:09:46.769
+robot within that timeframe of six weeks
+
+0:09:43.860,0:09:49.709
+so it's an incredible stress on limited
+
+0:09:46.769,0:09:51.870
+amount of time but there are rules about
+
+0:09:49.709,0:09:53.779
+how what you can use that you've kind of
+
+0:09:51.870,0:09:55.889
+have left over or designs that you have
+
+0:09:53.779,0:09:58.470
+from the previous season or that you
+
+0:09:55.889,0:10:00.449
+designed in the off season generally if
+
+0:09:58.470,0:10:02.009
+you release all your information about
+
+0:10:00.449,0:10:05.309
+your designs and make it open source
+
+0:10:02.009,0:10:08.370
+you're able to reuse those designs
+
+0:10:05.309,0:10:10.589
+you're not supposed to reuse physical
+
+0:10:08.370,0:10:11.819
+Hardware like a mechanism that you
+
+0:10:10.589,0:10:14.250
+design you're not really supposed to
+
+0:10:11.819,0:10:17.730
+reuse those unless they're what is
+
+0:10:14.250,0:10:19.620
+called cots which is off-the-shelf parts
+
+0:10:17.730,0:10:21.269
+from manufacturers you're allowed to
+
+0:10:19.620,0:10:24.750
+reuse those and keep those in stock like
+
+0:10:21.269,0:10:27.870
+motors some gear boxes if you didn't
+
+0:10:24.750,0:10:31.350
+design the gear boxes yourself how do
+
+0:10:27.870,0:10:33.870
+you how do you draw the line I mean you
+
+0:10:31.350,0:10:38.579
+could buy it an exceedingly expensive
+
+0:10:33.870,0:10:41.519
+robot to do all of this yes so there is
+
+0:10:38.579,0:10:44.850
+a price limit on the amount of material
+
+0:10:41.519,0:10:46.199
+that can be on your robot so the limit
+
+0:10:44.850,0:10:50.910
+is generally every year it's around
+
+0:10:46.199,0:10:52.769
+$4,000 per robot of non cots parts so if
+
+0:10:50.910,0:10:55.079
+it's listed as a cots part or you bought
+
+0:10:52.769,0:10:59.100
+it from a manufacturer it doesn't count
+
+0:10:55.079,0:11:02.699
+against that $4,000 so it's kind of your
+
+0:10:59.100,0:11:04.980
+robot could be more than $4,000 money
+
+0:11:02.699,0:11:06.400
+you actually spent but on the official
+
+0:11:04.980,0:11:11.070
+document it won't be
+
+0:11:06.400,0:11:14.770
+over 4,000 the whole robot could be cuts
+
+0:11:11.070,0:11:15.970
+essentially yes but I mean that doesn't
+
+0:11:14.770,0:11:18.100
+really happen because people obviously
+
+0:11:15.970,0:11:20.440
+design their own mechanisms because they
+
+0:11:18.100,0:11:23.530
+need to be tailored to the game but in
+
+0:11:20.440,0:11:26.350
+theory yes it's kind of it's a unusual
+
+0:11:23.530,0:11:29.260
+circumstance so an unusual budgeting
+
+0:11:26.350,0:11:31.090
+method yeah you can buy thing you can go
+
+0:11:29.260,0:11:34.000
+to the store and buy whatever you want
+
+0:11:31.090,0:11:35.590
+but if you make it it has to cost less
+
+0:11:34.000,0:11:38.380
+than this this is like the opposite of
+
+0:11:35.590,0:11:41.260
+reality yeah it's very it's very unusual
+
+0:11:38.380,0:11:43.300
+it it's kind of it's a very unusual
+
+0:11:41.260,0:11:46.330
+thing that it doesn't usually cause
+
+0:11:43.300,0:11:48.130
+anyone trouble that there is a actually
+
+0:11:46.330,0:11:52.120
+I do remember there is a stipulation on
+
+0:11:48.130,0:11:54.430
+buying parts no single part can cost
+
+0:11:52.120,0:11:57.580
+more than five hundred dollars that you
+
+0:11:54.430,0:11:59.440
+buy off the shelf so no single part can
+
+0:11:57.580,0:12:02.980
+so you really couldn't buy the whole
+
+0:11:59.440,0:12:04.810
+robot as a single unit no you I mean you
+
+0:12:02.980,0:12:08.170
+could buy you know all the individual
+
+0:12:04.810,0:12:11.140
+parts I suppose but yeah you can buy
+
+0:12:08.170,0:12:13.090
+okay so you get the game you have six
+
+0:12:11.140,0:12:15.850
+weeks you aren't supposed to have much
+
+0:12:13.090,0:12:18.370
+in stock other than raw components like
+
+0:12:15.850,0:12:20.590
+motors and maybe an off-the-shelf motor
+
+0:12:18.370,0:12:21.850
+controller board yeah or some designs
+
+0:12:20.590,0:12:23.920
+you've released publicly that you
+
+0:12:21.850,0:12:26.560
+everyone can then build themselves so
+
+0:12:23.920,0:12:29.560
+that's the kind of idea of iterating
+
+0:12:26.560,0:12:31.630
+over the preseason yeah and then you
+
+0:12:29.560,0:12:34.450
+just don't sleep for six weeks do you
+
+0:12:31.630,0:12:36.550
+fail your classes how do you how do you
+
+0:12:34.450,0:12:38.880
+eat I mean I'm just like okay if you
+
+0:12:36.550,0:12:43.020
+gave me that in six weeks and a team of
+
+0:12:38.880,0:12:46.060
+five reasonably competent engineers
+
+0:12:43.020,0:12:48.910
+maybe now you have it pretty much right
+
+0:12:46.060,0:12:52.330
+we don't I don't sleep I you know have
+
+0:12:48.910,0:12:54.640
+don't eat all the time and school is an
+
+0:12:52.330,0:12:56.770
+incredibly stressful event especially
+
+0:12:54.640,0:12:59.500
+for those who really put all their
+
+0:12:56.770,0:13:02.710
+effort into this it does it forces you
+
+0:12:59.500,0:13:04.420
+to learn how to organize your time as
+
+0:13:02.710,0:13:06.040
+efficiently as possible you have to be
+
+0:13:04.420,0:13:08.170
+able to maximize every second of the day
+
+0:13:06.040,0:13:12.430
+so you can then go back and continue to
+
+0:13:08.170,0:13:14.560
+work on your robot do you have classes I
+
+0:13:12.430,0:13:16.660
+mean does this being just doing this
+
+0:13:14.560,0:13:18.370
+count as part of a class you mentioned
+
+0:13:16.660,0:13:21.300
+you were at you had a design electronics
+
+0:13:18.370,0:13:24.370
+class yes
+
+0:13:21.300,0:13:25.990
+until actually this year at my high
+
+0:13:24.370,0:13:28.390
+school there are other high schools do
+
+0:13:25.990,0:13:30.670
+have classes up until this year we never
+
+0:13:28.390,0:13:32.950
+actually had a class this year we've
+
+0:13:30.670,0:13:35.020
+actually have created what's called we
+
+0:13:32.950,0:13:37.840
+call it robotics design and innovation
+
+0:13:35.020,0:13:41.380
+so it is a class where essentially it's
+
+0:13:37.840,0:13:45.280
+a only usually people on the robotics
+
+0:13:41.380,0:13:48.070
+team can join and it's basically focused
+
+0:13:45.280,0:13:49.690
+on learning new elements of design and
+
+0:13:48.070,0:13:52.720
+then during the build season having that
+
+0:13:49.690,0:13:56.260
+time completely dedicated to building
+
+0:13:52.720,0:13:58.030
+the robot so this takes this takes a lot
+
+0:13:56.260,0:14:00.700
+of time especially during those six
+
+0:13:58.030,0:14:03.960
+weeks how much does it take outside of
+
+0:14:00.700,0:14:06.880
+those six weeks how much do you do um so
+
+0:14:03.960,0:14:09.310
+outside of those six weeks immediately
+
+0:14:06.880,0:14:12.040
+within a immediately after the build
+
+0:14:09.310,0:14:13.930
+season is completed it transitions to
+
+0:14:12.040,0:14:16.480
+what is called competition season so
+
+0:14:13.930,0:14:19.810
+during that period of time from about
+
+0:14:16.480,0:14:21.970
+early March to the end of April is where
+
+0:14:19.810,0:14:25.120
+you have your competitions so generally
+
+0:14:21.970,0:14:27.550
+there there are competitions every week
+
+0:14:25.120,0:14:29.860
+we don't most teams don't go to a
+
+0:14:27.550,0:14:31.900
+competition every week generally if
+
+0:14:29.860,0:14:34.840
+you're in a district system you're in
+
+0:14:31.900,0:14:37.410
+three to four competitions plus a state
+
+0:14:34.840,0:14:40.930
+and possibly a world if you qualify
+
+0:14:37.410,0:14:42.700
+other other states are in what's called
+
+0:14:40.930,0:14:44.200
+a regional so there are several large
+
+0:14:42.700,0:14:46.000
+regionals that you would go to so you
+
+0:14:44.200,0:14:48.730
+don't get as many matches if you're in a
+
+0:14:46.000,0:14:49.180
+regional system but yeah that's what
+
+0:14:48.730,0:14:52.420
+happens
+
+0:14:49.180,0:14:56.460
+F immediately after build season and
+
+0:14:52.420,0:14:59.010
+that's also a very time-consuming event
+
+0:14:56.460,0:15:04.900
+how much design happens during
+
+0:14:59.010,0:15:07.350
+competition so generally most teams do
+
+0:15:04.900,0:15:09.850
+spend a significant amount of time
+
+0:15:07.350,0:15:12.430
+modifying their robot during competition
+
+0:15:09.850,0:15:15.040
+or then taking whatever lessons they've
+
+0:15:12.430,0:15:18.700
+learned from competitions and then
+
+0:15:15.040,0:15:19.870
+iterating their design after after
+
+0:15:18.700,0:15:21.790
+they've had competitions to try to
+
+0:15:19.870,0:15:24.240
+improve be better into the next one
+
+0:15:21.790,0:15:27.520
+although there is a stipulation on this
+
+0:15:24.240,0:15:29.800
+between competitions your robot has to
+
+0:15:27.520,0:15:32.590
+be what's called bagged so you do take a
+
+0:15:29.800,0:15:33.400
+very large plastic bag and you bag it
+
+0:15:32.590,0:15:36.040
+and tag
+
+0:15:33.400,0:15:37.480
+so there's a tag that identifies then it
+
+0:15:36.040,0:15:39.160
+has a serial number so they can keep
+
+0:15:37.480,0:15:41.860
+track of when your robots been unbagged
+
+0:15:39.160,0:15:44.200
+and then but the week of a competition
+
+0:15:41.860,0:15:46.270
+you have six hours to unbag and make any
+
+0:15:44.200,0:15:48.580
+modifications before you actually arrive
+
+0:15:46.270,0:15:52.120
+at the competition so do you have a
+
+0:15:48.580,0:15:55.230
+second robot you use um yes so this year
+
+0:15:52.120,0:15:58.600
+is the first year in many years that we
+
+0:15:55.230,0:16:02.140
+actually did build a second practice
+
+0:15:58.600,0:16:05.530
+robot so it's as a as a perfect
+
+0:16:02.140,0:16:07.720
+representation or perfect copy as we
+
+0:16:05.530,0:16:09.220
+could possibly make it obviously since
+
+0:16:07.720,0:16:12.910
+it's the second one it doesn't give as
+
+0:16:09.220,0:16:14.890
+many of the nice touches and perfect
+
+0:16:12.910,0:16:17.070
+construction is the real one but it's as
+
+0:16:14.890,0:16:21.040
+close as possible given the time frame
+
+0:16:17.070,0:16:25.330
+how much does the main robot get beaten
+
+0:16:21.040,0:16:28.750
+up so yeah generally through
+
+0:16:25.330,0:16:33.370
+competitions it is a very rigorous time
+
+0:16:28.750,0:16:36.940
+especially for rigorous that word means
+
+0:16:33.370,0:16:40.780
+crashed burned parts flew everywhere
+
+0:16:36.940,0:16:44.590
+order or large ones or large ones yeah
+
+0:16:40.780,0:16:49.150
+generally this year we did have several
+
+0:16:44.590,0:16:50.860
+events where we break some major part of
+
+0:16:49.150,0:16:53.200
+our robot and next thing you know we
+
+0:16:50.860,0:16:55.750
+have five minutes to fix it and if we
+
+0:16:53.200,0:17:00.490
+don't fix it we don't win that's
+
+0:16:55.750,0:17:04.089
+happened oh three times during finals
+
+0:17:00.490,0:17:06.520
+during competitions where so on our
+
+0:17:04.089,0:17:11.230
+robot we have what is called the an
+
+0:17:06.520,0:17:13.990
+intake so essentially it's two arms that
+
+0:17:11.230,0:17:17.650
+have roller wheels on it intended to
+
+0:17:13.990,0:17:18.310
+grab an intake the those cubes into our
+
+0:17:17.650,0:17:19.839
+robot
+
+0:17:18.310,0:17:22.839
+so it's essentially like rubbery wheels
+
+0:17:19.839,0:17:25.720
+that use the pull the cube into the
+
+0:17:22.839,0:17:30.010
+robot and that was the biggest point of
+
+0:17:25.720,0:17:34.180
+failure slash iteration on a robot from
+
+0:17:30.010,0:17:35.820
+the first competition we we sustain our
+
+0:17:34.180,0:17:41.290
+it originally it was designed out of
+
+0:17:35.820,0:17:43.960
+16-inch 6061 aluminum the unfortunate
+
+0:17:41.290,0:17:46.320
+thing about that is it has a fairly
+
+0:17:43.960,0:17:49.290
+decent strength but once it
+
+0:17:46.320,0:17:51.960
+deforms it doesn't return to its
+
+0:17:49.290,0:17:53.760
+original shape so over the course of the
+
+0:17:51.960,0:17:56.160
+competition through numerous impacts
+
+0:17:53.760,0:17:58.919
+with other robots in the field
+
+0:17:56.160,0:18:01.260
+we ended up shattering those intakes and
+
+0:17:58.919,0:18:04.799
+of course you know it had to be during
+
+0:18:01.260,0:18:07.020
+the finals so we were frantically
+
+0:18:04.799,0:18:08.490
+working on putting that robot back
+
+0:18:07.020,0:18:10.320
+together we ended up having to use
+
+0:18:08.490,0:18:12.690
+basically what is l-bracket like
+
+0:18:10.320,0:18:16.580
+quarter-inch L bracket and then using
+
+0:18:12.690,0:18:20.190
+basically is a splint to hold the arm on
+
+0:18:16.580,0:18:23.250
+to that competition thankfully it worked
+
+0:18:20.190,0:18:27.720
+and we ended up winning the competition
+
+0:18:23.250,0:18:28.919
+but it was a very frantic time so this
+
+0:18:27.720,0:18:30.570
+is a good opportunity since you
+
+0:18:28.919,0:18:32.850
+mentioned some of the parts of the
+
+0:18:30.570,0:18:34.650
+design what does this robot look like
+
+0:18:32.850,0:18:37.350
+from a hardware and software standpoint
+
+0:18:34.650,0:18:40.740
+what are you using for boards and what
+
+0:18:37.350,0:18:42.150
+kind of operating system I yeah just
+
+0:18:40.740,0:18:46.230
+walk us through the entire design so
+
+0:18:42.150,0:18:50.340
+that we could copy you and electronics
+
+0:18:46.230,0:18:52.380
+specifically right now yeah so to make
+
+0:18:50.340,0:18:54.390
+life a little bit easier for the teams
+
+0:18:52.380,0:18:55.500
+who you know don't have a Weejun they're
+
+0:18:54.390,0:18:57.210
+all high school students and they don't
+
+0:18:55.500,0:19:01.429
+have a legion of electronics design
+
+0:18:57.210,0:19:05.130
+engineers on the teams they do provide
+
+0:19:01.429,0:19:09.390
+off-the-shelf mandatory electronic
+
+0:19:05.130,0:19:11.030
+components so these consist of the Robo
+
+0:19:09.390,0:19:14.309
+Rio which is essentially the main
+
+0:19:11.030,0:19:16.580
+processor on the robot it's essentially
+
+0:19:14.309,0:19:19.320
+it's an astral Instruments one of their
+
+0:19:16.580,0:19:22.440
+it's one of their industrial controllers
+
+0:19:19.320,0:19:26.070
+so it's got like an arm CPU in the an
+
+0:19:22.440,0:19:29.720
+FPGA for all the i/o control and then it
+
+0:19:26.070,0:19:34.169
+runs some kind of a real-time Linux OS
+
+0:19:29.720,0:19:37.140
+okay and then on the mate on the heavier
+
+0:19:34.169,0:19:39.360
+side current carrying capacity there's a
+
+0:19:37.140,0:19:41.370
+power distribution board which is
+
+0:19:39.360,0:19:43.410
+essentially equivalent to a breaker box
+
+0:19:41.370,0:19:46.080
+in a car it's contains all the main
+
+0:19:43.410,0:19:48.990
+breakers their self resetting breakers
+
+0:19:46.080,0:19:51.299
+for all the individual motors on the
+
+0:19:48.990,0:19:53.160
+robot so if you blow a breaker then
+
+0:19:51.299,0:19:55.230
+it'll self reset so you don't have to
+
+0:19:53.160,0:19:58.049
+worry about that generally there are
+
+0:19:55.230,0:20:00.240
+about 40 amps is the biggest they go on
+
+0:19:58.049,0:20:02.160
+the 40 amps per
+
+0:20:00.240,0:20:04.200
+motor or purport on the powder
+
+0:20:02.160,0:20:08.370
+distribution system and then there's a
+
+0:20:04.200,0:20:10.980
+120 amp just automotive a thermal
+
+0:20:08.370,0:20:14.010
+breaker on the main input of the battery
+
+0:20:10.980,0:20:16.170
+so that's the that won't reset itself
+
+0:20:14.010,0:20:18.630
+you have to manually reset that so if
+
+0:20:16.170,0:20:24.570
+you blow that breaker you're done what
+
+0:20:18.630,0:20:27.450
+just happened before and then motor
+
+0:20:24.570,0:20:29.400
+controllers there are off several quite
+
+0:20:27.450,0:20:32.070
+a few actually off-the-shelf motor
+
+0:20:29.400,0:20:34.740
+controller options one of the most
+
+0:20:32.070,0:20:37.920
+popular in recent years has been the
+
+0:20:34.740,0:20:42.690
+Talon SRX it's made by cross the road
+
+0:20:37.920,0:20:44.610
+electronics it's essentially it's just a
+
+0:20:42.690,0:20:47.160
+motor controller it's they call it a
+
+0:20:44.610,0:20:48.720
+smart motor controller because it has an
+
+0:20:47.160,0:20:51.000
+onboard microcontroller and it
+
+0:20:48.720,0:20:56.429
+communicates over a can bus kind of like
+
+0:20:51.000,0:21:00.179
+an automotive can bus and it's has
+
+0:20:56.429,0:21:02.850
+built-in IO for sensor feedback encoders
+
+0:21:00.179,0:21:04.110
+and limit switches and I know this
+
+0:21:02.850,0:21:06.600
+because I was I've designed
+
+0:21:04.110,0:21:11.100
+boards for that breakout boards for i/o
+
+0:21:06.600,0:21:17.070
+expansion but it also has pid' features
+
+0:21:11.100,0:21:19.770
+PID features for motion profiling for
+
+0:21:17.070,0:21:22.290
+software motion profiling and some other
+
+0:21:19.770,0:21:27.150
+niceties it's a fairly nice system and
+
+0:21:22.290,0:21:30.900
+then there are more simplistic just PWM
+
+0:21:27.150,0:21:32.670
+based controllers there's the spark
+
+0:21:30.900,0:21:35.580
+motor controller the belief it's yeah
+
+0:21:32.670,0:21:38.580
+it's made by Rev robotics a lot of these
+
+0:21:35.580,0:21:42.630
+companies designed specifically for FRC
+
+0:21:38.580,0:21:46.230
+competitions and it's a just a basic PWM
+
+0:21:42.630,0:21:49.530
+controller that you just give it a PWM
+
+0:21:46.230,0:21:51.960
+duty cycle and then it will drive that
+
+0:21:49.530,0:21:56.190
+motor based on that and they do have
+
+0:21:51.960,0:21:58.050
+what is called break and break and Coast
+
+0:21:56.190,0:22:00.270
+on that that's the only other feature
+
+0:21:58.050,0:22:03.240
+has which essentially stalls the motor
+
+0:22:00.270,0:22:06.870
+in break mode and lets it just run down
+
+0:22:03.240,0:22:12.540
+naturally in coasts and those are the
+
+0:22:06.870,0:22:13.920
+main no no I actually know there are
+
+0:22:12.540,0:22:17.250
+some other
+
+0:22:13.920,0:22:19.590
+components for pneumatics air pneumatics
+
+0:22:17.250,0:22:21.660
+it's just called a pneumatics control
+
+0:22:19.590,0:22:23.880
+module and that also communicates you
+
+0:22:21.660,0:22:25.500
+communicates over the canvas and then
+
+0:22:23.880,0:22:28.470
+there's oh there's one more it's just a
+
+0:22:25.500,0:22:30.950
+voltage regulator so it's a five volt
+
+0:22:28.470,0:22:34.410
+12 volt the five volt DC to DC converter
+
+0:22:30.950,0:22:36.300
+so so this is this is a lot of
+
+0:22:34.410,0:22:38.850
+electronics I mean there's actually a
+
+0:22:36.300,0:22:41.370
+lot more electronics here then i
+
+0:22:38.850,0:22:44.130
+expected and many of them are made for
+
+0:22:41.370,0:22:46.620
+this competition yes but that's also
+
+0:22:44.130,0:22:48.390
+what you do what kind of boards are you
+
+0:22:46.620,0:22:51.930
+making and how are you making them in
+
+0:22:48.390,0:22:55.290
+six weeks um so I don't usually actually
+
+0:22:51.930,0:22:56.610
+make those boards in six weeks that's
+
+0:22:55.290,0:22:58.680
+one of the benefits of being able to
+
+0:22:56.610,0:23:01.920
+release it open source you can design
+
+0:22:58.680,0:23:04.050
+them and use them in pre-season then use
+
+0:23:01.920,0:23:06.510
+them in your competition season that you
+
+0:23:04.050,0:23:08.580
+see yourself with yeah yeah and as long
+
+0:23:06.510,0:23:10.530
+as you as long as you make sure everyone
+
+0:23:08.580,0:23:13.950
+else has the information to make them
+
+0:23:10.530,0:23:16.350
+then you can make them yourselves so
+
+0:23:13.950,0:23:19.550
+what we've major things we've used in
+
+0:23:16.350,0:23:23.820
+the past a couple years ago the
+
+0:23:19.550,0:23:26.970
+electronics lead I think yeah 2015 he
+
+0:23:23.820,0:23:30.540
+designed an i/o expansion for the for
+
+0:23:26.970,0:23:33.570
+the Talon basically the talons i/o for
+
+0:23:30.540,0:23:37.320
+scent like encoders it's basically it's
+
+0:23:33.570,0:23:39.300
+a two by five a point zero five
+
+0:23:37.320,0:23:42.240
+millimeter pitch pin headers so they're
+
+0:23:39.300,0:23:44.490
+very inaccessible to standard you know
+
+0:23:42.240,0:23:46.890
+breadboard cables and stuff like that so
+
+0:23:44.490,0:23:49.230
+we designed a breakout which essentially
+
+0:23:46.890,0:23:52.800
+breaks out all the the ports to that
+
+0:23:49.230,0:23:57.270
+which standard point 10.1 inch pitch
+
+0:23:52.800,0:24:02.190
+headers and then and then I redesigned
+
+0:23:57.270,0:24:04.590
+it in the last year to add io visual
+
+0:24:02.190,0:24:06.990
+feedback on it so any sensor you have
+
+0:24:04.590,0:24:09.360
+plugged into it if you trip like a limit
+
+0:24:06.990,0:24:11.460
+switch or an optical switch it gives you
+
+0:24:09.360,0:24:13.920
+visual feedback with a LED that tells
+
+0:24:11.460,0:24:16.200
+you hey this switch is working which is
+
+0:24:13.920,0:24:19.380
+incredibly vital when you have limit
+
+0:24:16.200,0:24:21.450
+amounts of time to maintain your robot
+
+0:24:19.380,0:24:23.640
+if you can just hear it simply put your
+
+0:24:21.450,0:24:25.260
+hand in front of an IR limit distant
+
+0:24:23.640,0:24:26.640
+switch or something and just see the
+
+0:24:25.260,0:24:28.200
+light go on and off
+
+0:24:26.640,0:24:30.420
+you can just kind of move on you don't
+
+0:24:28.200,0:24:32.310
+have to go into the operating system and
+
+0:24:30.420,0:24:34.950
+check all the sensors individually so
+
+0:24:32.310,0:24:37.200
+that gives you incredible amount of it
+
+0:24:34.950,0:24:39.960
+makes life easier to test and maintain
+
+0:24:37.200,0:24:42.840
+your robot in the field test and
+
+0:24:39.960,0:24:44.550
+maintain your robot in the field wow I'm
+
+0:24:42.840,0:24:45.990
+just like I can't believe you're doing
+
+0:24:44.550,0:24:48.870
+this is six weeks I can't believe you're
+
+0:24:45.990,0:24:51.960
+doing this in high school yeah it's an
+
+0:24:48.870,0:24:55.440
+incredible opportunity for high school
+
+0:24:51.960,0:24:57.390
+students that get into and one of the
+
+0:24:55.440,0:24:59.520
+great things about first is the fact
+
+0:24:57.390,0:25:02.640
+that it's not just high school students
+
+0:24:59.520,0:25:05.490
+we rely heavily on the advice and the
+
+0:25:02.640,0:25:09.720
+mentoring from adults and engineers
+
+0:25:05.490,0:25:12.990
+alike and it's not I mean it's also
+
+0:25:09.720,0:25:15.120
+younger kids and the advice and
+
+0:25:12.990,0:25:16.950
+mentoring it doesn't always have to be
+
+0:25:15.120,0:25:19.500
+technical does it because there's a lot
+
+0:25:16.950,0:25:21.540
+more that goes on here and then the
+
+0:25:19.500,0:25:25.380
+hardware and software and mechanical
+
+0:25:21.540,0:25:27.690
+yeah yeah first prides itself on it
+
+0:25:25.380,0:25:30.330
+basically you come for with the robots
+
+0:25:27.690,0:25:32.010
+but you get a wholesome life experience
+
+0:25:30.330,0:25:35.700
+out of it so you don't just do
+
+0:25:32.010,0:25:38.520
+engineering you you you do volunteering
+
+0:25:35.700,0:25:40.640
+and you have to raise funds because
+
+0:25:38.520,0:25:43.710
+obviously these robots are nowhere near
+
+0:25:40.640,0:25:46.560
+inexpensive so fund raising is a huge
+
+0:25:43.710,0:25:48.180
+part of what we do as well as community
+
+0:25:46.560,0:25:50.160
+outreach we have numerous community
+
+0:25:48.180,0:25:52.430
+outreach events that we try to engage
+
+0:25:50.160,0:25:56.160
+more people in STEM related activities
+
+0:25:52.430,0:25:58.950
+okay I'm totally for those how does that
+
+0:25:56.160,0:26:01.440
+relate to the FIRST Robotics I mean how
+
+0:25:58.950,0:26:04.560
+does outreach it seems like FIRST
+
+0:26:01.440,0:26:09.000
+Robotics is the outreach how about what
+
+0:26:04.560,0:26:13.610
+are you reaching out huh help yes
+
+0:26:09.000,0:26:17.270
+so the so during competitions there are
+
+0:26:13.610,0:26:22.650
+awards at the end of competitions and
+
+0:26:17.270,0:26:24.930
+the awards equal points for essentially
+
+0:26:22.650,0:26:26.550
+what's happening is you the end goal is
+
+0:26:24.930,0:26:28.710
+being able to get to the world
+
+0:26:26.550,0:26:31.010
+competition which in the last few years
+
+0:26:28.710,0:26:34.650
+has been located in Detroit and Houston
+
+0:26:31.010,0:26:37.920
+and so essentially in your district at
+
+0:26:34.650,0:26:40.020
+least in a district district
+
+0:26:37.920,0:26:42.060
+competitions you earn points
+
+0:26:40.020,0:26:44.010
+and then essentially the one who has the
+
+0:26:42.060,0:26:48.770
+most points based off if you win if you
+
+0:26:44.010,0:26:52.920
+earn these awards then can qualify for
+
+0:26:48.770,0:26:55.340
+four World Championships outreach is a
+
+0:26:52.920,0:26:57.630
+huge part of this they really emphasize
+
+0:26:55.340,0:27:00.930
+reaching out and engaging more people in
+
+0:26:57.630,0:27:04.260
+stem so outreach awards which is called
+
+0:27:00.930,0:27:06.420
+the Chairman's Award at district and
+
+0:27:04.260,0:27:09.540
+state competitions can earn you direct
+
+0:27:06.420,0:27:10.740
+admittance into world competitions so
+
+0:27:09.540,0:27:13.110
+that's one of the things they kind of do
+
+0:27:10.740,0:27:16.110
+the motivate teams to reach out into the
+
+0:27:13.110,0:27:17.580
+community and so what do you do what
+
+0:27:16.110,0:27:20.700
+sort of activities do you do that they
+
+0:27:17.580,0:27:23.490
+count under that so activities that we
+
+0:27:20.700,0:27:25.110
+do as tech towns I don't really I don't
+
+0:27:23.490,0:27:26.580
+speak for all the other teams but we do
+
+0:27:25.110,0:27:30.480
+personally
+
+0:27:26.580,0:27:32.820
+so during offseason we host in the
+
+0:27:30.480,0:27:35.490
+October we host what's called the women
+
+0:27:32.820,0:27:37.740
+and Technology workshop which is
+
+0:27:35.490,0:27:39.360
+essentially we have roughly 70 to 80
+
+0:27:37.740,0:27:41.010
+middle school girls from the middle
+
+0:27:39.360,0:27:42.750
+schools in the surrounding area and we
+
+0:27:41.010,0:27:45.420
+have them over for a day where we teach
+
+0:27:42.750,0:27:48.570
+them stem activities like catting or
+
+0:27:45.420,0:27:50.700
+physics and other STEM related
+
+0:27:48.570,0:27:52.170
+activities and try to engage them and
+
+0:27:50.700,0:27:53.100
+get them excited to get into STEM
+
+0:27:52.170,0:27:56.520
+careers in the future
+
+0:27:53.100,0:27:59.250
+that's one of the things we do how do
+
+0:27:56.520,0:28:02.610
+you okay how do you organize that I mean
+
+0:27:59.250,0:28:06.090
+I know you do a lot of the EE stuff how
+
+0:28:02.610,0:28:08.280
+involved are you personally with the
+
+0:28:06.090,0:28:10.440
+outreach and and the fundraising and all
+
+0:28:08.280,0:28:13.440
+of the coordination bits so the outreach
+
+0:28:10.440,0:28:16.470
+I generally do attend about every
+
+0:28:13.440,0:28:19.170
+outreach event and help out with organic
+
+0:28:16.470,0:28:21.690
+the actual running of the events with
+
+0:28:19.170,0:28:24.510
+all the time I'm spending with the
+
+0:28:21.690,0:28:26.160
+engineering aspect of the team I don't
+
+0:28:24.510,0:28:28.410
+really have an incredible amount in
+
+0:28:26.160,0:28:31.560
+planning the events and organizing all
+
+0:28:28.410,0:28:33.870
+the speakers that we have come and all
+
+0:28:31.560,0:28:36.840
+the different logistics of food and
+
+0:28:33.870,0:28:39.900
+materials and all that but I do just try
+
+0:28:36.840,0:28:42.540
+to help out any way I can in running the
+
+0:28:39.900,0:28:46.110
+events but tech pounds is pretty big you
+
+0:28:42.540,0:28:49.020
+don't have to do it all no no our team
+
+0:28:46.110,0:28:52.950
+is generally anywhere between 80 to a
+
+0:28:49.020,0:28:55.770
+hundred and fifteen members
+
+0:28:52.950,0:28:58.890
+we are an exceptionally large team most
+
+0:28:55.770,0:29:01.890
+teams are in the you know 20 the 50
+
+0:28:58.890,0:29:04.860
+range but we are exceptionally large
+
+0:29:01.890,0:29:06.480
+because our high school is this year I
+
+0:29:04.860,0:29:09.450
+believe the class the total amount of
+
+0:29:06.480,0:29:11.780
+people in the high school is 5300 so we
+
+0:29:09.450,0:29:15.540
+have a large pool of people to draw from
+
+0:29:11.780,0:29:17.970
+and when I saw the picture of the tech
+
+0:29:15.540,0:29:19.980
+hounds team it looks like you had all
+
+0:29:17.970,0:29:23.040
+kinds of people yeah we encourage
+
+0:29:19.980,0:29:25.980
+everyone to join no matter who they are
+
+0:29:23.040,0:29:29.640
+we we pride ourselves in trying to be as
+
+0:29:25.980,0:29:31.200
+diverse as possible so anyone is anyone
+
+0:29:29.640,0:29:35.340
+from all backgrounds is welcome to join
+
+0:29:31.200,0:29:37.800
+the team Jen we try to occasionally have
+
+0:29:35.340,0:29:39.900
+some younger kids come out and
+
+0:29:37.800,0:29:41.760
+experience what's getting what the team
+
+0:29:39.900,0:29:46.200
+is so they can get into in the future as
+
+0:29:41.760,0:29:49.460
+well as we have adult mentors one of the
+
+0:29:46.200,0:29:52.290
+challenges with engineering mentality in
+
+0:29:49.460,0:29:54.240
+professional world is that it's easy to
+
+0:29:52.290,0:29:58.350
+assume that your discipline is the most
+
+0:29:54.240,0:29:59.790
+difficult even easy to assume that you
+
+0:29:58.350,0:30:01.760
+are the hardest working because you
+
+0:29:59.790,0:30:04.980
+don't see the hours other people put in
+
+0:30:01.760,0:30:08.690
+because you're working does that happen
+
+0:30:04.980,0:30:12.780
+on your team and how do you try to avoid
+
+0:30:08.690,0:30:16.650
+assuming you're the best yeah that
+
+0:30:12.780,0:30:20.190
+definitely does happen there's the kind
+
+0:30:16.650,0:30:22.850
+of there is some kind of favoritism I
+
+0:30:20.190,0:30:25.020
+guess people kind of see robot ops as
+
+0:30:22.850,0:30:27.720
+that's what we call our robot building
+
+0:30:25.020,0:30:30.890
+division as since we kind of build the
+
+0:30:27.720,0:30:34.620
+most physical representation kind of
+
+0:30:30.890,0:30:36.900
+outgoing mechanism on the team we kind
+
+0:30:34.620,0:30:39.150
+of that kind of gets the stigma that we
+
+0:30:36.900,0:30:40.980
+are the more important division but we
+
+0:30:39.150,0:30:42.810
+do try to kind of put that down and
+
+0:30:40.980,0:30:45.030
+emphasize that everyone is having a pot
+
+0:30:42.810,0:30:48.030
+making the positive impact on the team
+
+0:30:45.030,0:30:50.120
+so we have several different divisions
+
+0:30:48.030,0:30:53.670
+focused on doing different aspects of
+
+0:30:50.120,0:30:56.640
+running the team what are the divisions
+
+0:30:53.670,0:30:58.260
+yes so on our team we have as I said
+
+0:30:56.640,0:31:00.360
+before we have what's called robot ops
+
+0:30:58.260,0:31:03.240
+which focuses on the mechanical design
+
+0:31:00.360,0:31:04.990
+and improve implementation of different
+
+0:31:03.240,0:31:08.020
+mechanisms into home
+
+0:31:04.990,0:31:10.660
+the actual robot and then there is
+
+0:31:08.020,0:31:13.480
+programming which use which is focused
+
+0:31:10.660,0:31:16.990
+on programming the software specifically
+
+0:31:13.480,0:31:19.929
+for the mechanical robot we also have AI
+
+0:31:16.990,0:31:22.780
+T which does website design as well as
+
+0:31:19.929,0:31:25.510
+the scouting system which is and
+
+0:31:22.780,0:31:29.170
+competitions we Scout different teams
+
+0:31:25.510,0:31:31.210
+during matches so we'll have a six
+
+0:31:29.170,0:31:32.890
+individuals on laptops recording
+
+0:31:31.210,0:31:35.050
+everything every team does during the
+
+0:31:32.890,0:31:36.460
+matches so we can keep up with what's
+
+0:31:35.050,0:31:40.030
+going on so we can know in the future
+
+0:31:36.460,0:31:43.210
+how they're gonna perform and then we
+
+0:31:40.030,0:31:46.390
+have obtains to that yes almost every
+
+0:31:43.210,0:31:49.809
+team who is highly competitive has
+
+0:31:46.390,0:31:51.460
+Scouts in the in the stands writing down
+
+0:31:49.809,0:31:52.059
+as much information about these teams as
+
+0:31:51.460,0:31:55.270
+possible
+
+0:31:52.059,0:31:57.010
+because it is critical to know the how
+
+0:31:55.270,0:31:59.170
+are the robots performing in order to
+
+0:31:57.010,0:32:01.660
+make well-informed decisions and who
+
+0:31:59.170,0:32:04.540
+your alliance members for the for the
+
+0:32:01.660,0:32:06.429
+tournament actually is so it's
+
+0:32:04.540,0:32:09.700
+incredibly important that you have all
+
+0:32:06.429,0:32:12.150
+that information available to you and
+
+0:32:09.700,0:32:14.650
+then for other divisions we have
+
+0:32:12.150,0:32:17.260
+electrical division which focuses on
+
+0:32:14.650,0:32:19.870
+implementing the electronics on to the
+
+0:32:17.260,0:32:22.900
+Meccano of the design robot ops and
+
+0:32:19.870,0:32:24.670
+electrical gen we try to kind of work
+
+0:32:22.900,0:32:27.070
+together as efficiently as possible
+
+0:32:24.670,0:32:28.809
+because obviously the hardware and
+
+0:32:27.070,0:32:31.690
+electrical implementation needs to be
+
+0:32:28.809,0:32:33.220
+fluid so we don't have a mismatch and we
+
+0:32:31.690,0:32:37.420
+can't implement as many features as we
+
+0:32:33.220,0:32:40.600
+want and then there is what we have
+
+0:32:37.420,0:32:44.260
+construction which focuses primarily in
+
+0:32:40.600,0:32:47.020
+building so once the games once we get
+
+0:32:44.260,0:32:49.270
+the game information they release all
+
+0:32:47.020,0:32:52.210
+aspects design drawings so you can build
+
+0:32:49.270,0:32:56.050
+your own field so those that division
+
+0:32:52.210,0:32:57.429
+focuses on primarily building building
+
+0:32:56.050,0:33:00.460
+field elements so we have those to
+
+0:32:57.429,0:33:05.380
+practice with as well as building a lot
+
+0:33:00.460,0:33:06.850
+of carts and tool tool chests that we
+
+0:33:05.380,0:33:08.980
+bring to the competition's
+
+0:33:06.850,0:33:11.080
+so we built all our own tool chests and
+
+0:33:08.980,0:33:12.340
+battery boxes to in order to bring those
+
+0:33:11.080,0:33:14.830
+competitions so we have a mobile
+
+0:33:12.340,0:33:16.330
+platform so we can just roll out roll it
+
+0:33:14.830,0:33:17.639
+out of the trailer and roll it into the
+
+0:33:16.330,0:33:21.119
+competition
+
+0:33:17.639,0:33:24.479
+and then finally there is PR public
+
+0:33:21.119,0:33:26.309
+relations they focus on creating a
+
+0:33:24.479,0:33:28.489
+positive image for the team as well as
+
+0:33:26.309,0:33:30.239
+organizing all the fundraising and
+
+0:33:28.489,0:33:32.639
+outreach events
+
+0:33:30.239,0:33:35.759
+that we have on the team so we have a
+
+0:33:32.639,0:33:38.129
+complete company they really do and and
+
+0:33:35.759,0:33:39.690
+just like our engineering companies like
+
+0:33:38.129,0:33:41.609
+everybody's like Oh whoever's building
+
+0:33:39.690,0:33:44.399
+the thing is the most important and yet
+
+0:33:41.609,0:33:49.019
+Derek said only a moment ago that you
+
+0:33:44.399,0:33:52.589
+could get to finals with just outreach
+
+0:33:49.019,0:33:56.489
+so every team there is going to be so
+
+0:33:52.589,0:34:00.419
+important absolutely how it's that's
+
+0:33:56.489,0:34:03.089
+there really is oh yeah it's and it's
+
+0:34:00.419,0:34:04.589
+incredibly obviously it's incredibly any
+
+0:34:03.089,0:34:06.149
+company's incredibly difficult to manage
+
+0:34:04.589,0:34:08.220
+so it requires an immense amount of
+
+0:34:06.149,0:34:10.859
+effort from everyone involved to be able
+
+0:34:08.220,0:34:12.690
+to maintain and perform at the level we
+
+0:34:10.859,0:34:15.119
+really want to perform you have
+
+0:34:12.690,0:34:18.240
+dedicated kind of management people who
+
+0:34:15.119,0:34:19.669
+don't necessarily do hands-on stuff but
+
+0:34:18.240,0:34:23.460
+it just coordinating all of us um
+
+0:34:19.669,0:34:25.619
+generally yeah so we have division leads
+
+0:34:23.460,0:34:27.480
+to those guys those people are elected
+
+0:34:25.619,0:34:31.019
+at the end of the year into those
+
+0:34:27.480,0:34:32.609
+positions on a yearly basis and those
+
+0:34:31.019,0:34:34.109
+are in charge of their specific
+
+0:34:32.609,0:34:36.599
+divisions as well as we have an
+
+0:34:34.109,0:34:39.779
+overarching team lead that focuses on
+
+0:34:36.599,0:34:41.490
+organizing the team like meetings and
+
+0:34:39.779,0:34:44.909
+structure and keeping everyone
+
+0:34:41.490,0:34:46.379
+coordinated as well as PR is also
+
+0:34:44.909,0:34:48.480
+focused on helping the team lead with
+
+0:34:46.379,0:34:50.129
+those acts bisques aspects as well as
+
+0:34:48.480,0:34:52.500
+coordinating outreach events and
+
+0:34:50.129,0:34:55.230
+positive public image and these are all
+
+0:34:52.500,0:34:58.200
+students then not even the team lead is
+
+0:34:55.230,0:35:00.829
+a faculty member the team lead is yeah
+
+0:34:58.200,0:35:04.230
+the team lead is a student there is a
+
+0:35:00.829,0:35:06.420
+team coach you have you mandatory you
+
+0:35:04.230,0:35:08.220
+have to have a team coach obviously you
+
+0:35:06.420,0:35:10.470
+have to have adult supervision and all
+
+0:35:08.220,0:35:14.430
+that kind of stuff because we're all
+
+0:35:10.470,0:35:16.440
+under we're all minors but he does um
+
+0:35:14.430,0:35:18.450
+our team coach he does spend a
+
+0:35:16.440,0:35:20.640
+significant amount of time and I cannot
+
+0:35:18.450,0:35:22.859
+thank him enough for the efforts he puts
+
+0:35:20.640,0:35:24.150
+in to allow us to do what we do because
+
+0:35:22.859,0:35:27.390
+otherwise we wouldn't be able to do it
+
+0:35:24.150,0:35:28.440
+without him okay what do you get out of
+
+0:35:27.390,0:35:32.369
+this
+
+0:35:28.440,0:35:34.530
+so what I get out of it is I guess
+
+0:35:32.369,0:35:38.789
+in short would be the greatest
+
+0:35:34.530,0:35:41.640
+experience of my wife so far but it has
+
+0:35:38.789,0:35:45.809
+from when I joined the team my freshman
+
+0:35:41.640,0:35:48.000
+year I have essentially I've learned
+
+0:35:45.809,0:35:50.819
+more than I ever could have possibly
+
+0:35:48.000,0:35:53.339
+learned in any school regular school
+
+0:35:50.819,0:35:56.309
+setting and I've engaged and has allowed
+
+0:35:53.339,0:35:59.130
+me to kind of learn the passion for or
+
+0:35:56.309,0:36:02.250
+give me the passion for learning stem
+
+0:35:59.130,0:36:04.349
+and engineering and now I have focused
+
+0:36:02.250,0:36:06.450
+myself on a career going into
+
+0:36:04.349,0:36:10.410
+engineering so it's been a
+
+0:36:06.450,0:36:11.369
+transformative experience for myself do
+
+0:36:10.410,0:36:13.920
+you plan to go to college
+
+0:36:11.369,0:36:17.490
+absolutely yeah I plan to go right now
+
+0:36:13.920,0:36:19.559
+it's I'm looking at a Purdue in Indiana
+
+0:36:17.490,0:36:23.099
+and going through their Electrical
+
+0:36:19.559,0:36:24.990
+Engineering College and I generally I
+
+0:36:23.099,0:36:28.170
+think right now based on what I've been
+
+0:36:24.990,0:36:30.089
+doing and what I like doing I know this
+
+0:36:28.170,0:36:32.720
+is the embedded podcast but I do
+
+0:36:30.089,0:36:35.700
+actually want to go into embedded
+
+0:36:32.720,0:36:38.819
+embedded design it just seems really
+
+0:36:35.700,0:36:43.109
+interesting to my to me I mean you're
+
+0:36:38.819,0:36:44.910
+you're getting a huge view into what
+
+0:36:43.109,0:36:46.859
+it's really like to be part of a company
+
+0:36:44.910,0:36:50.400
+in this robotics
+
+0:36:46.859,0:36:55.380
+and so if you are enjoying it then yes
+
+0:36:50.400,0:36:57.510
+you probably enjoy a career and embedded
+
+0:36:55.380,0:37:00.539
+and I'm thinking Purdue and I'm thinking
+
+0:36:57.510,0:37:02.130
+Chris Beck is going come on see me see
+
+0:37:00.539,0:37:08.760
+me I would to Purdue I can introduce him
+
+0:37:02.130,0:37:10.789
+to people so um yeah hi-spec anyway that
+
+0:37:08.760,0:37:15.089
+is awesome that is so cool
+
+0:37:10.789,0:37:19.680
+you mentioned finals with respect to
+
+0:37:15.089,0:37:21.779
+tech hands effort you guys go so this
+
+0:37:19.680,0:37:26.279
+year was an exceptional year for the
+
+0:37:21.779,0:37:28.829
+team we we our first competition we
+
+0:37:26.279,0:37:31.770
+attended a week one regional in Miami
+
+0:37:28.829,0:37:34.529
+Valley which is or instance suburbs of
+
+0:37:31.770,0:37:39.960
+Cincinnati no actually no sorry
+
+0:37:34.529,0:37:41.920
+yeah Cincinnati and we did not we had an
+
+0:37:39.960,0:37:43.990
+underwhelming competition
+
+0:37:41.920,0:37:45.819
+going into the going internet
+
+0:37:43.990,0:37:48.160
+competition we start with essentially a
+
+0:37:45.819,0:37:50.559
+non-functioning robot we had I had a
+
+0:37:48.160,0:37:52.089
+whole checklist of we need to replace
+
+0:37:50.559,0:37:55.329
+this we need to change this out we need
+
+0:37:52.089,0:37:57.309
+to add new parts here so we spent about
+
+0:37:55.329,0:37:59.680
+12 hours once we got to that competition
+
+0:37:57.309,0:38:02.290
+making all the modifications that we
+
+0:37:59.680,0:38:04.900
+needed to and then in that competition
+
+0:38:02.290,0:38:09.040
+we didn't perform as well as he wanted
+
+0:38:04.900,0:38:11.650
+to but we recognized we recognize what
+
+0:38:09.040,0:38:14.470
+the flaws of a robot were which lied in
+
+0:38:11.650,0:38:16.450
+the intake system so we spent the we had
+
+0:38:14.470,0:38:19.420
+two weeks till the next competition and
+
+0:38:16.450,0:38:23.530
+we spent that completely redesigning the
+
+0:38:19.420,0:38:26.500
+entire intake system into something that
+
+0:38:23.530,0:38:27.579
+has served us well for the exceptionally
+
+0:38:26.500,0:38:30.700
+well for the rest of the competition
+
+0:38:27.579,0:38:33.549
+season so going into the next
+
+0:38:30.700,0:38:36.309
+competition we competed at the
+
+0:38:33.549,0:38:42.369
+Plainfield district event in Plainfield
+
+0:38:36.309,0:38:45.490
+Indiana that event was a really amazing
+
+0:38:42.369,0:38:48.280
+event for the team we ended up winning
+
+0:38:45.490,0:38:49.599
+the competition that competition as I
+
+0:38:48.280,0:38:52.059
+said as I was talking about earlier
+
+0:38:49.599,0:38:54.849
+where we had major failures with that
+
+0:38:52.059,0:38:57.280
+intake system during the finals so it
+
+0:38:54.849,0:39:00.549
+was an incredibly stressful time because
+
+0:38:57.280,0:39:02.980
+I was within I had less than two minutes
+
+0:39:00.549,0:39:06.760
+sitting next to the field frantically
+
+0:39:02.980,0:39:09.599
+bolting on splints to hold the intake
+
+0:39:06.760,0:39:13.119
+together so it compete because
+
+0:39:09.599,0:39:16.119
+specifically during that event since the
+
+0:39:13.119,0:39:21.510
+aluminum bent inwards on the intake
+
+0:39:16.119,0:39:25.000
+design it was it's driven by my
+
+0:39:21.510,0:39:27.430
+basically a drill motor and driven into
+
+0:39:25.000,0:39:30.400
+a 7 to 1 gearbox that the output stage
+
+0:39:27.430,0:39:33.940
+is a belt driven as a belt and pulley
+
+0:39:30.400,0:39:36.880
+and since the metal bent inwards the
+
+0:39:33.940,0:39:38.319
+pulley lost all tension so even if the
+
+0:39:36.880,0:39:41.260
+motor was still spinning there was no
+
+0:39:38.319,0:39:43.799
+tension to translate the energy into the
+
+0:39:41.260,0:39:46.450
+rest of the wheels so we were
+
+0:39:43.799,0:39:49.540
+frantically trying to rebound and use
+
+0:39:46.450,0:39:50.799
+braces to and clamps to try to bend it
+
+0:39:49.540,0:39:54.280
+back in the shape throughout the entire
+
+0:39:50.799,0:39:55.180
+competition but we were able to even we
+
+0:39:54.280,0:39:57.220
+had one
+
+0:39:55.180,0:39:58.900
+of the sides working by the end of the
+
+0:39:57.220,0:40:01.710
+competition and we were still still able
+
+0:39:58.900,0:40:06.300
+to win it so it was a fantastic event
+
+0:40:01.710,0:40:10.200
+and then we went into our second
+
+0:40:06.300,0:40:12.520
+district competition which was the
+
+0:40:10.200,0:40:16.030
+Tippecanoe district event up in
+
+0:40:12.520,0:40:17.740
+Lafayette Indiana basically at Purdue it
+
+0:40:16.030,0:40:21.190
+wasn't it was at a high school nearby
+
+0:40:17.740,0:40:23.589
+Harrison high school but that was also
+
+0:40:21.190,0:40:27.130
+another exceptional events we ended up
+
+0:40:23.589,0:40:28.690
+winning the competition it was a very it
+
+0:40:27.130,0:40:31.510
+was a relatively frantic event not as
+
+0:40:28.690,0:40:34.089
+many failures on our robot we had to
+
+0:40:31.510,0:40:35.440
+help other team members actually is a
+
+0:40:34.089,0:40:37.630
+really great event because one of our
+
+0:40:35.440,0:40:41.020
+alliance members that we picked was a
+
+0:40:37.630,0:40:42.430
+rookie team so we they helped us win
+
+0:40:41.020,0:40:44.619
+that competition so it was a really
+
+0:40:42.430,0:40:46.390
+great experience for that team and we've
+
+0:40:44.619,0:40:51.369
+kind of formed a great relationship with
+
+0:40:46.390,0:40:53.020
+them after that and then one more thing
+
+0:40:51.369,0:40:55.359
+about that competition actually is a
+
+0:40:53.020,0:40:57.280
+very good learning experience for myself
+
+0:40:55.359,0:40:59.109
+and I hopefully this could be a tip for
+
+0:40:57.280,0:41:04.270
+everyone else if you're ever working
+
+0:40:59.109,0:41:09.490
+with lexan polycarbonate do not I repeat
+
+0:41:04.270,0:41:14.950
+do not put Loctite on it it will shatter
+
+0:41:09.490,0:41:18.369
+it I learned that the hard way good to
+
+0:41:14.950,0:41:19.990
+know okay yeah so and then find other
+
+0:41:18.369,0:41:22.839
+competition we competed at the Indiana
+
+0:41:19.990,0:41:24.910
+State event we ended up winning that
+
+0:41:22.839,0:41:27.760
+competition it was an incredible event
+
+0:41:24.910,0:41:31.200
+we had some other more frantic repairs
+
+0:41:27.760,0:41:34.480
+we had to make during finals and then we
+
+0:41:31.200,0:41:36.160
+then moved to the we qualified because
+
+0:41:34.480,0:41:38.049
+of winning our competitions as well as
+
+0:41:36.160,0:41:42.460
+state if you win state you automatically
+
+0:41:38.049,0:41:43.780
+qualify to go to Worlds at Worlds it was
+
+0:41:42.460,0:41:46.359
+probably one of the best experiences
+
+0:41:43.780,0:41:48.730
+experiences we've ever had we ended up
+
+0:41:46.359,0:41:50.950
+placing fifth in the world we were
+
+0:41:48.730,0:41:53.049
+incredibly close we were one match away
+
+0:41:50.950,0:41:55.869
+from going to the final final
+
+0:41:53.049,0:41:57.460
+competition at Ford Field but we were
+
+0:41:55.869,0:41:59.770
+unable to do so but it was still an
+
+0:41:57.460,0:42:01.839
+amazing experience and I can't think
+
+0:41:59.770,0:42:04.390
+everyone on my team enough for being
+
+0:42:01.839,0:42:05.710
+able to work with me work with us on
+
+0:42:04.390,0:42:08.330
+that and being able to get as far as we
+
+0:42:05.710,0:42:10.940
+did he's gonna look so
+
+0:42:08.330,0:42:14.390
+on your college application yeah that's
+
+0:42:10.940,0:42:16.910
+uh it's I have most I have some my essay
+
+0:42:14.390,0:42:18.260
+written and yeah it it gives me some it
+
+0:42:16.910,0:42:23.360
+grieves me some really great learning
+
+0:42:18.260,0:42:25.490
+points to write about for sure yeah this
+
+0:42:23.360,0:42:28.190
+college application people really kind
+
+0:42:25.490,0:42:29.960
+of lap it up when you say oh yeah I know
+
+0:42:28.190,0:42:32.200
+how to win I know how to succeed but I
+
+0:42:29.960,0:42:35.120
+also know how to fail
+
+0:42:32.200,0:42:37.810
+what what was your college essay about I
+
+0:42:35.120,0:42:40.850
+don't remember I think I wrote a satire
+
+0:42:37.810,0:42:44.090
+it was very odd I don't think I took it
+
+0:42:40.850,0:42:45.920
+very seriously weren't so was this
+
+0:42:44.090,0:42:47.930
+primarily where you've learned your
+
+0:42:45.920,0:42:49.100
+electronics experience and where you got
+
+0:42:47.930,0:42:51.860
+started with it or were you interested
+
+0:42:49.100,0:42:54.170
+before and already knew stuff how did
+
+0:42:51.860,0:42:56.240
+you get to this level and was it mostly
+
+0:42:54.170,0:43:01.100
+through first or was it other stuff too
+
+0:42:56.240,0:43:02.540
+so I definitely say I did like some kind
+
+0:43:01.100,0:43:02.930
+of electronics before I got into tech
+
+0:43:02.540,0:43:05.360
+Hounds
+
+0:43:02.930,0:43:08.870
+but that was the really the key point
+
+0:43:05.360,0:43:12.460
+where I dove into it to the extent that
+
+0:43:08.870,0:43:15.680
+I have I did learn a fair amount through
+
+0:43:12.460,0:43:17.090
+first not necessarily cuz FRC since
+
+0:43:15.680,0:43:19.220
+there are a lot of off-the-shelf parts
+
+0:43:17.090,0:43:21.620
+and you basically have a complete office
+
+0:43:19.220,0:43:25.160
+elf solution for electronics that didn't
+
+0:43:21.620,0:43:29.390
+necessarily teach me the like design
+
+0:43:25.160,0:43:30.860
+aspect of it but it gave me the will to
+
+0:43:29.390,0:43:33.410
+be able to go and find that information
+
+0:43:30.860,0:43:36.380
+myself so a lot of the times ended up
+
+0:43:33.410,0:43:38.240
+using like youtubers and watching those
+
+0:43:36.380,0:43:40.820
+and reading articles and how to design
+
+0:43:38.240,0:43:42.500
+as well as I have a mentor who's a
+
+0:43:40.820,0:43:44.450
+retired Air Force engineer and he's
+
+0:43:42.500,0:43:46.940
+helped me greatly through designing
+
+0:43:44.450,0:43:48.830
+different through different designs and
+
+0:43:46.940,0:43:53.420
+really been a great mentor for myself
+
+0:43:48.830,0:43:55.640
+personally well that's a good lead-in to
+
+0:43:53.420,0:43:57.800
+mentoring you have mentioned this before
+
+0:43:55.640,0:44:00.890
+that you have mentors on the team and
+
+0:43:57.800,0:44:05.780
+that it's a volunteering opportunity for
+
+0:44:00.890,0:44:09.440
+engineers or anybody because all of your
+
+0:44:05.780,0:44:11.570
+divisions need some help and people can
+
+0:44:09.440,0:44:16.670
+get involved how do they do that and how
+
+0:44:11.570,0:44:19.220
+much time are they committing so yeah
+
+0:44:16.670,0:44:21.450
+the one the thing about mentoring for
+
+0:44:19.220,0:44:25.140
+FRC
+
+0:44:21.450,0:44:28.980
+and we welcome anyone to join generally
+
+0:44:25.140,0:44:30.990
+we meet people through like contacts
+
+0:44:28.980,0:44:32.880
+from parents as well as we had we go to
+
+0:44:30.990,0:44:34.319
+outreach events we demonstrate at
+
+0:44:32.880,0:44:36.359
+different companies and we try to gain
+
+0:44:34.319,0:44:39.599
+contacts through that as well as people
+
+0:44:36.359,0:44:41.819
+have found us online before you there's
+
+0:44:39.599,0:44:44.880
+an entire complete listing of teams on
+
+0:44:41.819,0:44:46.170
+first website so you can look around to
+
+0:44:44.880,0:44:50.490
+see if there's a local team near you
+
+0:44:46.170,0:44:52.680
+that you can contact but the time
+
+0:44:50.490,0:44:55.049
+commitment is on at least on our team it
+
+0:44:52.680,0:44:58.530
+is fairly significant so we welcome
+
+0:44:55.049,0:45:01.829
+anyone but we do try to recommend that
+
+0:44:58.530,0:45:03.750
+you do have time a decent amount of time
+
+0:45:01.829,0:45:07.410
+you can come in on a regular basis
+
+0:45:03.750,0:45:09.030
+because if you kind of start at like you
+
+0:45:07.410,0:45:10.859
+start day one but you don't come back
+
+0:45:09.030,0:45:12.839
+till two weeks in things that progress
+
+0:45:10.859,0:45:15.299
+significantly and it kind of if you're
+
+0:45:12.839,0:45:18.569
+out of the loop you can still help out
+
+0:45:15.299,0:45:20.369
+but it does kind of create a disconnect
+
+0:45:18.569,0:45:22.200
+where things don't always go as smoothly
+
+0:45:20.369,0:45:24.930
+because people aren't always on the same
+
+0:45:22.200,0:45:28.680
+page but we welcome anyone who wants to
+
+0:45:24.930,0:45:32.720
+join but that regular attendance is
+
+0:45:28.680,0:45:37.170
+usually more during the six weeks of
+
+0:45:32.720,0:45:41.130
+design and the couple for six weeks of
+
+0:45:37.170,0:45:42.540
+competition yeah yeah generally the that
+
+0:45:41.130,0:45:45.420
+time commitment is focused primarily
+
+0:45:42.540,0:45:47.849
+during build season during pre-season
+
+0:45:45.420,0:45:52.260
+what we call preseason from September to
+
+0:45:47.849,0:45:54.660
+up until til competition see our build
+
+0:45:52.260,0:45:57.359
+season it we only have weekly meetings
+
+0:45:54.660,0:45:59.280
+so it's a much easier time commitment
+
+0:45:57.359,0:46:01.109
+for people to make and those are the lot
+
+0:45:59.280,0:46:03.839
+of times we try to build those closer
+
+0:46:01.109,0:46:05.760
+relationships that give people the kind
+
+0:46:03.839,0:46:07.319
+of will to be able or like they want to
+
+0:46:05.760,0:46:09.780
+get into it more because they've had
+
+0:46:07.319,0:46:12.359
+this limited exposure so we try to build
+
+0:46:09.780,0:46:14.940
+those relationships during pre-season so
+
+0:46:12.359,0:46:16.410
+now is the time to get involved yeah it
+
+0:46:14.940,0:46:18.680
+now would be probably a great time to
+
+0:46:16.410,0:46:21.569
+start making connections with local
+
+0:46:18.680,0:46:23.579
+teams that way you have plenty of time
+
+0:46:21.569,0:46:25.680
+to get to know people before things get
+
+0:46:23.579,0:46:27.809
+really crazy so that way you can kind of
+
+0:46:25.680,0:46:30.270
+build that bond before you go in and
+
+0:46:27.809,0:46:32.970
+just kind of jump into the hectic nature
+
+0:46:30.270,0:46:33.960
+of build season but mentoring is only
+
+0:46:32.970,0:46:37.109
+one way
+
+0:46:33.960,0:46:38.579
+there's also the judging which is a
+
+0:46:37.109,0:46:41.250
+little easier because you can often
+
+0:46:38.579,0:46:43.619
+involuntary in the day of because you
+
+0:46:41.250,0:46:47.150
+can just kind of drop in without a whole
+
+0:46:43.619,0:46:49.589
+lot of preparation yeah yeah so
+
+0:46:47.150,0:46:53.490
+generally if you want to volunteer at
+
+0:46:49.589,0:46:55.890
+competitions you can contact you can
+
+0:46:53.490,0:46:58.910
+find competition lists on first and then
+
+0:46:55.890,0:47:01.800
+you can go through and contact whatever
+
+0:46:58.910,0:47:04.280
+organization in the region is hosting
+
+0:47:01.800,0:47:06.390
+the event and they welcome all
+
+0:47:04.280,0:47:08.250
+volunteers because they need all hands
+
+0:47:06.390,0:47:11.490
+on deck to be able to like maintain the
+
+0:47:08.250,0:47:16.770
+field replace field elements reset them
+
+0:47:11.490,0:47:19.140
+as well as other kind of upkeep actions
+
+0:47:16.770,0:47:21.990
+during the during the competition like
+
+0:47:19.140,0:47:25.140
+Manning the Manning the food court and
+
+0:47:21.990,0:47:27.829
+the concessions as well as going around
+
+0:47:25.140,0:47:30.839
+help cleaning or unpacking the fields
+
+0:47:27.829,0:47:34.050
+yeah and sometimes it's just fetch and
+
+0:47:30.839,0:47:36.150
+carry and hang out with the judges and
+
+0:47:34.050,0:47:39.869
+and ask them what they're doing and
+
+0:47:36.150,0:47:43.170
+taking notes for them yeah yeah they
+
+0:47:39.869,0:47:45.900
+welcome all people to help yeah
+
+0:47:43.170,0:47:48.900
+generally judging is more for people
+
+0:47:45.900,0:47:50.280
+who've been around FRC for a number of
+
+0:47:48.900,0:47:52.859
+years because obviously they need to
+
+0:47:50.280,0:47:55.650
+know what's going on and come like how
+
+0:47:52.859,0:47:57.270
+to judge so but yeah if you spend you
+
+0:47:55.650,0:47:59.250
+know spend time around it you can
+
+0:47:57.270,0:48:01.200
+hopefully be able to work into being
+
+0:47:59.250,0:48:03.990
+judged judging effort you spend an
+
+0:48:01.200,0:48:08.130
+amount of time helping out getting to
+
+0:48:03.990,0:48:12.299
+know things and how did you sign up for
+
+0:48:08.130,0:48:14.339
+the robotics team so I sign up at my so
+
+0:48:12.299,0:48:16.319
+at my school before the call-out meaning
+
+0:48:14.339,0:48:18.180
+that we have a comment meeting and it's
+
+0:48:16.319,0:48:20.819
+an early first week of September it
+
+0:48:18.180,0:48:23.790
+varies a little bit but school
+
+0:48:20.819,0:48:24.660
+announcements they had fliers freshman
+
+0:48:23.790,0:48:26.520
+year at my high school
+
+0:48:24.660,0:48:29.490
+since there's I believe there's over a
+
+0:48:26.520,0:48:31.319
+hundred different active clubs at the
+
+0:48:29.490,0:48:33.930
+high school they have four freshmen they
+
+0:48:31.319,0:48:35.430
+have like a kind of a club show where
+
+0:48:33.930,0:48:38.010
+all the clubs have a little booth and
+
+0:48:35.430,0:48:39.440
+they kind of you can walk around and see
+
+0:48:38.010,0:48:41.670
+what it's all about so that's where I
+
+0:48:39.440,0:48:44.369
+first learned about tech couns is
+
+0:48:41.670,0:48:45.569
+through that just kind of getting seeing
+
+0:48:44.369,0:48:47.800
+them at the club and say oh like school
+
+0:48:45.569,0:48:51.040
+and I went to the call out meeting
+
+0:48:47.800,0:48:54.760
+and then at the cop meeting how did they
+
+0:48:51.040,0:48:56.080
+sell it to you for six weeks you won't
+
+0:48:54.760,0:48:57.490
+have to sleep and you won't get any
+
+0:48:56.080,0:48:59.500
+school work done no that's that's
+
+0:48:57.490,0:49:01.210
+definitely sound like fine yeah that's
+
+0:48:59.500,0:49:03.490
+definitely not how think that's that'd
+
+0:49:01.210,0:49:05.350
+be a bad way to pitch it um
+
+0:49:03.490,0:49:10.300
+what them we usually let him figure out
+
+0:49:05.350,0:49:11.860
+during but uh no um they were generally
+
+0:49:10.300,0:49:13.780
+we display our robots you know kind of
+
+0:49:11.860,0:49:15.040
+if it's too crowded we won't drive them
+
+0:49:13.780,0:49:17.710
+around but you know we'll have all the
+
+0:49:15.040,0:49:19.180
+lights on and all the LEDs on and just
+
+0:49:17.710,0:49:21.160
+kind of you know make a big show so it
+
+0:49:19.180,0:49:22.960
+looks impressive that way people kind of
+
+0:49:21.160,0:49:24.640
+are attracted to it and then we hand out
+
+0:49:22.960,0:49:26.680
+flyers with like the call-out date and
+
+0:49:24.640,0:49:30.820
+where it's at and hopefully people will
+
+0:49:26.680,0:49:32.200
+show up after that I would I want to go
+
+0:49:30.820,0:49:36.970
+back to high school just I can play with
+
+0:49:32.200,0:49:39.880
+this later no probably not survive the
+
+0:49:36.970,0:49:43.930
+six weeks yeah it's it's a very
+
+0:49:39.880,0:49:46.900
+stressful time but it's a great
+
+0:49:43.930,0:49:50.110
+experience for sure so your high school
+
+0:49:46.900,0:49:54.060
+student do you do any other high school
+
+0:49:50.110,0:49:57.820
+experience things any other clubs um I
+
+0:49:54.060,0:49:59.470
+do do a National Honor Society at my
+
+0:49:57.820,0:50:01.480
+high school I'm a member of the National
+
+0:49:59.470,0:50:05.500
+Honor Society chapter there so that's
+
+0:50:01.480,0:50:08.590
+has volunteering so you have to get
+
+0:50:05.500,0:50:10.840
+mandatory hours for that I did do the
+
+0:50:08.590,0:50:12.400
+computer building Club my freshman and
+
+0:50:10.840,0:50:16.330
+sophomore year so that was a
+
+0:50:12.400,0:50:19.090
+volunteering club where essentially you
+
+0:50:16.330,0:50:22.290
+take and refurbish computers and they
+
+0:50:19.090,0:50:25.020
+give them to molest or fortunate
+
+0:50:22.290,0:50:28.660
+organizations that need computing so
+
+0:50:25.020,0:50:31.330
+accessible to students you seem like a
+
+0:50:28.660,0:50:36.220
+really nice guy thank you I appreciate
+
+0:50:31.330,0:50:36.520
+it I try I try Christopher's laughing at
+
+0:50:36.220,0:50:41.410
+me
+
+0:50:36.520,0:50:44.320
+it's just I mean it's it's nice there's
+
+0:50:41.410,0:50:47.500
+so many times you hear people say the
+
+0:50:44.320,0:50:50.920
+next generations terrible get off my
+
+0:50:47.500,0:50:52.840
+lawn kids and I have to admit it every
+
+0:50:50.920,0:50:55.930
+time I talk to high school and college
+
+0:50:52.840,0:51:00.790
+students it's like this is fun you guys
+
+0:50:55.930,0:51:01.290
+are cool I want to join ya and so yeah
+
+0:51:00.790,0:51:03.810
+it's
+
+0:51:01.290,0:51:05.520
+nice to hear that I mean there I mean
+
+0:51:03.810,0:51:07.920
+obviously there always are those who
+
+0:51:05.520,0:51:11.480
+kind of perpetuate that stereotype but I
+
+0:51:07.920,0:51:13.920
+myself do try to kind of break the
+
+0:51:11.480,0:51:15.840
+perception that high schoolers or the
+
+0:51:13.920,0:51:18.030
+younger generation are these kind of
+
+0:51:15.840,0:51:20.610
+delinquent rebel kids that you know
+
+0:51:18.030,0:51:22.890
+don't really do anything that's useful
+
+0:51:20.610,0:51:24.930
+to society but I kind of try to break
+
+0:51:22.890,0:51:27.240
+that a little bit in my own way shit's
+
+0:51:24.930,0:51:30.540
+still Rebelle that's important it's
+
+0:51:27.240,0:51:32.820
+important life experience Christopher
+
+0:51:30.540,0:51:34.230
+I'm clearly getting off subject um do
+
+0:51:32.820,0:51:36.890
+you have any questions you would like to
+
+0:51:34.230,0:51:41.040
+ask Derek Oh
+
+0:51:36.890,0:51:44.220
+so aside from first and robots to do any
+
+0:51:41.040,0:51:46.710
+electronics for yourself fun or do here
+
+0:51:44.220,0:51:48.990
+or is it so much I'm done with that go
+
+0:51:46.710,0:51:52.530
+home and I play video games no no I I
+
+0:51:48.990,0:51:54.840
+design as almost every day honestly I I
+
+0:51:52.530,0:51:56.400
+do love it I mean a lot of times I'll
+
+0:51:54.840,0:51:58.680
+just be browsing Instructables or
+
+0:51:56.400,0:52:01.290
+something and oh that looks really cool
+
+0:51:58.680,0:52:03.480
+I really want to build that or this
+
+0:52:01.290,0:52:06.450
+summer a group of guys from the team
+
+0:52:03.480,0:52:09.990
+we've do you know about spark funds
+
+0:52:06.450,0:52:14.640
+automated vehicle competition yes but
+
+0:52:09.990,0:52:16.830
+please explain yes so well we decided we
+
+0:52:14.640,0:52:19.110
+should we want to get into that you know
+
+0:52:16.830,0:52:22.500
+we're not we haven't had enough robot
+
+0:52:19.110,0:52:24.960
+building during the year so let's go and
+
+0:52:22.500,0:52:27.510
+build a smaller let's go build a robot
+
+0:52:24.960,0:52:28.670
+we design everything ourselves so I've
+
+0:52:27.510,0:52:33.320
+been working in designing the hardware
+
+0:52:28.670,0:52:35.600
+another friend of mine who's way more
+
+0:52:33.320,0:52:38.430
+mechanically inclined than I am myself
+
+0:52:35.600,0:52:43.500
+even though I am the mechanical design
+
+0:52:38.430,0:52:46.110
+lead he designed the drivetrain in the
+
+0:52:43.500,0:52:48.390
+system for that as well as myself my
+
+0:52:46.110,0:52:49.970
+programmer read program from last year
+
+0:52:48.390,0:52:54.080
+he's been doing some of the software
+
+0:52:49.970,0:52:56.430
+we've had some setbacks but with the
+
+0:52:54.080,0:53:00.330
+electronic hardware I've had some issues
+
+0:52:56.430,0:53:04.200
+with blowing up faites more than I'd
+
+0:53:00.330,0:53:06.750
+like I do that cuz I had the calculated
+
+0:53:04.200,0:53:08.430
+current load of like 80 amps and you
+
+0:53:06.750,0:53:09.840
+know they don't like it and I had some
+
+0:53:08.430,0:53:11.550
+shoot-through problems I was having
+
+0:53:09.840,0:53:12.420
+shoot-through problems that I couldn't
+
+0:53:11.550,0:53:14.220
+figure out for a while
+
+0:53:12.420,0:53:14.870
+and well you should have gone on the amp
+
+0:53:14.220,0:53:18.550
+power because we
+
+0:53:14.870,0:53:21.290
+can't help you yeah if she threw his a
+
+0:53:18.550,0:53:23.570
+pain because then and then I traced it
+
+0:53:21.290,0:53:26.090
+apparently the MOSFET driver is using
+
+0:53:23.570,0:53:27.650
+dye and that white that's why I was
+
+0:53:26.090,0:53:30.080
+shooting through so I spent all this
+
+0:53:27.650,0:53:33.410
+time I like redid the entire design like
+
+0:53:30.080,0:53:35.780
+I D soldered everything put in new FETs
+
+0:53:33.410,0:53:37.910
+a new circuit layout bodged a bunch of
+
+0:53:35.780,0:53:39.770
+stuff and then it's still broke and then
+
+0:53:37.910,0:53:43.310
+I finally disordered the MOSFET driver
+
+0:53:39.770,0:53:45.560
+and it worked again but I didn't want to
+
+0:53:43.310,0:53:47.770
+replace it it was 5 bucks a pop so I'm
+
+0:53:45.560,0:53:53.780
+like it can't break it's too expensive
+
+0:53:47.770,0:53:56.330
+but it did yeah so are you going to the
+
+0:53:53.780,0:53:57.170
+competition in September I don't think
+
+0:53:56.330,0:53:59.270
+so
+
+0:53:57.170,0:54:01.760
+due to kind of having the setbacks it's
+
+0:53:59.270,0:54:04.250
+not coming into as fruition as it wanted
+
+0:54:01.760,0:54:05.960
+to plus the logistics of getting a
+
+0:54:04.250,0:54:08.660
+couple guys all the way to Colorado and
+
+0:54:05.960,0:54:10.430
+back it's quite a haul so we probably
+
+0:54:08.660,0:54:12.080
+won't go but we have been practicing
+
+0:54:10.430,0:54:13.670
+it's more of just a learning experience
+
+0:54:12.080,0:54:15.950
+you know hey let's do this over summer
+
+0:54:13.670,0:54:17.540
+in design what we can it wasn't
+
+0:54:15.950,0:54:20.630
+originally I don't think we intended to
+
+0:54:17.540,0:54:22.520
+go like that wasn't out of the gate we
+
+0:54:20.630,0:54:24.200
+didn't exactly intend them going but we
+
+0:54:22.520,0:54:27.560
+just like hey here's design premiere so
+
+0:54:24.200,0:54:30.260
+let's build something all right
+
+0:54:27.560,0:54:32.420
+I bet you have more things you would
+
+0:54:30.260,0:54:34.850
+design if we would let you get off the
+
+0:54:32.420,0:54:36.350
+microphone and go design something do
+
+0:54:34.850,0:54:40.760
+you have anything in mind for this
+
+0:54:36.350,0:54:42.710
+weekend I actually I'm working on I saw
+
+0:54:40.760,0:54:45.620
+it I actually saw it on Instructables
+
+0:54:42.710,0:54:47.360
+um it's the basically it's the it's a
+
+0:54:45.620,0:54:49.160
+weather simulator so it's like those
+
+0:54:47.360,0:54:51.290
+little boxes where like it takes it
+
+0:54:49.160,0:54:52.820
+pulls weather data down and then like it
+
+0:54:51.290,0:54:55.010
+recreates the weather and a little box
+
+0:54:52.820,0:54:57.770
+so like if it's foggy it'll use like one
+
+0:54:55.010,0:55:00.170
+of those ultrasonic fog gently water
+
+0:54:57.770,0:55:02.750
+mist generators like make it foggy or
+
+0:55:00.170,0:55:04.820
+like uses neopixels to like make thunder
+
+0:55:02.750,0:55:06.950
+and speakers to make you know make
+
+0:55:04.820,0:55:09.950
+lightning and thunder so that I've kind
+
+0:55:06.950,0:55:12.530
+of sent the three prints off to our
+
+0:55:09.950,0:55:14.510
+printer at school and hopefully that'll
+
+0:55:12.530,0:55:17.690
+come I'll have that in a cup a week or
+
+0:55:14.510,0:55:20.030
+two I don't know about the weather here
+
+0:55:17.690,0:55:22.520
+but then I usually see the weather here
+
+0:55:20.030,0:55:24.470
+sure would be fun to have it have the
+
+0:55:22.520,0:55:28.190
+weather wherever somebody I cared about
+
+0:55:24.470,0:55:30.470
+was I mean I you could probably do that
+
+0:55:28.190,0:55:32.300
+API key and when you're looking and
+
+0:55:30.470,0:55:34.069
+you're you're got the weather for
+
+0:55:32.300,0:55:40.940
+someone else although I probably
+
+0:55:34.069,0:55:42.380
+wouldn't change it to and raise house I
+
+0:55:40.940,0:55:43.640
+probably wouldn't change it to
+
+0:55:42.380,0:55:46.190
+California because it's always sunny so
+
+0:55:43.640,0:55:47.630
+just be white bright light that's not
+
+0:55:46.190,0:55:49.670
+sure you know we have some nice fog
+
+0:55:47.630,0:55:51.980
+sometimes it's pretty ok that would be
+
+0:55:49.670,0:55:53.630
+cool cuz I like it when it fogs like the
+
+0:55:51.980,0:55:58.130
+we seen the little simulator it looks
+
+0:55:53.630,0:55:59.359
+cool but yeah all right Derrick do you
+
+0:55:58.130,0:56:00.560
+have any thoughts you'd like to leave us
+
+0:55:59.359,0:56:03.650
+with
+
+0:56:00.560,0:56:07.369
+I'd say thought the leave everyone with
+
+0:56:03.650,0:56:10.460
+would be that first is kind of I believe
+
+0:56:07.369,0:56:14.119
+Dean came in who's the founder of first
+
+0:56:10.460,0:56:17.359
+said it's the best best-kept secret in
+
+0:56:14.119,0:56:19.010
+the in engineering is that first not
+
+0:56:17.359,0:56:21.500
+everyone knows about it and I highly
+
+0:56:19.010,0:56:23.750
+recommend everyone to get involved find
+
+0:56:21.500,0:56:26.510
+the local team go in and help them out
+
+0:56:23.750,0:56:28.490
+if you know if you have a son or
+
+0:56:26.510,0:56:30.650
+daughter or a niece or nephew see if
+
+0:56:28.490,0:56:32.950
+they're to their high school or middle
+
+0:56:30.650,0:56:35.480
+school or elementary school has a first
+
+0:56:32.950,0:56:37.099
+has something related to first and
+
+0:56:35.480,0:56:38.810
+hopefully you can get them involved in
+
+0:56:37.099,0:56:40.910
+that because it's an amazing opportunity
+
+0:56:38.810,0:56:46.280
+and I think everyone should get involved
+
+0:56:40.910,0:56:50.270
+with first our guest has been Derek
+
+0:56:46.280,0:56:53.420
+Franek robotics design lead of his FRC
+
+0:56:50.270,0:56:57.400
+team tech hounds Derek is also a senior
+
+0:56:53.420,0:56:59.990
+at Carmel High School in Indiana of
+
+0:56:57.400,0:57:01.550
+course there will be numerous links in
+
+0:56:59.990,0:57:04.250
+the show notes if you want to know more
+
+0:57:01.550,0:57:07.310
+check them out in your podcast app or on
+
+0:57:04.250,0:57:09.800
+embedded fm thank you to Christopher for
+
+0:57:07.310,0:57:12.619
+producing and cousine and thank you for
+
+0:57:09.800,0:57:14.839
+listening you can contact us show it
+
+0:57:12.619,0:57:17.630
+embedded FM or hit the contacts link on
+
+0:57:14.839,0:57:22.190
+embedded OFM and now a quote to leave
+
+0:57:17.630,0:57:25.280
+you with from JM Barrie of Peter Pan all
+
+0:57:22.190,0:57:27.460
+the world is made of faith and trust and
+
+0:57:25.280,0:57:29.750
+pixie dust
+
+0:57:27.460,0:57:31.850
+embedded is an independently produced
+
+0:57:29.750,0:57:34.370
+radio show that focuses on the many
+
+0:57:31.850,0:57:36.230
+aspects of engineering it is a
+
+0:57:34.370,0:57:38.140
+production of logical elegance and
+
+0:57:36.230,0:57:41.060
+embedded software consulting company in
+
+0:57:38.140,0:57:43.100
+California if there are advertisements
+
+0:57:41.060,0:57:45.620
+in the show we did not put them there
+
+0:57:43.100,0:57:48.200
+and do not receive money from them at
+
+0:57:45.620,0:57:52.750
+this time our sponsors are logical
+
+0:57:48.200,0:57:52.750
+elegance and listeners like you
+

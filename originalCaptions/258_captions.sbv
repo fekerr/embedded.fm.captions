@@ -1,0 +1,3504 @@
+0:00:03.640,0:00:09.740
+[Music]
+
+0:00:06.010,0:00:13.010
+welcome to embedded I am Alesia white
+
+0:00:09.740,0:00:16.129
+and my co-host is Christopher white our
+
+0:00:13.010,0:00:18.140
+guest this week is Axl Parchman we'll be
+
+0:00:16.129,0:00:20.210
+talking about security and embedded
+
+0:00:18.140,0:00:22.699
+systems there are some things I think
+
+0:00:20.210,0:00:26.329
+you should know before we get started
+
+0:00:22.699,0:00:29.989
+with Axl I have a 40% off coupon or
+
+0:00:26.329,0:00:32.419
+three to the particle spectra conference
+
+0:00:29.989,0:00:34.730
+in October in San Francisco hit the
+
+0:00:32.419,0:00:37.370
+contact link on embedded fm if you want
+
+0:00:34.730,0:00:39.530
+one and if you really want one really
+
+0:00:37.370,0:00:42.289
+compliant to attend and are out of a job
+
+0:00:39.530,0:00:44.239
+or in school and a random number in case
+
+0:00:42.289,0:00:47.989
+I have a free to get to give away as
+
+0:00:44.239,0:00:51.320
+well Axl thanks for joining us hi let's
+
+0:00:47.989,0:00:55.010
+see hi Chris could you tell us about
+
+0:00:51.320,0:00:57.079
+yourself sure I'm currently responsible
+
+0:00:55.010,0:00:59.749
+for the harbor security lab at Dark
+
+0:00:57.079,0:01:01.929
+Matter but at heart I'm a curious
+
+0:00:59.749,0:01:04.790
+engineer was a passion for efficiency I
+
+0:01:01.929,0:01:07.130
+did my PhD on lightweight crypto was
+
+0:01:04.790,0:01:10.370
+Chris of power in Bochum Germany and
+
+0:01:07.130,0:01:12.320
+then did my postdoc at NTU in Singapore
+
+0:01:10.370,0:01:14.420
+where eventually became an assistant
+
+0:01:12.320,0:01:16.760
+professor and build up my own research
+
+0:01:14.420,0:01:19.010
+group then my research focus shifted
+
+0:01:16.760,0:01:20.480
+towards implementation security so that
+
+0:01:19.010,0:01:22.970
+has in particular efficient
+
+0:01:20.480,0:01:26.720
+countermeasures against such an old Ford
+
+0:01:22.970,0:01:29.300
+attacks for embedded devices then around
+
+0:01:26.720,0:01:31.760
+five years ago I pivoted it to industry
+
+0:01:29.300,0:01:34.400
+and started at NXP Semiconductors in
+
+0:01:31.760,0:01:36.590
+Hamburg Germany since my curiosity
+
+0:01:34.400,0:01:39.410
+wanted to get completely new inputs and
+
+0:01:36.590,0:01:41.420
+then again around one and a half years
+
+0:01:39.410,0:01:44.600
+ago I moved to Abu Dhabi in the United
+
+0:01:41.420,0:01:47.799
+Arab Emirates again out of curiosity and
+
+0:01:44.600,0:01:51.640
+Here I am building up our security law
+
+0:01:47.799,0:01:53.259
+all right what's the height oh wait a
+
+0:01:51.640,0:01:54.640
+minute I have to introduce lightning
+
+0:01:53.259,0:01:57.250
+rounds before I just start going to it
+
+0:01:54.640,0:01:58.840
+don't know so we'll ask you short
+
+0:01:57.250,0:02:01.390
+questions we want you to have short
+
+0:01:58.840,0:02:04.960
+answers it'll be a little silly I bet
+
+0:02:01.390,0:02:09.670
+and then we will get into the meat of
+
+0:02:04.960,0:02:14.519
+embedded security safest form of
+
+0:02:09.670,0:02:17.800
+computer stay away from it
+
+0:02:14.519,0:02:21.459
+do you prefer to start a dozen projects
+
+0:02:17.800,0:02:22.930
+or finish one actually both - I want to
+
+0:02:21.459,0:02:26.650
+start a dozen and then get satisfaction
+
+0:02:22.930,0:02:30.340
+when one offer the other completes worst
+
+0:02:26.650,0:02:33.400
+movie for depicting hacking possible
+
+0:02:30.340,0:02:40.690
+saltfish okay yeah passwords sorts I
+
+0:02:33.400,0:02:45.580
+think it's called fresh hair but I do
+
+0:02:40.690,0:02:51.010
+standards make things safer or easier to
+
+0:02:45.580,0:02:56.980
+hack do my what standards are standards
+
+0:02:51.010,0:02:58.720
+yeah that make things safer hacking
+
+0:02:56.980,0:03:03.450
+making tinkering engineering or
+
+0:02:58.720,0:03:06.760
+programming engineering it's hacking a
+
+0:03:03.450,0:03:09.579
+good thing or a bad thing it's good
+
+0:03:06.760,0:03:12.220
+because it creates pressure to improve
+
+0:03:09.579,0:03:13.930
+product security alright one more
+
+0:03:12.220,0:03:17.620
+what's the tip you think everyone should
+
+0:03:13.930,0:03:19.720
+know it's the indicator at the guest
+
+0:03:17.620,0:03:24.430
+tank it shows you which side of the car
+
+0:03:19.720,0:03:28.329
+your guests hangar opens it took me a
+
+0:03:24.430,0:03:30.190
+long time before I realized that there's
+
+0:03:28.329,0:03:31.840
+a little little indicator like when you
+
+0:03:30.190,0:03:34.150
+have a fuel gauge yeah there's a little
+
+0:03:31.840,0:03:38.829
+carrot on the signage it says which side
+
+0:03:34.150,0:03:43.150
+the the door is on yeah I didn't know
+
+0:03:38.829,0:03:43.690
+that until like five years ago you do
+
+0:03:43.150,0:03:52.420
+that forever
+
+0:03:43.690,0:03:56.160
+of course yeah ok so you you have a PhD
+
+0:03:52.420,0:03:56.160
+and you do security and
+
+0:03:56.830,0:04:03.370
+I get so intimidated by security it just
+
+0:04:00.970,0:04:05.260
+seems like an impossible problem is
+
+0:04:03.370,0:04:08.740
+anything you can tell me that will keep
+
+0:04:05.260,0:04:13.930
+me from being just overwhelmed and
+
+0:04:08.740,0:04:16.780
+futility sure so I think there's no
+
+0:04:13.930,0:04:19.769
+right you can't do security completely
+
+0:04:16.780,0:04:22.960
+right from my point of view it's just a
+
+0:04:19.769,0:04:26.680
+trade-off so security is another
+
+0:04:22.960,0:04:28.780
+dimension that runs contrary to use
+
+0:04:26.680,0:04:31.120
+abilities performance time-to-market
+
+0:04:28.780,0:04:34.300
+cost and all the other engineering
+
+0:04:31.120,0:04:37.290
+trade-offs and wherever your customer is
+
+0:04:34.300,0:04:39.990
+you want to be comfortable and and
+
+0:04:37.290,0:04:42.610
+reducing the other optimization goals
+
+0:04:39.990,0:04:45.160
+that's where you'll end where's your
+
+0:04:42.610,0:04:49.380
+security and and if it's never perfect
+
+0:04:45.160,0:04:51.580
+you can never make it completely secure
+
+0:04:49.380,0:04:57.580
+well that's the show thank you
+
+0:04:51.580,0:05:01.090
+everywhere I did I've done a very small
+
+0:04:57.580,0:05:02.440
+amount of security work kind of fell out
+
+0:05:01.090,0:05:04.419
+of being a firmware engineer at one
+
+0:05:02.440,0:05:07.630
+place and then I kind of fell into this
+
+0:05:04.419,0:05:10.810
+one role there and that was really
+
+0:05:07.630,0:05:13.510
+striking to me the the management really
+
+0:05:10.810,0:05:15.460
+wanted it to be perfect and I kept
+
+0:05:13.510,0:05:17.320
+telling them this is the best we can do
+
+0:05:15.460,0:05:21.000
+and it's always going to be a little bit
+
+0:05:17.320,0:05:24.100
+of cat and mouse how would you present
+
+0:05:21.000,0:05:25.870
+or convince people who really aren't
+
+0:05:24.100,0:05:28.060
+familiar with security and do think it
+
+0:05:25.870,0:05:33.880
+can be perfect that there is it good
+
+0:05:28.060,0:05:36.130
+enough well that's in the end it boils
+
+0:05:33.880,0:05:38.340
+down to risk management I think if you
+
+0:05:36.130,0:05:42.100
+can show in particular management that
+
+0:05:38.340,0:05:44.530
+you know the risk you can quantify it as
+
+0:05:42.100,0:05:46.750
+best as possible and you have done all
+
+0:05:44.530,0:05:50.260
+your homeworks like following best
+
+0:05:46.750,0:05:54.250
+practices security guidelines standards
+
+0:05:50.260,0:05:57.580
+and so on then there should be a point
+
+0:05:54.250,0:06:00.820
+where people accept the risk and move
+
+0:05:57.580,0:06:03.160
+forward otherwise you will never hit the
+
+0:06:00.820,0:06:08.530
+market or the cost will explode or
+
+0:06:03.160,0:06:12.180
+usability goes to zero how do I tell my
+
+0:06:08.530,0:06:12.180
+clients are my managers are my
+
+0:06:12.699,0:06:19.010
+that it is worth spending the time and
+
+0:06:15.350,0:06:24.470
+money on security when all they want to
+
+0:06:19.010,0:06:28.400
+do is ship my consumer product yes I
+
+0:06:24.470,0:06:31.370
+think it's the core of the challenge I
+
+0:06:28.400,0:06:33.710
+would say yeah I think it's the
+
+0:06:31.370,0:06:36.310
+challenge boards don't actually to a
+
+0:06:33.710,0:06:39.260
+lack of measurement for security
+
+0:06:36.310,0:06:40.729
+security is multi-dimensional so and
+
+0:06:39.260,0:06:44.479
+everybody has a different understanding
+
+0:06:40.729,0:06:47.150
+of what security actually is so even if
+
+0:06:44.479,0:06:49.430
+there are metrics to measure it it's
+
+0:06:47.150,0:06:52.250
+very hard to quantify it and to show
+
+0:06:49.430,0:06:54.860
+improvement you'll need to first agree
+
+0:06:52.250,0:06:56.570
+on a metric and then measure and then
+
+0:06:54.860,0:06:59.570
+show that you have improved and that the
+
+0:06:56.570,0:07:02.690
+time has been worth spent on improving
+
+0:06:59.570,0:07:06.289
+the security because in the end for
+
+0:07:02.690,0:07:07.760
+product development time and money is
+
+0:07:06.289,0:07:10.280
+easy to measure you either hit the
+
+0:07:07.760,0:07:12.910
+deadlines or not you either hit the cost
+
+0:07:10.280,0:07:16.880
+or not so these are kind of binary
+
+0:07:12.910,0:07:21.050
+decisions where security is everything
+
+0:07:16.880,0:07:24.440
+between zero and one and the value to
+
+0:07:21.050,0:07:29.030
+the end customer really depends on
+
+0:07:24.440,0:07:34.360
+someone else often like did this device
+
+0:07:29.030,0:07:38.770
+get hacked and go into the script Kitty
+
+0:07:34.360,0:07:40.910
+denial-of-service system or did my
+
+0:07:38.770,0:07:43.370
+system just wasn't that interesting so
+
+0:07:40.910,0:07:47.680
+nobody hacked it and so how much I spend
+
+0:07:43.370,0:07:51.080
+on security should be reflected in that
+
+0:07:47.680,0:07:54.310
+or should be proportional to how much
+
+0:07:51.080,0:07:58.760
+it's attacked but I have no control over
+
+0:07:54.310,0:08:01.970
+one of those correct and and also I
+
+0:07:58.760,0:08:04.310
+think security is valuable if you don't
+
+0:08:01.970,0:08:06.410
+see it only if something is breached you
+
+0:08:04.310,0:08:08.479
+know it wasn't secured until it wasn't
+
+0:08:06.410,0:08:11.360
+an act or breached you can't say for
+
+0:08:08.479,0:08:12.620
+sure it's secure just because no one has
+
+0:08:11.360,0:08:16.010
+found a way to hack it
+
+0:08:12.620,0:08:18.940
+or hasn't published it so I think that's
+
+0:08:16.010,0:08:22.400
+also one way to convince maybe
+
+0:08:18.940,0:08:24.470
+management to invest the time is to make
+
+0:08:22.400,0:08:27.530
+it slightly better than come
+
+0:08:24.470,0:08:29.480
+because burglars always go for the
+
+0:08:27.530,0:08:31.240
+lowest hanging fruits and that's the
+
+0:08:29.480,0:08:34.550
+same for a cross if they see this one
+
+0:08:31.240,0:08:36.230
+your product is harder to hack then they
+
+0:08:34.550,0:08:39.950
+may go to a competitor product instead
+
+0:08:36.230,0:08:41.720
+forget the same financial benefits yeah
+
+0:08:39.950,0:08:43.220
+you don't have to be faster than the
+
+0:08:41.720,0:08:46.330
+bear you just have to be faster than the
+
+0:08:43.220,0:08:49.540
+other person yes
+
+0:08:46.330,0:08:53.590
+so you mentioned some standards
+
+0:08:49.540,0:08:56.600
+what can I look at what can I point to
+
+0:08:53.590,0:09:01.550
+to say this this is good advice
+
+0:08:56.600,0:09:05.180
+this is cogent advice yeah I think this
+
+0:09:01.550,0:09:07.670
+depends on your target application or
+
+0:09:05.180,0:09:11.000
+your product so sometimes there are
+
+0:09:07.670,0:09:13.700
+regulatory requirements I think the NIST
+
+0:09:11.000,0:09:17.900
+is doing a great job in publishing
+
+0:09:13.700,0:09:20.470
+guidelines there is for for tamper
+
+0:09:17.900,0:09:23.030
+protection which can be the first
+
+0:09:20.470,0:09:27.800
+boundary or first protection level
+
+0:09:23.030,0:09:29.950
+against attackers they're very good
+
+0:09:27.800,0:09:33.040
+implementation guidelines how to achieve
+
+0:09:29.950,0:09:39.280
+a certain level of tamper protection
+
+0:09:33.040,0:09:42.620
+there are firmware security guidelines
+
+0:09:39.280,0:09:45.200
+and best practices for coding and and
+
+0:09:42.620,0:09:49.300
+design everywhere available just a quick
+
+0:09:45.200,0:09:54.760
+google search there plenty of advice
+
+0:09:49.300,0:09:59.300
+available for designers there is but
+
+0:09:54.760,0:10:02.570
+there's so much and I wish there was
+
+0:09:59.300,0:10:05.150
+more specifically rated related to
+
+0:10:02.570,0:10:10.250
+embedded systems without operating
+
+0:10:05.150,0:10:13.850
+systems or without Linux I mean we've
+
+0:10:10.250,0:10:15.920
+talked about the cert top ten secure
+
+0:10:13.850,0:10:19.730
+coding practices but most of those are
+
+0:10:15.920,0:10:25.340
+things you do when you have a Linux
+
+0:10:19.730,0:10:31.100
+system if there
+
+0:10:25.340,0:10:33.260
+is there a book or a site you trust so
+
+0:10:31.100,0:10:37.070
+I've never designed the secure product I
+
+0:10:33.260,0:10:41.990
+was only part of it typically in the red
+
+0:10:37.070,0:10:44.540
+team capacity so I never really made an
+
+0:10:41.990,0:10:47.210
+exhaustive literature survey what is
+
+0:10:44.540,0:10:51.920
+available there are few good references
+
+0:10:47.210,0:10:54.950
+so for example my PhD advisor has a
+
+0:10:51.920,0:10:57.950
+complete lecture series available at
+
+0:10:54.950,0:10:59.840
+YouTube so that that's a very good start
+
+0:10:57.950,0:11:03.080
+obviously it's 24 hours of YouTube
+
+0:10:59.840,0:11:05.660
+videos so that's maybe too much time to
+
+0:11:03.080,0:11:09.350
+to invest but there are also other
+
+0:11:05.660,0:11:16.150
+guidelines that from the anisa which is
+
+0:11:09.350,0:11:18.920
+a European organization they published a
+
+0:11:16.150,0:11:23.450
+guideline in particular for embedded
+
+0:11:18.920,0:11:26.240
+devices and how to how to harden the
+
+0:11:23.450,0:11:30.800
+platform and to mitigate some threats
+
+0:11:26.240,0:11:35.060
+that embedded devices face that one had
+
+0:11:30.800,0:11:37.730
+some interesting tables where a lot of
+
+0:11:35.060,0:11:41.960
+times when I talk to clients they think
+
+0:11:37.730,0:11:46.370
+about one aspect they think maybe about
+
+0:11:41.960,0:11:50.360
+their user passwords or maybe they think
+
+0:11:46.370,0:11:54.650
+about having their firmware ease dropped
+
+0:11:50.360,0:11:58.670
+upon that a hardware threat landscape
+
+0:11:54.650,0:12:01.910
+and good practice guide had some tables
+
+0:11:58.670,0:12:07.160
+that listed all kinds of things and the
+
+0:12:01.910,0:12:10.180
+effects from nefarious activity and how
+
+0:12:07.160,0:12:13.520
+that affects information integrity to
+
+0:12:10.180,0:12:16.850
+actual damage and whether that makes it
+
+0:12:13.520,0:12:21.170
+available or causes environmental harm
+
+0:12:16.850,0:12:25.490
+to evil even legal problems that come up
+
+0:12:21.170,0:12:28.070
+when people steal your software and that
+
+0:12:25.490,0:12:32.240
+laying out the threats like that was
+
+0:12:28.070,0:12:35.570
+very helpful to me because it's it's
+
+0:12:32.240,0:12:37.600
+nice to not have to reinvent it each
+
+0:12:35.570,0:12:37.600
+time
+
+0:12:38.410,0:12:44.940
+so being on the red team and just just
+
+0:12:42.190,0:12:47.170
+to make sure the red team are the is the
+
+0:12:44.940,0:12:51.130
+penetration team they're they're the
+
+0:12:47.170,0:12:55.540
+hackers and the blue team is usually the
+
+0:12:51.130,0:12:57.940
+defenders who build the thing is that
+
+0:12:55.540,0:13:01.210
+that that's the right terminology yeah
+
+0:12:57.940,0:13:01.840
+correct how do you if I bring you
+
+0:13:01.210,0:13:06.400
+something
+
+0:13:01.840,0:13:10.210
+I bring you Oh an internet of things
+
+0:13:06.400,0:13:14.770
+light and it hooks up over Wi-Fi which
+
+0:13:10.210,0:13:17.020
+not the best option but still what do
+
+0:13:14.770,0:13:20.310
+you do first do you take it apart do you
+
+0:13:17.020,0:13:24.790
+look at the software what what do you do
+
+0:13:20.310,0:13:27.870
+all right so all right I'm working about
+
+0:13:24.790,0:13:30.130
+will app and we have a software lab
+
+0:13:27.870,0:13:32.500
+telecommunications lab and a mile war
+
+0:13:30.130,0:13:35.530
+lab so whenever we get a device and in
+
+0:13:32.500,0:13:38.890
+our lab then the team starts
+
+0:13:35.530,0:13:42.280
+simultaneously to work on it and we
+
+0:13:38.890,0:13:43.960
+focus on the hardware offered advice so
+
+0:13:42.280,0:13:46.630
+we have a look at it if there are any
+
+0:13:43.960,0:13:51.340
+debug interface is available that's the
+
+0:13:46.630,0:13:53.560
+first easy to check access point if
+
+0:13:51.340,0:13:56.950
+there's a JTAG enabled you can do a lot
+
+0:13:53.560,0:13:59.980
+of things the second thing is if you
+
+0:13:56.950,0:14:01.900
+open up the device you check the printed
+
+0:13:59.980,0:14:03.760
+circuit board and try to identify the
+
+0:14:01.900,0:14:06.310
+components and try to reverse-engineer
+
+0:14:03.760,0:14:09.700
+all the components that have been built
+
+0:14:06.310,0:14:11.800
+in there then you check CVEs
+
+0:14:09.700,0:14:14.320
+that are associated to those components
+
+0:14:11.800,0:14:17.590
+and try if their vulnerabilities have
+
+0:14:14.320,0:14:20.020
+been closed in that design or not then
+
+0:14:17.590,0:14:22.330
+you try to dump the firmware or you
+
+0:14:20.020,0:14:26.200
+never look at the PCB if you can find
+
+0:14:22.330,0:14:29.410
+some x pins have been disconnected in
+
+0:14:26.200,0:14:31.480
+order to make the debug interface is not
+
+0:14:29.410,0:14:34.270
+accessible you can just sort of the pins
+
+0:14:31.480,0:14:39.490
+on it and voila you have your debug
+
+0:14:34.270,0:14:42.280
+interfaces and I can do stuff and if all
+
+0:14:39.490,0:14:45.790
+that doesn't work you can go on the chip
+
+0:14:42.280,0:14:51.210
+level you can take off the secure memory
+
+0:14:45.790,0:14:53.980
+or CPU or whatever and put it in a but
+
+0:14:51.210,0:14:56.620
+probably not worth for an IT light
+
+0:14:53.980,0:14:58.690
+device but you can then do physical
+
+0:14:56.620,0:15:00.610
+attacks like such an attacks or fault
+
+0:14:58.690,0:15:04.210
+attacks you can try to glitch the boot
+
+0:15:00.610,0:15:07.060
+process to to boot the devil and another
+
+0:15:04.210,0:15:10.150
+boot image which even gives you good
+
+0:15:07.060,0:15:12.610
+access so you can dump the memory or you
+
+0:15:10.150,0:15:17.470
+can do such an analysis trying to get
+
+0:15:12.610,0:15:20.140
+the cryptographic keys out of it yeah so
+
+0:15:17.470,0:15:22.950
+that plenty of things you can do you
+
+0:15:20.140,0:15:27.070
+said sidechain analysis
+
+0:15:22.950,0:15:30.100
+yeah when I say site Shannon okay site
+
+0:15:27.070,0:15:32.560
+channel yeah so I'm talking for me such
+
+0:15:30.100,0:15:34.270
+an in particular means power aside
+
+0:15:32.560,0:15:36.340
+channels or electromagnetic side
+
+0:15:34.270,0:15:40.410
+channels but obviously it's in spectrum
+
+0:15:36.340,0:15:44.590
+out on cash timing attacks way way more
+
+0:15:40.410,0:15:46.000
+important side channels so that's the
+
+0:15:44.590,0:15:48.940
+sort of thing like that the chip
+
+0:15:46.000,0:15:51.070
+whisperer that yeah where you monitor it
+
+0:15:48.940,0:15:53.170
+power exactly and you can figure out the
+
+0:15:51.070,0:15:56.280
+cryptographic keys based on how the
+
+0:15:53.170,0:15:58.150
+power is done when it decrypts it I
+
+0:15:56.280,0:16:01.090
+remember hearing about that and thinking
+
+0:15:58.150,0:16:03.400
+wow that's bonkers and amazing and
+
+0:16:01.090,0:16:08.410
+terrifying which is kind of where I am
+
+0:16:03.400,0:16:12.810
+right now okay so if I'm on the blue
+
+0:16:08.410,0:16:15.190
+team not having JTAG as an easy-access
+
+0:16:12.810,0:16:20.080
+although that makes manufacturing it's
+
+0:16:15.190,0:16:21.280
+so much harder yeah and making sure my
+
+0:16:20.080,0:16:24.220
+debug pins
+
+0:16:21.280,0:16:27.190
+certainly aren't labeled debug and have
+
+0:16:24.220,0:16:30.190
+a header would stop you just a little
+
+0:16:27.190,0:16:34.990
+bit but I need those D big pins they're
+
+0:16:30.190,0:16:38.290
+at different manufacturing ah and then
+
+0:16:34.990,0:16:41.410
+you can take out my firmware by
+
+0:16:38.290,0:16:43.450
+decapping the chip but decapping the
+
+0:16:41.410,0:16:47.080
+chip is more expensive than just reading
+
+0:16:43.450,0:16:50.320
+it out through JTAG yeah but only
+
+0:16:47.080,0:16:52.090
+slightly so they're companies we can
+
+0:16:50.320,0:16:58.090
+just send the chips that you kept it for
+
+0:16:52.090,0:16:59.770
+you you can use kind of specialized
+
+0:16:58.090,0:17:02.350
+chemistry but it's still freely
+
+0:16:59.770,0:17:03.570
+available and into it yourself in the
+
+0:17:02.350,0:17:05.130
+garage that doesn't
+
+0:17:03.570,0:17:07.440
+of YouTube videos showing you how to do
+
+0:17:05.130,0:17:10.500
+it it's just a little bit of time and
+
+0:17:07.440,0:17:13.050
+effort that you need to invest and it
+
+0:17:10.500,0:17:15.540
+was just a little bit of practice every
+
+0:17:13.050,0:17:19.980
+gradient student can can do it
+
+0:17:15.540,0:17:23.520
+so a decapping a chip is this is not a
+
+0:17:19.980,0:17:27.740
+big girl okay I feel like the red team
+
+0:17:23.520,0:17:29.850
+won yeah well there's a good question so
+
+0:17:27.740,0:17:31.680
+are there things that you come across
+
+0:17:29.850,0:17:35.310
+that and you have to say what they are
+
+0:17:31.680,0:17:37.200
+but that do you just okay we can't we've
+
+0:17:35.310,0:17:40.410
+figured nothing out or is it basically
+
+0:17:37.200,0:17:44.870
+everything is penetrable once you have
+
+0:17:40.410,0:17:51.510
+hardware in hand yeah I would say
+
+0:17:44.870,0:17:53.880
+everything is penetrable but it's the
+
+0:17:51.510,0:17:58.200
+question is if the effort is worth yeah
+
+0:17:53.880,0:18:02.250
+the the price and there is for our
+
+0:17:58.200,0:18:06.930
+security this is common criteria and the
+
+0:18:02.250,0:18:10.290
+J has subgroup joint Harper assurance
+
+0:18:06.930,0:18:12.600
+security I think it's a meaning of
+
+0:18:10.290,0:18:15.240
+juniors they have rating tables for
+
+0:18:12.600,0:18:18.740
+specific products so if you talk about a
+
+0:18:15.240,0:18:21.630
+smart card or a secure device with
+
+0:18:18.740,0:18:24.330
+security boxes and their different
+
+0:18:21.630,0:18:27.240
+dimensions or factors that all give
+
+0:18:24.330,0:18:31.110
+points like the two words that you use
+
+0:18:27.240,0:18:34.350
+is it a chip Whisperer $450 or do you
+
+0:18:31.110,0:18:37.440
+need a $50,000 high-end oscilloscope or
+
+0:18:34.350,0:18:40.680
+a focused ion beam for million dollars
+
+0:18:37.440,0:18:44.570
+or a laser for the injection device for
+
+0:18:40.680,0:18:47.220
+$100,000 so you get different points for
+
+0:18:44.570,0:18:50.730
+the price on the availability of the
+
+0:18:47.220,0:18:52.170
+tools for the duration of the tech that
+
+0:18:50.730,0:18:54.960
+it takes to do it for the knowledge that
+
+0:18:52.170,0:18:59.700
+you need for the number of samples and a
+
+0:18:54.960,0:19:01.770
+few other dimensions and then there's an
+
+0:18:59.700,0:19:03.870
+exploitation phase and an identification
+
+0:19:01.770,0:19:06.060
+phase and for each of them you add the
+
+0:19:03.870,0:19:08.690
+points together and if you get more than
+
+0:19:06.060,0:19:12.420
+31 points then you get the highest
+
+0:19:08.690,0:19:13.800
+assurance for this device and that
+
+0:19:12.420,0:19:16.620
+doesn't mean that a nation state
+
+0:19:13.800,0:19:18.960
+couldn't break it sure how I'm motivated
+
+0:19:16.620,0:19:20.370
+taker but it clearly is the highest
+
+0:19:18.960,0:19:22.680
+grade that you can get in that you can
+
+0:19:20.370,0:19:25.080
+certify so I think this is a better
+
+0:19:22.680,0:19:28.860
+approach you can hack everything you try
+
+0:19:25.080,0:19:31.620
+to quantify the multi-dimensional effort
+
+0:19:28.860,0:19:36.480
+that an attacker has to put in and try
+
+0:19:31.620,0:19:38.400
+to come up with was a rating okay so so
+
+0:19:36.480,0:19:45.690
+there's this rating and I can basically
+
+0:19:38.400,0:19:48.510
+get a score and I can probably work out
+
+0:19:45.690,0:19:50.670
+how much each point costs I mean they
+
+0:19:48.510,0:19:55.440
+aren't all going to be the same but if
+
+0:19:50.670,0:19:58.070
+if my boss wants to get a better score I
+
+0:19:55.440,0:20:02.610
+can say well each point costs about
+
+0:19:58.070,0:20:04.620
+three people weeks of work I say that
+
+0:20:02.610,0:20:06.800
+without having any knowledge of how long
+
+0:20:04.620,0:20:08.970
+it actually takes and then it's probably
+
+0:20:06.800,0:20:13.800
+somewhat exponential at the beginning
+
+0:20:08.970,0:20:17.309
+you it's easier to lock your JTAG than
+
+0:20:13.800,0:20:18.660
+it is to redesign your platform so
+
+0:20:17.309,0:20:21.510
+you'll have a chip that has reasonably
+
+0:20:18.660,0:20:23.550
+protected does that all sound about
+
+0:20:21.510,0:20:26.400
+right I mean is this the story I'm
+
+0:20:23.550,0:20:30.059
+telling myself is about right yeah I
+
+0:20:26.400,0:20:32.940
+mean there's again the many dimensions
+
+0:20:30.059,0:20:33.990
+and in one example what you mentioned is
+
+0:20:32.940,0:20:36.090
+correct
+
+0:20:33.990,0:20:39.420
+the engineering effort and designing
+
+0:20:36.090,0:20:41.490
+more counter measures can translate to
+
+0:20:39.420,0:20:45.270
+points but this is just one dimension
+
+0:20:41.490,0:20:49.500
+for example knowledge of the device is
+
+0:20:45.270,0:20:51.300
+another very important dimension and
+
+0:20:49.500,0:20:54.170
+that's also the reason why smart cards
+
+0:20:51.300,0:20:56.850
+don't provide a lot of very detailed
+
+0:20:54.170,0:20:59.580
+technical manuals to everybody but only
+
+0:20:56.850,0:21:01.860
+to vetted customers because the
+
+0:20:59.580,0:21:05.750
+availability of this information would
+
+0:21:01.860,0:21:08.309
+cost points and the evaluation and
+
+0:21:05.750,0:21:10.950
+people always complain about this and
+
+0:21:08.309,0:21:13.980
+say this is QE bomb obscurity but in
+
+0:21:10.950,0:21:18.660
+fact it's it's a mechanism to make it
+
+0:21:13.980,0:21:21.920
+harder to attack the device and coming
+
+0:21:18.660,0:21:25.520
+back to this example if you want to
+
+0:21:21.920,0:21:28.590
+really fulfill all the requirements to
+
+0:21:25.520,0:21:30.480
+keeping this information tightly secured
+
+0:21:28.590,0:21:34.049
+it means you need to have a high
+
+0:21:30.480,0:21:37.049
+and secure IT environment you need
+
+0:21:34.049,0:21:39.990
+parameter security with at least two or
+
+0:21:37.049,0:21:43.799
+three different zones so that means two
+
+0:21:39.990,0:21:46.200
+or three different checkpoints and
+
+0:21:43.799,0:21:49.200
+gantries where you need to go from one
+
+0:21:46.200,0:21:51.299
+to a point from one zone to the other so
+
+0:21:49.200,0:21:55.980
+there are a lot of lot of extra costs
+
+0:21:51.299,0:21:59.850
+that translate into these points yes we
+
+0:21:55.980,0:22:03.000
+were talking recently about a consumer
+
+0:21:59.850,0:22:06.419
+product where the question was I'm
+
+0:22:03.000,0:22:09.179
+shipping a lot of these and how do I
+
+0:22:06.419,0:22:13.860
+make them secure enough not to be
+
+0:22:09.179,0:22:16.020
+laughed at and we talked some about in
+
+0:22:13.860,0:22:18.330
+manufacturing making passwords different
+
+0:22:16.020,0:22:21.510
+and forcing users to change password
+
+0:22:18.330,0:22:23.970
+upon receipt of the device but it was
+
+0:22:21.510,0:22:26.370
+Chris you brought up this doesn't matter
+
+0:22:23.970,0:22:30.570
+if your database if your server device
+
+0:22:26.370,0:22:32.880
+is unprotected you have to protect the
+
+0:22:30.570,0:22:36.330
+whole chain when you say zones what do
+
+0:22:32.880,0:22:39.919
+you mean by that so the physical zones
+
+0:22:36.330,0:22:43.679
+like you have a fence around your
+
+0:22:39.919,0:22:46.440
+factory office and then and then you
+
+0:22:43.679,0:22:50.190
+have another country where you need to
+
+0:22:46.440,0:22:51.570
+batch in and there's no tailgating
+
+0:22:50.190,0:22:54.000
+allowed there's a security guard
+
+0:22:51.570,0:22:56.429
+watching it or CCTV in operation and
+
+0:22:54.000,0:22:58.950
+from that zone you can enter vendor
+
+0:22:56.429,0:23:01.410
+high-security zone and then if a similar
+
+0:22:58.950,0:23:03.570
+separation in your IT network so the
+
+0:23:01.410,0:23:08.210
+high secure network which is no internet
+
+0:23:03.570,0:23:09.450
+access kind of a DMZ and then a kind of
+
+0:23:08.210,0:23:12.390
+company-wide
+
+0:23:09.450,0:23:15.360
+intranet okay I'm glad I asked because I
+
+0:23:12.390,0:23:17.520
+had this idea that it was areas on a
+
+0:23:15.360,0:23:19.320
+board people do get a notion that it's
+
+0:23:17.520,0:23:21.210
+all about the device right oh if you can
+
+0:23:19.320,0:23:24.870
+hack the device I'm doomed and then they
+
+0:23:21.210,0:23:26.340
+do some strange back-end that is not
+
+0:23:24.870,0:23:27.960
+security well then it's not just
+
+0:23:26.340,0:23:31.080
+attacking the device there's lots of
+
+0:23:27.960,0:23:33.780
+ways to attack the ecosystem of your
+
+0:23:31.080,0:23:36.000
+product right yeah correct yeah yeah
+
+0:23:33.780,0:23:39.570
+well I was stressing only this this
+
+0:23:36.000,0:23:41.909
+whole overhead it only translates to a
+
+0:23:39.570,0:23:43.290
+few points in a device evaluation
+
+0:23:41.909,0:23:46.320
+because it means you have the
+
+0:23:43.290,0:23:49.559
+appropriate measure someplace to protect
+
+0:23:46.320,0:23:52.350
+the data sheets and the hardware designs
+
+0:23:49.559,0:23:53.700
+of your product if you don't have this
+
+0:23:52.350,0:23:56.220
+in place you don't get the points
+
+0:23:53.700,0:23:59.100
+because that he could be hacked and then
+
+0:23:56.220,0:24:01.799
+the data is out something else I've
+
+0:23:59.100,0:24:04.290
+never thought about I am always in favor
+
+0:24:01.799,0:24:06.179
+of publicly available data sheets and
+
+0:24:04.290,0:24:08.730
+manuals because as an engineer that
+
+0:24:06.179,0:24:11.010
+makes my life so much easier and when I
+
+0:24:08.730,0:24:15.990
+have to sign an NDA to see a chip manual
+
+0:24:11.010,0:24:18.260
+it's irritating if there was a reason
+
+0:24:15.990,0:24:18.260
+for it
+
+0:24:18.440,0:24:23.640
+yeah I think obviously the functionality
+
+0:24:21.179,0:24:25.049
+should be still publicly available but
+
+0:24:23.640,0:24:27.480
+the detailed working of the
+
+0:24:25.049,0:24:32.429
+countermeasures needs to be closely
+
+0:24:27.480,0:24:35.760
+guarded you worked in an XP in their
+
+0:24:32.429,0:24:39.030
+hardware security area yes can you tell
+
+0:24:35.760,0:24:41.400
+me more about what you did there yeah so
+
+0:24:39.030,0:24:44.610
+for the first two years I was running
+
+0:24:41.400,0:24:45.330
+the one ability analysis team and that's
+
+0:24:44.610,0:24:49.020
+such an ax
+
+0:24:45.330,0:24:51.059
+fault attacks and invasive Hardware
+
+0:24:49.020,0:24:54.450
+attacks and there was an internal red
+
+0:24:51.059,0:24:58.080
+team that hacked from hardware
+
+0:24:54.450,0:25:00.480
+perspective all the high-end security
+
+0:24:58.080,0:25:04.080
+chips that NXP produced the situations
+
+0:25:00.480,0:25:07.020
+and became in at several stages of the
+
+0:25:04.080,0:25:11.220
+design cycle from simulations to
+
+0:25:07.020,0:25:13.110
+prototypes to pre variation risk
+
+0:25:11.220,0:25:15.809
+mitigation and obviously always gave
+
+0:25:13.110,0:25:17.850
+feedback to the designers how to improve
+
+0:25:15.809,0:25:20.490
+things and what was easy to hack what is
+
+0:25:17.850,0:25:23.850
+a it's a pain and in general how to
+
+0:25:20.490,0:25:25.590
+improve the product so that's what I did
+
+0:25:23.850,0:25:28.380
+for the first two years and then for the
+
+0:25:25.590,0:25:31.710
+last year I was responsible for the
+
+0:25:28.380,0:25:34.730
+security concepts team which was also
+
+0:25:31.710,0:25:40.580
+for the high-end hardware security
+
+0:25:34.730,0:25:40.580
+practice with a Linux P and trying to
+
+0:25:41.029,0:25:47.329
+I don't notice a it's trying to steal
+
+0:25:43.759,0:25:52.639
+the innovation and the creativity of
+
+0:25:47.329,0:25:54.469
+this great team towards products so that
+
+0:25:52.639,0:25:55.699
+all these ideas and patents that have
+
+0:25:54.469,0:25:57.829
+been filed and papers that have been
+
+0:25:55.699,0:26:02.109
+published eventually ended up in
+
+0:25:57.829,0:26:07.309
+products of an XP high security chips
+
+0:26:02.109,0:26:10.659
+are there things in the hardware that
+
+0:26:07.309,0:26:14.179
+make firmware more secure yeah I think
+
+0:26:10.659,0:26:16.489
+fuses I would example like when I set
+
+0:26:14.179,0:26:19.809
+the JTAG fuse so that you can't read out
+
+0:26:16.489,0:26:25.249
+my firmware or you can't use the attack
+
+0:26:19.809,0:26:28.549
+yes so that that's the simple measure
+
+0:26:25.249,0:26:30.079
+which just makes life a lot harder for
+
+0:26:28.549,0:26:32.359
+an attacker it's not impossible to
+
+0:26:30.079,0:26:36.019
+overcome it but I would say it it
+
+0:26:32.359,0:26:38.599
+probably keeps a majority of attackers
+
+0:26:36.019,0:26:40.129
+out because now they have to do
+
+0:26:38.599,0:26:42.039
+something like decapping which means
+
+0:26:40.129,0:26:47.929
+buying a few of my limits okay
+
+0:26:42.039,0:26:50.509
+yeah or even more so I think to reverse
+
+0:26:47.929,0:26:52.999
+the fuse you really need to change the
+
+0:26:50.509,0:26:55.159
+ICS we need to circuit editing which
+
+0:26:52.999,0:26:56.809
+means you need to use a flip which means
+
+0:26:55.159,0:26:58.819
+you need to go and render Thep which
+
+0:26:56.809,0:27:00.349
+cost a few thousand dollars and you have
+
+0:26:58.819,0:27:02.569
+the knowledge and you need to know where
+
+0:27:00.349,0:27:08.089
+to do what you fuse to change in all
+
+0:27:02.569,0:27:10.129
+these things so this is quite or much
+
+0:27:08.089,0:27:12.619
+more sophisticated than just decapping
+
+0:27:10.129,0:27:15.589
+and having a look at it or or just
+
+0:27:12.619,0:27:19.849
+dumping your firmware okay well what's a
+
+0:27:15.589,0:27:22.699
+tip it's a focused ion beam okay so it's
+
+0:27:19.849,0:27:26.299
+a failure analysis tool which can be
+
+0:27:22.699,0:27:29.359
+used for circuit editing why wouldn't I
+
+0:27:26.299,0:27:32.329
+just decap the chip read out the flash
+
+0:27:29.359,0:27:38.209
+flash it to another chip and call it
+
+0:27:32.329,0:27:40.849
+good well the Teredo the memory to
+
+0:27:38.209,0:27:43.159
+private reading out the memory that the
+
+0:27:40.849,0:27:46.009
+fuse has been burnt Rhino has been blown
+
+0:27:43.159,0:27:49.489
+oh so you just change the state of the
+
+0:27:46.009,0:27:53.059
+shoes when you decrypt the chip you just
+
+0:27:49.489,0:27:53.610
+get the bare silicon out because the
+
+0:27:53.059,0:27:56.100
+Raman
+
+0:27:53.610,0:27:57.720
+masker on me out but not not something
+
+0:27:56.100,0:28:01.100
+like not the flash drum I don't think
+
+0:27:57.720,0:28:05.190
+you can see any physical with flash huh
+
+0:28:01.100,0:28:10.080
+all right I learned something new all
+
+0:28:05.190,0:28:10.500
+the time that I thought I knew could be
+
+0:28:10.080,0:28:13.980
+girls
+
+0:28:10.500,0:28:15.900
+I don't think so though okay okay so you
+
+0:28:13.980,0:28:18.000
+have to change it so you can actually
+
+0:28:15.900,0:28:20.400
+read it out and then when you're reading
+
+0:28:18.000,0:28:25.230
+it out you're reading out through like a
+
+0:28:20.400,0:28:28.650
+JTAG interface not through microscopic
+
+0:28:25.230,0:28:31.230
+interface yeah exactly I mean that's
+
+0:28:28.650,0:28:33.570
+another way to try to use other Fae
+
+0:28:31.230,0:28:35.850
+analysis techniques to try to read out
+
+0:28:33.570,0:28:38.310
+the EEPROM on the flash but that's much
+
+0:28:35.850,0:28:41.790
+more sophisticated so it's much easier
+
+0:28:38.310,0:28:44.130
+to just try to reverse a state of a
+
+0:28:41.790,0:28:46.920
+protection fuse and then use the normal
+
+0:28:44.130,0:28:50.970
+mechanisms to read out the memory what
+
+0:28:46.920,0:28:54.710
+are their chip level tools exist for
+
+0:28:50.970,0:29:01.080
+firmware security that's a good question
+
+0:28:54.710,0:29:04.410
+so actually I'm in commercial devices
+
+0:29:01.080,0:29:07.230
+I'm only aware of fuses which use a lot
+
+0:29:04.410,0:29:10.650
+of products and secure elements there's
+
+0:29:07.230,0:29:15.860
+a complete different architecture there
+
+0:29:10.650,0:29:17.820
+are situations of passive devices so
+
+0:29:15.860,0:29:23.160
+it's a complete different architecture
+
+0:29:17.820,0:29:27.720
+than the moma CPU or an APU so I would
+
+0:29:23.160,0:29:30.270
+say fuses is cars set of the odd that's
+
+0:29:27.720,0:29:33.830
+kind of sad but nice to know that I do
+
+0:29:30.270,0:29:33.830
+know what the state of the art is and
+
+0:29:33.920,0:29:37.980
+and it's a little hard on embedded
+
+0:29:36.090,0:29:41.640
+systems because you can't track
+
+0:29:37.980,0:29:43.470
+intrusion very easily and so when you do
+
+0:29:41.640,0:29:46.460
+get hacked there's no way to tell
+
+0:29:43.470,0:29:49.020
+anybody on Linux systems that's part of
+
+0:29:46.460,0:29:51.540
+that's part of good security is being
+
+0:29:49.020,0:29:54.900
+able to tell when an intrusion has
+
+0:29:51.540,0:29:57.600
+occurred are there other things like
+
+0:29:54.900,0:30:00.500
+that where little devices and larger
+
+0:29:57.600,0:30:06.070
+devices have very different approaches
+
+0:30:00.500,0:30:08.680
+well that's I mean no move on
+
+0:30:06.070,0:30:10.510
+I don't know I think it's a tricky
+
+0:30:08.680,0:30:13.090
+question there's so many different
+
+0:30:10.510,0:30:17.680
+classes of smaller and embedded devices
+
+0:30:13.090,0:30:19.930
+and for example if you look at secure
+
+0:30:17.680,0:30:22.540
+elements again so the chips aren't smart
+
+0:30:19.930,0:30:25.890
+cards or passports on credit cards so
+
+0:30:22.540,0:30:28.960
+the highest grade hardware security
+
+0:30:25.890,0:30:32.620
+chips they have a lot of intrusion
+
+0:30:28.960,0:30:34.750
+detection and temper mechanisms but most
+
+0:30:32.620,0:30:36.550
+of them are passive so because the
+
+0:30:34.750,0:30:39.670
+device is passive so once it's powered
+
+0:30:36.550,0:30:42.940
+up then they erase the keys or erasing
+
+0:30:39.670,0:30:45.600
+memory these kind of things but it's not
+
+0:30:42.940,0:30:49.600
+that an alarm is sent to some remote
+
+0:30:45.600,0:30:52.090
+operator it all happens in that chip so
+
+0:30:49.600,0:30:57.250
+but again this is for secure element and
+
+0:30:52.090,0:31:03.280
+not for the standard IOT chip yeah I
+
+0:30:57.250,0:31:05.850
+worked on a a sensor that in military
+
+0:31:03.280,0:31:09.340
+use you could push a button and it would
+
+0:31:05.850,0:31:12.700
+erase its Hardware multi-race it's code
+
+0:31:09.340,0:31:18.060
+multiple times and all of its keys until
+
+0:31:12.700,0:31:21.640
+it ran out of batteries that's sort of
+
+0:31:18.060,0:31:23.680
+slagging the hardware was expensive but
+
+0:31:21.640,0:31:27.370
+if you really don't want somebody to
+
+0:31:23.680,0:31:29.440
+have it that's what you do you sometimes
+
+0:31:27.370,0:31:33.850
+talk about open source when you're doing
+
+0:31:29.440,0:31:35.920
+conference presentations do you have
+
+0:31:33.850,0:31:39.460
+opinions about whether open source is
+
+0:31:35.920,0:31:44.590
+really useful or is it only useful in
+
+0:31:39.460,0:31:51.100
+certain cases so I think open sources is
+
+0:31:44.590,0:31:53.380
+great it has done it's impossible to to
+
+0:31:51.100,0:31:57.120
+clearly state what benefits open source
+
+0:31:53.380,0:32:00.820
+has done to innovation and security and
+
+0:31:57.120,0:32:02.950
+humanity in general I think it's a bit
+
+0:32:00.820,0:32:06.910
+tricky for hardware because you can't
+
+0:32:02.950,0:32:09.010
+just push in an update so if that was in
+
+0:32:06.910,0:32:11.800
+the field you can't change it there's
+
+0:32:09.010,0:32:17.140
+only a few things that you can change
+
+0:32:11.800,0:32:19.180
+was firmware updates but some flaws you
+
+0:32:17.140,0:32:21.580
+cannot fix
+
+0:32:19.180,0:32:23.110
+other than changing the artwork and I
+
+0:32:21.580,0:32:26.560
+think that's where also the reluctance
+
+0:32:23.110,0:32:29.800
+from the vendors come in to publish
+
+0:32:26.560,0:32:32.010
+details about their designs
+
+0:32:29.800,0:32:35.530
+and if you look at spectrum art on it
+
+0:32:32.010,0:32:39.880
+haunts the chip industry no because no
+
+0:32:35.530,0:32:44.440
+one has checked it for four decades but
+
+0:32:39.880,0:32:47.080
+if you combine that with a mandatory
+
+0:32:44.440,0:32:51.040
+third-party testing approach like what
+
+0:32:47.080,0:32:54.580
+is done for certified secure element for
+
+0:32:51.040,0:32:57.580
+example then it can work you just need
+
+0:32:54.580,0:33:00.700
+to make sure that a lot of people have a
+
+0:32:57.580,0:33:02.260
+look at your design with different ideas
+
+0:33:00.700,0:33:05.650
+how to hack it and you take that
+
+0:33:02.260,0:33:07.390
+feedback and improve on it and then
+
+0:33:05.650,0:33:08.770
+that's the beauty of open source once
+
+0:33:07.390,0:33:12.310
+it's out everybody can ever look at it
+
+0:33:08.770,0:33:14.320
+and try to find a loophole and and soon
+
+0:33:12.310,0:33:16.810
+enough all these dew points are closed
+
+0:33:14.320,0:33:18.550
+or a lot of people know about these
+
+0:33:16.810,0:33:21.810
+loopholes and they're not telling anyone
+
+0:33:18.550,0:33:24.580
+well it's run contrary to the to the
+
+0:33:21.810,0:33:28.030
+notion of securing your infrastructure
+
+0:33:24.580,0:33:31.480
+and your designs and things if that's
+
+0:33:28.030,0:33:35.110
+true why not open everything up well I
+
+0:33:31.480,0:33:38.440
+think it's very beneficial to keep a lot
+
+0:33:35.110,0:33:41.830
+of things secret because it adds
+
+0:33:38.440,0:33:45.280
+additional pain for the attacker if you
+
+0:33:41.830,0:33:47.020
+can't get the design principle if you
+
+0:33:45.280,0:33:48.700
+can't get the countermeasures if you
+
+0:33:47.020,0:33:51.280
+can't get all the tripwires that you put
+
+0:33:48.700,0:33:55.180
+in place it's really a pain and at some
+
+0:33:51.280,0:33:56.920
+point hopefully they lose patience and
+
+0:33:55.180,0:33:58.840
+move on to the next target that's why I
+
+0:33:56.920,0:34:01.720
+think in order to increase product
+
+0:33:58.840,0:34:02.830
+security it's very beneficial to keep
+
+0:34:01.720,0:34:05.890
+these details
+
+0:34:02.830,0:34:08.590
+closely guarded but then again it needs
+
+0:34:05.890,0:34:12.540
+to be make sure that independent red
+
+0:34:08.590,0:34:17.860
+teams have had a look at this design to
+
+0:34:12.540,0:34:20.560
+not make any beginners mistakes and so
+
+0:34:17.860,0:34:24.780
+there's this dichotomy if you want to
+
+0:34:20.560,0:34:27.970
+keep the information I need to know
+
+0:34:24.780,0:34:30.520
+because then people who don't need to
+
+0:34:27.970,0:34:32.780
+know don't have it and can't misuse it
+
+0:34:30.520,0:34:35.960
+but having open sore
+
+0:34:32.780,0:34:39.169
+gives you more eyes and more security
+
+0:34:35.960,0:34:42.320
+for everyone in general and they seem
+
+0:34:39.169,0:34:44.840
+like opposite paths it's true okay I
+
+0:34:42.320,0:34:46.399
+mean if if you look at the state of
+
+0:34:44.840,0:34:50.770
+software security Oh
+
+0:34:46.399,0:34:54.980
+IOT security most of the device devices
+
+0:34:50.770,0:34:57.590
+use open source libraries in one way or
+
+0:34:54.980,0:34:59.410
+the other or modified it or don't tell
+
+0:34:57.590,0:35:02.320
+people that they use open source
+
+0:34:59.410,0:35:06.800
+libraries and still there's a lot of
+
+0:35:02.320,0:35:09.740
+insecurity around it so I think open
+
+0:35:06.800,0:35:11.180
+source and and the power of crowd
+
+0:35:09.740,0:35:14.330
+intelligence having look at these
+
+0:35:11.180,0:35:17.750
+software things improve the best
+
+0:35:14.330,0:35:19.550
+achievable state of security but what is
+
+0:35:17.750,0:35:23.300
+then implemented in the average product
+
+0:35:19.550,0:35:25.670
+it's a completely different story I mean
+
+0:35:23.300,0:35:28.900
+one of the good things about open source
+
+0:35:25.670,0:35:32.270
+security libraries is that you're not
+
+0:35:28.900,0:35:34.670
+implementing your own fantastical
+
+0:35:32.270,0:35:39.020
+made-up algorithm that may have a
+
+0:35:34.670,0:35:40.580
+shortcut I have haven't gotten past that
+
+0:35:39.020,0:35:43.670
+point where everybody's implementing
+
+0:35:40.580,0:35:45.260
+their own security are we on to the next
+
+0:35:43.670,0:35:48.350
+problem now or do you still see a lot of
+
+0:35:45.260,0:35:51.200
+people saying well I just have 2 modulo
+
+0:35:48.350,0:35:52.610
+and add and then multiply by 3 and then
+
+0:35:51.200,0:35:55.670
+the number is always 12 when you get it
+
+0:35:52.610,0:35:58.160
+back okay I'm I think open-source
+
+0:35:55.670,0:36:02.920
+libraries is great because you have
+
+0:35:58.160,0:36:07.490
+exactly as I said you have proven secure
+
+0:36:02.920,0:36:09.740
+implementations or at least a vast pool
+
+0:36:07.490,0:36:12.140
+of volunteers hasn't found any flaws in
+
+0:36:09.740,0:36:14.840
+these libraries so you have a very good
+
+0:36:12.140,0:36:16.370
+security level already for software I
+
+0:36:14.840,0:36:19.240
+think for Hardware you don't have all
+
+0:36:16.370,0:36:23.210
+these building blocks readily available
+
+0:36:19.240,0:36:27.080
+if for crypto you shouldn't change
+
+0:36:23.210,0:36:30.010
+anything and the block ciphers the hash
+
+0:36:27.080,0:36:32.960
+functions public key crypto all this is
+
+0:36:30.010,0:36:36.050
+secure and secure since decades so
+
+0:36:32.960,0:36:36.910
+there's no need to implement anything by
+
+0:36:36.050,0:36:40.670
+yourself
+
+0:36:36.910,0:36:43.640
+when I say it's beneficial to closely
+
+0:36:40.670,0:36:45.130
+guard what you uses then you have to use
+
+0:36:43.640,0:36:47.289
+proven principles
+
+0:36:45.130,0:36:51.240
+that are known to be secure but maybe
+
+0:36:47.289,0:36:55.180
+add some extra layers of obfuscation or
+
+0:36:51.240,0:36:57.460
+extra the obfuscation pretty much on top
+
+0:36:55.180,0:36:59.859
+to make life hard but again it needs to
+
+0:36:57.460,0:37:02.759
+be checked that this is no influence on
+
+0:36:59.859,0:37:06.250
+the underlying security principles
+
+0:37:02.759,0:37:09.700
+people make fun of obfuscation as a
+
+0:37:06.250,0:37:12.369
+security measure so it's a little odd to
+
+0:37:09.700,0:37:15.700
+hear you say it can you explain more
+
+0:37:12.369,0:37:20.079
+about okay maybe what's a good example
+
+0:37:15.700,0:37:22.420
+yeah yeah when you look at a chip and
+
+0:37:20.079,0:37:25.829
+you can clearly identify all the
+
+0:37:22.420,0:37:29.740
+building blocks and it's easy to go for
+
+0:37:25.829,0:37:32.410
+the key storage or the fuses of a CPU or
+
+0:37:29.740,0:37:35.619
+the registers if you use glue logic
+
+0:37:32.410,0:37:38.079
+which is kind of an obfuscated Hardware
+
+0:37:35.619,0:37:41.470
+layout it's very hard to find it
+
+0:37:38.079,0:37:45.690
+and makes life one attacker really
+
+0:37:41.470,0:37:49.049
+really painful okay and you you could
+
+0:37:45.690,0:37:52.900
+give an infinite time as a hacker
+
+0:37:49.049,0:37:57.490
+unravel the glue logic but it would be
+
+0:37:52.900,0:37:59.890
+much easier to just walk in and it the
+
+0:37:57.490,0:38:02.410
+key is there and easy to find yeah I
+
+0:37:59.890,0:38:05.099
+mean this is example from Kristen or
+
+0:38:02.410,0:38:08.049
+Sookie hacking a SKU element form
+
+0:38:05.099,0:38:13.779
+Infineon finger was like six years ago
+
+0:38:08.049,0:38:17.319
+and he found the coprocessor and he
+
+0:38:13.779,0:38:20.440
+found a way to hack this coprocessor on
+
+0:38:17.319,0:38:25.529
+the secure core processor reusing this
+
+0:38:20.440,0:38:29.829
+design in other devices and other
+
+0:38:25.529,0:38:32.559
+derivatives of this product is good for
+
+0:38:29.829,0:38:34.329
+me economic point of view but it also
+
+0:38:32.559,0:38:37.390
+means that these other devices can be
+
+0:38:34.329,0:38:39.700
+egg was the same attack vector and if
+
+0:38:37.390,0:38:42.220
+they had been glue logic used just as an
+
+0:38:39.700,0:38:44.440
+example then it wouldn't be obvious
+
+0:38:42.220,0:38:47.230
+where these modules would have been and
+
+0:38:44.440,0:38:50.309
+by the attacker would have to go so
+
+0:38:47.230,0:38:52.930
+that's also why reverse engineering is
+
+0:38:50.309,0:38:55.269
+actually a very interesting research
+
+0:38:52.930,0:38:57.650
+topic because there no metrics how
+
+0:38:55.269,0:39:01.789
+difficult it is to
+
+0:38:57.650,0:39:05.319
+kind of reverse and obfuscation but
+
+0:39:01.789,0:39:09.829
+reverse engineering like hacking does
+
+0:39:05.319,0:39:13.789
+sometimes have a bad reputation how do
+
+0:39:09.829,0:39:15.410
+you how do you deal with that well I'm
+
+0:39:13.789,0:39:17.480
+not doing reverse engineering but I
+
+0:39:15.410,0:39:19.970
+admire people who do it because it's
+
+0:39:17.480,0:39:22.009
+very tedious work typically I'd need a
+
+0:39:19.970,0:39:26.710
+lot of knowledge and years of experience
+
+0:39:22.009,0:39:28.640
+to to be efficient in it I think
+
+0:39:26.710,0:39:30.740
+currently if you want to make your
+
+0:39:28.640,0:39:32.569
+product secure you need to add some
+
+0:39:30.740,0:39:35.240
+layers of obfuscation on top just to
+
+0:39:32.569,0:39:37.630
+make life painful and then not that
+
+0:39:35.240,0:39:40.369
+every script kiddie can go to youtube
+
+0:39:37.630,0:39:43.960
+tutorial and and employ some making
+
+0:39:40.369,0:39:46.369
+tricks on your product at the same time
+
+0:39:43.960,0:39:50.539
+it's unclear which your first occasion
+
+0:39:46.369,0:39:51.950
+is really effective and you mentioned
+
+0:39:50.539,0:39:54.230
+that people are laughing at obfuscation
+
+0:39:51.950,0:39:58.609
+this is typically because it's not very
+
+0:39:54.230,0:40:00.799
+effective okay going back to example
+
+0:39:58.609,0:40:03.890
+earlier with I want to make an Internet
+
+0:40:00.799,0:40:07.880
+of Things light I write some firmware
+
+0:40:03.890,0:40:14.390
+it's not Linux so it's not open to those
+
+0:40:07.880,0:40:16.789
+attack factors and what do i what are
+
+0:40:14.390,0:40:20.569
+the things that are the easiest cheapest
+
+0:40:16.789,0:40:23.710
+engineering things to do for the biggest
+
+0:40:20.569,0:40:26.029
+bang for the buck as far as making it
+
+0:40:23.710,0:40:28.999
+secure so that it doesn't just get
+
+0:40:26.029,0:40:33.200
+hacked in the first week it's out okay
+
+0:40:28.999,0:40:34.910
+you first should define your assets what
+
+0:40:33.200,0:40:38.269
+do you want to protect if it's a firm
+
+0:40:34.910,0:40:41.119
+where is it keys user data whatever once
+
+0:40:38.269,0:40:46.039
+you have the assets defined you can do a
+
+0:40:41.119,0:40:48.710
+threat modeling so see how these assets
+
+0:40:46.039,0:40:51.200
+could be compromised by adversaries and
+
+0:40:48.710,0:40:53.569
+which means the processor needs to do to
+
+0:40:51.200,0:40:55.789
+get to these assets and then you can
+
+0:40:53.569,0:40:58.549
+define your countermeasures and
+
+0:40:55.789,0:41:03.049
+low-hanging fruits are always to use
+
+0:40:58.549,0:41:06.499
+constant time implementation of crypto
+
+0:41:03.049,0:41:09.340
+or use standard crypto libraries that
+
+0:41:06.499,0:41:13.010
+have constant time implementations
+
+0:41:09.340,0:41:16.430
+then forth countermeasures can be built
+
+0:41:13.010,0:41:19.550
+in there's some coding guidelines and so
+
+0:41:16.430,0:41:23.990
+on like the cards the time is to avoid
+
+0:41:19.550,0:41:26.170
+the side-channel attacks yeah correct so
+
+0:41:23.990,0:41:29.840
+whenever you touch a key a crypto key
+
+0:41:26.170,0:41:31.340
+then there's a chance that this
+
+0:41:29.840,0:41:34.300
+information can be picked up through
+
+0:41:31.340,0:41:37.100
+side channels and time is easiest
+
+0:41:34.300,0:41:39.500
+typically computer scientist or engineer
+
+0:41:37.100,0:41:43.130
+want to optimize algorithms for the
+
+0:41:39.500,0:41:45.290
+average best performance but that means
+
+0:41:43.130,0:41:47.420
+it's data dependent so if you make it
+
+0:41:45.290,0:41:50.960
+data independent it's always the worst
+
+0:41:47.420,0:41:52.640
+case execution time which is secure but
+
+0:41:50.960,0:41:55.190
+it's also the worst case execution ever
+
+0:41:52.640,0:41:58.910
+every time but these are low-hanging
+
+0:41:55.190,0:42:03.980
+fruits so then you already have this
+
+0:41:58.910,0:42:05.960
+timing side shanna close out ok let's
+
+0:42:03.980,0:42:11.140
+let's see if I can figure out what the
+
+0:42:05.960,0:42:16.550
+assets are one of my assets is the
+
+0:42:11.140,0:42:20.300
+password and username that my user uses
+
+0:42:16.550,0:42:23.150
+on the server another might be the
+
+0:42:20.300,0:42:26.150
+user's Wi-Fi password because I need
+
+0:42:23.150,0:42:31.420
+that to log on to their Wi-Fi another
+
+0:42:26.150,0:42:34.010
+asset would be being able to see
+
+0:42:31.420,0:42:35.870
+remotely whether the light is on or off
+
+0:42:34.010,0:42:40.690
+which might indicate whether the person
+
+0:42:35.870,0:42:43.910
+is home or not and then another asset
+
+0:42:40.690,0:42:45.350
+did you say like pairing certification
+
+0:42:43.910,0:42:47.210
+certificate or something like that I
+
+0:42:45.350,0:42:51.440
+didn't but that's a good one a pairing
+
+0:42:47.210,0:42:53.510
+certificate so that I knew on the server
+
+0:42:51.440,0:42:58.430
+that this device belonged to me and
+
+0:42:53.510,0:43:00.260
+should be handled adequately those are
+
+0:42:58.430,0:43:02.960
+those are those the assets did I miss a
+
+0:43:00.260,0:43:06.200
+bunch is that sound about right give it
+
+0:43:02.960,0:43:08.420
+a spherical IOT light that sounds good
+
+0:43:06.200,0:43:10.850
+it sounds like it's challenged to secure
+
+0:43:08.420,0:43:15.910
+it without any Linux or any other
+
+0:43:10.850,0:43:21.320
+standards libraries available yeah
+
+0:43:15.910,0:43:22.119
+welcome to my world so let's talk about
+
+0:43:21.320,0:43:25.960
+that
+
+0:43:22.119,0:43:28.359
+difficut that I want to I want this
+
+0:43:25.960,0:43:32.259
+light to be able to talk to my server
+
+0:43:28.359,0:43:34.869
+and so when it leaves manufacturing it
+
+0:43:32.259,0:43:37.990
+gets her certificate that says yeah you
+
+0:43:34.869,0:43:43.180
+can talk to my server if I use the same
+
+0:43:37.990,0:43:47.249
+certificate for everybody then a hacker
+
+0:43:43.180,0:43:51.339
+can come in and make a fake light a
+
+0:43:47.249,0:43:54.609
+spoof light a clone yep
+
+0:43:51.339,0:43:59.380
+a clone yes okay and that that is a sort
+
+0:43:54.609,0:44:01.029
+of example of threat modeling where I go
+
+0:43:59.380,0:44:04.119
+through my list of assets and I think
+
+0:44:01.029,0:44:05.789
+about oh if I did this with it then
+
+0:44:04.119,0:44:09.400
+someone could do that with it
+
+0:44:05.789,0:44:19.480
+yeah I mean using this same certificate
+
+0:44:09.400,0:44:22.210
+in all devices probably I think IP
+
+0:44:19.480,0:44:24.749
+cameras or something yeah where they use
+
+0:44:22.210,0:44:27.549
+the same private RSA key in all devices
+
+0:44:24.749,0:44:30.130
+because someone who read the checklist
+
+0:44:27.549,0:44:31.960
+probably didn't get that it means you
+
+0:44:30.130,0:44:36.759
+need to be unique key that is completely
+
+0:44:31.960,0:44:40.150
+random and so on it's a force yeah I
+
+0:44:36.759,0:44:42.309
+mean it may try to generate a unique key
+
+0:44:40.150,0:44:44.890
+and have to program each device
+
+0:44:42.309,0:44:47.049
+individually instead of just mashing the
+
+0:44:44.890,0:44:49.269
+same Rama over and over again that's
+
+0:44:47.049,0:44:51.779
+hard I mean as a manufacturing step that
+
+0:44:49.269,0:44:54.400
+is a pain in the neck
+
+0:44:51.779,0:44:57.400
+yeah it's provisioning all right it's
+
+0:44:54.400,0:44:59.650
+key provisioning and it also needs to
+
+0:44:57.400,0:45:02.589
+happen in a secure facility to make sure
+
+0:44:59.650,0:45:04.509
+no one else can tempo is that key which
+
+0:45:02.589,0:45:07.180
+is yeah there's a lot of times that's
+
+0:45:04.509,0:45:09.249
+overseas right you're not necessarily in
+
+0:45:07.180,0:45:11.950
+control of that facility but
+
+0:45:09.249,0:45:14.739
+provisioning can also happen on premise
+
+0:45:11.950,0:45:18.160
+so you can you can do it separately from
+
+0:45:14.739,0:45:19.960
+the manufacturing yeah this is shipping
+
+0:45:18.160,0:45:22.569
+boards to the states and then shipping
+
+0:45:19.960,0:45:25.809
+them out from here yeah for domestic
+
+0:45:22.569,0:45:28.420
+here yeah that was a companies who offer
+
+0:45:25.809,0:45:30.670
+that as a service because the key needs
+
+0:45:28.420,0:45:33.910
+to be generated in a secure way right so
+
+0:45:30.670,0:45:36.100
+you need an HSM our security module to
+
+0:45:33.910,0:45:38.200
+generate the key and our edges
+
+0:45:36.100,0:45:41.110
+it's been a parameter secured
+
+0:45:38.200,0:45:42.210
+environment was excess control and so on
+
+0:45:41.110,0:45:45.040
+and so forth
+
+0:45:42.210,0:45:47.580
+so you're saying I shouldn't just plus
+
+0:45:45.040,0:45:51.660
+plus the previous number
+
+0:45:47.580,0:45:58.600
+what about use the serial number of the
+
+0:45:51.660,0:46:00.880
+the chip that I'm using well it's again
+
+0:45:58.600,0:46:03.700
+one of these trade-offs between costs
+
+0:46:00.880,0:46:06.430
+time to market usability and security
+
+0:46:03.700,0:46:09.460
+and performance if you have a like but
+
+0:46:06.430,0:46:13.450
+and the serial number is only available
+
+0:46:09.460,0:46:16.030
+to an attacker a fee this you know takes
+
+0:46:13.450,0:46:18.760
+out the light but from the from the lamp
+
+0:46:16.030,0:46:22.480
+and has to look at it then yeah probably
+
+0:46:18.760,0:46:24.790
+you can use it because that's he's
+
+0:46:22.480,0:46:27.370
+already in the premise and then gets the
+
+0:46:24.790,0:46:32.470
+serial number and that's part of threat
+
+0:46:27.370,0:46:34.180
+modeling to is identifying when okay the
+
+0:46:32.470,0:46:37.330
+threat already has whatever the threat
+
+0:46:34.180,0:46:39.400
+wants so we don't have to protect beyond
+
+0:46:37.330,0:46:40.690
+this point they're already they've
+
+0:46:39.400,0:46:42.430
+already broken the window and gotten in
+
+0:46:40.690,0:46:44.650
+the house they know whether or not the
+
+0:46:42.430,0:46:46.210
+humans home now we just have to protect
+
+0:46:44.650,0:46:51.670
+our server so that they can't do that to
+
+0:46:46.210,0:46:54.540
+everybody all right okay so wait what
+
+0:46:51.670,0:46:57.460
+was this step after throughout Marlene
+
+0:46:54.540,0:47:00.190
+okay so then you can derive the security
+
+0:46:57.460,0:47:04.330
+requirements for a product so if you
+
+0:47:00.190,0:47:06.130
+want to prevent certain attacks or you
+
+0:47:04.330,0:47:10.570
+can react to certain you can mitigate
+
+0:47:06.130,0:47:13.210
+attacks and in this case we just talked
+
+0:47:10.570,0:47:17.070
+about serial number you want to make
+
+0:47:13.210,0:47:20.950
+sure that it's not easily available
+
+0:47:17.070,0:47:23.710
+remotely for an adversary so I think
+
+0:47:20.950,0:47:25.180
+putting a sticker on there on the light
+
+0:47:23.710,0:47:27.190
+but somewhere where you need to be very
+
+0:47:25.180,0:47:29.230
+very close to the light Bob could
+
+0:47:27.190,0:47:30.970
+already be a good way but then I
+
+0:47:29.230,0:47:34.090
+shouldn't put it in my database on my
+
+0:47:30.970,0:47:36.340
+server and use that as a key to organize
+
+0:47:34.090,0:47:38.170
+my light bulbs because that means that
+
+0:47:36.340,0:47:40.690
+if somebody has my server they have the
+
+0:47:38.170,0:47:44.380
+keys to everything that's actually
+
+0:47:40.690,0:47:47.740
+shipped sure it goes in the key material
+
+0:47:44.380,0:47:49.390
+as one of the factors well there should
+
+0:47:47.740,0:47:53.650
+be other factors as well
+
+0:47:49.390,0:47:55.600
+yes and ideally those are partially
+
+0:47:53.650,0:47:58.630
+company-wide and partially device wide
+
+0:47:55.600,0:48:01.270
+and partially just unique to this device
+
+0:47:58.630,0:48:07.780
+yes but manufacturing constraints and
+
+0:48:01.270,0:48:10.840
+costs may limit what is unique okay so I
+
+0:48:07.780,0:48:12.670
+have decided I've modeled my threats I
+
+0:48:10.840,0:48:14.680
+have chosen some things that I'm going
+
+0:48:12.670,0:48:20.110
+to defend against I've implemented that
+
+0:48:14.680,0:48:24.850
+in ways that don't open me up to other
+
+0:48:20.110,0:48:27.700
+things in in ways that are accepted by
+
+0:48:24.850,0:48:29.230
+the industry and then I think the next
+
+0:48:27.700,0:48:31.990
+thing I need to do is the independent
+
+0:48:29.230,0:48:36.250
+third-party testing is that the usual
+
+0:48:31.990,0:48:40.840
+next step yeah I mean typically you
+
+0:48:36.250,0:48:43.650
+should have a rat team early on it
+
+0:48:40.840,0:48:46.750
+should be basically once you have a
+
+0:48:43.650,0:48:49.030
+threat modeling done and derived your
+
+0:48:46.750,0:48:51.280
+security requirements someone else just
+
+0:48:49.030,0:48:52.990
+check whether you have overseen
+
+0:48:51.280,0:48:55.560
+something because at this point of time
+
+0:48:52.990,0:48:58.000
+you can easily change your design
+
+0:48:55.560,0:49:00.070
+whereas if you don't do that and you
+
+0:48:58.000,0:49:01.930
+have a product you can't change the
+
+0:49:00.070,0:49:05.170
+hardware the architecture may be very
+
+0:49:01.930,0:49:06.790
+difficult or impossible to to fix any
+
+0:49:05.170,0:49:11.020
+flaws that you may have overlooked
+
+0:49:06.790,0:49:14.080
+so the rat team ideally an independent
+
+0:49:11.020,0:49:16.660
+third-party evaluator should come in
+
+0:49:14.080,0:49:19.450
+very early and then once the prototype
+
+0:49:16.660,0:49:22.360
+is there and your feedback of the
+
+0:49:19.450,0:49:24.790
+evaluator has been implemented there
+
+0:49:22.360,0:49:27.810
+should be a testing round and
+
+0:49:24.790,0:49:30.610
+potentially on the final product again
+
+0:49:27.810,0:49:33.990
+so that makes a lot of sense to me for
+
+0:49:30.610,0:49:37.740
+things that our infrastructure important
+
+0:49:33.990,0:49:42.970
+but it would be hard to sell for my
+
+0:49:37.740,0:49:44.290
+consumer IOT device hard to sell to the
+
+0:49:42.970,0:49:46.630
+people who make decisions about whether
+
+0:49:44.290,0:49:48.310
+to pay for it yeah because it would be
+
+0:49:46.630,0:49:52.480
+expensive I mean this is not good this
+
+0:49:48.310,0:49:55.060
+is not ever going to be a $500 test it's
+
+0:49:52.480,0:49:58.330
+not even gonna be an FCC multi-thousand
+
+0:49:55.060,0:50:02.280
+dollar test it's gonna be expensive to
+
+0:49:58.330,0:50:04.140
+get a proper third-party test of
+
+0:50:02.280,0:50:08.490
+curity because you have to dig into the
+
+0:50:04.140,0:50:10.650
+details of the system correct but there
+
+0:50:08.490,0:50:13.440
+are this is an ideal case if you aim for
+
+0:50:10.650,0:50:16.590
+highest security if you have a light but
+
+0:50:13.440,0:50:21.210
+and if you to the threat modeling
+
+0:50:16.590,0:50:23.340
+properly probably you don't need to have
+
+0:50:21.210,0:50:27.000
+the highest security standards for a
+
+0:50:23.340,0:50:29.280
+light bulb but what you can do is you
+
+0:50:27.000,0:50:34.740
+can employ you can collaborate with
+
+0:50:29.280,0:50:36.810
+universities or freelancers who have
+
+0:50:34.740,0:50:39.570
+credentials who have knowledge in that
+
+0:50:36.810,0:50:43.620
+fields and that's typically much much
+
+0:50:39.570,0:50:45.810
+cheaper than working with some proper
+
+0:50:43.620,0:50:47.850
+testing laboratory you obviously get
+
+0:50:45.810,0:50:50.550
+less but it's better than nothing and
+
+0:50:47.850,0:50:53.640
+it's much better than you're not doing
+
+0:50:50.550,0:50:55.170
+it at all yeah that's it that that was
+
+0:50:53.640,0:50:59.760
+I'm glad you said that that was what I
+
+0:50:55.170,0:51:01.140
+wanted was you to say if you can't if
+
+0:50:59.760,0:51:03.810
+you can't afford over the big bucks
+
+0:51:01.140,0:51:05.550
+because your team isn't big enough that
+
+0:51:03.810,0:51:07.800
+doesn't mean you just raise your hands
+
+0:51:05.550,0:51:10.320
+and say oh well well if we can't you
+
+0:51:07.800,0:51:12.510
+can't do third-party testing we just
+
+0:51:10.320,0:51:14.250
+won't do security that's that is not the
+
+0:51:12.510,0:51:15.630
+right answer what you should do is you
+
+0:51:14.250,0:51:18.510
+should just release your product and
+
+0:51:15.630,0:51:21.120
+then let people attack it find out
+
+0:51:18.510,0:51:25.920
+what's wrong recall it and then make the
+
+0:51:21.120,0:51:27.810
+correct one you could do that the brand
+
+0:51:25.920,0:51:32.090
+survives the damage so you just change
+
+0:51:27.810,0:51:35.010
+the brand name yeah yes sounds good
+
+0:51:32.090,0:51:37.860
+but I also think money is not
+
+0:51:35.010,0:51:40.070
+necessarily the biggest hurdle I think
+
+0:51:37.860,0:51:45.560
+it's time to market that really yeah
+
+0:51:40.070,0:51:48.120
+suffers or drive some most decisions and
+
+0:51:45.560,0:51:49.710
+and that's where security suffers
+
+0:51:48.120,0:51:53.010
+because typically we need a couple of
+
+0:51:49.710,0:51:56.010
+iterations to to get it right even if
+
+0:51:53.010,0:51:58.500
+your security professional even even at
+
+0:51:56.010,0:52:01.290
+XP we didn't get it first time right we
+
+0:51:58.500,0:52:03.900
+had a couple of test chips before we had
+
+0:52:01.290,0:52:06.960
+a real product because it's very very
+
+0:52:03.900,0:52:11.430
+hard to do it first time right it sounds
+
+0:52:06.960,0:52:13.740
+like much of engineering you are going
+
+0:52:11.430,0:52:15.089
+to be speaking at the hardware IO
+
+0:52:13.740,0:52:19.190
+conference in separate
+
+0:52:15.089,0:52:21.239
+Kember which is coming up really soon
+
+0:52:19.190,0:52:24.829
+can you tell me about the conference and
+
+0:52:21.239,0:52:28.099
+what you'll be speaking on yeah so
+
+0:52:24.829,0:52:30.509
+conference is a two-day conference
+
+0:52:28.099,0:52:33.599
+together with two days of trainings
+
+0:52:30.509,0:52:35.729
+that's a very practical hands-on focus
+
+0:52:33.599,0:52:38.670
+for both the training as well as the
+
+0:52:35.729,0:52:44.900
+conference topics are all areas of
+
+0:52:38.670,0:52:49.559
+harbour security and I've speaking about
+
+0:52:44.900,0:52:52.529
+different aspects of our security
+
+0:52:49.559,0:52:55.950
+so challenges for security zone in
+
+0:52:52.529,0:52:58.259
+general or for IT particular the lack of
+
+0:52:55.950,0:53:00.569
+incentives for secure design importance
+
+0:52:58.259,0:53:02.099
+of independent security testing pros and
+
+0:53:00.569,0:53:04.130
+cons of open source and the importance
+
+0:53:02.099,0:53:07.249
+of reverse engineering so a little bit
+
+0:53:04.130,0:53:11.519
+similar to what we discussed in this
+
+0:53:07.249,0:53:15.239
+podcast so basically we were helping you
+
+0:53:11.519,0:53:17.190
+write your talk okay yeah you said the
+
+0:53:15.239,0:53:20.009
+incentive to put the timelines of bits
+
+0:53:17.190,0:53:22.170
+earlier to bring in the timeline yeah
+
+0:53:20.009,0:53:24.150
+have you seen this may be something you
+
+0:53:22.170,0:53:26.339
+discussed because just listening to you
+
+0:53:24.150,0:53:29.430
+mentioned the incentives to to go do
+
+0:53:26.339,0:53:33.089
+some good design have you seen over time
+
+0:53:29.430,0:53:36.450
+that the more higher profile incidents
+
+0:53:33.089,0:53:39.390
+and attacks have led to people being
+
+0:53:36.450,0:53:42.420
+more responsible or or at least trying
+
+0:53:39.390,0:53:46.289
+to ask the right questions more often or
+
+0:53:42.420,0:53:51.749
+is it kind of still a free-for-all so I
+
+0:53:46.289,0:53:55.369
+think unfortunately the only the really
+
+0:53:51.749,0:53:58.460
+brand damaging hex and breaches and
+
+0:53:55.369,0:54:01.009
+publications really changed
+
+0:53:58.460,0:54:04.920
+industry-wide behavior and the more
+
+0:54:01.009,0:54:07.920
+damaging the publications of results
+
+0:54:04.920,0:54:12.210
+were the quicker industry reacted so I
+
+0:54:07.920,0:54:16.079
+think Charlie Miller and the g-pack even
+
+0:54:12.210,0:54:19.160
+though it's yes it's kind of interesting
+
+0:54:16.079,0:54:22.619
+to reveal all these vulnerabilities
+
+0:54:19.160,0:54:24.530
+which cannot be fixed before industry
+
+0:54:22.619,0:54:28.430
+can fix it
+
+0:54:24.530,0:54:31.940
+I think that has changed automotive
+
+0:54:28.430,0:54:35.920
+security for the goods dramatically and
+
+0:54:31.940,0:54:39.470
+this was when he actually Charlie was a
+
+0:54:35.920,0:54:43.190
+journalist and he invited someone to
+
+0:54:39.470,0:54:45.160
+take over his Jeep correct and then he
+
+0:54:43.190,0:54:48.950
+was a little shocked and appalled at
+
+0:54:45.160,0:54:52.040
+their driving quietly about the streets
+
+0:54:48.950,0:54:54.170
+yeah I mean I think this really made
+
+0:54:52.040,0:54:57.740
+headlines everybody heard about it it
+
+0:54:54.170,0:55:01.640
+has nice pictures had a nice story
+
+0:54:57.740,0:55:04.760
+and suddenly in automotive people who
+
+0:55:01.640,0:55:05.740
+are willing to invest money to for
+
+0:55:04.760,0:55:08.630
+security
+
+0:55:05.740,0:55:10.310
+even though cars are very expensive it's
+
+0:55:08.630,0:55:13.280
+actually very very cost driven industry
+
+0:55:10.310,0:55:14.030
+and if you if you increase the price for
+
+0:55:13.280,0:55:16.610
+a few cents
+
+0:55:14.030,0:55:18.620
+people will heck are you down and give
+
+0:55:16.610,0:55:21.620
+you a hard time and what I heard here is
+
+0:55:18.620,0:55:24.770
+that for so now I am from Germany they
+
+0:55:21.620,0:55:28.550
+were willing to increase the spending
+
+0:55:24.770,0:55:31.520
+for security fivefold just after this
+
+0:55:28.550,0:55:38.210
+egg oh the way from a nickel to a
+
+0:55:31.520,0:55:41.180
+quarter but that's it's good that it's
+
+0:55:38.210,0:55:42.890
+talked about because automotive is an
+
+0:55:41.180,0:55:48.190
+industry that tends to move very slow
+
+0:55:42.890,0:55:51.680
+and if we can do better there then other
+
+0:55:48.190,0:55:57.710
+industries will maybe be a little bit
+
+0:55:51.680,0:55:59.840
+more aware that we can't just keep
+
+0:55:57.710,0:56:02.450
+hoping that somebody else's products are
+
+0:55:59.840,0:56:06.130
+attacked and that ours are given a free
+
+0:56:02.450,0:56:08.810
+pass that's not gonna last forever
+
+0:56:06.130,0:56:11.990
+well axle do you have any thoughts you
+
+0:56:08.810,0:56:17.000
+would like to leave us with well I'd
+
+0:56:11.990,0:56:21.020
+like to thank you for being on your show
+
+0:56:17.000,0:56:24.860
+I also like to mention that I'm still
+
+0:56:21.020,0:56:27.800
+looking for a few talented people who
+
+0:56:24.860,0:56:32.020
+are willing to work in our security so
+
+0:56:27.800,0:56:35.320
+that would be a good opportunity to
+
+0:56:32.020,0:56:37.590
+reach out to me what are you looking for
+
+0:56:35.320,0:56:42.090
+embedded firmware but it's hard
+
+0:56:37.590,0:56:43.920
+Engineers or or security researchers yes
+
+0:56:42.090,0:56:46.740
+so I'm looking for security researcher
+
+0:56:43.920,0:56:50.210
+for our secure researcher and but it's
+
+0:56:46.740,0:56:53.340
+secured researchers and we have
+
+0:56:50.210,0:56:55.410
+cutting-edge lab and interesting
+
+0:56:53.340,0:56:57.810
+everyday challenges as projects where we
+
+0:56:55.410,0:57:00.780
+need to do security assessments and it's
+
+0:56:57.810,0:57:03.530
+a very international team the lab is
+
+0:57:00.780,0:57:08.160
+based in Abu Dhabi United Arab Emirates
+
+0:57:03.530,0:57:09.600
+is it I guess I shouldn't say is it as
+
+0:57:08.160,0:57:14.580
+beautiful there as I think because how
+
+0:57:09.600,0:57:17.160
+would you know what I think so actually
+
+0:57:14.580,0:57:19.140
+is very beautiful because the offices
+
+0:57:17.160,0:57:22.440
+are right next to the rebbe engulfed
+
+0:57:19.140,0:57:24.900
+so there's turquoise border surrounding
+
+0:57:22.440,0:57:29.220
+the office the other day we saw a shark
+
+0:57:24.900,0:57:31.080
+swimming by so it's pretty nice yeah and
+
+0:57:29.220,0:57:32.970
+how should they contact you they can
+
+0:57:31.080,0:57:34.680
+always email on the show if they want
+
+0:57:32.970,0:57:36.060
+and I will make introductions but if
+
+0:57:34.680,0:57:39.300
+they want to contact you directly is
+
+0:57:36.060,0:57:41.430
+there a good way to do that yeah it's
+
+0:57:39.300,0:57:44.870
+probably best to just connect with me on
+
+0:57:41.430,0:57:48.390
+LinkedIn and send a message okay okay
+
+0:57:44.870,0:57:51.180
+our guest has been axel parchment head
+
+0:57:48.390,0:57:54.480
+of the hardware lab at dark matter LLC
+
+0:57:51.180,0:57:56.250
+is the closings keynote at the hardware
+
+0:57:54.480,0:57:59.190
+IO conference in The Hague in
+
+0:57:56.250,0:58:02.640
+mid-september axel thank you for being
+
+0:57:59.190,0:58:05.220
+with us thanks for having me thank you
+
+0:58:02.640,0:58:06.750
+also to the folks at hardware Toyo for
+
+0:58:05.220,0:58:09.150
+connecting me to axel thank you to
+
+0:58:06.750,0:58:11.130
+patreon supporters for Axel's microphone
+
+0:58:09.150,0:58:12.960
+thank you to particle i/o for their
+
+0:58:11.130,0:58:14.430
+conference coupons and giveaway don't
+
+0:58:12.960,0:58:18.170
+forget about those you have until
+
+0:58:14.430,0:58:20.550
+September 15th to email me for them
+
+0:58:18.170,0:58:22.560
+numerous links will be in the show notes
+
+0:58:20.550,0:58:24.420
+if you want to know more and you can
+
+0:58:22.560,0:58:28.050
+check them out on your podcast app or on
+
+0:58:24.420,0:58:29.880
+embedded fm on the web thank you to
+
+0:58:28.050,0:58:31.520
+Christopher for producing and co-hosting
+
+0:58:29.880,0:58:34.920
+and of course thank you for listening
+
+0:58:31.520,0:58:39.720
+you can always contact us on that webby
+
+0:58:34.920,0:58:44.010
+thing or show at embedded fm and now how
+
+0:58:39.720,0:58:45.900
+about a quote from Neil Gaiman I've
+
+0:58:44.010,0:58:48.330
+always felt that violence was the last
+
+0:58:45.900,0:58:50.820
+refuge of the incompetent and empty
+
+0:58:48.330,0:58:53.510
+threats the last sanctuary of the
+
+0:58:50.820,0:58:53.510
+terminal Ian app
+
+0:58:53.680,0:58:58.070
+embeded is an independently produced
+
+0:58:56.119,0:59:00.560
+radio show that focuses on the many
+
+0:58:58.070,0:59:02.450
+aspects of engineering it is a
+
+0:59:00.560,0:59:03.950
+production of logical elegance and
+
+0:59:02.450,0:59:06.589
+embedded software a consulting company
+
+0:59:03.950,0:59:08.690
+in California if there are
+
+0:59:06.589,0:59:10.550
+advertisements in the show we did not
+
+0:59:08.690,0:59:13.420
+put them there and do not receive money
+
+0:59:10.550,0:59:18.940
+from them at this time our sponsors are
+
+0:59:13.420,0:59:18.940
+logical elegance and listeners like you
+

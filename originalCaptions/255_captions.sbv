@@ -1,0 +1,4335 @@
+0:00:03.630,0:00:09.890
+[Music]
+
+0:00:06.610,0:00:12.559
+welcome to embedded I'm Elysia white
+
+0:00:09.890,0:00:14.840
+alongside Christopher white and today
+
+0:00:12.559,0:00:18.019
+we're going to talk about space hacking
+
+0:00:14.840,0:00:20.739
+I guess that's cracking the passwords on
+
+0:00:18.019,0:00:23.300
+comets and planets to see what's inside
+
+0:00:20.739,0:00:25.849
+at least I hope so we'll find out I
+
+0:00:23.300,0:00:28.009
+guess is Arielle Waldman and I'm sure
+
+0:00:25.849,0:00:29.060
+that she can help us figure it out hey
+
+0:00:28.009,0:00:32.720
+Arielle thanks for joining us on the
+
+0:00:29.060,0:00:35.750
+show thanks so much for having me I saw
+
+0:00:32.720,0:00:37.280
+you speak at the Empire speaker series
+
+0:00:35.750,0:00:40.699
+the Monterey Bay Aquarium Research
+
+0:00:37.280,0:00:42.530
+Institute speaker series but for our
+
+0:00:40.699,0:00:45.949
+listeners who aren't familiar with you
+
+0:00:42.530,0:00:48.980
+could you tell us about yourself as
+
+0:00:45.949,0:00:51.050
+though you were on a technical panel if
+
+0:00:48.980,0:00:52.249
+I was on a technical panel yeah our
+
+0:00:51.050,0:00:54.519
+listeners are mostly hardware and
+
+0:00:52.249,0:00:58.210
+software engineers so you know you can
+
+0:00:54.519,0:01:01.489
+talk science to them big e key yeah so
+
+0:00:58.210,0:01:04.550
+so for me the most of what I do is focus
+
+0:01:01.489,0:01:06.320
+on making science more inclusive and
+
+0:01:04.550,0:01:09.650
+accessible to people from all different
+
+0:01:06.320,0:01:12.530
+backgrounds to contribute to my work
+
+0:01:09.650,0:01:14.210
+spends a lot of different projects one
+
+0:01:12.530,0:01:16.490
+of which is that I am the founder of
+
+0:01:14.210,0:01:19.250
+space hack org which is a directory of
+
+0:01:16.490,0:01:21.530
+ways for anyone to participate in space
+
+0:01:19.250,0:01:23.930
+exploration I am also the global
+
+0:01:21.530,0:01:26.090
+director of science hack day a weekend
+
+0:01:23.930,0:01:28.880
+event in which scientists designers and
+
+0:01:26.090,0:01:30.260
+developers from all over get together to
+
+0:01:28.880,0:01:32.570
+see what they can prototype in one
+
+0:01:30.260,0:01:35.210
+weekend and I do a lot of other things
+
+0:01:32.570,0:01:39.110
+I'm the author of the book what's it
+
+0:01:35.210,0:01:42.230
+like in space I do a lot of interesting
+
+0:01:39.110,0:01:45.110
+work traveling around and getting
+
+0:01:42.230,0:01:47.720
+different science communities started I
+
+0:01:45.110,0:01:49.880
+was on a National Academy of Sciences
+
+0:01:47.720,0:01:52.490
+committee about the future of human
+
+0:01:49.880,0:01:54.410
+spaceflight advising the nation on how
+
+0:01:52.490,0:01:56.120
+to build a sustainable human spaceflight
+
+0:01:54.410,0:01:59.330
+program over the next several decades
+
+0:01:56.120,0:02:01.910
+and I am also the advisor to NASA
+
+0:01:59.330,0:02:05.660
+innovative advanced concepts which is
+
+0:02:01.910,0:02:08.569
+NASA's more futuristic sci-fi ask sort
+
+0:02:05.660,0:02:10.580
+of program that funds kind of out there
+
+0:02:08.569,0:02:14.510
+ideas that could be transformative to
+
+0:02:10.580,0:02:16.940
+future space missions so many things
+
+0:02:14.510,0:02:18.470
+so many questions I know it is and
+
+0:02:16.940,0:02:21.409
+that's only like a short saying like
+
+0:02:18.470,0:02:24.500
+everything but ya know I like I like to
+
+0:02:21.409,0:02:28.099
+do a lot of geeky different things and
+
+0:02:24.500,0:02:32.030
+your background is as an artist yes yeah
+
+0:02:28.099,0:02:34.489
+so I started you know working well in
+
+0:02:32.030,0:02:36.410
+sort of the art world I can I guess I
+
+0:02:34.489,0:02:39.440
+went to art school and I got my degree
+
+0:02:36.410,0:02:40.099
+in graphic design so I didn't really do
+
+0:02:39.440,0:02:42.650
+anything
+
+0:02:40.099,0:02:47.260
+science or space related until the last
+
+0:02:42.650,0:02:52.250
+few years and how how have you gotten
+
+0:02:47.260,0:02:56.150
+into science yeah it was kind of an
+
+0:02:52.250,0:02:59.390
+unexpected scenario for me so you know I
+
+0:02:56.150,0:03:03.290
+had I had gone to art school and I was
+
+0:02:59.390,0:03:06.079
+working at an ad agency and had recently
+
+0:03:03.290,0:03:09.230
+moved to San Francisco and I was
+
+0:03:06.079,0:03:11.780
+watching a documentary about NASA one
+
+0:03:09.230,0:03:13.910
+evening and I thought it was a really
+
+0:03:11.780,0:03:17.180
+cool documentary because it was
+
+0:03:13.910,0:03:19.459
+interviewing all the old guys who used
+
+0:03:17.180,0:03:21.620
+to work in Mission Control and they were
+
+0:03:19.459,0:03:23.950
+talking about how when they were hired
+
+0:03:21.620,0:03:26.120
+at NASA they didn't know anything about
+
+0:03:23.950,0:03:28.130
+spacecrafts or space exploration really
+
+0:03:26.120,0:03:30.370
+at all and they were having to figure it
+
+0:03:28.130,0:03:33.919
+out as they went along and so I was
+
+0:03:30.370,0:03:35.630
+listening to this and thinking to myself
+
+0:03:33.919,0:03:37.459
+well I don't know anything about space
+
+0:03:35.630,0:03:40.280
+exploration and I want a job at NASA
+
+0:03:37.459,0:03:42.799
+that sounds amazing and so I decided
+
+0:03:40.280,0:03:45.109
+just on a whim to email someone at NASA
+
+0:03:42.799,0:03:47.120
+that I had never met I just got a hold
+
+0:03:45.109,0:03:48.769
+of someone's email address at NASA and I
+
+0:03:47.120,0:03:51.349
+just emailed them and I say it said I
+
+0:03:48.769,0:03:53.239
+was a huge fan of NASA which was you
+
+0:03:51.349,0:03:56.660
+know true for all of like a week or so
+
+0:03:53.239,0:04:00.139
+at that point and I kind of volunteered
+
+0:03:56.660,0:04:03.500
+myself and I'm very very unexpectedly
+
+0:04:00.139,0:04:05.359
+ended up getting a job from email they
+
+0:04:03.500,0:04:06.919
+emailed me back and they sent me a job
+
+0:04:05.359,0:04:09.049
+description that they had posted that
+
+0:04:06.919,0:04:11.569
+day and I applied for the job and I
+
+0:04:09.049,0:04:14.930
+ended up getting a job at NASA and it
+
+0:04:11.569,0:04:16.849
+completely changed everything too for me
+
+0:04:14.930,0:04:19.609
+because it really made me realize that
+
+0:04:16.849,0:04:20.959
+there's not only that it was just
+
+0:04:19.609,0:04:22.669
+incredible that I even had that
+
+0:04:20.959,0:04:24.740
+opportunity but that there were a lot of
+
+0:04:22.669,0:04:28.310
+opportunities like that for people like
+
+0:04:24.740,0:04:30.470
+me to get involved in space exploration
+
+0:04:28.310,0:04:33.050
+and I really just set out on a mission
+
+0:04:30.470,0:04:34.490
+to give other people the same sort of
+
+0:04:33.050,0:04:38.780
+opportunities I've been afforded to me
+
+0:04:34.490,0:04:41.870
+or similar things where they value their
+
+0:04:38.780,0:04:44.000
+existing skill sets and and backgrounds
+
+0:04:41.870,0:04:48.080
+to be able to contribute to science and
+
+0:04:44.000,0:04:50.300
+space exploration and valuable ways how
+
+0:04:48.080,0:04:51.740
+did you learn the science pieces of it
+
+0:04:50.300,0:04:56.690
+though I mean you speak very eloquently
+
+0:04:51.740,0:05:00.110
+about the specifics of computer vision
+
+0:04:56.690,0:05:04.160
+and the biology pieces of it how do you
+
+0:05:00.110,0:05:06.889
+how do you learn that part I mean for me
+
+0:05:04.160,0:05:08.450
+I think a lot of it is I really value
+
+0:05:06.889,0:05:12.050
+embedding myself in different
+
+0:05:08.450,0:05:15.050
+communities so you know when I moved to
+
+0:05:12.050,0:05:16.370
+San Francisco I became very embedded in
+
+0:05:15.050,0:05:20.150
+the tech communities and the tech
+
+0:05:16.370,0:05:21.340
+startups and so I feel like the majority
+
+0:05:20.150,0:05:25.550
+of my friends are actually probably
+
+0:05:21.340,0:05:28.580
+intact not in science and on the science
+
+0:05:25.550,0:05:30.889
+side of things you know I try to go to
+
+0:05:28.580,0:05:34.640
+you know synthetic biology workshops or
+
+0:05:30.889,0:05:37.220
+just get to talk to more biologists you
+
+0:05:34.640,0:05:39.169
+know I can't say that I you know know
+
+0:05:37.220,0:05:42.110
+the intricate inner workings of
+
+0:05:39.169,0:05:44.300
+everything but I do make an effort to
+
+0:05:42.110,0:05:45.770
+get to know people in these different
+
+0:05:44.300,0:05:48.700
+disciplines and through getting to know
+
+0:05:45.770,0:05:52.789
+people then I really have time to
+
+0:05:48.700,0:05:55.700
+process you know how science works and
+
+0:05:52.789,0:05:57.710
+how to effectively translate that to
+
+0:05:55.700,0:06:00.110
+other disciplines either within science
+
+0:05:57.710,0:06:01.880
+or outside of science so I think a lot
+
+0:06:00.110,0:06:04.130
+of it is social I think a lot of it is
+
+0:06:01.880,0:06:05.900
+you know showing up to the places in
+
+0:06:04.130,0:06:08.030
+which different people work and
+
+0:06:05.900,0:06:09.639
+socialize and I think that goes that
+
+0:06:08.030,0:06:12.260
+goes a long way
+
+0:06:09.639,0:06:14.060
+okay well I actually have more questions
+
+0:06:12.260,0:06:15.919
+in this vein but we are supposed to be
+
+0:06:14.060,0:06:18.200
+doing lightning round where we ask you
+
+0:06:15.919,0:06:20.300
+short questions and we want you to have
+
+0:06:18.200,0:06:23.120
+short answers and if we are behaving
+
+0:06:20.300,0:06:25.250
+ourselves which I won't be we won't ask
+
+0:06:23.120,0:06:28.870
+you why and how and all of the other
+
+0:06:25.250,0:06:32.000
+things are you ready I guess go for it
+
+0:06:28.870,0:06:34.880
+what's the coolest satellite coolest
+
+0:06:32.000,0:06:36.560
+satellite Oh including space probes sure
+
+0:06:34.880,0:06:38.750
+well I mean I'm just gonna have to go
+
+0:06:36.560,0:06:41.180
+Voyager one I mean you know it's the
+
+0:06:38.750,0:06:42.020
+farthest so that's that wasn't easy
+
+0:06:41.180,0:06:47.300
+enough
+
+0:06:42.020,0:06:51.290
+definitely close to you what art medium
+
+0:06:47.300,0:06:52.970
+do you prefer Oh what well I mean I
+
+0:06:51.290,0:06:55.310
+guess again I'll just go for the easy
+
+0:06:52.970,0:06:57.110
+answer which is graphic design if it's
+
+0:06:55.310,0:07:01.040
+considered an art medium which is always
+
+0:06:57.110,0:07:05.350
+a contentious but you know I really like
+
+0:07:01.040,0:07:09.860
+graphic styles and I gravitate towards
+
+0:07:05.350,0:07:12.770
+art that really has I don't know a
+
+0:07:09.860,0:07:15.080
+communicating function to it although I
+
+0:07:12.770,0:07:16.940
+know a lot of people would really take
+
+0:07:15.080,0:07:18.800
+me to task over whether graphic design
+
+0:07:16.940,0:07:20.960
+is considered art or not but I'll go
+
+0:07:18.800,0:07:22.240
+with graphic design we consider it a
+
+0:07:20.960,0:07:24.050
+heart
+
+0:07:22.240,0:07:27.740
+this may be a dangerous question
+
+0:07:24.050,0:07:29.600
+favorite astronaut oh okay well well it
+
+0:07:27.740,0:07:31.840
+is a dangerous question because I mean I
+
+0:07:29.600,0:07:35.150
+like all of them that I've met so far
+
+0:07:31.840,0:07:39.200
+but I would definitely pick Anusha am
+
+0:07:35.150,0:07:42.320
+sorry first private a woman a private
+
+0:07:39.200,0:07:44.300
+astronaut a woman who went to the
+
+0:07:42.320,0:07:47.150
+International Space Station who was self
+
+0:07:44.300,0:07:50.800
+funded also she sponsored the Ansari X
+
+0:07:47.150,0:07:53.390
+PRIZE which was the competition to build
+
+0:07:50.800,0:07:55.730
+non-governmental suborbital space
+
+0:07:53.390,0:07:58.430
+vehicles she does a bunch of really
+
+0:07:55.730,0:08:01.520
+awesome stuff also she came from Iran to
+
+0:07:58.430,0:08:05.720
+the United States and I also have some
+
+0:08:01.520,0:08:08.120
+Iranian heritage so she is awesome for
+
+0:08:05.720,0:08:11.150
+those reasons but also just genuinely as
+
+0:08:08.120,0:08:14.000
+a person she is amazing to talk to and
+
+0:08:11.150,0:08:16.460
+she's perhaps one of the best people to
+
+0:08:14.000,0:08:18.380
+talk to about the human aspects and the
+
+0:08:16.460,0:08:22.700
+very human emotions about what it's like
+
+0:08:18.380,0:08:28.030
+to go into space can you introduce us I
+
+0:08:22.700,0:08:30.620
+could try favorite fictional spaceship
+
+0:08:28.030,0:08:33.950
+fictional space oh gosh that one's
+
+0:08:30.620,0:08:37.910
+difficult uh I don't think I've ever
+
+0:08:33.950,0:08:39.290
+thought about like ranking them you can
+
+0:08:37.910,0:08:41.300
+go with least favorite if there's one
+
+0:08:39.290,0:08:45.590
+that you're like wow that was a stinker
+
+0:08:41.300,0:08:48.890
+I don't know I don't know I mean for now
+
+0:08:45.590,0:08:54.320
+I'll just go with you know Star Trek The
+
+0:08:48.890,0:08:55.760
+Next Generation yeah what's a tip you
+
+0:08:54.320,0:09:02.079
+think everyone should know
+
+0:08:55.760,0:09:02.079
+on anything in the world yep oh gosh
+
+0:09:02.139,0:09:07.730
+okay I'll go with a tip that came from
+
+0:09:05.690,0:09:09.860
+an astronaut which is if you go into
+
+0:09:07.730,0:09:12.380
+space make sure you go for longer than
+
+0:09:09.860,0:09:14.930
+four days because the first four days
+
+0:09:12.380,0:09:17.209
+your face is really bloated because all
+
+0:09:14.930,0:09:21.079
+the blood that is usually beneath your
+
+0:09:17.209,0:09:22.880
+head is actually in like is equalizing
+
+0:09:21.079,0:09:25.399
+throughout your whole body so your face
+
+0:09:22.880,0:09:27.860
+is super bloated they call it moon face
+
+0:09:25.399,0:09:29.990
+it's really uncomfortable and it's not
+
+0:09:27.860,0:09:32.120
+until about four days later that your
+
+0:09:29.990,0:09:34.370
+body figures out how to equalize it all
+
+0:09:32.120,0:09:36.829
+and you feel a lot more comfortable and
+
+0:09:34.370,0:09:38.959
+a lot less gross so I have been told the
+
+0:09:36.829,0:09:40.510
+the top tip for going into spaces make
+
+0:09:38.959,0:09:41.690
+sure you go for longer than four days
+
+0:09:40.510,0:09:43.310
+all right
+
+0:09:41.690,0:09:44.690
+I have other Larrin questions but I have
+
+0:09:43.310,0:09:46.310
+more questions about that so let's just
+
+0:09:44.690,0:09:49.490
+be done with lightning round
+
+0:09:46.310,0:09:50.839
+sure and you wrote a book called what's
+
+0:09:49.490,0:09:54.920
+it like in space and you got to talk to
+
+0:09:50.839,0:09:56.829
+us lots of astronauts who is the
+
+0:09:54.920,0:09:59.600
+audience for that book
+
+0:09:56.829,0:10:01.490
+honestly the audience I know this is
+
+0:09:59.600,0:10:04.130
+like maybe not the best like pitch for
+
+0:10:01.490,0:10:07.190
+people but it really was I really tried
+
+0:10:04.130,0:10:10.910
+to make it for everyone all ages all
+
+0:10:07.190,0:10:13.940
+genders all you know everywhere
+
+0:10:10.910,0:10:16.730
+everywhere and everyone I really just
+
+0:10:13.940,0:10:18.860
+thought it was something that you know
+
+0:10:16.730,0:10:20.480
+there's a lot of books about space a lot
+
+0:10:18.860,0:10:23.389
+of them talk about the seriousness of
+
+0:10:20.480,0:10:26.569
+space and and you know it being this
+
+0:10:23.389,0:10:28.130
+huge undertaking which it is but I kind
+
+0:10:26.569,0:10:30.500
+of thought that there should be a book
+
+0:10:28.130,0:10:34.010
+that goes into the more amusing and
+
+0:10:30.500,0:10:35.630
+delightful and very human aspects of
+
+0:10:34.010,0:10:38.930
+space exploration including the
+
+0:10:35.630,0:10:41.300
+embarrassing ones so so I really just
+
+0:10:38.930,0:10:44.660
+made it because I had come across all of
+
+0:10:41.300,0:10:47.029
+these astronauts in my work which was
+
+0:10:44.660,0:10:48.889
+you know not something everyone gets to
+
+0:10:47.029,0:10:51.199
+say and I would just keep coming home
+
+0:10:48.889,0:10:53.690
+with all these really funny stories of
+
+0:10:51.199,0:10:55.459
+from astronauts about what it was like
+
+0:10:53.690,0:10:57.889
+in space but they were the stories that
+
+0:10:55.459,0:10:59.510
+maybe they might not say on stage they
+
+0:10:57.889,0:11:01.959
+were the stories that they might say
+
+0:10:59.510,0:11:04.010
+over a cup of coffee or something
+
+0:11:01.959,0:11:07.980
+yeah no wonder what the stories are that
+
+0:11:04.010,0:11:11.490
+you get over a couple of beers is heck
+
+0:11:07.980,0:11:14.040
+um I I enjoyed your book I wish I had
+
+0:11:11.490,0:11:16.020
+had it many years ago when I wrote an
+
+0:11:14.040,0:11:19.620
+extraordinarily silly novel about space
+
+0:11:16.020,0:11:21.120
+travel and wished that I'd had it for
+
+0:11:19.620,0:11:23.730
+research because one of my research
+
+0:11:21.120,0:11:28.760
+points was that I found most fascinating
+
+0:11:23.730,0:11:31.140
+it was about snot of course you did and
+
+0:11:28.760,0:11:34.500
+and you sort of alluded to this in your
+
+0:11:31.140,0:11:36.450
+tip everyone should know although it's
+
+0:11:34.500,0:11:39.540
+good that if I ever get to go to space I
+
+0:11:36.450,0:11:44.030
+will definitely yeah four days and what
+
+0:11:39.540,0:11:47.190
+happens to our mucus in zero-g yeah it
+
+0:11:44.030,0:11:49.140
+essentially just stays there and doesn't
+
+0:11:47.190,0:11:51.570
+leak out at all so it just feels like
+
+0:11:49.140,0:11:53.310
+you're always having a stuffy nose and
+
+0:11:51.570,0:11:55.830
+you always have a cold which also then
+
+0:11:53.310,0:11:59.520
+means that your sense of taste is pretty
+
+0:11:55.830,0:12:03.660
+muted as well so yeah it just floats
+
+0:11:59.520,0:12:06.210
+around in there doesn't come out how did
+
+0:12:03.660,0:12:08.940
+you how did you manage to talk to the
+
+0:12:06.210,0:12:10.800
+astronauts without squeeing and being a
+
+0:12:08.940,0:12:11.310
+fangirl and just going to my god oh my
+
+0:12:10.800,0:12:15.450
+god
+
+0:12:11.310,0:12:18.330
+I think sometimes I probably was being a
+
+0:12:15.450,0:12:20.580
+fangirl but I think that's okay you know
+
+0:12:18.330,0:12:22.350
+some are some are busier than others and
+
+0:12:20.580,0:12:25.050
+some some I had met in professional
+
+0:12:22.350,0:12:27.930
+capacities so it was you know I was able
+
+0:12:25.050,0:12:30.480
+to to keep my cool because I had to
+
+0:12:27.930,0:12:34.920
+attend a meeting in addition to meeting
+
+0:12:30.480,0:12:37.680
+them but I think you know I think it
+
+0:12:34.920,0:12:39.630
+just really is cool I think it's very
+
+0:12:37.680,0:12:41.370
+humbling to talk to any of them just
+
+0:12:39.630,0:12:43.650
+because you know that there's only
+
+0:12:41.370,0:12:45.480
+around 550 people who have ever been in
+
+0:12:43.650,0:12:47.400
+space and you know that pretty much
+
+0:12:45.480,0:12:50.520
+everyone across the entire world wants
+
+0:12:47.400,0:12:53.820
+to talk to them so you know I try and
+
+0:12:50.520,0:12:56.190
+keep it short amidst my fangirling is
+
+0:12:53.820,0:12:58.140
+kind of how I went about it did any of
+
+0:12:56.190,0:13:01.620
+them try to play it cool like that space
+
+0:12:58.140,0:13:04.440
+no big deal some of them kind of were
+
+0:13:01.620,0:13:06.240
+like that and others weren't you know I
+
+0:13:04.440,0:13:08.490
+think one of the reasons why I really
+
+0:13:06.240,0:13:11.070
+appreciated interviewing Anousheh Ansari
+
+0:13:08.490,0:13:14.280
+was because because she wasn't a
+
+0:13:11.070,0:13:18.150
+governmental astronaut I think she was
+
+0:13:14.280,0:13:19.540
+really detailed and being able to talk
+
+0:13:18.150,0:13:22.480
+about you know
+
+0:13:19.540,0:13:25.269
+embarrassing times and things you know
+
+0:13:22.480,0:13:26.949
+one thing that I remember is she told to
+
+0:13:25.269,0:13:30.610
+me that I included in the book was about
+
+0:13:26.949,0:13:32.410
+how she went to you know she was going
+
+0:13:30.610,0:13:35.320
+into space she had trained she went to
+
+0:13:32.410,0:13:37.540
+the International Space Station and you
+
+0:13:35.320,0:13:39.339
+know when you're in microgravity you
+
+0:13:37.540,0:13:40.899
+need to zip her up your pockets all the
+
+0:13:39.339,0:13:43.149
+time otherwise whatever you put in your
+
+0:13:40.899,0:13:45.370
+pockets will float out and she put a bit
+
+0:13:43.149,0:13:47.800
+of lipgloss in her pocket and it
+
+0:13:45.370,0:13:49.389
+accidentally floated out and she
+
+0:13:47.800,0:13:51.370
+couldn't find it anywhere and of course
+
+0:13:49.389,0:13:53.709
+the worry when you're in space is
+
+0:13:51.370,0:13:56.019
+anything floating might hit a button or
+
+0:13:53.709,0:13:57.579
+might you know ruin something you know
+
+0:13:56.019,0:14:00.910
+you don't want a bunch of random stuff
+
+0:13:57.579,0:14:02.920
+floating around in a space station it
+
+0:14:00.910,0:14:04.630
+could be dangerous and so she looked
+
+0:14:02.920,0:14:06.459
+everywhere for this you know lipgloss
+
+0:14:04.630,0:14:08.110
+couldn't find it and she was so
+
+0:14:06.459,0:14:10.750
+embarrassed she's like oh my god I'm in
+
+0:14:08.110,0:14:13.509
+space I've trained for this and now I've
+
+0:14:10.750,0:14:15.839
+probably ruined everything and oh my god
+
+0:14:13.509,0:14:18.160
+like what is like the main you know
+
+0:14:15.839,0:14:19.959
+manager going to think of all of this
+
+0:14:18.160,0:14:21.279
+and she was just too embarrassed to say
+
+0:14:19.959,0:14:24.339
+and she was just like I've screwed
+
+0:14:21.279,0:14:27.430
+everything up I've totally ruined
+
+0:14:24.339,0:14:29.260
+everything and so she finally after I
+
+0:14:27.430,0:14:31.360
+think a couple days or something Fest up
+
+0:14:29.260,0:14:33.699
+and they were like oh yeah no big deal
+
+0:14:31.360,0:14:35.829
+there's like a fam that like sucks up
+
+0:14:33.699,0:14:37.269
+all the stuff that's floating around is
+
+0:14:35.829,0:14:39.190
+probably there it acts like a
+
+0:14:37.269,0:14:40.959
+lost-and-found then she went and it was
+
+0:14:39.190,0:14:43.930
+there and it was perfectly fine like no
+
+0:14:40.959,0:14:46.360
+big deal but I really appreciate stories
+
+0:14:43.930,0:14:48.370
+like that because I feel like the
+
+0:14:46.360,0:14:50.649
+stories of embarrassment are the things
+
+0:14:48.370,0:14:54.279
+that at least for me I can relate to a
+
+0:14:50.649,0:14:56.110
+lot I can I can really relate to you
+
+0:14:54.279,0:14:57.550
+know going like oh great I'm in space
+
+0:14:56.110,0:14:59.740
+and now I've totally messed something up
+
+0:14:57.550,0:15:02.199
+and everyone else here is you know like
+
+0:14:59.740,0:15:05.980
+doing everything right and I'm the
+
+0:15:02.199,0:15:08.680
+screw-up or something so I I really you
+
+0:15:05.980,0:15:11.740
+know I like those mundane but silly
+
+0:15:08.680,0:15:15.310
+stories about space they make it
+
+0:15:11.740,0:15:20.019
+approachable yeah and it's nice to make
+
+0:15:15.310,0:15:21.880
+science approachable yeah it's it's kind
+
+0:15:20.019,0:15:23.649
+of a tragedy that it isn't more
+
+0:15:21.880,0:15:26.139
+approachable and it doesn't really make
+
+0:15:23.649,0:15:29.290
+sense because you know for me I think I
+
+0:15:26.139,0:15:31.420
+would argue that humans have made it
+
+0:15:29.290,0:15:32.690
+unapproachable that it is approachable
+
+0:15:31.420,0:15:36.800
+by design but now
+
+0:15:32.690,0:15:38.450
+have to kind of dismantle a lot of the
+
+0:15:36.800,0:15:41.660
+walls that people have put up around it
+
+0:15:38.450,0:15:45.890
+over the last few decades did you tell
+
+0:15:41.660,0:15:51.100
+me more about that yeah I mean you know
+
+0:15:45.890,0:15:53.510
+science is something that really became
+
+0:15:51.100,0:15:58.250
+properly a professional discipline over
+
+0:15:53.510,0:16:00.140
+you know the 1900s and you know and with
+
+0:15:58.250,0:16:02.360
+that came a lot of benefits we were able
+
+0:16:00.140,0:16:05.660
+to make a lot of amazing discoveries and
+
+0:16:02.360,0:16:09.110
+peer review is able to make sure that
+
+0:16:05.660,0:16:12.050
+you know the science that we take in and
+
+0:16:09.110,0:16:14.750
+listen to and and do is is you know
+
+0:16:12.050,0:16:17.810
+proper and up to up to standards for the
+
+0:16:14.750,0:16:20.450
+most part those are positive things the
+
+0:16:17.810,0:16:23.090
+negative things are that science used to
+
+0:16:20.450,0:16:26.480
+more center around amateurs around
+
+0:16:23.090,0:16:29.300
+people who were sort of either self
+
+0:16:26.480,0:16:32.630
+educated or self funded for the
+
+0:16:29.300,0:16:34.550
+privileged and you know that had its own
+
+0:16:32.630,0:16:36.590
+drawbacks and that like a lot of the
+
+0:16:34.550,0:16:41.120
+amateurs who are doing science were very
+
+0:16:36.590,0:16:43.610
+privileged individuals typically but the
+
+0:16:41.120,0:16:46.760
+concept of it being something where you
+
+0:16:43.610,0:16:48.530
+didn't have to have a very specific in a
+
+0:16:46.760,0:16:50.480
+very narrow background in order to make
+
+0:16:48.530,0:16:52.340
+real contributions to it I think is
+
+0:16:50.480,0:16:54.620
+something that has gotten lost and
+
+0:16:52.340,0:16:57.860
+something that over the last I would say
+
+0:16:54.620,0:16:59.810
+you know 10 10 to 15 years people have
+
+0:16:57.860,0:17:03.590
+been trying to reclaim a bit with the
+
+0:16:59.810,0:17:05.990
+term citizen science I personally don't
+
+0:17:03.590,0:17:08.800
+like the phrase citizen science I think
+
+0:17:05.990,0:17:12.110
+there's a lot bundled into that that
+
+0:17:08.800,0:17:14.839
+doesn't properly just treat Sciences
+
+0:17:12.110,0:17:16.400
+science no matter who does it but I
+
+0:17:14.839,0:17:18.740
+think you know the concept of getting
+
+0:17:16.400,0:17:20.350
+people from different disciplines at
+
+0:17:18.740,0:17:24.620
+different backgrounds to contribute
+
+0:17:20.350,0:17:27.860
+toward a to science and and really
+
+0:17:24.620,0:17:30.020
+acknowledging their value as they exist
+
+0:17:27.860,0:17:32.930
+not their value if they drop everything
+
+0:17:30.020,0:17:35.350
+and get a PhD in science I think is
+
+0:17:32.930,0:17:37.730
+really important and something where
+
+0:17:35.350,0:17:40.730
+science as a human endeavor has sort of
+
+0:17:37.730,0:17:42.050
+lost its way I think right now we're in
+
+0:17:40.730,0:17:43.550
+this stage where people are still
+
+0:17:42.050,0:17:46.010
+talking about citizen science as being
+
+0:17:43.550,0:17:46.280
+this kind of I don't know how else to
+
+0:17:46.010,0:17:49.940
+put
+
+0:17:46.280,0:17:52.160
+but cute thing where you know oh people
+
+0:17:49.940,0:17:54.740
+can make measurements for you and and
+
+0:17:52.160,0:17:56.810
+that citizen-science yeah it's
+
+0:17:54.740,0:17:58.730
+frustrating it's a step in the right
+
+0:17:56.810,0:18:01.160
+direction but we're still not yet at the
+
+0:17:58.730,0:18:04.670
+era where people can be very
+
+0:18:01.160,0:18:06.680
+self-directed and that it sort of breaks
+
+0:18:04.670,0:18:09.230
+out from being citizen science breaks
+
+0:18:06.680,0:18:12.470
+out from being a top-down sort of thing
+
+0:18:09.230,0:18:14.840
+which it is very much right now you see
+
+0:18:12.470,0:18:17.000
+government agencies like the National
+
+0:18:14.840,0:18:19.070
+Science Foundation and other places talk
+
+0:18:17.000,0:18:21.380
+about valuing citizen science but they
+
+0:18:19.070,0:18:23.450
+still don't actually do the work in
+
+0:18:21.380,0:18:25.330
+changing their systems to make it easier
+
+0:18:23.450,0:18:27.380
+for individuals without academic
+
+0:18:25.330,0:18:29.600
+affiliations to actually apply for
+
+0:18:27.380,0:18:32.900
+grants they don't make it easier for
+
+0:18:29.600,0:18:35.180
+people to do self-directed work and and
+
+0:18:32.900,0:18:38.960
+so people like myself have to really
+
+0:18:35.180,0:18:41.960
+navigate this kind of you know
+
+0:18:38.960,0:18:44.990
+figuratively with a machete and and
+
+0:18:41.960,0:18:48.200
+start figuring out how to do the stuff
+
+0:18:44.990,0:18:50.000
+that we want to do without it being
+
+0:18:48.200,0:18:51.920
+constrained into a very neat and orderly
+
+0:18:50.000,0:18:54.800
+little box where we're only allowed to
+
+0:18:51.920,0:18:56.870
+make you know measurements so there's a
+
+0:18:54.800,0:19:01.010
+lot I can say about this subject but I
+
+0:18:56.870,0:19:03.530
+think that is that sort of summarizes it
+
+0:19:01.010,0:19:06.020
+for me is is you know we're needing to
+
+0:19:03.530,0:19:07.910
+re-break down the walls but then also
+
+0:19:06.020,0:19:13.490
+make it something that it's not just for
+
+0:19:07.910,0:19:17.210
+the privileged few to to do and we need
+
+0:19:13.490,0:19:19.280
+to really start moving where people who
+
+0:19:17.210,0:19:21.280
+want to contribute to science who come
+
+0:19:19.280,0:19:25.520
+from non-traditional backgrounds have
+
+0:19:21.280,0:19:27.680
+autonomy they don't have to just do work
+
+0:19:25.520,0:19:29.210
+within a very constrained set of
+
+0:19:27.680,0:19:32.000
+parameters but they can actually do
+
+0:19:29.210,0:19:34.130
+self-directed work okay let me see if I
+
+0:19:32.000,0:19:35.780
+understand what you're saying because I
+
+0:19:34.130,0:19:39.590
+think there are several important points
+
+0:19:35.780,0:19:41.120
+here when we went from natural
+
+0:19:39.590,0:19:44.450
+philosophers to scientists they were
+
+0:19:41.120,0:19:47.480
+often wealthy and privileged and they
+
+0:19:44.450,0:19:50.900
+were driven by curiosity and love of
+
+0:19:47.480,0:19:53.900
+discovery and now as we talk about
+
+0:19:50.900,0:19:57.490
+amateurs they may still be privileged
+
+0:19:53.900,0:19:59.220
+and funded or may not be given the
+
+0:19:57.490,0:20:00.900
+access that
+
+0:19:59.220,0:20:04.280
+many people in the world have they don't
+
+0:20:00.900,0:20:06.960
+necessarily have to be doing full-time
+
+0:20:04.280,0:20:09.990
+science through discovery and curiosity
+
+0:20:06.960,0:20:11.610
+now they can contribute in other ways
+
+0:20:09.990,0:20:14.700
+unfortunately the ways that they are
+
+0:20:11.610,0:20:18.299
+being forced to contribute are in the
+
+0:20:14.700,0:20:20.640
+small mechanical Turkish citizen science
+
+0:20:18.299,0:20:25.020
+could be done by a robot if only we
+
+0:20:20.640,0:20:27.030
+invented that robot sorts of ways yeah I
+
+0:20:25.020,0:20:30.059
+would say that's like a decent summary
+
+0:20:27.030,0:20:31.140
+of it and so I think that's where your
+
+0:20:30.059,0:20:34.289
+space hack
+
+0:20:31.140,0:20:36.390
+org comes in a little bit I mean space
+
+0:20:34.289,0:20:38.700
+hacked org was something that I built
+
+0:20:36.390,0:20:40.020
+ten years ago because I had learned
+
+0:20:38.700,0:20:42.330
+about a lot of different opportunities
+
+0:20:40.020,0:20:43.950
+in which people could contribute to the
+
+0:20:42.330,0:20:46.289
+furthering of space exploration they
+
+0:20:43.950,0:20:47.970
+were both small endeavors like making
+
+0:20:46.289,0:20:50.460
+sort of Mechanical Turk like
+
+0:20:47.970,0:20:53.280
+measurements and also larger ones like
+
+0:20:50.460,0:20:55.590
+figuring out how to build the next
+
+0:20:53.280,0:20:57.659
+generation of Mars rovers that work
+
+0:20:55.590,0:21:02.000
+nothing like any of the existing Rovers
+
+0:20:57.659,0:21:05.100
+do it was you know and I think I've
+
+0:21:02.000,0:21:07.049
+certainly evolved more in the last ten
+
+0:21:05.100,0:21:09.960
+years since space hack I think space
+
+0:21:07.049,0:21:13.919
+hack really as I was getting a cracked
+
+0:21:09.960,0:21:16.860
+into the this first era of open science
+
+0:21:13.919,0:21:18.360
+and citizen science which is there are
+
+0:21:16.860,0:21:20.970
+cool opportunities to do different
+
+0:21:18.360,0:21:22.470
+things and if that thing is your GM then
+
+0:21:20.970,0:21:25.500
+go for it
+
+0:21:22.470,0:21:28.650
+what space hawk org doesn't have as much
+
+0:21:25.500,0:21:30.990
+but but has been successful I think and
+
+0:21:28.650,0:21:32.909
+at least inspiring it has been sort of
+
+0:21:30.990,0:21:35.429
+making people aware that there are ways
+
+0:21:32.909,0:21:37.590
+to contribute to space exploration out
+
+0:21:35.429,0:21:39.780
+there and that you know for a lot of
+
+0:21:37.590,0:21:43.049
+people it might be a good entry point to
+
+0:21:39.780,0:21:44.970
+go and try out one of these projects
+
+0:21:43.049,0:21:48.630
+whether it's you know searching for
+
+0:21:44.970,0:21:52.860
+black holes or or building you know Mars
+
+0:21:48.630,0:21:54.659
+rovers what-have-you and I've had good
+
+0:21:52.860,0:21:56.400
+feedback from people who have started
+
+0:21:54.659,0:21:59.280
+there and then just started doing their
+
+0:21:56.400,0:22:00.690
+own self directed stuff so space octo
+
+0:21:59.280,0:22:04.950
+org really was meant to be something
+
+0:22:00.690,0:22:07.409
+that is it successful in sort of getting
+
+0:22:04.950,0:22:09.480
+people to go find something that
+
+0:22:07.409,0:22:11.159
+delights them and then you know and then
+
+0:22:09.480,0:22:12.310
+they're just off on their own sort of
+
+0:22:11.159,0:22:16.390
+just being that
+
+0:22:12.310,0:22:18.340
+spark for people to realize that they're
+
+0:22:16.390,0:22:22.510
+valuable to science as they exist today
+
+0:22:18.340,0:22:25.090
+so I think you know Space Act org was
+
+0:22:22.510,0:22:27.580
+the start and then I think what was a
+
+0:22:25.090,0:22:30.730
+couple of years after doing space Hawk
+
+0:22:27.580,0:22:32.860
+org then started science hack day which
+
+0:22:30.730,0:22:35.170
+gets people to prototype all sorts of
+
+0:22:32.860,0:22:37.120
+things and doesn't issue challenges and
+
+0:22:35.170,0:22:39.520
+doesn't keep people to tidy little boxes
+
+0:22:37.120,0:22:41.350
+but lets people be self-directed in
+
+0:22:39.520,0:22:44.950
+their you know discovery and the light
+
+0:22:41.350,0:22:46.540
+of things in science I have know as I'm
+
+0:22:44.950,0:22:47.740
+listening to this I'm thinking about my
+
+0:22:46.540,0:22:50.950
+own biases and I have a pretty
+
+0:22:47.740,0:22:53.710
+traditional science education and as I
+
+0:22:50.950,0:22:56.170
+went through that it was you know piling
+
+0:22:53.710,0:22:57.430
+history of science on top of history of
+
+0:22:56.170,0:22:58.750
+science until you finally get to
+
+0:22:57.430,0:23:00.040
+something near where we are in the
+
+0:22:58.750,0:23:03.640
+contemporary state of physics or
+
+0:23:00.040,0:23:05.230
+whatever and that sort of credentialism
+
+0:23:03.640,0:23:06.490
+is in the back of my mind well it's like
+
+0:23:05.230,0:23:07.900
+well you can't do anything unless you've
+
+0:23:06.490,0:23:09.850
+gone through all this and built up all
+
+0:23:07.900,0:23:11.950
+of this you know there's so much physics
+
+0:23:09.850,0:23:15.010
+or so much biology but it's not really
+
+0:23:11.950,0:23:17.110
+true I mean there is but you can always
+
+0:23:15.010,0:23:19.270
+say that there's too much for any one
+
+0:23:17.110,0:23:22.750
+person to deal with so there's always
+
+0:23:19.270,0:23:24.640
+places you can you can do make
+
+0:23:22.750,0:23:28.300
+discoveries that are still out there
+
+0:23:24.640,0:23:30.100
+that don't require you to have built up
+
+0:23:28.300,0:23:31.780
+the last 2,000 years of physics before
+
+0:23:30.100,0:23:33.280
+you can understand it and one of the
+
+0:23:31.780,0:23:35.230
+example that I was thinking of was was
+
+0:23:33.280,0:23:36.930
+observational astronomy where there's
+
+0:23:35.230,0:23:40.450
+tons of people out there with telescopes
+
+0:23:36.930,0:23:42.910
+looking at binary stars and comets and
+
+0:23:40.450,0:23:45.670
+discovering comets and even discovering
+
+0:23:42.910,0:23:48.790
+extrasolar planets and stuff that you
+
+0:23:45.670,0:23:51.510
+know they're just doing that yeah I mean
+
+0:23:48.790,0:23:55.390
+for me all of this is not about
+
+0:23:51.510,0:23:57.880
+replacing people who have dedicated you
+
+0:23:55.390,0:24:00.220
+know their lives towards the more you
+
+0:23:57.880,0:24:03.850
+know what is now traditional sort of
+
+0:24:00.220,0:24:06.940
+career and and pathway into science it's
+
+0:24:03.850,0:24:08.560
+more about augmenting to me so it's not
+
+0:24:06.940,0:24:10.300
+about replacing it's not about saying
+
+0:24:08.560,0:24:12.970
+you know oh you don't need all of that
+
+0:24:10.300,0:24:15.610
+to make you know these really big
+
+0:24:12.970,0:24:18.340
+contribution or anything like that it's
+
+0:24:15.610,0:24:20.530
+more about that science needs help like
+
+0:24:18.340,0:24:22.660
+you know that if you want to dedicate
+
+0:24:20.530,0:24:24.730
+your life to becoming a scientist and a
+
+0:24:22.660,0:24:26.260
+researcher then you should definitely do
+
+0:24:24.730,0:24:28.390
+that but
+
+0:24:26.260,0:24:31.660
+it's also that there's a lot of
+
+0:24:28.390,0:24:33.940
+serendipitous and unexpected things that
+
+0:24:31.660,0:24:36.610
+can help science both from a process
+
+0:24:33.940,0:24:40.390
+point of view and from a discovery point
+
+0:24:36.610,0:24:43.750
+of view that I think science really has
+
+0:24:40.390,0:24:45.280
+just shut themselves out of and and sort
+
+0:24:43.750,0:24:48.340
+of said oh we don't need any help you
+
+0:24:45.280,0:24:50.920
+yeah you need this many years before we
+
+0:24:48.340,0:24:53.290
+can even talk to you and that's the part
+
+0:24:50.920,0:24:55.900
+that has just made me a bit sad because
+
+0:24:53.290,0:24:59.430
+I have been witness over the last few
+
+0:24:55.900,0:25:02.770
+years of many many many instances where
+
+0:24:59.430,0:25:05.100
+scientists and researchers just end up
+
+0:25:02.770,0:25:07.660
+realizing oh like you know I do
+
+0:25:05.100,0:25:09.400
+theoretical particle physics I didn't
+
+0:25:07.660,0:25:10.960
+think I could talk to anyone else about
+
+0:25:09.400,0:25:13.690
+what I do because you need to know so
+
+0:25:10.960,0:25:15.250
+much but now I see you know learning
+
+0:25:13.690,0:25:18.040
+design or learning how to prototype
+
+0:25:15.250,0:25:20.260
+stuff in electronics or you know getting
+
+0:25:18.040,0:25:22.690
+learning from other people in different
+
+0:25:20.260,0:25:24.580
+disciplines I see now how that can
+
+0:25:22.690,0:25:27.190
+benefit my work and how that can help
+
+0:25:24.580,0:25:29.560
+and so it's not always about the big win
+
+0:25:27.190,0:25:32.830
+of like I've discovered an entirely new
+
+0:25:29.560,0:25:36.220
+you know black hole or planet and in our
+
+0:25:32.830,0:25:37.930
+galaxy or anything like that sometimes
+
+0:25:36.220,0:25:40.870
+it's just about process and about
+
+0:25:37.930,0:25:43.030
+allowing more creative ways of doing
+
+0:25:40.870,0:25:46.180
+things that sometimes can be really
+
+0:25:43.030,0:25:49.330
+helpful and I think a lot of scientists
+
+0:25:46.180,0:25:52.180
+and researchers know this but maybe
+
+0:25:49.330,0:25:54.730
+haven't fully evaluated it because in
+
+0:25:52.180,0:25:57.580
+science you're always looking to
+
+0:25:54.730,0:25:59.140
+repurpose stuff for your own needs
+
+0:25:57.580,0:26:01.720
+because you need all this specialty
+
+0:25:59.140,0:26:04.030
+equipment so a lot of times you know you
+
+0:26:01.720,0:26:06.250
+might be searching Amazon for something
+
+0:26:04.030,0:26:07.840
+that's used for pets but it's going to
+
+0:26:06.250,0:26:10.240
+be really useful in your lab because
+
+0:26:07.840,0:26:11.970
+it's exactly the right size that you
+
+0:26:10.240,0:26:14.800
+need or the right weight that you need
+
+0:26:11.970,0:26:16.540
+so you know I witness all the time
+
+0:26:14.800,0:26:20.140
+scientists and researchers having to be
+
+0:26:16.540,0:26:22.420
+very creative and and sort of have a
+
+0:26:20.140,0:26:25.720
+hacker sort of angle to what they do
+
+0:26:22.420,0:26:28.630
+because it's so often requires specialty
+
+0:26:25.720,0:26:30.730
+goods and materials and so I think it's
+
+0:26:28.630,0:26:33.430
+just expanding it a bit to allow people
+
+0:26:30.730,0:26:35.410
+from you know from the tech era tech
+
+0:26:33.430,0:26:37.870
+scene from the you know the art scene
+
+0:26:35.410,0:26:38.450
+and from these different industries and
+
+0:26:37.870,0:26:41.180
+discipline
+
+0:26:38.450,0:26:43.940
+to be able to you know have something to
+
+0:26:41.180,0:26:47.270
+say and allow more creativity to be in
+
+0:26:43.940,0:26:50.120
+science so to me I really see this as
+
+0:26:47.270,0:26:54.140
+yeah science will only get better and
+
+0:26:50.120,0:26:55.850
+and have more unexpected sort of stuff
+
+0:26:54.140,0:26:59.000
+in it that otherwise wouldn't exist if
+
+0:26:55.850,0:27:01.430
+it stayed very narrowly focused on only
+
+0:26:59.000,0:27:05.680
+people who have PhDs in a very specific
+
+0:27:01.430,0:27:09.020
+discipline it's a hard balance though I
+
+0:27:05.680,0:27:12.530
+had lunch not too long ago with a friend
+
+0:27:09.020,0:27:16.430
+that I haven't seen in a while but we
+
+0:27:12.530,0:27:19.190
+worked together for many years and we
+
+0:27:16.430,0:27:21.500
+are now after 15 years of not working
+
+0:27:19.190,0:27:24.110
+together we are starting a new project
+
+0:27:21.500,0:27:25.820
+and there were so many things I didn't
+
+0:27:24.110,0:27:28.310
+have to say because there was the common
+
+0:27:25.820,0:27:31.370
+shared understanding of what we had
+
+0:27:28.310,0:27:36.650
+already done and that's a lot of getting
+
+0:27:31.370,0:27:39.380
+a science degree and at pH DS is
+
+0:27:36.650,0:27:42.770
+creating that thousands of years of of
+
+0:27:39.380,0:27:47.390
+building up so that you can build a
+
+0:27:42.770,0:27:48.890
+shared language and I guess for my for
+
+0:27:47.390,0:27:50.960
+my perspective which is I have a
+
+0:27:48.890,0:27:53.720
+bachelor's degree in it so you know I
+
+0:27:50.960,0:27:59.210
+have decent science but not I'm not a
+
+0:27:53.720,0:28:02.450
+PhD I don't know how to talk to them and
+
+0:27:59.210,0:28:04.160
+and I get lost I I've been you know I've
+
+0:28:02.450,0:28:05.600
+been studying robotics for years I'm
+
+0:28:04.160,0:28:07.360
+sure I could go back on the podcast and
+
+0:28:05.600,0:28:10.130
+figure out when I fell in love with
+
+0:28:07.360,0:28:16.120
+Patrick polarski's artificially
+
+0:28:10.130,0:28:18.920
+intelligent prosthetic limb but how do I
+
+0:28:16.120,0:28:21.610
+it seems like the Gulf is really far I
+
+0:28:18.920,0:28:24.290
+see what you want to do but I don't I
+
+0:28:21.610,0:28:28.610
+don't feel like I don't qualified and if
+
+0:28:24.290,0:28:33.200
+I'm not qualified how is anybody else
+
+0:28:28.610,0:28:35.360
+who doesn't have a PhD oh yeah I mean so
+
+0:28:33.200,0:28:37.670
+so first you know you're talking about
+
+0:28:35.360,0:28:39.680
+the camaraderie that comes with people
+
+0:28:37.670,0:28:43.130
+having your shared knowledge and that's
+
+0:28:39.680,0:28:46.010
+definitely a thing because even me now
+
+0:28:43.130,0:28:51.010
+being in the space sector for 10 years I
+
+0:28:46.010,0:28:52.400
+have that with other people where I can
+
+0:28:51.010,0:28:53.780
+where I don't have
+
+0:28:52.400,0:28:56.960
+to worry about spelling out
+
+0:28:53.780,0:29:01.670
+abbreviations or anything uh some basic
+
+0:28:56.960,0:29:04.310
+stuff you know that's not going anywhere
+
+0:29:01.670,0:29:06.730
+no one's taking that away from you but I
+
+0:29:04.310,0:29:09.260
+think there needs to be some sort of an
+
+0:29:06.730,0:29:11.810
+acknowledgement of the fact that you're
+
+0:29:09.260,0:29:14.600
+working on yeah thousands or hundreds of
+
+0:29:11.810,0:29:17.570
+years of you know built up knowledge in
+
+0:29:14.600,0:29:19.430
+your sector there are other people who
+
+0:29:17.570,0:29:22.790
+have hundreds of years of knowledge in
+
+0:29:19.430,0:29:25.790
+their sector and wouldn't it be kind of
+
+0:29:22.790,0:29:28.160
+sad to say well I'm not going to learn
+
+0:29:25.790,0:29:30.560
+anything about you know the hundreds of
+
+0:29:28.160,0:29:32.360
+years of what we know about design and
+
+0:29:30.560,0:29:34.010
+the effects that it has on people and
+
+0:29:32.360,0:29:37.100
+the effects that it has on the ability
+
+0:29:34.010,0:29:43.060
+to get work done because I want to stay
+
+0:29:37.100,0:29:45.290
+in my vertical you know I think I
+
+0:29:43.060,0:29:47.660
+understand that it can be difficult to
+
+0:29:45.290,0:29:50.690
+talk to people in in different verticals
+
+0:29:47.660,0:29:54.590
+and different areas but I think that's
+
+0:29:50.690,0:29:59.570
+kind of what's needed I think it's
+
+0:29:54.590,0:30:03.380
+really sad to allow I guess the pressure
+
+0:29:59.570,0:30:05.420
+that is put on on researchers to stay
+
+0:30:03.380,0:30:07.760
+sort of in your in their sector because
+
+0:30:05.420,0:30:10.790
+of the comfort zone I think people do
+
+0:30:07.760,0:30:12.680
+need to be thinking about you know well
+
+0:30:10.790,0:30:14.900
+you know if it's a bit uncomfortable for
+
+0:30:12.680,0:30:16.250
+me to talk to you know someone else
+
+0:30:14.900,0:30:17.600
+because I don't have all this shared
+
+0:30:16.250,0:30:20.090
+stuff and I don't even know where to
+
+0:30:17.600,0:30:22.160
+begin with them and like where can we
+
+0:30:20.090,0:30:24.080
+possibly go from here I think it's
+
+0:30:22.160,0:30:28.100
+important to acknowledge that and to
+
+0:30:24.080,0:30:31.370
+acknowledge that that maybe that's kind
+
+0:30:28.100,0:30:33.860
+of a problem not that you need to be
+
+0:30:31.370,0:30:35.540
+able to have everyone understand your
+
+0:30:33.860,0:30:37.460
+hundreds of years of knowledge just that
+
+0:30:35.540,0:30:39.410
+they have their own hundreds of years of
+
+0:30:37.460,0:30:41.060
+knowledge that you should tap into and
+
+0:30:39.410,0:30:42.500
+that you know maybe you're not going to
+
+0:30:41.060,0:30:44.240
+understand everything about each other
+
+0:30:42.500,0:30:46.760
+at the end of the day but if you can get
+
+0:30:44.240,0:30:49.070
+some insights from one another then it's
+
+0:30:46.760,0:30:53.120
+really useful and you know we see this
+
+0:30:49.070,0:30:55.010
+happen between scientific disciplines
+
+0:30:53.120,0:30:57.350
+all the time where it's like oh my god
+
+0:30:55.010,0:30:59.360
+we are now using this technique from
+
+0:30:57.350,0:31:01.250
+biology but we're applying it towards
+
+0:30:59.360,0:31:04.940
+robotics and you know we're building
+
+0:31:01.250,0:31:06.169
+soft robotics because it's working based
+
+0:31:04.940,0:31:08.509
+on stuff that we've learned
+
+0:31:06.169,0:31:10.129
+about biology stuff like that happens
+
+0:31:08.509,0:31:11.509
+all the time does it mean that the robot
+
+0:31:10.129,0:31:12.980
+assist is like really really
+
+0:31:11.509,0:31:15.049
+knowledgeable about everything about
+
+0:31:12.980,0:31:17.899
+biology no but they've got some little
+
+0:31:15.049,0:31:21.320
+kernel that is actually going to really
+
+0:31:17.899,0:31:23.570
+benefit their work and also I think it
+
+0:31:21.320,0:31:25.789
+builds better connections to know that a
+
+0:31:23.570,0:31:28.429
+roboticist could ask a biologist about
+
+0:31:25.789,0:31:30.980
+you know how something works and that
+
+0:31:28.429,0:31:33.859
+you know there can be enough
+
+0:31:30.980,0:31:36.109
+communication to really make a benefit
+
+0:31:33.859,0:31:39.320
+on both sides so I don't think it's
+
+0:31:36.109,0:31:41.769
+about figuring out how to embed your
+
+0:31:39.320,0:31:44.600
+your brain into someone else's brain but
+
+0:31:41.769,0:31:47.869
+but it's about what can those kernels be
+
+0:31:44.600,0:31:50.090
+and and knowing that you can ask people
+
+0:31:47.869,0:31:52.220
+and that it's okay and that if they
+
+0:31:50.090,0:31:55.100
+struggle a little bit to tell you like
+
+0:31:52.220,0:31:57.379
+how this all works but that's okay it's
+
+0:31:55.100,0:32:01.429
+okay to be a bit uncomfortable but to
+
+0:31:57.379,0:32:05.210
+not try means that we are kind of you
+
+0:32:01.429,0:32:08.320
+we're kind of just giving up a whole ton
+
+0:32:05.210,0:32:10.700
+of possibilities that we'll never know
+
+0:32:08.320,0:32:11.769
+what was possible because we're not even
+
+0:32:10.700,0:32:14.509
+trying
+
+0:32:11.769,0:32:17.389
+alright I totally understand and know
+
+0:32:14.509,0:32:18.739
+that I understand that you are looking
+
+0:32:17.389,0:32:22.909
+more for an interdisciplinary approach
+
+0:32:18.739,0:32:26.989
+in a more communicative and appreciating
+
+0:32:22.909,0:32:29.600
+the diversity of mind and knowledge that
+
+0:32:26.989,0:32:32.809
+other people have yeah okay I totally
+
+0:32:29.600,0:32:33.559
+make sense I totally make sense okay
+
+0:32:32.809,0:32:35.989
+yeah
+
+0:32:33.559,0:32:40.129
+not then I didn't but if that don't make
+
+0:32:35.989,0:32:42.470
+sense I mean and so now I feel like
+
+0:32:40.129,0:32:44.090
+we've we've really crossed over into
+
+0:32:42.470,0:32:46.070
+science hack day because I think this is
+
+0:32:44.090,0:32:47.779
+part of what it is yeah where you're
+
+0:32:46.070,0:32:50.269
+you're getting these people in the same
+
+0:32:47.779,0:32:55.340
+room and then you're saying okay let's
+
+0:32:50.269,0:32:57.289
+play yeah yeah it's totally that and I
+
+0:32:55.340,0:32:58.909
+have to say you know scientists and
+
+0:32:57.289,0:33:01.970
+researchers coming into science Hawk day
+
+0:32:58.909,0:33:04.460
+have been the most skeptical for sure
+
+0:33:01.970,0:33:07.249
+but a hundred percent across the board
+
+0:33:04.460,0:33:09.440
+once they've actually come to the
+
+0:33:07.249,0:33:10.909
+weekend and and worked on prototyping
+
+0:33:09.440,0:33:12.830
+things with people from different
+
+0:33:10.909,0:33:15.710
+disciplines they come out the other side
+
+0:33:12.830,0:33:17.690
+and they're like I get it now I get it I
+
+0:33:15.710,0:33:19.520
+get how this is like beneficial both to
+
+0:33:17.690,0:33:23.540
+me and my work but all
+
+0:33:19.520,0:33:26.960
+so to other people and it's it's been
+
+0:33:23.540,0:33:28.160
+really a heartwarming project perhaps I
+
+0:33:26.960,0:33:29.810
+would I would say it's the most
+
+0:33:28.160,0:33:33.590
+heartwarming project of all the work
+
+0:33:29.810,0:33:36.380
+I've done over my many years know on on
+
+0:33:33.590,0:33:38.900
+earth my many short years I guess
+
+0:33:36.380,0:33:42.860
+depending on how many which way you look
+
+0:33:38.900,0:33:45.200
+at it but uh but yeah I so you know it's
+
+0:33:42.860,0:33:47.690
+something where we leave it really
+
+0:33:45.200,0:33:49.880
+open-ended it's kind of like organized
+
+0:33:47.690,0:33:52.970
+chaos in a good way
+
+0:33:49.880,0:33:55.040
+it's it's something where people can
+
+0:33:52.970,0:33:57.140
+decide what they want to do so if you're
+
+0:33:55.040,0:33:59.570
+coming in and you're saying I want to
+
+0:33:57.140,0:34:01.700
+stick to my comfort zone but I want to
+
+0:33:59.570,0:34:04.220
+have you know a team of whoever is
+
+0:34:01.700,0:34:05.780
+interested work on stuff in my comfort
+
+0:34:04.220,0:34:08.000
+zone you can do that but you can also
+
+0:34:05.780,0:34:09.919
+come in and be like you know I've always
+
+0:34:08.000,0:34:12.050
+been fascinated by jellyfish and I've
+
+0:34:09.919,0:34:14.510
+never had the chance or permission to
+
+0:34:12.050,0:34:16.820
+like just do stuff with jellyfish even
+
+0:34:14.510,0:34:20.090
+though I know nothing about them you
+
+0:34:16.820,0:34:22.210
+know it's that sort of safe playground
+
+0:34:20.090,0:34:25.820
+where you can do these sorts of things
+
+0:34:22.210,0:34:28.220
+and I think pretty much across the board
+
+0:34:25.820,0:34:29.929
+everyone comes into it a bit uncertain a
+
+0:34:28.220,0:34:32.600
+bit of like I don't know what I have to
+
+0:34:29.929,0:34:35.990
+contribute or I don't know how I'm going
+
+0:34:32.600,0:34:40.190
+to relate to anyone and everyone comes
+
+0:34:35.990,0:34:43.149
+out the other side you know having sort
+
+0:34:40.190,0:34:45.919
+of created an experience that is
+
+0:34:43.149,0:34:48.350
+life-changing either on a very minuscule
+
+0:34:45.919,0:34:50.540
+scale or life-changing on a large scale
+
+0:34:48.350,0:34:52.149
+on the miniscule scale it's that stuff
+
+0:34:50.540,0:34:55.159
+that I was talking about of just
+
+0:34:52.149,0:34:57.410
+creating sort of a mental locket where
+
+0:34:55.159,0:34:59.090
+you know that you can play around with
+
+0:34:57.410,0:35:01.700
+stuff that you know nothing about and
+
+0:34:59.090,0:35:04.220
+that that's okay and that if you just
+
+0:35:01.700,0:35:06.200
+did it for one weekend and you never do
+
+0:35:04.220,0:35:08.570
+it again but you know that it's always
+
+0:35:06.200,0:35:11.120
+available to you then that's the only
+
+0:35:08.570,0:35:13.250
+change that I want to do whether you're
+
+0:35:11.120,0:35:15.380
+a scientist who wants to know that you
+
+0:35:13.250,0:35:16.910
+could play around in another science
+
+0:35:15.380,0:35:20.060
+discipline you've never touched or
+
+0:35:16.910,0:35:21.980
+you're someone with an art degree who
+
+0:35:20.060,0:35:24.080
+wants to know that you can play around
+
+0:35:21.980,0:35:26.920
+with space data and that's something
+
+0:35:24.080,0:35:29.600
+that's okay to do so it's not
+
+0:35:26.920,0:35:33.140
+necessarily about building expertise
+
+0:35:29.600,0:35:36.140
+it's about building accessibility
+
+0:35:33.140,0:35:39.530
+with everyone's individual brain so to
+
+0:35:36.140,0:35:43.670
+speak the knowledge that this stuff is
+
+0:35:39.530,0:35:46.670
+available to you and and that it's okay
+
+0:35:43.670,0:35:48.590
+to play around with things if you don't
+
+0:35:46.670,0:35:51.800
+know why you're doing it and if you
+
+0:35:48.590,0:35:54.380
+don't know where it's going or any of
+
+0:35:51.800,0:35:57.770
+that unfortunately I think a lot of
+
+0:35:54.380,0:36:00.710
+people need that permission to be able
+
+0:35:57.770,0:36:05.480
+to feel like they can do stuff outside
+
+0:36:00.710,0:36:07.850
+of where they exist and I think just
+
+0:36:05.480,0:36:09.800
+having that permission to do that I
+
+0:36:07.850,0:36:12.410
+think is enough of a change that if it
+
+0:36:09.800,0:36:14.630
+happened on a large scale I think I
+
+0:36:12.410,0:36:18.380
+think all disciplines would be having a
+
+0:36:14.630,0:36:21.500
+lot more creative approaches in them and
+
+0:36:18.380,0:36:24.350
+things that otherwise what we might be
+
+0:36:21.500,0:36:27.920
+giving up yes yes but are there actually
+
+0:36:24.350,0:36:30.020
+jellyfish we have had jellyfish
+
+0:36:27.920,0:36:31.370
+biologists at science act day for sure I
+
+0:36:30.020,0:36:36.010
+don't think we've had an actual
+
+0:36:31.370,0:36:39.680
+jellyfish we've had pig hearts we've had
+
+0:36:36.010,0:36:42.860
+weird things we've had ants that were
+
+0:36:39.680,0:36:45.560
+controlled through vibration we've had
+
+0:36:42.860,0:36:47.120
+some some odd stuff for sure but I don't
+
+0:36:45.560,0:36:50.480
+think anyone has brought a jellyfish to
+
+0:36:47.120,0:36:53.060
+science hack day yet maybe we should
+
+0:36:50.480,0:36:57.980
+back up and actually say it's a weekend
+
+0:36:53.060,0:37:01.580
+long event and there are some coming up
+
+0:36:57.980,0:37:03.890
+there is one in India in mid-october or
+
+0:37:01.580,0:37:08.630
+one in San Francisco in late October and
+
+0:37:03.890,0:37:11.020
+one in France in late November yes and I
+
+0:37:08.630,0:37:13.850
+believe there's perhaps one coming up in
+
+0:37:11.020,0:37:18.920
+Colombia too that will be posted on the
+
+0:37:13.850,0:37:22.040
+website shortly and so these are two or
+
+0:37:18.920,0:37:25.430
+three-day events do you get do people
+
+0:37:22.040,0:37:27.350
+get invited to people just apply how do
+
+0:37:25.430,0:37:30.620
+it does it cost to attend how does all
+
+0:37:27.350,0:37:33.890
+of that work yeah so it's entirely free
+
+0:37:30.620,0:37:36.950
+to attend events it's volunteer run it's
+
+0:37:33.890,0:37:39.890
+something where we open up the
+
+0:37:36.950,0:37:42.380
+registration for anyone to attend you
+
+0:37:39.890,0:37:44.900
+don't have to be you know it's not an
+
+0:37:42.380,0:37:46.190
+application process like anyone can sign
+
+0:37:44.900,0:37:48.250
+up to it
+
+0:37:46.190,0:37:51.440
+some people do get invites just because
+
+0:37:48.250,0:37:53.630
+in my experience there's a lot of
+
+0:37:51.440,0:37:56.150
+awesome people who we'd like to have at
+
+0:37:53.630,0:37:59.510
+these events and individual invites go a
+
+0:37:56.150,0:38:01.490
+long way to telling people that we
+
+0:37:59.510,0:38:05.030
+really care about having them there and
+
+0:38:01.490,0:38:09.020
+that they are valuable so it's kind of
+
+0:38:05.030,0:38:11.780
+both an open registration and we send
+
+0:38:09.020,0:38:14.090
+out invites to two people and both ways
+
+0:38:11.780,0:38:16.400
+are successful so it's something where
+
+0:38:14.090,0:38:19.640
+yeah anyone attends and what we try and
+
+0:38:16.400,0:38:21.410
+do on sort of the back end of everything
+
+0:38:19.640,0:38:24.320
+is just make sure that we've got a good
+
+0:38:21.410,0:38:28.280
+balance between you know technologists
+
+0:38:24.320,0:38:30.530
+and and art people and scientists and
+
+0:38:28.280,0:38:34.670
+and people from many other disciplines
+
+0:38:30.530,0:38:37.700
+so as people sign up we try and look at
+
+0:38:34.670,0:38:40.700
+you know what general occupations people
+
+0:38:37.700,0:38:42.830
+might be might be when they're
+
+0:38:40.700,0:38:45.590
+registering and if we're like oh we've
+
+0:38:42.830,0:38:48.470
+got a lot of web developers and not
+
+0:38:45.590,0:38:51.380
+enough artists or something then we'll
+
+0:38:48.470,0:38:55.100
+tailor our outreach to target more
+
+0:38:51.380,0:38:57.020
+artists so the important thing with it
+
+0:38:55.100,0:38:59.090
+is really just trying to make sure that
+
+0:38:57.020,0:39:02.690
+we do have a good balance of people with
+
+0:38:59.090,0:39:07.250
+different backgrounds at the event and
+
+0:39:02.690,0:39:09.980
+from there we open it up so you know
+
+0:39:07.250,0:39:13.280
+people come on a Saturday morning we
+
+0:39:09.980,0:39:15.140
+have lightning talks so and those
+
+0:39:13.280,0:39:16.790
+lightning talks are about a bunch of
+
+0:39:15.140,0:39:18.350
+different disciplines just kind of open
+
+0:39:16.790,0:39:20.690
+science stuff that people can play
+
+0:39:18.350,0:39:22.790
+around with so open data sets or open
+
+0:39:20.690,0:39:25.340
+visualization tools and really the
+
+0:39:22.790,0:39:27.560
+lightning talks are just there to help
+
+0:39:25.340,0:39:29.810
+people on a Saturday morning because
+
+0:39:27.560,0:39:33.350
+everyone's coming in a bit fuzzy fuzzy
+
+0:39:29.810,0:39:35.240
+brained and you know might need some
+
+0:39:33.350,0:39:36.830
+things to react to to think about like
+
+0:39:35.240,0:39:39.380
+what they may or may not want to work on
+
+0:39:36.830,0:39:41.510
+but after the Lightning talks we really
+
+0:39:39.380,0:39:43.490
+just encourage people to eavesdrop on
+
+0:39:41.510,0:39:46.220
+each other's conversations talk to each
+
+0:39:43.490,0:39:47.570
+other if it takes them several hours to
+
+0:39:46.220,0:39:51.080
+figure out what they want to do that's
+
+0:39:47.570,0:39:53.510
+fine but really you know for for these
+
+0:39:51.080,0:39:56.480
+science hack days we give them 24
+
+0:39:53.510,0:39:59.360
+consecutive hours to make anything they
+
+0:39:56.480,0:40:00.950
+want that is related to science
+
+0:39:59.360,0:40:03.170
+people come up with some pretty
+
+0:40:00.950,0:40:06.440
+wackadoodle things some people work on
+
+0:40:03.170,0:40:08.720
+some very serious problem solving it's
+
+0:40:06.440,0:40:10.490
+really open to anyone and people can be
+
+0:40:08.720,0:40:14.090
+part of multiple teams they can be a
+
+0:40:10.490,0:40:15.200
+part of one team in a way science acting
+
+0:40:14.090,0:40:25.310
+is not only sort of breaking down
+
+0:40:15.200,0:40:28.190
+barriers with science I anticipate bonds
+
+0:40:25.310,0:40:31.340
+had become very competitive spaces where
+
+0:40:28.190,0:40:33.620
+you need very technical skill sets and
+
+0:40:31.340,0:40:34.820
+again as being someone who's not from
+
+0:40:33.620,0:40:37.460
+that discipline I found that really
+
+0:40:34.820,0:40:40.280
+frustrating because I think a lot of
+
+0:40:37.460,0:40:42.200
+people have the desire to want to figure
+
+0:40:40.280,0:40:44.870
+out how to prototype something if even
+
+0:40:42.200,0:40:46.280
+if they have no idea how to and so
+
+0:40:44.870,0:40:48.080
+science hack day really tries to leave
+
+0:40:46.280,0:40:50.210
+everything open-ended so that you get
+
+0:40:48.080,0:40:52.190
+all of these wonderful unexpected
+
+0:40:50.210,0:40:54.050
+collisions between people and between
+
+0:40:52.190,0:40:57.080
+ideas and between different ways of
+
+0:40:54.050,0:41:01.430
+prototyping things but you kept the 24
+
+0:40:57.080,0:41:04.420
+hour the overnight from from hackathons
+
+0:41:01.430,0:41:07.340
+though that's always been my kryptonite
+
+0:41:04.420,0:41:09.410
+yeah I'm sorry I have to sleep that's
+
+0:41:07.340,0:41:11.420
+where all my ideas come and yeah and you
+
+0:41:09.410,0:41:14.030
+and you can sleep so you know you don't
+
+0:41:11.420,0:41:17.570
+have to stay up all overnight you know I
+
+0:41:14.030,0:41:19.430
+think we kept the weekend event because
+
+0:41:17.570,0:41:22.280
+humans unfortunately well not
+
+0:41:19.430,0:41:24.980
+unfortunately humans realistically you
+
+0:41:22.280,0:41:26.630
+know they have a set amount of time
+
+0:41:24.980,0:41:29.060
+where they can get really excited about
+
+0:41:26.630,0:41:30.620
+something and put a lot into it and then
+
+0:41:29.060,0:41:33.170
+they're like I am tired I need to go to
+
+0:41:30.620,0:41:35.180
+sleep so we keep the overnight part of
+
+0:41:33.170,0:41:37.070
+it you know some people stay up all
+
+0:41:35.180,0:41:38.540
+night I would say the majority go home
+
+0:41:37.070,0:41:42.230
+and get sleep and come back the next
+
+0:41:38.540,0:41:43.970
+morning and keep going so that part is
+
+0:41:42.230,0:41:46.280
+you know optional you don't have to stay
+
+0:41:43.970,0:41:48.470
+up all all night working on something
+
+0:41:46.280,0:41:50.960
+but you know some people that's how they
+
+0:41:48.470,0:41:52.610
+work and and so leaving it open-ended so
+
+0:41:50.960,0:41:55.010
+that multiple different pathways can be
+
+0:41:52.610,0:41:58.670
+successful still I think is the
+
+0:41:55.010,0:42:02.180
+important part and you don't have prizes
+
+0:41:58.670,0:42:05.210
+but you do have sponsors yeah so we have
+
+0:42:02.180,0:42:07.940
+sponsors who pay for all the food and
+
+0:42:05.210,0:42:10.730
+help pay for different aspects of the
+
+0:42:07.940,0:42:11.900
+event but they don't pay for prizes they
+
+0:42:10.730,0:42:15.289
+don't get to
+
+0:42:11.900,0:42:18.440
+shape the event we you know they provide
+
+0:42:15.289,0:42:21.140
+the necessary you know venue and and
+
+0:42:18.440,0:42:24.319
+food and everything but in terms of
+
+0:42:21.140,0:42:26.720
+prizes we still offer things like you
+
+0:42:24.319,0:42:29.270
+know best design best use of data stuff
+
+0:42:26.720,0:42:32.000
+like that but we award medals that say
+
+0:42:29.270,0:42:33.920
+science on them and then we have a medal
+
+0:42:32.000,0:42:36.799
+award ceremony and it's just a lot of
+
+0:42:33.920,0:42:38.569
+fun and I think by not having big prizes
+
+0:42:36.799,0:42:41.359
+it makes it a lot more collaborative
+
+0:42:38.569,0:42:43.700
+people tend to be less secretive and
+
+0:42:41.359,0:42:45.559
+it's really just about fun and so even
+
+0:42:43.700,0:42:48.260
+with the prize categories of these
+
+0:42:45.559,0:42:50.450
+medals we have some that are thought of
+
+0:42:48.260,0:42:53.270
+beforehand like yeah best hardware best
+
+0:42:50.450,0:42:56.390
+use of data stuff like that but each
+
+0:42:53.270,0:42:59.089
+year we tell the judges to invent
+
+0:42:56.390,0:43:01.579
+categories based on what they've seen so
+
+0:42:59.089,0:43:05.359
+it's really just kind of fun and on the
+
+0:43:01.579,0:43:07.700
+fly and you know we had one year I think
+
+0:43:05.359,0:43:10.339
+where it was like best whale hack or
+
+0:43:07.700,0:43:14.089
+something because someone had made a
+
+0:43:10.339,0:43:16.700
+really cool net with like LEDs on it
+
+0:43:14.089,0:43:20.779
+that would deter whales from getting
+
+0:43:16.700,0:43:22.430
+tangled into it and you know so so like
+
+0:43:20.779,0:43:24.760
+the event itself we try and keep that
+
+0:43:22.430,0:43:29.029
+aspect pretty open-ended and and broad
+
+0:43:24.760,0:43:33.650
+and how do you find people to attend do
+
+0:43:29.029,0:43:37.460
+you how do you publicize event yeah
+
+0:43:33.650,0:43:39.440
+a lot of it so each city each city has
+
+0:43:37.460,0:43:41.510
+their own organizer so science hack day
+
+0:43:39.440,0:43:43.430
+isn't a franchise it's not an
+
+0:43:41.510,0:43:45.289
+organization anyone can organize a
+
+0:43:43.430,0:43:46.880
+science hack day in their city there's
+
+0:43:45.289,0:43:50.390
+instructions on the website for how to
+
+0:43:46.880,0:43:52.430
+do that and so each city I think
+
+0:43:50.390,0:43:54.859
+publicizes it a bit differently based on
+
+0:43:52.430,0:43:58.309
+the knowledge of their own community in
+
+0:43:54.859,0:44:02.900
+San Francisco we've done it a lot by
+
+0:43:58.309,0:44:05.660
+word-of-mouth but I try and make it
+
+0:44:02.900,0:44:09.470
+diverse by default even though it's
+
+0:44:05.660,0:44:11.869
+word-of-mouth by recruiting people from
+
+0:44:09.470,0:44:15.500
+different disciplines and areas into the
+
+0:44:11.869,0:44:17.720
+organizing team so for instance the very
+
+0:44:15.500,0:44:21.260
+first year that we did science hack day
+
+0:44:17.720,0:44:22.940
+I had I did it a bit overkill I had 15
+
+0:44:21.260,0:44:24.110
+people on the organizing committee which
+
+0:44:22.940,0:44:27.050
+was
+
+0:44:24.110,0:44:29.480
+definitely definitely too many I learned
+
+0:44:27.050,0:44:31.370
+my lesson from that but but one of the
+
+0:44:29.480,0:44:34.190
+things I remember from that first year
+
+0:44:31.370,0:44:36.920
+was oh like there's a whole you know
+
+0:44:34.190,0:44:38.990
+biotech scene in San Francisco and we
+
+0:44:36.920,0:44:41.570
+want to make sure like that they come to
+
+0:44:38.990,0:44:44.570
+the event well the best thing we thought
+
+0:44:41.570,0:44:47.420
+of to do that year was I just pretty
+
+0:44:44.570,0:44:49.790
+much reached out to someone in biotech
+
+0:44:47.420,0:44:51.590
+someone that I didn't know previously
+
+0:44:49.790,0:44:52.970
+and I just said do you want to be part
+
+0:44:51.590,0:44:55.820
+of the science acting organizing
+
+0:44:52.970,0:44:57.800
+committee and they agreed and because of
+
+0:44:55.820,0:44:59.750
+having that person who's already
+
+0:44:57.800,0:45:01.640
+embedded in those communities on the
+
+0:44:59.750,0:45:02.990
+organizing committee it sort of meant
+
+0:45:01.640,0:45:05.240
+that when we were doing word-of-mouth
+
+0:45:02.990,0:45:07.850
+that we were making sure to reach out
+
+0:45:05.240,0:45:09.710
+into the biotech community as much as
+
+0:45:07.850,0:45:15.980
+other things so it's again it's not
+
+0:45:09.710,0:45:17.720
+trying to sort of replace anyone and say
+
+0:45:15.980,0:45:20.270
+I can figure it out on my own it's
+
+0:45:17.720,0:45:21.800
+acknowledging oh okay so I know people
+
+0:45:20.270,0:45:24.410
+in these communities what are the other
+
+0:45:21.800,0:45:26.060
+communities in the local area that we
+
+0:45:24.410,0:45:29.030
+want to make sure that we reach out to
+
+0:45:26.060,0:45:31.760
+and not overlook and then recruiting
+
+0:45:29.030,0:45:34.580
+your organizing committee based on that
+
+0:45:31.760,0:45:37.550
+means that I think you have a lot more
+
+0:45:34.580,0:45:39.110
+authentic word of mouth outreach and you
+
+0:45:37.550,0:45:42.560
+can do a better job of sort of breaking
+
+0:45:39.110,0:45:45.770
+out of your own little eco chambers so I
+
+0:45:42.560,0:45:47.210
+put a lot of effort at the start on the
+
+0:45:45.770,0:45:49.610
+organizing committee and the makeup of
+
+0:45:47.210,0:45:53.840
+that organizing committee and then kind
+
+0:45:49.610,0:45:55.340
+of go from there so so that's that's one
+
+0:45:53.840,0:45:57.110
+way it's not the only way but that's
+
+0:45:55.340,0:45:58.940
+been a really important part because
+
+0:45:57.110,0:46:00.650
+otherwise you have a bunch of people who
+
+0:45:58.940,0:46:02.240
+you know are like we know we need to
+
+0:46:00.650,0:46:04.070
+reach out to these other communities but
+
+0:46:02.240,0:46:06.260
+we don't know anyone there well let's
+
+0:46:04.070,0:46:08.450
+just you know force it and there's like
+
+0:46:06.260,0:46:10.580
+it doesn't usually work that way you
+
+0:46:08.450,0:46:11.870
+usually want people from the communities
+
+0:46:10.580,0:46:14.900
+that you're speaking to to actually be
+
+0:46:11.870,0:46:18.380
+involved in the process very much so
+
+0:46:14.900,0:46:24.020
+that makes sense so moving away from
+
+0:46:18.380,0:46:25.760
+that what is up next for you yeah so I
+
+0:46:24.020,0:46:28.910
+have a couple of things happening this
+
+0:46:25.760,0:46:31.610
+year this year is my big exploration
+
+0:46:28.910,0:46:34.550
+here I would say so in just about two
+
+0:46:31.610,0:46:38.010
+weeks I am going aboard the exploration
+
+0:46:34.550,0:46:40.620
+vessel Nautilus to explore
+
+0:46:38.010,0:46:43.320
+an underwater volcano that is an
+
+0:46:40.620,0:46:47.220
+analogue to Enceladus the moon of Saturn
+
+0:46:43.320,0:46:50.360
+that is an icy moon that has ocean
+
+0:46:47.220,0:46:52.890
+beneath the ice and has likely
+
+0:46:50.360,0:46:54.120
+hydrothermal activity on it so we're
+
+0:46:52.890,0:46:56.490
+going to be going to this underwater
+
+0:46:54.120,0:46:58.530
+volcano to better understand the extreme
+
+0:46:56.490,0:47:00.180
+forms of life that might live around it
+
+0:46:58.530,0:47:02.130
+so that we can better understand what
+
+0:47:00.180,0:47:05.370
+extreme forms of life might live on
+
+0:47:02.130,0:47:07.710
+Enceladus the other expedition that I'm
+
+0:47:05.370,0:47:11.730
+doing this year is I am going to
+
+0:47:07.710,0:47:14.700
+Antarctica for a month to do video
+
+0:47:11.730,0:47:17.430
+microscopy of all of the extremophiles
+
+0:47:14.700,0:47:20.310
+and extreme microorganisms that live
+
+0:47:17.430,0:47:23.160
+beneath the ice in a number of different
+
+0:47:20.310,0:47:27.090
+locations in Antarctica and actually
+
+0:47:23.160,0:47:28.590
+trying to just get more video of how
+
+0:47:27.090,0:47:32.160
+they interact and what they look like
+
+0:47:28.590,0:47:35.340
+and and how they move around and just
+
+0:47:32.160,0:47:37.620
+better understand kind of the microbial
+
+0:47:35.340,0:47:39.510
+Serengeti so to speak that exists in
+
+0:47:37.620,0:47:41.670
+Antarctica and making people aware that
+
+0:47:39.510,0:47:44.520
+there's actually a lot of life in this
+
+0:47:41.670,0:47:47.670
+otherwise barren landscape those are
+
+0:47:44.520,0:47:51.120
+very connected yes yeah I'm very cold
+
+0:47:47.670,0:47:53.700
+and one very hot yes yeah yeah both of
+
+0:47:51.120,0:47:57.810
+them are about you know astrobiology so
+
+0:47:53.700,0:48:00.360
+you know the sort of multidisciplinary
+
+0:47:57.810,0:48:01.890
+discipline of understanding extreme
+
+0:48:00.360,0:48:04.110
+forms of life here on earth so that we
+
+0:48:01.890,0:48:07.140
+can better understand how life might
+
+0:48:04.110,0:48:09.180
+exist elsewhere in our solar system
+
+0:48:07.140,0:48:13.620
+and in our galaxy and in the universe
+
+0:48:09.180,0:48:16.620
+generally and so it's you your plan is
+
+0:48:13.620,0:48:18.870
+video microscopy so we'll be able to see
+
+0:48:16.620,0:48:22.020
+little things battling it out or eating
+
+0:48:18.870,0:48:25.650
+each other or whatever it is they do yes
+
+0:48:22.020,0:48:30.390
+building tiny cities torture yeah
+
+0:48:25.650,0:48:33.090
+and then are you making a movie so I'll
+
+0:48:30.390,0:48:34.860
+be taking a bunch of videos all of the
+
+0:48:33.090,0:48:36.300
+videos and photos that I take in
+
+0:48:34.860,0:48:38.400
+Antarctica I'm going to put under
+
+0:48:36.300,0:48:40.980
+Creative Commons license
+
+0:48:38.400,0:48:43.200
+but I will be after I get back from
+
+0:48:40.980,0:48:46.080
+Antarctica I will be sort of stitching
+
+0:48:43.200,0:48:48.390
+together all of these videos and putting
+
+0:48:46.080,0:48:50.310
+it into an interactive website that's
+
+0:48:48.390,0:48:51.310
+going to give people sort of the the
+
+0:48:50.310,0:48:53.170
+feeling
+
+0:48:51.310,0:48:56.470
+of what it's like to actually just look
+
+0:48:53.170,0:48:58.090
+down the barrel of a microscope while
+
+0:48:56.470,0:49:00.700
+you're in Antartica and the stuff that
+
+0:48:58.090,0:49:04.060
+you can find so being able to just sort
+
+0:49:00.700,0:49:06.520
+of pan around and zoom in and sort of
+
+0:49:04.060,0:49:09.340
+get more of a sense of what all of these
+
+0:49:06.520,0:49:12.010
+things are and and how they interact in
+
+0:49:09.340,0:49:14.860
+their environments is kind of the goal
+
+0:49:12.010,0:49:16.860
+was this your first set of research
+
+0:49:14.860,0:49:20.200
+expeditions or is this old hat for you
+
+0:49:16.860,0:49:22.960
+this is these are my first I I hope they
+
+0:49:20.200,0:49:25.810
+are the first of money I hope I hope to
+
+0:49:22.960,0:49:27.760
+be doing much more but yeah these these
+
+0:49:25.810,0:49:29.740
+I have never been on a research vessel
+
+0:49:27.760,0:49:32.920
+before I've never been to Antarctica
+
+0:49:29.740,0:49:35.620
+before I do travel a lot but it's not
+
+0:49:32.920,0:49:37.960
+always science driven these these two
+
+0:49:35.620,0:49:41.110
+are both definitely science driven so I
+
+0:49:37.960,0:49:43.150
+hope it's the first of a hopefully a
+
+0:49:41.110,0:49:47.860
+long career and doing more exploratory
+
+0:49:43.150,0:49:51.790
+stuff like this I'm lost in thinking
+
+0:49:47.860,0:49:54.040
+back to the looking at the microbes and
+
+0:49:51.790,0:49:56.560
+I want it to be VR and I want to be a
+
+0:49:54.040,0:49:59.530
+microbe I want to play a game about
+
+0:49:56.560,0:50:03.370
+being a microbe I know that that's a
+
+0:49:59.530,0:50:04.510
+game I yeah sorry you keep saying all
+
+0:50:03.370,0:50:08.140
+these amazing things and I just like
+
+0:50:04.510,0:50:11.530
+tally fish talking and I'm not supposed
+
+0:50:08.140,0:50:13.630
+to interrupt but jellyfish a jellyfish
+
+0:50:11.530,0:50:15.880
+are pretty badass I mean I said I was
+
+0:50:13.630,0:50:20.410
+you know when I was at and barri
+
+0:50:15.880,0:50:23.020
+I was talking to Connie and blinking on
+
+0:50:20.410,0:50:27.780
+her last name but Connie um she is this
+
+0:50:23.020,0:50:30.010
+amazing you know marine kind of marine
+
+0:50:27.780,0:50:31.900
+roboticist is the way I'd almost
+
+0:50:30.010,0:50:34.390
+describe her she does all this amazing
+
+0:50:31.900,0:50:36.190
+stuff about bio-inspired design and she
+
+0:50:34.390,0:50:38.500
+was talking about creating sort of
+
+0:50:36.190,0:50:41.980
+jellyfish inspired robots which of
+
+0:50:38.500,0:50:44.500
+course yeah hey I think everyone on this
+
+0:50:41.980,0:50:46.780
+on this podcast right now Lloyd agree is
+
+0:50:44.500,0:50:49.510
+like pretty frickin amazing to think
+
+0:50:46.780,0:50:51.910
+about so yeah yeah there's cool stuff
+
+0:50:49.510,0:50:54.130
+with jellyfish for sure and you know if
+
+0:50:51.910,0:50:56.410
+you're super you know fancy about it
+
+0:50:54.130,0:51:00.010
+they're just jellies they're not
+
+0:50:56.410,0:51:06.070
+jellyfish but but there will always be
+
+0:51:00.010,0:51:08.020
+jellyfish to me okay one more area of
+
+0:51:06.070,0:51:15.070
+things I want to ask you about and that
+
+0:51:08.020,0:51:17.920
+is an IAC yeah nyuk-nyuk which is NASA
+
+0:51:15.070,0:51:20.140
+innovative advanced concepts which I
+
+0:51:17.920,0:51:21.550
+mean that sounds like it's the warp
+
+0:51:20.140,0:51:26.170
+drive people yeah
+
+0:51:21.550,0:51:28.780
+that is the workshare people okay the
+
+0:51:26.170,0:51:29.500
+people who are doing advanced concepts
+
+0:51:28.780,0:51:31.180
+for NASA
+
+0:51:29.500,0:51:35.080
+wait that's kind of in the name wasn't
+
+0:51:31.180,0:51:38.860
+it yes yeah what is that and what do you
+
+0:51:35.080,0:51:39.820
+do for them yeah so Nayak is a program
+
+0:51:38.860,0:51:43.810
+that funds
+
+0:51:39.820,0:51:46.510
+futuristic sci-fi inspired sometimes out
+
+0:51:43.810,0:51:49.540
+there ideas that could be transformative
+
+0:51:46.510,0:51:51.670
+to future space missions 20 30 40 years
+
+0:51:49.540,0:51:54.250
+down the line things that maybe aren't
+
+0:51:51.670,0:51:56.980
+possible yet today but you could still
+
+0:51:54.250,0:51:59.740
+do incredible research into if they're
+
+0:51:56.980,0:52:01.660
+liable or not and so it's this
+
+0:51:59.740,0:52:03.790
+incredible program the sort of things
+
+0:52:01.660,0:52:06.310
+that they fund or things like using
+
+0:52:03.790,0:52:10.570
+comments as propulsion systems or using
+
+0:52:06.310,0:52:13.600
+glitter as in Space Telescope's weird
+
+0:52:10.570,0:52:16.510
+stuff you know stuff that definitely is
+
+0:52:13.600,0:52:17.950
+straddling the you know out there stuff
+
+0:52:16.510,0:52:20.380
+they are not the warp drive people
+
+0:52:17.950,0:52:21.940
+because I work drive stuff I think has
+
+0:52:20.380,0:52:23.770
+been an entirely separate thing because
+
+0:52:21.940,0:52:26.470
+they are looking at stuff from a
+
+0:52:23.770,0:52:28.060
+credible perspective so they have funded
+
+0:52:26.470,0:52:31.390
+things that are like looking into like
+
+0:52:28.060,0:52:33.760
+fusion powered propulsion systems which
+
+0:52:31.390,0:52:37.120
+fusion is still something that hasn't
+
+0:52:33.760,0:52:39.640
+fully materialized yet but but you can
+
+0:52:37.120,0:52:44.290
+still do a lot of credible stuff looking
+
+0:52:39.640,0:52:47.290
+into it today but yeah they I think it's
+
+0:52:44.290,0:52:49.810
+a really amazing program because anyone
+
+0:52:47.290,0:52:52.570
+can apply so you can be a garage hacker
+
+0:52:49.810,0:52:55.210
+you can you can be an academic you can
+
+0:52:52.570,0:52:58.720
+already work within NASA it's open to
+
+0:52:55.210,0:53:01.330
+any US citizens to apply if you're not a
+
+0:52:58.720,0:53:04.200
+US citizen as long as you partner with
+
+0:53:01.330,0:53:07.870
+a u.s. institution you can also apply
+
+0:53:04.200,0:53:10.420
+and I think it's it's really great and I
+
+0:53:07.870,0:53:12.250
+think this is my personal opinion it's
+
+0:53:10.420,0:53:14.349
+it's the most successful when it's
+
+0:53:12.250,0:53:18.670
+pulling from people who maybe
+
+0:53:14.349,0:53:20.859
+aren't directly in the space industry so
+
+0:53:18.670,0:53:24.900
+you know people who maybe are coming at
+
+0:53:20.859,0:53:27.640
+it from a biological perspective or
+
+0:53:24.900,0:53:29.650
+human physiology perspective or
+
+0:53:27.640,0:53:31.749
+something and maybe you know maybe
+
+0:53:29.650,0:53:34.630
+working in the space industry is not
+
+0:53:31.749,0:53:36.579
+their full-time job there's also very
+
+0:53:34.630,0:53:38.619
+successful things that come from within
+
+0:53:36.579,0:53:40.900
+NASA because it's a great opportunity
+
+0:53:38.619,0:53:43.029
+for people within NASA who have really
+
+0:53:40.900,0:53:45.039
+great ideas but might not have a boss
+
+0:53:43.029,0:53:47.289
+who's very supportive of it or might not
+
+0:53:45.039,0:53:51.779
+have any funding mechanisms for they're
+
+0:53:47.289,0:53:54.839
+a great idea to have a sort of a home so
+
+0:53:51.779,0:53:57.999
+Nyack has an external council of people
+
+0:53:54.839,0:54:00.279
+who advise it sort of from the outside
+
+0:53:57.999,0:54:02.410
+these are sci-fi authors and quantum
+
+0:54:00.279,0:54:04.690
+physicists and people of different
+
+0:54:02.410,0:54:07.749
+disciplines so I am one of the people on
+
+0:54:04.690,0:54:11.140
+that external council and we try to help
+
+0:54:07.749,0:54:13.569
+Nayak maintain that delicate balance
+
+0:54:11.140,0:54:15.400
+between science and science fiction we
+
+0:54:13.569,0:54:16.930
+don't want things that are too far into
+
+0:54:15.400,0:54:21.400
+science fiction and we don't want things
+
+0:54:16.930,0:54:24.519
+that are too safe so we try to keep the
+
+0:54:21.400,0:54:26.559
+program balanced I don't get to actually
+
+0:54:24.519,0:54:28.299
+review any of the proposals that come in
+
+0:54:26.559,0:54:29.979
+which is actually a positive thing
+
+0:54:28.299,0:54:31.359
+because then I can encourage people to
+
+0:54:29.979,0:54:35.049
+apply and I don't have to worry about
+
+0:54:31.359,0:54:37.150
+any conflicts there but we try to sort
+
+0:54:35.049,0:54:39.549
+of take a step back and look at the
+
+0:54:37.150,0:54:43.719
+overall program and advise it on that
+
+0:54:39.549,0:54:46.390
+basis so right now the solicitation to
+
+0:54:43.719,0:54:49.479
+apply to Nayak is open and I think it
+
+0:54:46.390,0:54:51.489
+closes in mid-september and all that's
+
+0:54:49.479,0:54:54.219
+needed to initially apply to Nayak is a
+
+0:54:51.489,0:54:56.890
+three-page white paper so it's a it's a
+
+0:54:54.219,0:54:58.749
+pretty incredible program and I'm
+
+0:54:56.890,0:55:01.900
+totally totally biased in saying this
+
+0:54:58.749,0:55:03.339
+but it's my favorite NASA program so it
+
+0:55:01.900,0:55:07.589
+can't be a three page white paper about
+
+0:55:03.339,0:55:11.589
+anything there were specific areas like
+
+0:55:07.589,0:55:14.170
+there's some data from Cassini tell us
+
+0:55:11.589,0:55:16.779
+what you want to do with it or did I not
+
+0:55:14.170,0:55:20.319
+understand no no there's not specific
+
+0:55:16.779,0:55:23.469
+areas not for Nayak it just needs to be
+
+0:55:20.319,0:55:26.410
+within a mission context so a lot of the
+
+0:55:23.469,0:55:26.970
+important stuff that you got evaluated
+
+0:55:26.410,0:55:28.950
+on
+
+0:55:26.970,0:55:30.440
+is about it being in a mission context
+
+0:55:28.950,0:55:32.670
+and that can be a mission that is either
+
+0:55:30.440,0:55:34.410
+currently being talked about something
+
+0:55:32.670,0:55:37.890
+like your you know NASA I going to
+
+0:55:34.410,0:55:39.630
+Europa or it can be just plausible so it
+
+0:55:37.890,0:55:42.410
+can be stuff in cosmology it can be
+
+0:55:39.630,0:55:46.170
+stuff in in human life support it can be
+
+0:55:42.410,0:55:48.240
+you know planetary stuff so there's been
+
+0:55:46.170,0:55:50.640
+you know funded concepts that are about
+
+0:55:48.240,0:55:54.410
+you know orbiting Pluto there have been
+
+0:55:50.640,0:55:58.770
+ones about you know studying dark energy
+
+0:55:54.410,0:56:00.690
+so it could be really about anything as
+
+0:55:58.770,0:56:03.690
+long as it seems that it's plausible
+
+0:56:00.690,0:56:06.680
+that it could be a NASA mission and this
+
+0:56:03.690,0:56:09.480
+also includes Aeronautics as well
+
+0:56:06.680,0:56:11.730
+alright then apparently I was looking at
+
+0:56:09.480,0:56:15.390
+the wrong website but I will have the
+
+0:56:11.730,0:56:18.990
+right website in the show nuts so maybe
+
+0:56:15.390,0:56:22.050
+other people will look yeah it's it
+
+0:56:18.990,0:56:27.690
+should just be NASA at nasa.gov slash
+
+0:56:22.050,0:56:29.870
+Nyack okay ah let's see what is the
+
+0:56:27.690,0:56:32.430
+future of human spaceflight
+
+0:56:29.870,0:56:35.190
+in lightning Rapids which should have
+
+0:56:32.430,0:56:41.010
+been a short answer right okay well yeah
+
+0:56:35.190,0:56:42.980
+it's a long answer oh my gosh yeah where
+
+0:56:41.010,0:56:45.450
+do you want me to begin with that
+
+0:56:42.980,0:56:49.260
+propulsion Oh
+
+0:56:45.450,0:56:52.860
+propulsion well I mean propulsion is I
+
+0:56:49.260,0:56:54.780
+mean so I'll back up and say you know
+
+0:56:52.860,0:56:57.810
+space exploration is something that is
+
+0:56:54.780,0:57:01.500
+really interesting about the perception
+
+0:56:57.810,0:57:03.300
+of it within people who really work on
+
+0:57:01.500,0:57:05.700
+it as as their full-time thing and and
+
+0:57:03.300,0:57:07.980
+sort of people outside of that because I
+
+0:57:05.700,0:57:09.750
+think the tendency for a lot of people
+
+0:57:07.980,0:57:13.320
+is to view space exploration as being
+
+0:57:09.750,0:57:15.120
+this exponential thing similar to what
+
+0:57:13.320,0:57:16.860
+we've seen in parts of biology where
+
+0:57:15.120,0:57:19.320
+it's just like every year we're able to
+
+0:57:16.860,0:57:21.270
+like process more and do more and it's
+
+0:57:19.320,0:57:24.030
+just this exponential like through the
+
+0:57:21.270,0:57:25.800
+roof sort of chart space exploration a
+
+0:57:24.030,0:57:28.230
+lot of people perceive it to be that way
+
+0:57:25.800,0:57:29.970
+but it's really really not space
+
+0:57:28.230,0:57:33.960
+exploration pretty much the model of it
+
+0:57:29.970,0:57:37.380
+is you know have a breakthrough and then
+
+0:57:33.960,0:57:39.270
+spend years and decades optimizing that
+
+0:57:37.380,0:57:41.540
+breakthrough but pretty much be at the
+
+0:57:39.270,0:57:41.540
+same
+
+0:57:41.980,0:57:45.940
+until another breakthrough comes along
+
+0:57:43.660,0:57:48.340
+and this is actually you know what Nayak
+
+0:57:45.940,0:57:50.260
+is really around is Nayak sort of
+
+0:57:48.340,0:57:52.619
+understands that space exploration
+
+0:57:50.260,0:57:55.869
+requires breakthroughs to be
+
+0:57:52.619,0:57:57.970
+transformative it's not an exponential
+
+0:57:55.869,0:58:01.240
+thing we're still using chemical rockets
+
+0:57:57.970,0:58:02.890
+and until another breakthrough comes
+
+0:58:01.240,0:58:05.020
+along and we get you know some other
+
+0:58:02.890,0:58:07.630
+type of propulsion that really changes
+
+0:58:05.020,0:58:11.050
+the game then all we're doing all that
+
+0:58:07.630,0:58:12.910
+any innovative rocket company is doing
+
+0:58:11.050,0:58:15.070
+is just optimizing the hell out of
+
+0:58:12.910,0:58:17.200
+chemical rockets and there are
+
+0:58:15.070,0:58:18.910
+optimizations to have like you know the
+
+0:58:17.200,0:58:21.310
+fact that we're finally getting reusable
+
+0:58:18.910,0:58:24.880
+rockets and stuff like that and that's
+
+0:58:21.310,0:58:27.340
+cool but until yeah until a big
+
+0:58:24.880,0:58:28.900
+breakthrough comes along then we're more
+
+0:58:27.340,0:58:32.650
+or less stuck with sort of the same
+
+0:58:28.900,0:58:35.920
+state of stuff so the future of human
+
+0:58:32.650,0:58:37.869
+spaceflight is something where the
+
+0:58:35.920,0:58:41.140
+report that I worked on and looked at
+
+0:58:37.869,0:58:43.420
+both present-day technology and what we
+
+0:58:41.140,0:58:46.260
+called foreseeable technology so things
+
+0:58:43.420,0:58:48.400
+that don't exist but it's pretty
+
+0:58:46.260,0:58:50.560
+foreseeable in our current state of
+
+0:58:48.400,0:58:53.530
+everything to imagine people figuring
+
+0:58:50.560,0:58:56.350
+out so an example is landing humans on
+
+0:58:53.530,0:58:59.290
+the surface of Mars right now no one has
+
+0:58:56.350,0:59:01.119
+built whatever it is going to be that
+
+0:58:59.290,0:59:02.980
+safely lands humans on the surface of
+
+0:59:01.119,0:59:04.869
+Mars we can't use any of the stuff that
+
+0:59:02.980,0:59:06.730
+we've been using to land robots on Mars
+
+0:59:04.869,0:59:09.160
+because that would kill squishy humans
+
+0:59:06.730,0:59:11.260
+this is we have to invent new stuff that
+
+0:59:09.160,0:59:13.600
+doesn't exist right now
+
+0:59:11.260,0:59:16.090
+no-one's built it but it's within the
+
+0:59:13.600,0:59:17.200
+realm of foreseeable technology we felt
+
+0:59:16.090,0:59:20.230
+that you know stuff like that
+
+0:59:17.200,0:59:23.890
+it doesn't exist but it can probably be
+
+0:59:20.230,0:59:26.320
+done it most likely can be done but at
+
+0:59:23.890,0:59:28.210
+the start of the report we pretty much
+
+0:59:26.320,0:59:29.859
+acknowledged that because space
+
+0:59:28.210,0:59:32.680
+exploration depends on breakthroughs
+
+0:59:29.859,0:59:35.140
+that you know if a huge breakthrough in
+
+0:59:32.680,0:59:36.850
+technology happen and so we got you know
+
+0:59:35.140,0:59:40.960
+fusion powered Rockets or something like
+
+0:59:36.850,0:59:43.300
+that then then it rewrites the whole
+
+0:59:40.960,0:59:45.790
+game and that's kind of how space has
+
+0:59:43.300,0:59:50.050
+worked from from the get-go is you know
+
+0:59:45.790,0:59:52.330
+something comes along oftentimes from a
+
+0:59:50.050,0:59:54.310
+completely different sector and it just
+
+0:59:52.330,0:59:56.620
+completely changes the game
+
+0:59:54.310,1:00:00.160
+you know ballistic missiles changed the
+
+0:59:56.620,1:00:03.850
+game and and so that's kind of how space
+
+1:00:00.160,1:00:05.260
+works and so you know the report about
+
+1:00:03.850,1:00:07.960
+the future of human spaceflight looked
+
+1:00:05.260,1:00:10.120
+at as much as we could present day and
+
+1:00:07.960,1:00:11.560
+foreseeable technologies and evaluated
+
+1:00:10.120,1:00:14.110
+it based off of those but we also
+
+1:00:11.560,1:00:16.060
+acknowledge that breakthroughs can and
+
+1:00:14.110,1:00:18.700
+do happen they don't seem to happen that
+
+1:00:16.060,1:00:23.200
+often but when they do it rewrites
+
+1:00:18.700,1:00:25.630
+everything yeah okay well Christopher do
+
+1:00:23.200,1:00:26.440
+you have any questions you want to ask
+
+1:00:25.630,1:00:28.090
+Ariel
+
+1:00:26.440,1:00:32.350
+well we could talk for a few more hours
+
+1:00:28.090,1:00:34.300
+yeah that's the problem yeah we should
+
+1:00:32.350,1:00:37.450
+probably let her go maybe maybe I'll
+
+1:00:34.300,1:00:40.270
+come back and tell us about microbes yes
+
+1:00:37.450,1:00:42.580
+yeah yeah once I once I get back from my
+
+1:00:40.270,1:00:46.390
+two expeditions I imagine I'll have a
+
+1:00:42.580,1:00:48.370
+lot more insights to share an advice for
+
+1:00:46.390,1:00:51.220
+being on large boats for long times oh
+
+1:00:48.370,1:00:54.670
+my god yeah I just tried my prescription
+
+1:00:51.220,1:00:57.880
+motion sickness patch so I'm preparin to
+
+1:00:54.670,1:01:00.550
+I'm preparing for that experience it'll
+
+1:00:57.880,1:01:03.000
+be so cool Ariel do you have any
+
+1:01:00.550,1:01:07.750
+thoughts you'd like to leave us with uh
+
+1:01:03.000,1:01:09.670
+I mean not anything in particular we've
+
+1:01:07.750,1:01:13.810
+we've covered a lot of ground I always
+
+1:01:09.670,1:01:18.430
+have more to share I think you know just
+
+1:01:13.810,1:01:21.430
+just that you can follow along on my
+
+1:01:18.430,1:01:24.700
+expeditions to nautilus and Antarctica
+
+1:01:21.430,1:01:27.610
+on my patreon page and also I have a
+
+1:01:24.700,1:01:29.730
+YouTube channel where I will be trying
+
+1:01:27.610,1:01:32.230
+to share as much as I can from those
+
+1:01:29.730,1:01:34.150
+expeditions and and everything so that's
+
+1:01:32.230,1:01:37.300
+probably going to be the two places you
+
+1:01:34.150,1:01:39.520
+can easily find me all right I'll make
+
+1:01:37.300,1:01:42.070
+sure those are in the show notes our
+
+1:01:39.520,1:01:44.080
+guest has been Ariel Waldman co-author
+
+1:01:42.070,1:01:46.570
+of a congressionally requested National
+
+1:01:44.080,1:01:47.980
+Academy of Sciences report on the future
+
+1:01:46.570,1:01:50.290
+of human spaceflight
+
+1:01:47.980,1:01:52.090
+she's the author of the book what's it
+
+1:01:50.290,1:01:55.060
+like in space stories from astronauts
+
+1:01:52.090,1:01:58.210
+who've been there and Ariel sits on the
+
+1:01:55.060,1:02:00.750
+council for the NASA innovative advanced
+
+1:01:58.210,1:02:00.750
+concepts
+
+1:02:00.880,1:02:08.140
+something advanced program program
+
+1:02:04.010,1:02:11.330
+program she is finally the director of
+
+1:02:08.140,1:02:13.700
+science hack day she's got a lot more
+
+1:02:11.330,1:02:15.830
+titles clearly we could have gone for a
+
+1:02:13.700,1:02:18.020
+lot longer but thank you for being with
+
+1:02:15.830,1:02:20.420
+this area yeah thank you so much for
+
+1:02:18.020,1:02:21.020
+having me this is fun check out these
+
+1:02:20.420,1:02:24.320
+show notes
+
+1:02:21.020,1:02:27.530
+in your podcast app or on HTTP slash
+
+1:02:24.320,1:02:30.110
+slash embedded fm put a colon in there
+
+1:02:27.530,1:02:31.850
+too somewhere I don't know thank you to
+
+1:02:30.110,1:02:33.200
+Christopher for producing and co-hosting
+
+1:02:31.850,1:02:36.110
+and of course thank you for listening
+
+1:02:33.200,1:02:39.170
+you can always contact us directly at
+
+1:02:36.110,1:02:41.900
+show at embedded FM or hit the contact
+
+1:02:39.170,1:02:46.220
+link on that HTTP colon slash slash
+
+1:02:41.900,1:02:47.810
+embedded fm finally from me a quote and
+
+1:02:46.220,1:02:52.130
+leave you with one of my favorite
+
+1:02:47.810,1:02:54.910
+scientists Mary Curie nothing in life is
+
+1:02:52.130,1:02:58.220
+to be feared it is only to be understood
+
+1:02:54.910,1:03:03.980
+now is the time to understand more so
+
+1:02:58.220,1:03:05.990
+that we may fear less emitted is an
+
+1:03:03.980,1:03:07.850
+independently produced radio show that
+
+1:03:05.990,1:03:10.310
+focuses on the many aspects of
+
+1:03:07.850,1:03:12.140
+Engineering it is a production of
+
+1:03:10.310,1:03:14.840
+logical elegance and embedded software
+
+1:03:12.140,1:03:17.360
+consulting company in California if
+
+1:03:14.840,1:03:19.040
+there are advertisements in the show we
+
+1:03:17.360,1:03:21.620
+did not put them there and do not
+
+1:03:19.040,1:03:24.460
+receive money from them at this time our
+
+1:03:21.620,1:03:27.760
+sponsors are logical elegance and
+
+1:03:24.460,1:03:27.760
+listeners like you
+
