@@ -1,0 +1,3783 @@
+0:00:03.640,0:00:11.660
+[Music]
+
+0:00:06.160,0:00:14.900
+hello this is embedded I am Alysia white
+
+0:00:11.660,0:00:18.109
+here with Christopher white when I say
+
+0:00:14.900,0:00:21.279
+graphics do you assume I mean a big game
+
+0:00:18.109,0:00:24.679
+computer what about in embedded systems
+
+0:00:21.279,0:00:28.089
+this week we'll be talking to Gabrielle
+
+0:00:24.679,0:00:31.640
+Jakob Oh about embedded graphics and
+
+0:00:28.089,0:00:32.239
+mqtt home automation have real thanks
+
+0:00:31.640,0:00:35.780
+for joining us
+
+0:00:32.239,0:00:38.780
+hi crease another yeah that's going good
+
+0:00:35.780,0:00:40.250
+I know you have worked at some company
+
+0:00:38.780,0:00:44.329
+we're not going to talk about with my
+
+0:00:40.250,0:00:46.280
+husband but how about you give us an
+
+0:00:44.329,0:00:49.280
+introduction of yourself as though you
+
+0:00:46.280,0:00:52.640
+were meeting us for the first time at a
+
+0:00:49.280,0:00:55.670
+technical conference all right my name
+
+0:00:52.640,0:00:59.179
+is Gabriel or Gabrielle in Spanish I'm
+
+0:00:55.670,0:01:03.440
+an electronics engineer and I typically
+
+0:00:59.179,0:01:06.410
+work remotely with US companies usually
+
+0:01:03.440,0:01:09.470
+in software or firmware development and
+
+0:01:06.410,0:01:13.580
+lately I've been working for graphics
+
+0:01:09.470,0:01:22.850
+and systems engineering I thought he
+
+0:01:13.580,0:01:24.260
+would go on for longer I well let's do
+
+0:01:22.850,0:01:27.080
+lightning round and we will dig into
+
+0:01:24.260,0:01:29.180
+more because despite your short
+
+0:01:27.080,0:01:32.330
+introduction you have done many
+
+0:01:29.180,0:01:34.160
+interesting things so lightning round we
+
+0:01:32.330,0:01:37.100
+asked you short questions we want short
+
+0:01:34.160,0:01:39.260
+answers and if we were behaving
+
+0:01:37.100,0:01:41.810
+ourselves we won't ask you why and how
+
+0:01:39.260,0:01:46.700
+and hi and all of that Christopher you
+
+0:01:41.810,0:01:49.640
+ready yeah Gabrielle sure let's go Star
+
+0:01:46.700,0:01:54.290
+Wars or Star Trek Star Wars what's the
+
+0:01:49.640,0:01:59.340
+stuff what's your favorite x window
+
+0:01:54.290,0:02:06.299
+manager wait up
+
+0:01:59.340,0:02:08.819
+or Katie what's the I've been using kve
+
+0:02:06.299,0:02:11.569
+constantly for the last ten years I
+
+0:02:08.819,0:02:14.900
+wouldn't change it for anything
+
+0:02:11.569,0:02:18.599
+dinosaur movies are shark movies
+
+0:02:14.900,0:02:21.060
+dinosaur is the Amazon a river a
+
+0:02:18.599,0:02:28.760
+bookstore or a tribe of work fierce
+
+0:02:21.060,0:02:32.579
+women for me it's a bookstore or online
+
+0:02:28.760,0:02:34.680
+shopping destination see ahead a sales
+
+0:02:32.579,0:02:36.000
+platform in that in that question but
+
+0:02:34.680,0:02:38.760
+you just want a statement it's
+
+0:02:36.000,0:02:40.410
+tightening and I'm a little uncertain
+
+0:02:38.760,0:02:42.269
+about your answer because when I asked
+
+0:02:40.410,0:02:44.209
+you about Amazon earlier in the week you
+
+0:02:42.269,0:02:47.040
+said it was a river
+
+0:02:44.209,0:02:49.110
+yeah because Amazon doesn't really have
+
+0:02:47.040,0:02:52.799
+any presence in South America but
+
+0:02:49.110,0:02:57.750
+anytime I go to the US Amazon is there
+
+0:02:52.799,0:03:02.010
+probably the first site IPC what color
+
+0:02:57.750,0:03:06.209
+should a llama be a second what color
+
+0:03:02.010,0:03:09.480
+should a llama be Oh what color so the
+
+0:03:06.209,0:03:12.090
+thing is llama means flame in Spanish so
+
+0:03:09.480,0:03:15.810
+that's why we're talking about it it'd
+
+0:03:12.090,0:03:19.739
+be enough different colors blue is the
+
+0:03:15.810,0:03:22.019
+color of a good flame so I'd go with
+
+0:03:19.739,0:03:25.260
+that do you like to complete one project
+
+0:03:22.019,0:03:27.359
+or start a dozen I'd like to complete
+
+0:03:25.260,0:03:31.680
+one project what I actually do is start
+
+0:03:27.359,0:03:37.069
+at awesome alright that's going to dive
+
+0:03:31.680,0:03:39.989
+into things graphics when you say
+
+0:03:37.069,0:03:42.510
+graphics and I know you've done a lot of
+
+0:03:39.989,0:03:45.209
+different working graphics what do you
+
+0:03:42.510,0:03:46.709
+what is what does that word really mean
+
+0:03:45.209,0:03:51.109
+when you're talking about embedded
+
+0:03:46.709,0:03:53.609
+systems and graphics so graphics means
+
+0:03:51.109,0:03:56.400
+different things to different people for
+
+0:03:53.609,0:03:59.160
+and users it means what probably what
+
+0:03:56.400,0:04:02.730
+they see on screen for designers it
+
+0:03:59.160,0:04:06.090
+means the way they communicate with
+
+0:04:02.730,0:04:09.299
+users and for us for more engineers it's
+
+0:04:06.090,0:04:13.080
+the whole pipeline that goes from assets
+
+0:04:09.299,0:04:17.430
+to some processing the frame buffer and
+
+0:04:13.080,0:04:19.230
+to the pixels of the display it's a
+
+0:04:17.430,0:04:22.160
+little odd because I would never say
+
+0:04:19.230,0:04:25.710
+I've worked in graphics but I have put
+
+0:04:22.160,0:04:28.410
+bitmaps into flash and then gotten them
+
+0:04:25.710,0:04:30.420
+out and put them on the screen yeah
+
+0:04:28.410,0:04:33.600
+should I be saying oh yeah graphics is
+
+0:04:30.420,0:04:35.850
+on my resume so when you did that did
+
+0:04:33.600,0:04:38.760
+you constantly write to the screen
+
+0:04:35.850,0:04:40.710
+did you worry about doing the minimal
+
+0:04:38.760,0:04:42.660
+amount of work possible to preserve
+
+0:04:40.710,0:04:47.520
+battery for example one of that is I
+
+0:04:42.660,0:04:49.800
+think graphics work in a way yeah I did
+
+0:04:47.520,0:04:52.530
+all that and I I actually drew a graph
+
+0:04:49.800,0:04:53.640
+too so it wasn't just splatting things
+
+0:04:52.530,0:04:55.830
+on the screen I had to worry about
+
+0:04:53.640,0:04:56.130
+pixels yeah I could put that on your
+
+0:04:55.830,0:04:59.010
+resume
+
+0:04:56.130,0:05:02.600
+okay graphics right it's graphics
+
+0:04:59.010,0:05:05.250
+essentially graphics is usually
+
+0:05:02.600,0:05:10.050
+expensive for batteries so for embedded
+
+0:05:05.250,0:05:12.360
+work anything that saves you on drawing
+
+0:05:10.050,0:05:14.340
+time on redrawing things that you don't
+
+0:05:12.360,0:05:16.710
+need to draw even if you're just like
+
+0:05:14.340,0:05:18.870
+moving assets from the flash to the
+
+0:05:16.710,0:05:21.480
+display that's a fairly complicated
+
+0:05:18.870,0:05:24.540
+process and definitely worth putting in
+
+0:05:21.480,0:05:30.480
+your wrist could you go through the
+
+0:05:24.540,0:05:32.430
+process for us so the center of the
+
+0:05:30.480,0:05:36.270
+graphics process is what's called a
+
+0:05:32.430,0:05:39.840
+frame buffer which is a complicated work
+
+0:05:36.270,0:05:43.320
+for an array in memory a buffer where
+
+0:05:39.840,0:05:45.300
+the pixel information is going to be and
+
+0:05:43.320,0:05:49.560
+it's going to be sent to the display
+
+0:05:45.300,0:05:53.370
+through some mechanism the assets
+
+0:05:49.560,0:05:55.800
+typically come from a flash storage SD
+
+0:05:53.370,0:05:58.080
+card depending on the resolution it's
+
+0:05:55.800,0:06:01.890
+the type of storage that we're going to
+
+0:05:58.080,0:06:05.610
+have there's going to be some sort of
+
+0:06:01.890,0:06:08.040
+DMA transfer from the storage to RAM
+
+0:06:05.610,0:06:10.080
+memory or even directly to the frame
+
+0:06:08.040,0:06:13.110
+buffer and then there's going to be some
+
+0:06:10.080,0:06:15.540
+processing than either by the CPU in
+
+0:06:13.110,0:06:18.570
+what's called software rendering or by a
+
+0:06:15.540,0:06:21.270
+GPU in what's typically called hardware
+
+0:06:18.570,0:06:23.729
+accelerated rendering and then that
+
+0:06:21.270,0:06:26.220
+frame buffer is composed into a frame
+
+0:06:23.729,0:06:27.410
+and that gets sent to the display at a
+
+0:06:26.220,0:06:30.800
+certain time
+
+0:06:27.410,0:06:33.860
+the timing of sending images from the
+
+0:06:30.800,0:06:36.770
+frame buffer to the display has a little
+
+0:06:33.860,0:06:39.710
+bit of complexity because the display is
+
+0:06:36.770,0:06:41.390
+doing it something and the CPU is doing
+
+0:06:39.710,0:06:43.820
+its own thing and if you don't
+
+0:06:41.390,0:06:46.370
+coordinate that properly you end up
+
+0:06:43.820,0:06:48.800
+seeing strange artifacts on screen which
+
+0:06:46.370,0:06:52.100
+you don't want and that depends on how
+
+0:06:48.800,0:06:53.150
+much complexity you have in the in the
+
+0:06:52.100,0:06:55.790
+thing you're displaying if you're doing
+
+0:06:53.150,0:06:57.380
+something very static then usually don't
+
+0:06:55.790,0:07:00.290
+worry about that but if you have a lot
+
+0:06:57.380,0:07:02.180
+of animation or changing data or numbers
+
+0:07:00.290,0:07:04.280
+then then you get into the complexity of
+
+0:07:02.180,0:07:07.460
+oh I don't want to update the screen
+
+0:07:04.280,0:07:08.810
+while I'm still updating the data and
+
+0:07:07.460,0:07:12.560
+I'm put that I want to put on it for the
+
+0:07:08.810,0:07:14.870
+next update exactly and that it seems
+
+0:07:12.560,0:07:17.210
+you have a frame buffer on your LCD and
+
+0:07:14.870,0:07:20.560
+the micro isn't asked acting as frame
+
+0:07:17.210,0:07:25.430
+buffer and having to send things every
+
+0:07:20.560,0:07:27.920
+update yeah so this place typically work
+
+0:07:25.430,0:07:31.100
+in one of two configurations the
+
+0:07:27.920,0:07:33.350
+simplest one I afford the display is
+
+0:07:31.100,0:07:37.100
+basically a mode that emulates what all
+
+0:07:33.350,0:07:40.250
+CRTs display did which is you have a see
+
+0:07:37.100,0:07:43.160
+every sync signal and H horizontal sync
+
+0:07:40.250,0:07:44.660
+signal and pixels and you send stuff to
+
+0:07:43.160,0:07:48.260
+the screen and that gets reflected
+
+0:07:44.660,0:07:52.250
+immediately into pixel information and
+
+0:07:48.260,0:07:54.670
+then an evolution of that is this place
+
+0:07:52.250,0:07:58.340
+with graphics ran on them where the
+
+0:07:54.670,0:08:00.410
+microcontroller can send information at
+
+0:07:58.340,0:08:02.960
+a given time and then that gets
+
+0:08:00.410,0:08:06.230
+displayed to pixels after a certain
+
+0:08:02.960,0:08:08.930
+refresh period yes if your data sheet
+
+0:08:06.230,0:08:12.440
+says you have to use H sink in vsync run
+
+0:08:08.930,0:08:14.390
+away run away very quickly oh well I
+
+0:08:12.440,0:08:18.290
+mean you have to often cuz it's cheaper
+
+0:08:14.390,0:08:21.560
+but it is a lot simpler in the code to
+
+0:08:18.290,0:08:23.540
+have something that has onboard RAM but
+
+0:08:21.560,0:08:25.070
+you pay for it in your processor because
+
+0:08:23.540,0:08:27.350
+you know your processor is doing all of
+
+0:08:25.070,0:08:31.040
+that everyone knows that freeware is
+
+0:08:27.350,0:08:34.219
+free so that's why they're typically
+
+0:08:31.040,0:08:38.630
+used to exchange our complexity for free
+
+0:08:34.219,0:08:40.310
+or complexity so that's all how you
+
+0:08:38.630,0:08:42.890
+would deal with like a bear
+
+0:08:40.310,0:08:44.150
+metal system but you worked on this
+
+0:08:42.890,0:08:47.690
+thing what's it called
+
+0:08:44.150,0:08:49.640
+SDL simple directmedia layer which of
+
+0:08:47.690,0:08:53.990
+course I mean it has the word simple in
+
+0:08:49.640,0:08:58.010
+it so it should be simple right that's a
+
+0:08:53.990,0:08:59.060
+it's a nothing but it's it's it's simple
+
+0:08:58.010,0:09:00.860
+for the user
+
+0:08:59.060,0:09:04.690
+it's quite simple for the user actually
+
+0:09:00.860,0:09:07.490
+it's not simple in its implementation
+
+0:09:04.690,0:09:09.470
+what is it but is it first like if
+
+0:09:07.490,0:09:11.720
+nobody if somebody hasn't heard of it or
+
+0:09:09.470,0:09:15.170
+what it what is this little description
+
+0:09:11.720,0:09:17.839
+so let's say let's let's start with the
+
+0:09:15.170,0:09:21.290
+simplest case right you have a frame
+
+0:09:17.839,0:09:25.100
+buffer on our toes and you create your
+
+0:09:21.290,0:09:30.020
+rendering engine right so you tailor
+
+0:09:25.100,0:09:32.930
+everything to you tailor everything for
+
+0:09:30.020,0:09:36.140
+that artists your whole rendering
+
+0:09:32.930,0:09:37.640
+pipeline is oriented towards having just
+
+0:09:36.140,0:09:40.370
+one frame buffer that you can't directly
+
+0:09:37.640,0:09:42.830
+access and everything works nice your
+
+0:09:40.370,0:09:45.800
+input comes from from interrupts or
+
+0:09:42.830,0:09:49.550
+whatever then imagine that you want to
+
+0:09:45.800,0:09:51.680
+port that to with a minimal effort to I
+
+0:09:49.550,0:09:55.040
+don't know a desktop simulator on
+
+0:09:51.680,0:09:56.690
+Windows or Mac then all your rendering
+
+0:09:55.040,0:10:00.290
+functions basically stop working because
+
+0:09:56.690,0:10:03.370
+Windows uses its own API for rendering
+
+0:10:00.290,0:10:08.620
+and for window creation and for input
+
+0:10:03.370,0:10:12.310
+for events etc and Mac uses a different
+
+0:10:08.620,0:10:15.500
+scheme Linux this is a different scheme
+
+0:10:12.310,0:10:18.500
+Android doesn't even have a main loop
+
+0:10:15.500,0:10:21.680
+that you can use so what SDL does is
+
+0:10:18.500,0:10:27.020
+abstract all of that into a single API
+
+0:10:21.680,0:10:29.209
+slash application philosophy so instead
+
+0:10:27.020,0:10:31.490
+of having to worry about how you create
+
+0:10:29.209,0:10:34.459
+window a window on windows some
+
+0:10:31.490,0:10:37.430
+background Linux you create you call SPL
+
+0:10:34.459,0:10:40.310
+underscore create window and everything
+
+0:10:37.430,0:10:42.830
+is magically so internally you don't
+
+0:10:40.310,0:10:46.490
+need to worry about how the main loops
+
+0:10:42.830,0:10:49.220
+of the OS work you don't need to worry
+
+0:10:46.490,0:10:52.040
+about how to read the keyboard or the
+
+0:10:49.220,0:10:53.820
+gamepad or the mouse everything comes as
+
+0:10:52.040,0:10:56.520
+events in this
+
+0:10:53.820,0:10:58.560
+way across all platforms so it's
+
+0:10:56.520,0:11:05.730
+basically a harbor and always
+
+0:10:58.560,0:11:09.620
+abstraction like yeah cutie cute to some
+
+0:11:05.730,0:11:12.270
+extent but cute is much more it's it's
+
+0:11:09.620,0:11:15.360
+it's more of an app of total application
+
+0:11:12.270,0:11:17.310
+framework so it has networking and all
+
+0:11:15.360,0:11:19.860
+kinds of stuff language extensions
+
+0:11:17.310,0:11:24.540
+whereas this is this isn't see it's more
+
+0:11:19.860,0:11:28.380
+directed toward input and graphics do I
+
+0:11:24.540,0:11:31.080
+have that right so yeah so I don't know
+
+0:11:28.380,0:11:33.600
+how cutie obstructs platforms internally
+
+0:11:31.080,0:11:35.940
+but you could have for example cutie a
+
+0:11:33.600,0:11:38.010
+port that works on top of 50 STL if you
+
+0:11:35.940,0:11:40.830
+want it like STL provides the per
+
+0:11:38.010,0:11:44.520
+minimal layer to abstract window
+
+0:11:40.830,0:11:47.100
+creation input OpenGL context creation
+
+0:11:44.520,0:11:50.430
+and that's it QT provides a whole bunch
+
+0:11:47.100,0:11:53.760
+of other stuff okay
+
+0:11:50.430,0:12:00.150
+how do these relate to like OpenGL and
+
+0:11:53.760,0:12:03.330
+direct3d so after you create a window if
+
+0:12:00.150,0:12:06.120
+you want to render using GPU you need
+
+0:12:03.330,0:12:08.400
+something that's called an OpenGL
+
+0:12:06.120,0:12:10.800
+context which is basically a way to
+
+0:12:08.400,0:12:12.900
+reference what you're doing for the hard
+
+0:12:10.800,0:12:16.860
+work to know that you are the one
+
+0:12:12.900,0:12:20.910
+issuing instructions and you which text
+
+0:12:16.860,0:12:23.360
+or euro you own etc so the way you do
+
+0:12:20.910,0:12:27.060
+that is different on each platform
+
+0:12:23.360,0:12:29.460
+creating an opportunity is not really
+
+0:12:27.060,0:12:32.670
+part of the OpenGL specification but a
+
+0:12:29.460,0:12:35.640
+part of the window manager slash OpenGL
+
+0:12:32.670,0:12:40.050
+integration so as DL abstracts all of
+
+0:12:35.640,0:12:40.680
+these and it manages the windows way of
+
+0:12:40.050,0:12:42.720
+doing it
+
+0:12:40.680,0:12:45.630
+the egl way of doing it the back way of
+
+0:12:42.720,0:12:47.850
+doing it and you just have to call SPL
+
+0:12:45.630,0:12:50.010
+chair clear context or whatever it's
+
+0:12:47.850,0:12:52.320
+called and you get a context and don't
+
+0:12:50.010,0:12:57.000
+have to worry about any of the internal
+
+0:12:52.320,0:12:59.160
+details and it also has a neat way to on
+
+0:12:57.000,0:13:01.530
+up in OpenGL you need to load the
+
+0:12:59.160,0:13:04.500
+function pointers from the library if
+
+0:13:01.530,0:13:06.630
+you don't want to make statically and it
+
+0:13:04.500,0:13:07.649
+helps you with that as well it's not the
+
+0:13:06.630,0:13:12.449
+only library that does
+
+0:13:07.649,0:13:18.149
+this but it's it's a nice utility that
+
+0:13:12.449,0:13:20.850
+provides how does all of this so I know
+
+0:13:18.149,0:13:22.889
+you're an expert in STL because I know
+
+0:13:20.850,0:13:27.509
+you've contributed to it it's an open
+
+0:13:22.889,0:13:35.029
+source project how does this relate to
+
+0:13:27.509,0:13:37.610
+embedded systems it doesn't so STL
+
+0:13:35.029,0:13:40.769
+doesn't really have support for
+
+0:13:37.610,0:13:43.139
+narratives right so if we equate
+
+0:13:40.769,0:13:45.529
+embedded systems to having an artists or
+
+0:13:43.139,0:13:49.110
+not having an artist at all
+
+0:13:45.529,0:13:52.290
+STL doesn't really apply here but there
+
+0:13:49.110,0:13:55.350
+are a growing number of small wearables
+
+0:13:52.290,0:13:58.290
+that use Linux and if you want to for
+
+0:13:55.350,0:14:00.959
+example develop an app and not have to
+
+0:13:58.290,0:14:01.470
+download it constantly to the device to
+
+0:14:00.959,0:14:04.980
+try it
+
+0:14:01.470,0:14:08.329
+you can develop an SPL app you try it on
+
+0:14:04.980,0:14:11.610
+the desktop you use the OpenGL ES
+
+0:14:08.329,0:14:14.670
+graphics stack and what you see on the
+
+0:14:11.610,0:14:16.529
+desktop is going to be exactly or very
+
+0:14:14.670,0:14:19.800
+close to what you see on the device and
+
+0:14:16.529,0:14:21.500
+so that cuts down development time by a
+
+0:14:19.800,0:14:26.610
+lot
+
+0:14:21.500,0:14:30.930
+and there are many devices doing Linux
+
+0:14:26.610,0:14:33.690
+embedded yeah if I wanted to have
+
+0:14:30.930,0:14:37.530
+something that was doing Linux and was
+
+0:14:33.690,0:14:40.710
+making graphics I mean I guess you know
+
+0:14:37.530,0:14:43.080
+when I do embedded Linux I just plug in
+
+0:14:40.710,0:14:47.340
+an HDMI screen and it all just kind of
+
+0:14:43.080,0:14:54.000
+works but that's not that's not what
+
+0:14:47.340,0:14:57.390
+you're talking about let's say can we
+
+0:14:54.000,0:15:00.450
+consider the Raspberry Pi platform yes
+
+0:14:57.390,0:15:02.760
+yeah okay so let's say you want to
+
+0:15:00.450,0:15:04.830
+develop for Raspberry Pi and you don't
+
+0:15:02.760,0:15:08.340
+want to compile everything on device
+
+0:15:04.830,0:15:10.920
+because it takes forever yeah yeah so
+
+0:15:08.340,0:15:13.470
+you cross compile and then once you
+
+0:15:10.920,0:15:16.590
+cross compile you have to download it to
+
+0:15:13.470,0:15:20.550
+the Raspberry Pi try it run it try it
+
+0:15:16.590,0:15:22.860
+with the whatever input you've managed
+
+0:15:20.550,0:15:26.000
+to connect to the Raspberry Pi and see
+
+0:15:22.860,0:15:28.740
+what it looks like or what you can do is
+
+0:15:26.000,0:15:30.120
+that what's basically that same app on
+
+0:15:28.740,0:15:33.120
+your desktop
+
+0:15:30.120,0:15:36.090
+peel it right there mess around with the
+
+0:15:33.120,0:15:39.210
+UI as much as you want and once you're
+
+0:15:36.090,0:15:41.250
+settled with that you know that STL is
+
+0:15:39.210,0:15:42.780
+going to abstract most of the
+
+0:15:41.250,0:15:44.970
+differences in Hauer
+
+0:15:42.780,0:15:47.700
+because your desktop has a different GPU
+
+0:15:44.970,0:15:52.680
+and it probably has a different
+
+0:15:47.700,0:15:55.080
+resolution etc and so you try you send
+
+0:15:52.680,0:15:57.630
+that which is basically there's pretty
+
+0:15:55.080,0:16:01.710
+much the same code pinned it on top of
+
+0:15:57.630,0:16:06.150
+STL and OpenGL ES and that should run on
+
+0:16:01.710,0:16:09.480
+the Raspberry Pi mostly unmodified so
+
+0:16:06.150,0:16:11.220
+it's it this doesn't mean that you
+
+0:16:09.480,0:16:13.080
+cannot develop on the Raspberry Pi
+
+0:16:11.220,0:16:15.360
+directly or that you shouldn't
+
+0:16:13.080,0:16:18.150
+it is saves time if especially if you're
+
+0:16:15.360,0:16:21.870
+doing a complex project it's also nice
+
+0:16:18.150,0:16:24.390
+to be able to give a simulator to your
+
+0:16:21.870,0:16:27.600
+designers and say well this is what it's
+
+0:16:24.390,0:16:28.860
+gonna look like on the thing and then
+
+0:16:27.600,0:16:32.400
+you don't care if the designers are
+
+0:16:28.860,0:16:35.410
+using Mac or Windows or Linux and you
+
+0:16:32.400,0:16:38.560
+still get a reasonable fuck
+
+0:16:35.410,0:16:41.740
+of what their version of graphics is
+
+0:16:38.560,0:16:45.850
+gonna look like on the embedded version
+
+0:16:41.740,0:16:48.310
+of graphics on the device yes and if for
+
+0:16:45.850,0:16:51.190
+example tomorrow competitor to the
+
+0:16:48.310,0:16:53.350
+Raspberry Pi show SAP and the software
+
+0:16:51.190,0:16:57.550
+stack that they provide doesn't have a
+
+0:16:53.350,0:17:00.130
+window manager but it has direct
+
+0:16:57.550,0:17:04.209
+hardware access for example most of the
+
+0:17:00.130,0:17:06.730
+event the GPUs have that so SDL supports
+
+0:17:04.209,0:17:09.670
+Peapod these GPUs directly and it can
+
+0:17:06.730,0:17:11.860
+create windows on the directly without
+
+0:17:09.670,0:17:14.679
+having to go through a window manager so
+
+0:17:11.860,0:17:16.929
+you your code runs on that it's a
+
+0:17:14.679,0:17:19.120
+different view it if a whole different
+
+0:17:16.929,0:17:21.880
+system and you don't have to change
+
+0:17:19.120,0:17:24.400
+anything for that to work and of course
+
+0:17:21.880,0:17:26.890
+if you're doing things like games you
+
+0:17:24.400,0:17:29.590
+support multiple platforms out of the
+
+0:17:26.890,0:17:31.390
+box with minimal effort you have an
+
+0:17:29.590,0:17:32.679
+elected the STA one of the things that
+
+0:17:31.390,0:17:34.120
+people were saying about it was there's
+
+0:17:32.679,0:17:37.480
+a game engine I'm like I don't think
+
+0:17:34.120,0:17:39.940
+that's right but it's not it's not a
+
+0:17:37.480,0:17:42.100
+game engine it's a it's a platform an OS
+
+0:17:39.940,0:17:45.730
+abstraction layer you you still have to
+
+0:17:42.100,0:17:47.950
+make your own engine on top of that but
+
+0:17:45.730,0:17:50.980
+SEO makes it simpler because you can
+
+0:17:47.950,0:17:52.660
+make a game engine that is mostly
+
+0:17:50.980,0:17:56.170
+cross-platform so you don't have to
+
+0:17:52.660,0:17:58.390
+worry about the display systems the
+
+0:17:56.170,0:18:02.350
+display and the input and many other
+
+0:17:58.390,0:18:06.309
+things yes sound as well in addition
+
+0:18:02.350,0:18:07.890
+today you did a database thing with STL
+
+0:18:06.309,0:18:10.540
+let me see if I've got this right
+
+0:18:07.890,0:18:13.150
+community sourced database of game
+
+0:18:10.540,0:18:14.980
+controller map means to be used with STL
+
+0:18:13.150,0:18:17.140
+to game controller functionality
+
+0:18:14.980,0:18:22.950
+I don't think all those words go
+
+0:18:17.140,0:18:27.070
+together so one of the things that SDL
+
+0:18:22.950,0:18:30.429
+added quite recently or maybe in the
+
+0:18:27.070,0:18:32.350
+last four years it's a way to abstract
+
+0:18:30.429,0:18:34.450
+game controllers so if you look at
+
+0:18:32.350,0:18:36.040
+different game controllers the most
+
+0:18:34.450,0:18:38.260
+popular ones are the Xbox and
+
+0:18:36.040,0:18:40.570
+Playstation ones and then there's a
+
+0:18:38.260,0:18:42.820
+whole myriad of buttons and things that
+
+0:18:40.570,0:18:45.070
+if you are a game developer for example
+
+0:18:42.820,0:18:49.530
+and you want to map all of that variety
+
+0:18:45.070,0:18:53.980
+to something consistent on your game
+
+0:18:49.530,0:18:56.920
+you're basically facing a titanic task
+
+0:18:53.980,0:18:58.630
+because you need to know what what
+
+0:18:56.920,0:19:01.240
+possible things the user may have in
+
+0:18:58.630,0:19:04.540
+their home and that they let them to use
+
+0:19:01.240,0:19:07.330
+on your game and map that somehow to the
+
+0:19:04.540,0:19:09.280
+game one of the most common solutions is
+
+0:19:07.330,0:19:10.929
+to have some kind of mapping
+
+0:19:09.280,0:19:12.820
+functionality in the game where it says
+
+0:19:10.929,0:19:14.320
+okay press the button to jump and you
+
+0:19:12.820,0:19:17.950
+press something and then that gets
+
+0:19:14.320,0:19:23.320
+recorded the database that you're
+
+0:19:17.950,0:19:26.460
+referring to is a way to formalize on
+
+0:19:23.320,0:19:30.880
+that so as the else supports mapping of
+
+0:19:26.460,0:19:33.490
+many controllers to an Xbox controller
+
+0:19:30.880,0:19:35.200
+format and people around the world have
+
+0:19:33.490,0:19:36.730
+been contributing those mappings that
+
+0:19:35.200,0:19:39.700
+they do with the controllers that they
+
+0:19:36.730,0:19:45.370
+get their hands on and we aggregate all
+
+0:19:39.700,0:19:47.290
+of that into this database so once when
+
+0:19:45.370,0:19:51.070
+anyone wants to ship a game and support
+
+0:19:47.290,0:19:53.650
+a whole bunch of controllers besides the
+
+0:19:51.070,0:19:56.500
+ones that still supports out of the box
+
+0:19:53.650,0:19:58.600
+which is fairly minimal amount they load
+
+0:19:56.500,0:20:00.250
+up this database and they can support I
+
+0:19:58.600,0:20:04.570
+don't know the last time I checked it
+
+0:20:00.250,0:20:07.420
+was like 300 computers mentally I have
+
+0:20:04.570,0:20:10.150
+this pictured as though it was I was
+
+0:20:07.420,0:20:12.010
+using code composer and switched out the
+
+0:20:10.150,0:20:15.820
+key bindings to match my Visual Studio
+
+0:20:12.010,0:20:17.350
+code is that is that a good mental model
+
+0:20:15.820,0:20:19.600
+or is that yes totally do it okay that's
+
+0:20:17.350,0:20:20.980
+it that's exactly what it is yes the
+
+0:20:19.600,0:20:25.450
+mental model of somebody doesn't play
+
+0:20:20.980,0:20:28.570
+enough games that's true or place with
+
+0:20:25.450,0:20:33.370
+keyboard and mouse no I had the VR
+
+0:20:28.570,0:20:35.679
+system and play with my feet so this
+
+0:20:33.370,0:20:38.230
+database thing and the STL things you do
+
+0:20:35.679,0:20:43.090
+and it's all open source and how do you
+
+0:20:38.230,0:20:46.090
+get paid you don't it's it's an
+
+0:20:43.090,0:20:50.020
+investment basically so the story is
+
+0:20:46.090,0:20:52.780
+that I started with some friends try to
+
+0:20:50.020,0:20:54.790
+make a game and to make a game of course
+
+0:20:52.780,0:20:56.679
+the first thing that they tell you is if
+
+0:20:54.790,0:20:58.690
+you're making a game don't make your own
+
+0:20:56.679,0:21:01.780
+nature so what did we do
+
+0:20:58.690,0:21:02.590
+we started making of course the end the
+
+0:21:01.780,0:21:04.870
+action was
+
+0:21:02.590,0:21:07.509
+SDL and I still had a number of
+
+0:21:04.870,0:21:11.110
+shortcomings that were angry on me so I
+
+0:21:07.509,0:21:13.419
+start to contribute in there and sings
+
+0:21:11.110,0:21:16.720
+one singlet to another and ended up
+
+0:21:13.419,0:21:19.210
+working on company in the u.s. that
+
+0:21:16.720,0:21:22.960
+basically found me through my open
+
+0:21:19.210,0:21:25.419
+source contributions the the reason why
+
+0:21:22.960,0:21:29.980
+I did those contributions is to learn
+
+0:21:25.419,0:21:32.769
+and also to get some recognition or two
+
+0:21:29.980,0:21:37.749
+it's it's a way to build up your resume
+
+0:21:32.769,0:21:39.519
+when you don't have specific expertise
+
+0:21:37.749,0:21:44.259
+in the area that you want to work in
+
+0:21:39.519,0:21:46.809
+probably so yeah it's a there's a lot of
+
+0:21:44.259,0:21:48.480
+paid open-source development but I
+
+0:21:46.809,0:21:50.740
+haven't been a button that it's been
+
+0:21:48.480,0:21:54.190
+everything is being voluntary for me
+
+0:21:50.740,0:21:55.960
+cool awesome listener question some of
+
+0:21:54.190,0:22:01.179
+which you've seen because you're in our
+
+0:21:55.960,0:22:04.240
+slack Channel let's see how about secret
+
+0:22:01.179,0:22:07.299
+is out many people are in our slack
+
+0:22:04.240,0:22:08.799
+Channel and if you want to be in our
+
+0:22:07.299,0:22:11.860
+slack channel in your listener all you
+
+0:22:08.799,0:22:15.309
+have to do is contribute a buck or two
+
+0:22:11.860,0:22:18.090
+on patreon and then you get the link in
+
+0:22:15.309,0:22:18.090
+then you can say hello
+
+0:22:18.240,0:22:24.549
+okay so Nick Nick asked Nick the
+
+0:22:21.340,0:22:26.619
+exploding lemur asked if you have any
+
+0:22:24.549,0:22:29.379
+tips for hunting down processors with
+
+0:22:26.619,0:22:31.629
+stable graphics drivers and/or easily
+
+0:22:29.379,0:22:38.070
+acquired graphics engine specs and open
+
+0:22:31.629,0:22:42.730
+drivers so the state of GPU drivers is
+
+0:22:38.070,0:22:45.070
+very bad the only ones I know of that
+
+0:22:42.730,0:22:47.409
+open source and quite good actually at
+
+0:22:45.070,0:22:50.470
+the Raspberry Pi one which is I think a
+
+0:22:47.409,0:22:53.200
+work in progress and then on desktop you
+
+0:22:50.470,0:22:56.429
+have the Intel works besides that
+
+0:22:53.200,0:23:01.149
+everything is be behind three layers of
+
+0:22:56.429,0:23:03.700
+DRAM and NDA's and Chris knows about
+
+0:23:01.149,0:23:05.619
+this you talk to one vendor and they
+
+0:23:03.700,0:23:10.500
+talk to the other vendor and you finally
+
+0:23:05.619,0:23:13.769
+get to the one that sells the GPU IP and
+
+0:23:10.500,0:23:15.700
+nobody gives you any internal details
+
+0:23:13.769,0:23:17.860
+unless
+
+0:23:15.700,0:23:20.260
+probably talking from VP to VP level
+
+0:23:17.860,0:23:22.659
+it's very complicated of course they're
+
+0:23:20.260,0:23:24.159
+doing super-secret stuff so I can
+
+0:23:22.659,0:23:26.370
+understand I'm not sure no it's all the
+
+0:23:24.159,0:23:26.370
+same
+
+0:23:27.809,0:23:32.799
+what about below that I mean that's
+
+0:23:30.039,0:23:34.750
+that's GPU stuff but in the
+
+0:23:32.799,0:23:38.169
+microcontroller world there's not a lot
+
+0:23:34.750,0:23:40.149
+of for hobbyists or people you know
+
+0:23:38.169,0:23:43.510
+doing like thinking about a Kickstarter
+
+0:23:40.149,0:23:47.289
+project there's not a lot of devices
+
+0:23:43.510,0:23:51.460
+that help out much with graphics no kind
+
+0:23:47.289,0:23:55.000
+of a 2d space yeah I've seen a couple of
+
+0:23:51.460,0:23:58.059
+SD chips that have a 2d accelerator
+
+0:23:55.000,0:24:02.260
+which is essentially a DMA engine that
+
+0:23:58.059,0:24:03.850
+can do like to the transfers where you
+
+0:24:02.260,0:24:06.519
+can specify an area and copy it to
+
+0:24:03.850,0:24:08.919
+another area and a bit more about them
+
+0:24:06.519,0:24:12.220
+that is an engine that can do scaling
+
+0:24:08.919,0:24:15.279
+and maybe rotation in 2d but that's
+
+0:24:12.220,0:24:18.010
+pretty much it if the other issue with
+
+0:24:15.279,0:24:21.340
+this kind of implementations is that
+
+0:24:18.010,0:24:23.500
+they're very a doc so each manufacturer
+
+0:24:21.340,0:24:28.179
+does their own thing and there's
+
+0:24:23.500,0:24:30.460
+absolutely no standards and maybe many
+
+0:24:28.179,0:24:33.580
+of those implementations are not very
+
+0:24:30.460,0:24:37.570
+distributed so expect plenty of bugs if
+
+0:24:33.580,0:24:40.389
+you're doing that and it's a huge
+
+0:24:37.570,0:24:45.720
+security risk in a way because you're
+
+0:24:40.389,0:24:49.419
+moving data around behind the CPU
+
+0:24:45.720,0:24:53.500
+protection mechanisms so you can easily
+
+0:24:49.419,0:24:57.279
+shoot yourself in the foot when you talk
+
+0:24:53.500,0:24:59.440
+about moving data into frame buffers and
+
+0:24:57.279,0:25:02.799
+being able to scale it some of that has
+
+0:24:59.440,0:25:05.610
+to do with fonts and having a font in
+
+0:25:02.799,0:25:09.730
+flash and then moving it to the screen
+
+0:25:05.610,0:25:11.559
+or having a letter in flash and moving
+
+0:25:09.730,0:25:17.440
+it to the screen because the font is a
+
+0:25:11.559,0:25:18.820
+series of letters how do you how do you
+
+0:25:17.440,0:25:21.460
+deal with fonts do you have a favorite
+
+0:25:18.820,0:25:23.710
+font do you prefer to do vectors and and
+
+0:25:21.460,0:25:26.139
+take the computing overhead do you
+
+0:25:23.710,0:25:29.290
+usually use bitmap fonts what do you
+
+0:25:26.139,0:25:33.460
+want to do so
+
+0:25:29.290,0:25:37.690
+yeah vector phones are ideal they
+
+0:25:33.460,0:25:41.920
+usually cost you just a little bit above
+
+0:25:37.690,0:25:44.620
+what you can spend on systems mostly
+
+0:25:41.920,0:25:47.790
+because they hover around a hundred K
+
+0:25:44.620,0:25:50.500
+and I have the case probably just
+
+0:25:47.790,0:25:54.180
+outside of your budget in many embedded
+
+0:25:50.500,0:25:57.760
+systems it's basically a compression
+
+0:25:54.180,0:25:59.920
+mechanism right you have the vectors in
+
+0:25:57.760,0:26:02.830
+a in a file and when you want to render
+
+0:25:59.920,0:26:05.950
+something you tessellate these vectors
+
+0:26:02.830,0:26:09.790
+into a bitmap and gosh that probably
+
+0:26:05.950,0:26:12.750
+somewhere and use that so if you are
+
+0:26:09.790,0:26:16.030
+using bitmap fonts what you're doing is
+
+0:26:12.750,0:26:18.580
+most of the same process butterfly yeah
+
+0:26:16.030,0:26:21.910
+you start from a font and you render the
+
+0:26:18.580,0:26:24.190
+bitmaps and you store only the bitmap on
+
+0:26:21.910,0:26:26.950
+your flash memory the issue with that is
+
+0:26:24.190,0:26:31.750
+that you cannot really change your text
+
+0:26:26.950,0:26:33.730
+size and you need to have space to store
+
+0:26:31.750,0:26:36.250
+all of the glyphs that you want to
+
+0:26:33.730,0:26:38.880
+render which if you're supporting things
+
+0:26:36.250,0:26:45.100
+like Chinese for example it's not a
+
+0:26:38.880,0:26:47.530
+trivial amount of space I think most of
+
+0:26:45.100,0:26:50.500
+the cortex-m processors can render
+
+0:26:47.530,0:26:56.200
+TrueType fonts correctly if you have the
+
+0:26:50.500,0:26:58.330
+run so if you have above I say 256 K of
+
+0:26:56.200,0:27:02.290
+nori you should probably give two type
+
+0:26:58.330,0:27:03.100
+fonts ago there is it's work with very
+
+0:27:02.290,0:27:04.600
+easy to work with
+
+0:27:03.100,0:27:08.260
+see how he's heard if they were really
+
+0:27:04.600,0:27:11.050
+hard kind of avoided them you need a
+
+0:27:08.260,0:27:14.530
+library yeah you you've got to
+
+0:27:11.050,0:27:16.380
+open-source libraries free type and STP
+
+0:27:14.530,0:27:22.150
+to type which is actually one of those
+
+0:27:16.380,0:27:24.670
+single feather priests like so much so
+
+0:27:22.150,0:27:27.520
+you just use that and it gives you
+
+0:27:24.670,0:27:31.240
+whatever you want okay good question
+
+0:27:27.520,0:27:32.890
+from Ben which was initially phrased why
+
+0:27:31.240,0:27:35.080
+do the displays that the gas-station
+
+0:27:32.890,0:27:38.710
+take five years to update for every key
+
+0:27:35.080,0:27:40.260
+press and then was changed to what are
+
+0:27:38.710,0:27:41.970
+some common mistakes made during
+
+0:27:40.260,0:27:48.950
+embedded graphics
+
+0:27:41.970,0:27:54.660
+I mean that 35 or 40 more minutes
+
+0:27:48.950,0:27:57.920
+mqtt tears right last time the I think
+
+0:27:54.660,0:28:00.570
+the thing that people don't understand
+
+0:27:57.920,0:28:03.660
+the the most common misunderstanding
+
+0:28:00.570,0:28:08.940
+about graphics is that graphics is a
+
+0:28:03.660,0:28:11.100
+bandwidth about operation right you you
+
+0:28:08.940,0:28:13.440
+do have some CPU processing and GPU
+
+0:28:11.100,0:28:15.900
+processing but the first limit that
+
+0:28:13.440,0:28:18.870
+you're going to hit is going to be the
+
+0:28:15.900,0:28:23.190
+bandwidth limit because it's mostly
+
+0:28:18.870,0:28:25.770
+about transferring information so in the
+
+0:28:23.190,0:28:29.100
+case of very slow displacing gas
+
+0:28:25.770,0:28:31.620
+stations or ATMs or whatever what
+
+0:28:29.100,0:28:35.100
+usually happens is that they choose a
+
+0:28:31.620,0:28:37.760
+processor for price reasons or business
+
+0:28:35.100,0:28:40.110
+reasons or whatever and then they make a
+
+0:28:37.760,0:28:42.300
+totally separate decision about the
+
+0:28:40.110,0:28:45.840
+resolution based on what this place they
+
+0:28:42.300,0:28:47.790
+can get or what resolution but visual
+
+0:28:45.840,0:28:50.070
+impact they want to have on the user and
+
+0:28:47.790,0:28:51.750
+then those things are completely
+
+0:28:50.070,0:28:54.240
+separate and they usually don't match up
+
+0:28:51.750,0:28:57.900
+and then that's why you end up with
+
+0:28:54.240,0:29:00.720
+those ugly low frame rates that you
+
+0:28:57.900,0:29:03.030
+could you say this is one of the reasons
+
+0:29:00.720,0:29:06.120
+that we do when we talk about DMA when
+
+0:29:03.030,0:29:08.100
+we talk about graphics because it is all
+
+0:29:06.120,0:29:11.550
+about moving things from here to there
+
+0:29:08.100,0:29:14.630
+as fast as possible and still being able
+
+0:29:11.550,0:29:18.800
+to do other stuff yep
+
+0:29:14.630,0:29:18.800
+are there other common mistakes
+
+0:29:20.070,0:29:24.250
+the other common mistake which is
+
+0:29:22.240,0:29:27.040
+related to probably one of the other
+
+0:29:24.250,0:29:29.920
+questions that I saw on the slab channel
+
+0:29:27.040,0:29:32.520
+is across products
+
+0:29:29.920,0:29:36.580
+the resolution is evaluated as a new
+
+0:29:32.520,0:29:38.440
+thing all the time so you change
+
+0:29:36.580,0:29:40.570
+products and you change completely the
+
+0:29:38.440,0:29:43.450
+resolution because again business
+
+0:29:40.570,0:29:46.300
+reasons or reliability or whatever and
+
+0:29:43.450,0:29:49.030
+then you start on your second product
+
+0:29:46.300,0:29:52.360
+you start maintaining two sets of assets
+
+0:29:49.030,0:29:56.280
+which don't really mesh with each other
+
+0:29:52.360,0:29:59.530
+and on the server iteration you start
+
+0:29:56.280,0:30:04.660
+handling three types of aspect ratios
+
+0:29:59.530,0:30:09.460
+and it all gets complicated so one if I
+
+0:30:04.660,0:30:12.250
+could make a choice across an entire set
+
+0:30:09.460,0:30:14.380
+of products I'd say stick to the same
+
+0:30:12.250,0:30:17.890
+resolution or at least stick to the same
+
+0:30:14.380,0:30:19.990
+aspect ratio that's a hard problem even
+
+0:30:17.890,0:30:22.090
+when you're not doing you know a small
+
+0:30:19.990,0:30:25.270
+embedded system that's even if you're
+
+0:30:22.090,0:30:26.800
+doing something with Linux or Apple's
+
+0:30:25.270,0:30:27.910
+had this problem right oh we came out
+
+0:30:26.800,0:30:29.830
+with a new phone and now all the
+
+0:30:27.910,0:30:31.720
+developers have to go and regenerate
+
+0:30:29.830,0:30:33.130
+everything and there's no good way to
+
+0:30:31.720,0:30:34.690
+make this automatable because things
+
+0:30:33.130,0:30:36.280
+don't look good when they're scaled or
+
+0:30:34.690,0:30:39.340
+when they're automatically laid out so
+
+0:30:36.280,0:30:41.140
+yeah it's a big problem every time when
+
+0:30:39.340,0:30:42.910
+you look at movies I mean you have
+
+0:30:41.140,0:30:44.500
+different scaling on whether whether
+
+0:30:42.910,0:30:46.900
+you're watching it on TV with the black
+
+0:30:44.500,0:30:48.430
+bars or whether you're in the movie
+
+0:30:46.900,0:30:50.050
+theater or whether you're watching an
+
+0:30:48.430,0:30:53.070
+old movie or a new movie the aspect
+
+0:30:50.050,0:30:56.520
+ratio and resolution that's just a
+
+0:30:53.070,0:31:01.270
+never-ending problem yep
+
+0:30:56.520,0:31:06.850
+and trying to decouple it in your code
+
+0:31:01.270,0:31:09.430
+is a great idea but as Chris said you it
+
+0:31:06.850,0:31:12.880
+looks different so you can't just say oh
+
+0:31:09.430,0:31:16.540
+we're gonna pound F that out it's not it
+
+0:31:12.880,0:31:18.460
+doesn't work like that yeah so there's a
+
+0:31:16.540,0:31:22.300
+few techniques that came mostly from
+
+0:31:18.460,0:31:25.090
+their web development work because web
+
+0:31:22.300,0:31:27.670
+the web pages are subject to a bunch of
+
+0:31:25.090,0:31:29.800
+resolutions and they need to look from
+
+0:31:27.670,0:31:32.560
+this basically what's the same set of
+
+0:31:29.800,0:31:33.040
+assets and code they need to look the
+
+0:31:32.560,0:31:35.410
+same
+
+0:31:33.040,0:31:37.900
+roughly the same so there are techniques
+
+0:31:35.410,0:31:40.600
+to minimize that but they cost in terms
+
+0:31:37.900,0:31:42.880
+of treatment development and CPU
+
+0:31:40.600,0:31:45.970
+processing power so they're not always
+
+0:31:42.880,0:31:48.070
+feasible on about systems well it's gone
+
+0:31:45.970,0:31:50.200
+and talked about mqtt because there were
+
+0:31:48.070,0:31:53.130
+some questions about that and I heard
+
+0:31:50.200,0:31:56.830
+you have been doing some home automation
+
+0:31:53.130,0:31:58.930
+yes though I must warn you that mqtt is
+
+0:31:56.830,0:32:01.510
+so great that I'm willfully ignorant of
+
+0:31:58.930,0:32:05.710
+all its internal implementation details
+
+0:32:01.510,0:32:09.870
+I enjoy it as an end user mostly what is
+
+0:32:05.710,0:32:13.600
+it it's a communications protocol
+
+0:32:09.870,0:32:19.230
+typically associated to IOT devices
+
+0:32:13.600,0:32:25.810
+it runs on tcp/ip and it follows
+
+0:32:19.230,0:32:27.790
+publication subscription principles ok
+
+0:32:25.810,0:32:30.310
+so you've already said tcp/ip and I'm
+
+0:32:27.790,0:32:32.380
+like oh I'll just take out all my micros
+
+0:32:30.310,0:32:34.450
+because that's that's heavy weight to
+
+0:32:32.380,0:32:35.890
+start with and then this is on top of it
+
+0:32:34.450,0:32:39.100
+it's the Internet of Things if you don't
+
+0:32:35.890,0:32:42.010
+have PCP IP you're just a thing I'm okay
+
+0:32:39.100,0:32:43.780
+with that that's a there's a there's a
+
+0:32:42.010,0:32:46.320
+variant that I'm not really familiar
+
+0:32:43.780,0:32:50.890
+with that doesn't run on top of tcp/ip
+
+0:32:46.320,0:32:54.760
+but I mean we're talking something that
+
+0:32:50.890,0:33:00.400
+can do at least Wi-Fi or Ethernet and
+
+0:32:54.760,0:33:02.920
+cover tcp/ip stack okay so it's it's on
+
+0:33:00.400,0:33:05.830
+top of tcp/ip
+
+0:33:02.920,0:33:09.810
+so guarantee transmissions as long as
+
+0:33:05.830,0:33:14.520
+you have the path between them and
+
+0:33:09.810,0:33:18.490
+publish/subscribe so your widget your
+
+0:33:14.520,0:33:20.770
+IOT thing probably publishes the data
+
+0:33:18.490,0:33:23.590
+and then some server like things
+
+0:33:20.770,0:33:28.330
+subscribes how does how does it work
+
+0:33:23.590,0:33:30.790
+so there's you need to have one broker I
+
+0:33:28.330,0:33:33.250
+use mosquito there's a bunch of them
+
+0:33:30.790,0:33:37.240
+which is like the half the central point
+
+0:33:33.250,0:33:39.490
+of the MQTT network and everything else
+
+0:33:37.240,0:33:43.650
+is a client and each client can
+
+0:33:39.490,0:33:46.480
+subscribe or publish information the
+
+0:33:43.650,0:33:48.990
+processes you
+
+0:33:46.480,0:33:51.880
+something with a topic and a payload and
+
+0:33:48.990,0:33:54.040
+the other clients can subscribe to a
+
+0:33:51.880,0:33:57.120
+topic and when you publish to that topic
+
+0:33:54.040,0:34:01.840
+take at the payload that you transmit it
+
+0:33:57.120,0:34:05.470
+it's here to stores IOT devices so the
+
+0:34:01.840,0:34:09.100
+whole my device went offline expecting
+
+0:34:05.470,0:34:10.869
+you have messages for availability so
+
+0:34:09.100,0:34:13.090
+whenever you come online you say I'm
+
+0:34:10.869,0:34:15.399
+available and whenever the broker sees
+
+0:34:13.090,0:34:18.159
+that you've gone offline because you
+
+0:34:15.399,0:34:23.169
+don't respond it's automatically a
+
+0:34:18.159,0:34:25.780
+message saying this device is offline it
+
+0:34:23.169,0:34:28.600
+also retains miss the broker can retain
+
+0:34:25.780,0:34:31.840
+messages so for example if you want to
+
+0:34:28.600,0:34:35.500
+talk to a thermostat and have a
+
+0:34:31.840,0:34:38.980
+temperature setting you publish I don't
+
+0:34:35.500,0:34:39.879
+know ABF I want to set into the ADF and
+
+0:34:38.980,0:34:42.190
+retain that
+
+0:34:39.879,0:34:44.619
+so whenever the thermostat comes back
+
+0:34:42.190,0:34:48.070
+online the broker communicates that
+
+0:34:44.619,0:34:51.639
+information automatically and the other
+
+0:34:48.070,0:34:55.480
+piece of technology that it has is a QoS
+
+0:34:51.639,0:34:57.700
+setting a quality of service which says
+
+0:34:55.480,0:34:59.680
+if you want the message to be
+
+0:34:57.700,0:35:01.600
+transferred once or if you really want
+
+0:34:59.680,0:35:06.670
+to make sure that the message is
+
+0:35:01.600,0:35:09.460
+received by our clients okay so mosquito
+
+0:35:06.670,0:35:12.070
+is the broker and it is sort of the hub
+
+0:35:09.460,0:35:13.750
+yes what do you run that on do you have
+
+0:35:12.070,0:35:15.400
+like a home server or are you running
+
+0:35:13.750,0:35:19.859
+that annika Raspberry Pi sort of thing
+
+0:35:15.400,0:35:23.550
+so at home I have a has a ou
+
+0:35:19.859,0:35:26.640
+distribution which is a home assistant
+
+0:35:23.550,0:35:32.920
+Bistro that runs with the Raspberry Pi
+
+0:35:26.640,0:35:35.140
+it's center around containers and on one
+
+0:35:32.920,0:35:37.450
+of the containers you run mosquito and
+
+0:35:35.140,0:35:39.160
+everything talks to that and home
+
+0:35:37.450,0:35:40.390
+assistant talks to that as well so
+
+0:35:39.160,0:35:44.109
+everything connects through the
+
+0:35:40.390,0:35:48.450
+Raspberry Pi what do you have for the
+
+0:35:44.109,0:35:54.040
+devices Oh devices it's mostly
+
+0:35:48.450,0:35:57.220
+esp8266 no that's you for the doors and
+
+0:35:54.040,0:35:58.360
+lights that kind of thing did you say
+
+0:35:57.220,0:36:00.880
+node
+
+0:35:58.360,0:36:11.470
+nah yeah it's called now them Co so I
+
+0:36:00.880,0:36:13.930
+click like Inc like it now you know it's
+
+0:36:11.470,0:36:15.970
+called no then see you and it out of the
+
+0:36:13.930,0:36:20.650
+box it grants Louis oh nothing make
+
+0:36:15.970,0:36:22.150
+sense okay what are you building with
+
+0:36:20.650,0:36:23.530
+this we knew and when I first heard of
+
+0:36:22.150,0:36:26.490
+this you were gonna do like one little
+
+0:36:23.530,0:36:30.810
+thing yeah I had a greenhouse
+
+0:36:26.490,0:36:38.410
+temperature control now I have two doors
+
+0:36:30.810,0:36:41.260
+lights the home alarm and the heating
+
+0:36:38.410,0:36:42.850
+system of the house connected there it's
+
+0:36:41.260,0:36:44.740
+pretty neat because you program
+
+0:36:42.850,0:36:47.260
+everything in micro Python or if you
+
+0:36:44.740,0:36:51.070
+doing something a bit more intensive you
+
+0:36:47.260,0:36:54.280
+use platform i/o we know framework and
+
+0:36:51.070,0:36:58.060
+it's just plug and play mostly it's very
+
+0:36:54.280,0:37:00.430
+satisfying way of working I don't even
+
+0:36:58.060,0:37:00.880
+know how you install the tool change for
+
+0:37:00.430,0:37:02.980
+this
+
+0:37:00.880,0:37:05.200
+everything is click click click click
+
+0:37:02.980,0:37:08.530
+here and everything works perfectly
+
+0:37:05.200,0:37:11.110
+it's amazing what about power I mean if
+
+0:37:08.530,0:37:14.140
+you're alarming if you're alarming doors
+
+0:37:11.110,0:37:16.900
+if you have door alarms don't those just
+
+0:37:14.140,0:37:21.250
+run on batteries and the esps are ok but
+
+0:37:16.900,0:37:24.580
+they're not like long-term batteries the
+
+0:37:21.250,0:37:27.790
+USB for the alarm is connected to the
+
+0:37:24.580,0:37:30.370
+alarm battery which is like a huge brick
+
+0:37:27.790,0:37:32.830
+that can last a few days
+
+0:37:30.370,0:37:35.170
+yeah that's no issue and also being
+
+0:37:32.830,0:37:36.800
+worrying about battery life for 4 years
+
+0:37:35.170,0:37:40.950
+old I don't care anymore
+
+0:37:36.800,0:37:43.330
+[Laughter]
+
+0:37:40.950,0:37:44.590
+MQTT comes in flavors do you have to
+
+0:37:43.330,0:37:48.610
+worry about any of that or does it all
+
+0:37:44.590,0:37:51.750
+just kind of poof works it magically
+
+0:37:48.610,0:37:54.940
+works yeah I I don't think there's
+
+0:37:51.750,0:37:57.250
+versioning at least
+
+0:37:54.940,0:38:00.610
+so since I'm building everything
+
+0:37:57.250,0:38:02.170
+basically from the say saying source
+
+0:38:00.610,0:38:04.750
+code everything works
+
+0:38:02.170,0:38:06.970
+I know if I bring a binary from
+
+0:38:04.750,0:38:08.800
+somewhere else into my home automation
+
+0:38:06.970,0:38:11.710
+which doesn't seem like a the best idea
+
+0:38:08.800,0:38:12.220
+in the world probably won't work
+
+0:38:11.710,0:38:15.369
+I don't
+
+0:38:12.220,0:38:19.359
+how it manages versioning you make this
+
+0:38:15.369,0:38:25.240
+sound very easy it's surprisingly easy
+
+0:38:19.359,0:38:28.420
+yeah on Python you just create a client
+
+0:38:25.240,0:38:30.070
+and issue MQTT that subscribe to
+
+0:38:28.420,0:38:32.260
+subtopic and you start getting call
+
+0:38:30.070,0:38:34.630
+backs for that that's what you have to
+
+0:38:32.260,0:38:36.910
+do it's three lines it's funny as you
+
+0:38:34.630,0:38:38.890
+talk about the architecture of it with
+
+0:38:36.910,0:38:41.200
+the publish and subscribe and the broker
+
+0:38:38.890,0:38:44.800
+and it sounds very much like robot
+
+0:38:41.200,0:38:47.080
+operating system okay but going on going
+
+0:38:44.800,0:38:51.670
+on to the next subject of my long list
+
+0:38:47.080,0:38:52.859
+of things to ask a Gabrielle about where
+
+0:38:51.670,0:38:56.020
+are you based
+
+0:38:52.859,0:39:00.580
+I'm in Argentina in a city called Mar
+
+0:38:56.020,0:39:05.890
+del Plata 400 kilometres south of Buenos
+
+0:39:00.580,0:39:09.040
+Aires on the coast and I have met you in
+
+0:39:05.890,0:39:10.480
+person near San Francisco how many hours
+
+0:39:09.040,0:39:13.660
+did you have to travel to get San
+
+0:39:10.480,0:39:17.050
+Francisco so there's no direct flights
+
+0:39:13.660,0:39:20.050
+to San Francisco from Argentina
+
+0:39:17.050,0:39:23.560
+and there's no definitely no direct
+
+0:39:20.050,0:39:27.460
+flights from foreign to anywhere from my
+
+0:39:23.560,0:39:31.119
+city so I had to take a bus to what
+
+0:39:27.460,0:39:33.940
+Osiris and then you typically go to LA
+
+0:39:31.119,0:39:35.560
+if you're lucky and then from there to
+
+0:39:33.940,0:39:39.880
+SF or San Diego
+
+0:39:35.560,0:39:42.580
+so it's about 20 hours 22 hours if
+
+0:39:39.880,0:39:46.750
+you're lucky I see you don't commute
+
+0:39:42.580,0:39:51.190
+regularly no my communities from my bed
+
+0:39:46.750,0:39:52.660
+to my desktop how do you how do you
+
+0:39:51.190,0:39:56.880
+handle that I have is working remotely
+
+0:39:52.660,0:40:01.810
+for you and and how do you make it work
+
+0:39:56.880,0:40:04.540
+and not distraction though I mean it's a
+
+0:40:01.810,0:40:08.890
+nice deal it's not easy to get started
+
+0:40:04.540,0:40:13.589
+doing this it it it has all the
+
+0:40:08.890,0:40:16.990
+challenges of working at home focus of
+
+0:40:13.589,0:40:19.630
+doing the things - especially working in
+
+0:40:16.990,0:40:21.310
+Hardware pinyon Argentina the hair needs
+
+0:40:19.630,0:40:25.720
+to be shape in its go through customs
+
+0:40:21.310,0:40:27.490
+that's a whole ordeal and
+
+0:40:25.720,0:40:31.330
+and the companies that you work with
+
+0:40:27.490,0:40:34.680
+need to be remote oriented in a way they
+
+0:40:31.330,0:40:38.220
+to be prepared to have remote workers
+
+0:40:34.680,0:40:42.010
+cut the philosophy required to do that
+
+0:40:38.220,0:40:44.590
+but that's probably not different from
+
+0:40:42.010,0:40:47.590
+the work that you do there right being
+
+0:40:44.590,0:40:50.349
+about hundred kilometres or a thousand
+
+0:40:47.590,0:40:52.660
+or ten thousand is the same in terms of
+
+0:40:50.349,0:40:55.119
+human interaction the things that get
+
+0:40:52.660,0:40:57.550
+more complicated is when you jump across
+
+0:40:55.119,0:41:00.310
+countries and you're doing horrible
+
+0:40:57.550,0:41:01.840
+projects I started doing software
+
+0:41:00.310,0:41:05.980
+projects basically web development
+
+0:41:01.840,0:41:09.670
+initially because it's much easier to
+
+0:41:05.980,0:41:15.330
+work like that against the server on the
+
+0:41:09.670,0:41:18.099
+Amazon Cloud Data Brazil buddy Seattle
+
+0:41:15.330,0:41:20.560
+that if if you depend on hard work that
+
+0:41:18.099,0:41:24.700
+maybe breaks and you need to wait a week
+
+0:41:20.560,0:41:26.340
+or two to get a replacement work do you
+
+0:41:24.700,0:41:30.369
+have any advice for people who want to
+
+0:41:26.340,0:41:31.690
+work remotely in general and then do you
+
+0:41:30.369,0:41:33.460
+have any advice review who went to work
+
+0:41:31.690,0:41:38.800
+remotely internationally like you're
+
+0:41:33.460,0:41:40.660
+doing I think the the first thing if you
+
+0:41:38.800,0:41:44.170
+want to work for example from Argentina
+
+0:41:40.660,0:41:46.720
+for US companies it's just get started
+
+0:41:44.170,0:41:49.570
+just make an account on freelance or
+
+0:41:46.720,0:41:53.589
+Elance or oDesk or whatever it's called
+
+0:41:49.570,0:41:55.780
+now and just get cheeks doing PHP or
+
+0:41:53.589,0:42:00.160
+JavaScript work and it's going to pay
+
+0:41:55.780,0:42:04.470
+very loudly just do that for some time
+
+0:42:00.160,0:42:07.000
+to get used to working remotely the
+
+0:42:04.470,0:42:08.650
+you're not going to get the most amazing
+
+0:42:07.000,0:42:12.099
+jobs doing that but you're going to
+
+0:42:08.650,0:42:14.970
+create a resume and and work that you
+
+0:42:12.099,0:42:19.089
+can point to maybe more interesting
+
+0:42:14.970,0:42:21.670
+employers saying to them basically I'm
+
+0:42:19.089,0:42:25.480
+responsible I can manage my own time and
+
+0:42:21.670,0:42:27.970
+I can get things done and then after
+
+0:42:25.480,0:42:31.720
+that is the same as for any work you
+
+0:42:27.970,0:42:34.839
+need to establish relationships with
+
+0:42:31.720,0:42:38.109
+people and people need to know you know
+
+0:42:34.839,0:42:39.609
+what you can do and if you cannot get
+
+0:42:38.109,0:42:41.799
+into an area that you
+
+0:42:39.609,0:42:45.969
+then look for open-source projects that
+
+0:42:41.799,0:42:48.130
+you can contribute to as a way to prove
+
+0:42:45.969,0:42:49.539
+that you can get the work done there any
+
+0:42:48.130,0:42:51.880
+other pitfalls that you've come across
+
+0:42:49.539,0:42:53.829
+just in terms of mechanics of things
+
+0:42:51.880,0:42:55.900
+like shipping I know that sometimes
+
+0:42:53.829,0:42:58.299
+shipping Hardware can be a pain because
+
+0:42:55.900,0:43:02.469
+it gets either confiscated or stuck in
+
+0:42:58.299,0:43:04.119
+customs are there ways to to suggest to
+
+0:43:02.469,0:43:06.459
+the companies you work for to smooth
+
+0:43:04.119,0:43:08.559
+those things over or is that just kind
+
+0:43:06.459,0:43:13.690
+of constituting business yeah in
+
+0:43:08.559,0:43:17.799
+Argentina in particular FedEx is the can
+
+0:43:13.690,0:43:20.079
+we advertise companies yeah FedEx please
+
+0:43:17.799,0:43:23.890
+send us a check yeah exactly let's let
+
+0:43:20.079,0:43:25.930
+give us a couple of three shipments it's
+
+0:43:23.890,0:43:29.200
+the best way to send things they
+
+0:43:25.930,0:43:31.329
+typically take a week to get stuff here
+
+0:43:29.200,0:43:33.900
+and it usually doesn't get bothered by
+
+0:43:31.329,0:43:40.900
+customs if you stay within the courier
+
+0:43:33.900,0:43:44.259
+weight and price limits and then if you
+
+0:43:40.900,0:43:46.449
+go beyond that then you start getting
+
+0:43:44.259,0:43:49.900
+issues right but that's that's like a
+
+0:43:46.449,0:43:53.499
+logistics problem that it's it's not
+
+0:43:49.900,0:44:00.519
+really in your hands to to solve to do
+
+0:43:53.499,0:44:02.199
+anything about I say that the most
+
+0:44:00.519,0:44:05.559
+difficult thing working probably
+
+0:44:02.199,0:44:07.930
+probably for you is the same is getting
+
+0:44:05.559,0:44:10.359
+people to acknowledge you and keep you
+
+0:44:07.930,0:44:12.160
+in the loop on things that's the when
+
+0:44:10.359,0:44:14.289
+you're not physically present talking
+
+0:44:12.160,0:44:16.599
+face to face to people the relationship
+
+0:44:14.289,0:44:20.259
+changes especially when there's a time
+
+0:44:16.599,0:44:22.690
+zone change yeah so if you can visit in
+
+0:44:20.259,0:44:26.380
+person every now and then that smooth
+
+0:44:22.690,0:44:28.829
+things watched you and I found that
+
+0:44:26.380,0:44:34.660
+working remotely has helped with some
+
+0:44:28.829,0:44:37.509
+jobs my lab is pretty good compared to
+
+0:44:34.660,0:44:40.119
+many of the startups I work with my
+
+0:44:37.509,0:44:44.979
+office is extraordinarily quiet compared
+
+0:44:40.119,0:44:46.920
+to many of the offices I visit and when
+
+0:44:44.979,0:44:50.199
+I work remotely we get better at
+
+0:44:46.920,0:44:52.839
+documentation part of that's just cuz I
+
+0:44:50.199,0:44:53.230
+document things and I like to and I
+
+0:44:52.839,0:44:54.880
+liked
+
+0:44:53.230,0:44:56.530
+have them documented because I like to
+
+0:44:54.880,0:45:00.520
+forget things very quickly and the
+
+0:44:56.530,0:45:02.830
+documents help me but also the documents
+
+0:45:00.520,0:45:06.700
+help them whether they realize that or
+
+0:45:02.830,0:45:08.740
+not I realize it when somebody emails me
+
+0:45:06.700,0:45:10.390
+from a client I worked on two years ago
+
+0:45:08.740,0:45:11.859
+and says I thought this would be
+
+0:45:10.390,0:45:14.260
+impossible and then I Richard document
+
+0:45:11.859,0:45:17.500
+realized I only had to uncomment like
+
+0:45:14.260,0:45:19.570
+one line and it was all good and I mean
+
+0:45:17.500,0:45:23.550
+that sort of thing is awesome also you
+
+0:45:19.570,0:45:32.470
+cannot not if you're working on office
+
+0:45:23.550,0:45:34.780
+is not true yeah
+
+0:45:32.470,0:45:36.460
+so if you're not feeling well if you
+
+0:45:34.780,0:45:40.030
+feel like you're blocked by a problem
+
+0:45:36.460,0:45:44.050
+exists you're to just get up and take a
+
+0:45:40.030,0:45:45.970
+walk or whatever in your head and come
+
+0:45:44.050,0:45:49.359
+back concentrate on on the problem
+
+0:45:45.970,0:45:52.720
+really think it through the speciality
+
+0:45:49.359,0:45:56.550
+OpenOffice plants that have become
+
+0:45:52.720,0:46:00.190
+typically in the US are very distracting
+
+0:45:56.550,0:46:02.109
+it's at least for me personally mostly
+
+0:46:00.190,0:46:08.910
+because I'm not used to them it cuts by
+
+0:46:02.109,0:46:11.650
+productivity a lot I totally agree and
+
+0:46:08.910,0:46:15.640
+working as a consultant being able to
+
+0:46:11.650,0:46:18.970
+clock out and go for a walk it's just so
+
+0:46:15.640,0:46:20.830
+valuable yeah because it also benefits
+
+0:46:18.970,0:46:23.770
+the company because your brain really
+
+0:46:20.830,0:46:26.710
+doesn't stop processing the what you're
+
+0:46:23.770,0:46:29.859
+doing but you can really build for
+
+0:46:26.710,0:46:34.780
+taking a walk at least I don't may be
+
+0:46:29.859,0:46:37.300
+shocked but when you're doing that
+
+0:46:34.780,0:46:40.060
+you're really thinking the problem that
+
+0:46:37.300,0:46:43.260
+you're facing the background yes very
+
+0:46:40.060,0:46:45.660
+much yes yes going back to graphics
+
+0:46:43.260,0:46:47.950
+Chris you had another couple questions
+
+0:46:45.660,0:46:49.810
+there was one in the list here that I
+
+0:46:47.950,0:46:52.240
+thought I think we skipped over that was
+
+0:46:49.810,0:46:54.280
+kind of the crux of the difficulty of
+
+0:46:52.240,0:46:56.140
+graphics on embedded systems and that's
+
+0:46:54.280,0:46:59.920
+if you're doing something moderately
+
+0:46:56.140,0:47:03.410
+complicated the dance between updating
+
+0:46:59.920,0:47:07.500
+the frame buffer syncing
+
+0:47:03.410,0:47:09.030
+updating the screen I just like to talk
+
+0:47:07.500,0:47:10.830
+about that a little bit to give people a
+
+0:47:09.030,0:47:12.420
+sense for okay if you really want to do
+
+0:47:10.830,0:47:14.310
+something that maybe has animation
+
+0:47:12.420,0:47:16.080
+that's fluid and doesn't have tearing
+
+0:47:14.310,0:47:19.680
+heart effects how you go about
+
+0:47:16.080,0:47:21.330
+architecting your system first you have
+
+0:47:19.680,0:47:24.300
+to describe what tearing me Oh
+
+0:47:21.330,0:47:25.950
+tearing would be so if you if you're
+
+0:47:24.300,0:47:28.560
+updating your frame buffer out of sync
+
+0:47:25.950,0:47:31.560
+with how the display is perhaps reading
+
+0:47:28.560,0:47:33.180
+it out you might have half of your
+
+0:47:31.560,0:47:35.340
+screen updated in the frame buffer and
+
+0:47:33.180,0:47:36.570
+half old data and then the display might
+
+0:47:35.340,0:47:39.630
+read it out and put it on the display
+
+0:47:36.570,0:47:42.360
+and then you tap this half updated
+
+0:47:39.630,0:47:44.070
+screen which since oftentimes you're
+
+0:47:42.360,0:47:46.830
+moving something it would look like
+
+0:47:44.070,0:47:50.370
+you've got a big tear mark aligned
+
+0:47:46.830,0:47:53.040
+across the screen so how do you solve
+
+0:47:50.370,0:47:55.290
+that right it's a I don't know if we
+
+0:47:53.040,0:47:57.810
+can't reveal this grease but it's a an
+
+0:47:55.290,0:48:00.180
+ancient secret passed from generation to
+
+0:47:57.810,0:48:03.690
+generation of super engineers and it's
+
+0:48:00.180,0:48:05.100
+called double buffering yes sorry I I
+
+0:48:03.690,0:48:07.890
+gave it out I'm sorry
+
+0:48:05.100,0:48:12.540
+I'm going to return my trimmer engineer
+
+0:48:07.890,0:48:14.760
+patch so what you do typically is you
+
+0:48:12.540,0:48:16.770
+have instead of only one frame buffer if
+
+0:48:14.760,0:48:18.870
+you can afford it you have two three
+
+0:48:16.770,0:48:22.140
+buffers of the displayed resolution and
+
+0:48:18.870,0:48:24.420
+while you're building your frame with
+
+0:48:22.140,0:48:26.580
+the CPU or the GPU on one you are
+
+0:48:24.420,0:48:30.300
+displaying the another one on the screen
+
+0:48:26.580,0:48:32.340
+and to switch between the frame buffers
+
+0:48:30.300,0:48:35.790
+what you do is you wait for a signal
+
+0:48:32.340,0:48:39.030
+from the display which is most likely
+
+0:48:35.790,0:48:40.980
+the missing signal which indicates that
+
+0:48:39.030,0:48:44.010
+the display has started scanning the
+
+0:48:40.980,0:48:46.530
+frame buffer so once it started scanning
+
+0:48:44.010,0:48:48.830
+the frame buffer it will read from the
+
+0:48:46.530,0:48:52.920
+active frame buffer all the pixels and
+
+0:48:48.830,0:48:55.140
+the pixels that it has read it will no
+
+0:48:52.920,0:48:58.470
+longer be they will no longer be in use
+
+0:48:55.140,0:49:02.370
+so that's the moment where when you can
+
+0:48:58.470,0:49:05.640
+switch frame buffers and the active one
+
+0:49:02.370,0:49:07.380
+becomes the back in the back buffer and
+
+0:49:05.640,0:49:09.120
+you can start drawing your new frame
+
+0:49:07.380,0:49:11.490
+there when the display that's seeing
+
+0:49:09.120,0:49:15.300
+with the front buffer and so this is a
+
+0:49:11.490,0:49:19.860
+ping pong buffer system where
+
+0:49:15.300,0:49:22.590
+when ping is activated is in use by the
+
+0:49:19.860,0:49:25.560
+LCD you write to the pong buffer and
+
+0:49:22.590,0:49:27.600
+then you wait for the signal to say to
+
+0:49:25.560,0:49:28.980
+swap and then the pong buffer is being
+
+0:49:27.600,0:49:32.130
+used by the LCD and you write to the
+
+0:49:28.980,0:49:34.490
+ping buffer yes and if you've got to
+
+0:49:32.130,0:49:37.230
+just play with an embedded frame buffer
+
+0:49:34.490,0:49:39.000
+usually they only have enough on there
+
+0:49:37.230,0:49:40.500
+for one frame right they don't have
+
+0:49:39.000,0:49:43.460
+double buffering so you might have to
+
+0:49:40.500,0:49:45.900
+add at least another buffer in your RAM
+
+0:49:43.460,0:49:47.820
+well how does that work sometimes you
+
+0:49:45.900,0:49:50.640
+can use you you can't always read out
+
+0:49:47.820,0:49:52.920
+the LCDs frame buffer that's usually
+
+0:49:50.640,0:49:54.840
+kind of exciting too
+
+0:49:52.920,0:49:57.510
+and so you have to keep a shadow of what
+
+0:49:54.840,0:50:00.210
+they write right it's usually very slow
+
+0:49:57.510,0:50:03.750
+to read the frame buffer in the display
+
+0:50:00.210,0:50:05.970
+itself so when the reason comes you send
+
+0:50:03.750,0:50:09.330
+the active frame buffer in a one-way
+
+0:50:05.970,0:50:10.710
+mode and start working with the
+
+0:50:09.330,0:50:13.920
+information that you had on that frame
+
+0:50:10.710,0:50:16.830
+buffer then there are tricks if your
+
+0:50:13.920,0:50:20.220
+performance is not enough hour you don't
+
+0:50:16.830,0:50:22.650
+have enough memory space for two frame
+
+0:50:20.220,0:50:24.840
+buffers you do like partial updates of
+
+0:50:22.650,0:50:28.170
+different buffers so you try to minimize
+
+0:50:24.840,0:50:31.920
+the amount of pixels that you change and
+
+0:50:28.170,0:50:34.650
+then maybe you can get it fast enough to
+
+0:50:31.920,0:50:36.690
+draw the frame rate that you want to
+
+0:50:34.650,0:50:39.750
+draw out maybe not 60 Hertz but maybe
+
+0:50:36.690,0:50:42.570
+thirty and without seeing the
+
+0:50:39.750,0:50:44.970
+disturbances of the screen do you have
+
+0:50:42.570,0:50:51.540
+any test methodologies when I had to do
+
+0:50:44.970,0:50:54.510
+LCD graphics system I found later that I
+
+0:50:51.540,0:50:58.350
+wished I had better unit tests to start
+
+0:50:54.510,0:51:01.560
+with involving lines and squares and do
+
+0:50:58.350,0:51:03.450
+you have a good way to figure out if you
+
+0:51:01.560,0:51:06.650
+have written your graphic system
+
+0:51:03.450,0:51:11.130
+correctly it's very hard to test I I
+
+0:51:06.650,0:51:15.530
+wish I had a solution for that usually
+
+0:51:11.130,0:51:19.910
+graphics have some form of user input
+
+0:51:15.530,0:51:25.140
+involvement so yeah there are dinner
+
+0:51:19.910,0:51:28.440
+thankfully import ways of testing things
+
+0:51:25.140,0:51:29.400
+but and I I couldn't of volunteer a
+
+0:51:28.440,0:51:31.499
+solution
+
+0:51:29.400,0:51:34.489
+now usually you accumulate a series of
+
+0:51:31.499,0:51:37.169
+visual tests and you can run through it
+
+0:51:34.489,0:51:39.869
+it's basically recordings of all of the
+
+0:51:37.169,0:51:41.880
+errors that you have had to deal with I
+
+0:51:39.869,0:51:44.459
+mean you start out with this is what I
+
+0:51:41.880,0:51:45.839
+think you know this test this
+
+0:51:44.459,0:51:48.479
+functionality and it looks good
+
+0:51:45.839,0:51:52.169
+but you forget some corner case or
+
+0:51:48.479,0:51:54.150
+usually it's an actual corner exactly so
+
+0:51:52.169,0:51:55.739
+you had update the test and so you end
+
+0:51:54.150,0:51:59.160
+up with a suite of things that you can
+
+0:51:55.739,0:52:01.679
+do but like Gabrielle said it's very
+
+0:51:59.160,0:52:04.140
+hard to automate that because it's a
+
+0:52:01.679,0:52:06.119
+visual thing so I mean you can kind of
+
+0:52:04.140,0:52:09.479
+take screenshots and compare them
+
+0:52:06.119,0:52:11.999
+against known good results but that's
+
+0:52:09.479,0:52:15.719
+all very painful yeah it's a tough
+
+0:52:11.999,0:52:19.459
+problem I remember writing the word red
+
+0:52:15.719,0:52:22.140
+and green and blue in each color and
+
+0:52:19.459,0:52:24.809
+then realizing I hadn't written them in
+
+0:52:22.140,0:52:28.669
+the correct colors because I wasn't sure
+
+0:52:24.809,0:52:31.739
+which was orangey and B on my display
+
+0:52:28.669,0:52:35.519
+but that's a classic problem mixing up
+
+0:52:31.739,0:52:37.259
+the components orders yeah yeah when you
+
+0:52:35.519,0:52:38.640
+have black and white which a lot of
+
+0:52:37.259,0:52:40.409
+times you start out with black and white
+
+0:52:38.640,0:52:43.499
+it doesn't matter but then when you
+
+0:52:40.409,0:52:45.719
+start doing animations for your team
+
+0:52:43.499,0:52:47.880
+suddenly it's important that red is red
+
+0:52:45.719,0:52:50.159
+and not green well here's a question for
+
+0:52:47.880,0:52:52.829
+you that the folks on the Select might
+
+0:52:50.159,0:52:54.809
+have asked but they didn't there's a lot
+
+0:52:52.829,0:52:57.479
+of different display technologies out
+
+0:52:54.809,0:52:59.400
+right now and if your decide if you're
+
+0:52:57.479,0:53:02.819
+building a hobby project or starting
+
+0:52:59.400,0:53:05.009
+some small product it might not be clear
+
+0:53:02.819,0:53:09.929
+what the best thing to choose is there's
+
+0:53:05.009,0:53:13.739
+there's OLED there's LCD there's other
+
+0:53:09.929,0:53:16.140
+things matrix lights are actually pretty
+
+0:53:13.739,0:53:20.479
+popular right now Inc and there's
+
+0:53:16.140,0:53:20.479
+there's drawbacks to all of these right
+
+0:53:21.079,0:53:27.299
+to list the tropics yeah yeah the
+
+0:53:24.419,0:53:30.299
+drawbacks of OLED because that may be
+
+0:53:27.299,0:53:33.679
+important to me soon oh that's a yeah
+
+0:53:30.299,0:53:35.219
+that's a pet peeve of mine so let's type
+
+0:53:33.679,0:53:38.130
+in time
+
+0:53:35.219,0:53:41.069
+they're like little gnomes that emit
+
+0:53:38.130,0:53:42.980
+light and they get older and older each
+
+0:53:41.069,0:53:46.230
+time you make them make
+
+0:53:42.980,0:53:47.819
+photos and the more you make them emit
+
+0:53:46.230,0:53:52.290
+photons the more they die the more
+
+0:53:47.819,0:53:54.329
+quickly they die so yeah that's a fun
+
+0:53:52.290,0:53:56.490
+fact that I wasn't aware of when I
+
+0:53:54.329,0:53:58.170
+started working with all it this place
+
+0:53:56.490,0:54:01.230
+and people I could choose them because
+
+0:53:58.170,0:54:03.410
+they're super bright and and you know
+
+0:54:01.230,0:54:06.300
+the monochrome ones look really really
+
+0:54:03.410,0:54:10.069
+engaging but really we're just killing
+
+0:54:06.300,0:54:14.280
+little-known murdering yes that's
+
+0:54:10.069,0:54:18.150
+scientifically proven - yeah in a
+
+0:54:14.280,0:54:23.940
+microscope just enable kamikaze mode and
+
+0:54:18.150,0:54:25.349
+you'll see they're very bright but the
+
+0:54:23.940,0:54:27.780
+nice thing about all that is you don't
+
+0:54:25.349,0:54:29.400
+draw a power your power draw is
+
+0:54:27.780,0:54:32.130
+proportional to how many pixels you're
+
+0:54:29.400,0:54:35.869
+actually lighting right yeah so each
+
+0:54:32.130,0:54:40.500
+each so each pixel is like an individual
+
+0:54:35.869,0:54:41.790
+light instead of being the LCD system
+
+0:54:40.500,0:54:44.880
+where you have a backlight and you're
+
+0:54:41.790,0:54:49.619
+basically filtering the backlight to
+
+0:54:44.880,0:54:51.359
+produce colors so the contrast is the
+
+0:54:49.619,0:54:53.490
+contrast appearance is much nicer
+
+0:54:51.359,0:54:56.490
+because the black is really black this
+
+0:54:53.490,0:55:00.450
+there's no light coming what the black
+
+0:54:56.490,0:55:05.180
+pixels and then color I've heard the
+
+0:55:00.450,0:55:10.280
+gnomes die at different rates yeah blue
+
+0:55:05.180,0:55:13.740
+dice especially fast not sure why
+
+0:55:10.280,0:55:17.430
+they're probably much larger because we
+
+0:55:13.740,0:55:20.970
+perceive blue with lower intensity so to
+
+0:55:17.430,0:55:23.730
+produce the same perceived blue-green
+
+0:55:20.970,0:55:27.510
+for example brightness the the blue one
+
+0:55:23.730,0:55:29.220
+needs to make much more effort my story
+
+0:55:27.510,0:55:30.510
+is that we haven't had blue LEDs for
+
+0:55:29.220,0:55:34.609
+that long so we're just not really good
+
+0:55:30.510,0:55:37.800
+at making them yeah that's true
+
+0:55:34.609,0:55:40.880
+or maybe the other pixels don't like
+
+0:55:37.800,0:55:45.660
+blue yeah those no hate theater no yeah
+
+0:55:40.880,0:55:49.410
+so yeah so so they give you these curves
+
+0:55:45.660,0:55:52.319
+and they say if your Sultanate's
+
+0:55:49.410,0:55:54.930
+this display can live for 100 hours and
+
+0:55:52.319,0:55:58.200
+then what you get is a
+
+0:55:54.930,0:56:01.200
+a pixel that doesn't isn't able to
+
+0:55:58.200,0:56:03.200
+emitter at its fullest and depending on
+
+0:56:01.200,0:56:07.140
+what you're showing screen you can get
+
+0:56:03.200,0:56:09.180
+burning a burning effect which is an
+
+0:56:07.140,0:56:11.280
+image that seems to be constantly there
+
+0:56:09.180,0:56:16.230
+and that's produced by the lack of the
+
+0:56:11.280,0:56:18.089
+pixels to do a bit light at the same
+
+0:56:16.230,0:56:20.839
+level that the neighboring pixels can
+
+0:56:18.089,0:56:25.410
+with it I mean that that wouldn't that
+
+0:56:20.839,0:56:30.750
+sounds fine not not really not at all
+
+0:56:25.410,0:56:32.670
+fine okay so so OLED is see if you
+
+0:56:30.750,0:56:34.859
+manage if you manage to get all the
+
+0:56:32.670,0:56:37.470
+knobs to die at the same rate that makes
+
+0:56:34.859,0:56:38.369
+fine because you won't notice it for for
+
+0:56:37.470,0:56:41.490
+very long time
+
+0:56:38.369,0:56:44.490
+the problem is when they start dying at
+
+0:56:41.490,0:56:50.450
+different rates for me a pattern then
+
+0:56:44.490,0:56:52.970
+you really notice them okay so LEDs
+
+0:56:50.450,0:56:57.089
+might be an option but those are very
+
+0:56:52.970,0:56:58.230
+power inefficient so I guess LCDs those
+
+0:56:57.089,0:57:03.150
+are fine they've been around for a long
+
+0:56:58.230,0:57:07.319
+time they must work right yeah ago the
+
+0:57:03.150,0:57:11.790
+problem is if you if you want to make a
+
+0:57:07.319,0:57:14.549
+really nice-looking device with no
+
+0:57:11.790,0:57:17.220
+borders around it it's very hard to do
+
+0:57:14.549,0:57:20.609
+with LCD because they require a plodding
+
+0:57:17.220,0:57:23.819
+area somewhere so you get that if you
+
+0:57:20.609,0:57:25.950
+look at wearable devices with LCDs you'd
+
+0:57:23.819,0:57:29.280
+see that some where they may be
+
+0:57:25.950,0:57:31.710
+advertised a ride over on a region
+
+0:57:29.280,0:57:34.200
+because they cannot avoid having that
+
+0:57:31.710,0:57:38.460
+section then it has the backlight issue
+
+0:57:34.200,0:57:41.040
+you have to there's all very few LCDs
+
+0:57:38.460,0:57:43.349
+that you can see that they have trans
+
+0:57:41.040,0:57:45.750
+reflective one switch light coming into
+
+0:57:43.349,0:57:47.670
+it is reflected off a substrate on the
+
+0:57:45.750,0:57:49.680
+back and then and then you can see it
+
+0:57:47.670,0:57:52.260
+daylight but usually you have to have
+
+0:57:49.680,0:57:55.020
+some sort of light emitting thing on the
+
+0:57:52.260,0:57:57.480
+back and that's usually some white LEDs
+
+0:57:55.020,0:58:00.750
+or some phosphorescent thing fluorescent
+
+0:57:57.480,0:58:05.690
+thing which draws a lot of power so I
+
+0:58:00.750,0:58:08.339
+should use ink you should use beeps
+
+0:58:05.690,0:58:09.780
+Morse code I do feel like we're gonna
+
+0:58:08.339,0:58:14.130
+get down to like you just shouldn't have
+
+0:58:09.780,0:58:16.470
+it display at all you can avoid it it's
+
+0:58:14.130,0:58:22.980
+a big part of the power budget if you
+
+0:58:16.470,0:58:24.690
+want the display just watch the TV all
+
+0:58:22.980,0:58:26.130
+right do we have more graphics questions
+
+0:58:24.690,0:58:27.270
+that was the main one I wanted to go
+
+0:58:26.130,0:58:29.970
+back to I don't think we missed an
+
+0:58:27.270,0:58:33.329
+analyst well I mean the list is just
+
+0:58:29.970,0:58:37.049
+there because I have to do something for
+
+0:58:33.329,0:58:38.809
+the show other than talk yeah well I
+
+0:58:37.049,0:58:45.319
+have lots of questions for Gabriel but
+
+0:58:38.809,0:58:48.660
+he's not going to answer them I think
+
+0:58:45.319,0:58:51.390
+I've already gone over the line with a
+
+0:58:48.660,0:58:55.140
+double buffer and the nobs thing I don't
+
+0:58:51.390,0:58:57.990
+think I should have revealed that okay I
+
+0:58:55.140,0:58:59.339
+have one more question for you that when
+
+0:58:57.990,0:59:03.180
+you were young when you were the age
+
+0:58:59.339,0:59:06.480
+that your sons are now yes what did you
+
+0:59:03.180,0:59:09.299
+want to be when you grow up yeah I
+
+0:59:06.480,0:59:13.230
+wanted to be an engineer really from
+
+0:59:09.299,0:59:15.299
+that young yes so before I wanted to be
+
+0:59:13.230,0:59:19.579
+in a chair I actually wanted to be a
+
+0:59:15.299,0:59:23.430
+garbage collection man also buy boxes
+
+0:59:19.579,0:59:26.910
+but right after that I wanted to be at
+
+0:59:23.430,0:59:30.660
+my my my stepdad was a garbage
+
+0:59:26.910,0:59:33.059
+collection person and I you know in high
+
+0:59:30.660,0:59:36.650
+school I was like oh god don't tell
+
+0:59:33.059,0:59:41.369
+anybody to say he drives trucks and I
+
+0:59:36.650,0:59:45.059
+found out a few years ago that I was the
+
+0:59:41.369,0:59:46.530
+coolest person in the neighborhood to
+
+0:59:45.059,0:59:49.079
+the five-year-old who lived across the
+
+0:59:46.530,0:59:51.270
+street when he found out that my stepdad
+
+0:59:49.079,0:59:53.700
+Drive garbage trucks he was just like
+
+0:59:51.270,0:59:57.390
+that was the coolest thing yeah I was
+
+0:59:53.700,0:59:59.280
+probably the same yeah but you but you
+
+0:59:57.390,1:00:01.109
+knew what an engineer was and you wanted
+
+0:59:59.280,1:00:05.220
+to build things at a young age did you
+
+1:00:01.109,1:00:07.020
+take things apart my Iancu was an
+
+1:00:05.220,1:00:09.720
+electronics is an electronics engineer
+
+1:00:07.020,1:00:12.450
+so I guess that's what I picked that up
+
+1:00:09.720,1:00:15.049
+from yeah I absolutely was hated by my
+
+1:00:12.450,1:00:19.049
+brothers I constantly took apart toys
+
+1:00:15.049,1:00:20.520
+and I never put them back together no
+
+1:00:19.049,1:00:23.400
+once you know how they work they don't
+
+1:00:20.520,1:00:25.290
+who cares yeah my mom says that I went
+
+1:00:23.400,1:00:32.100
+to the University so I could learn how
+
+1:00:25.290,1:00:34.350
+to put the toys well I think we've kept
+
+1:00:32.100,1:00:35.610
+you for long enough Gabrielle do you
+
+1:00:34.350,1:00:38.160
+have any thoughts you'd like to leave us
+
+1:00:35.610,1:00:41.760
+with yes I'd like to read you a quote
+
+1:00:38.160,1:00:43.980
+one of my favorite it says it's from
+
+1:00:41.760,1:00:45.630
+Douglas Adams from mostly harmless and
+
+1:00:43.980,1:00:47.220
+it says a common mistake that people
+
+1:00:45.630,1:00:49.530
+make when trying to design something
+
+1:00:47.220,1:00:55.520
+completely foolproof is to underestimate
+
+1:00:49.530,1:00:59.550
+the ingenuity of concrete faults yes a
+
+1:00:55.520,1:01:02.610
+lesson to live by yeah I guess it has
+
+1:00:59.550,1:01:04.650
+been Gabrielle Okubo software
+
+1:01:02.610,1:01:08.040
+electronics and systems engineer at
+
+1:01:04.650,1:01:10.140
+large you can contact him via Twitter
+
+1:01:08.040,1:01:11.790
+via his webpage which will of course be
+
+1:01:10.140,1:01:14.280
+in the show notes or you can email us
+
+1:01:11.790,1:01:15.860
+and we will forward it along thank you
+
+1:01:14.280,1:01:17.160
+so much for being with us Gabrielle
+
+1:01:15.860,1:01:20.910
+thank you
+
+1:01:17.160,1:01:22.410
+it's been very nice being here thank you
+
+1:01:20.910,1:01:24.360
+to Christopher for producing and
+
+1:01:22.410,1:01:25.050
+co-hosting and of course thank you for
+
+1:01:24.360,1:01:27.180
+listening
+
+1:01:25.050,1:01:29.400
+you can always contact us at show at
+
+1:01:27.180,1:01:31.590
+embedded FM or hit the contact link on
+
+1:01:29.400,1:01:35.850
+the embedded FM website where you can
+
+1:01:31.590,1:01:38.400
+also find at the blog and now a quote to
+
+1:01:35.850,1:01:42.350
+leave you with a from a jorge luis
+
+1:01:38.400,1:01:45.210
+borges plant your own gardens and
+
+1:01:42.350,1:01:48.770
+decorate your own soul instead of
+
+1:01:45.210,1:01:48.770
+waiting for someone to bring you flowers
+
+1:01:49.609,1:01:54.000
+embedded is an independently produced
+
+1:01:51.900,1:01:56.520
+radio show that focuses on the many
+
+1:01:54.000,1:01:58.380
+aspects of engineering it is a
+
+1:01:56.520,1:02:00.290
+production of logical elegance an
+
+1:01:58.380,1:02:03.000
+embedded software consulting company in
+
+1:02:00.290,1:02:05.250
+California if there are advertisements
+
+1:02:03.000,1:02:07.770
+in the show we did not put them there
+
+1:02:05.250,1:02:10.350
+and do not receive money from them at
+
+1:02:07.770,1:02:14.220
+this time our sponsors are logical
+
+1:02:10.350,1:02:16.280
+elegance and listeners like you
+
+1:02:14.220,1:02:16.280
+you
+
