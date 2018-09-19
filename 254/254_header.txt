@@ -1,0 +1,14 @@
+https://www.embedded.fm/episodes/254
+
+254: MURDERING THOUSANDS OF GNOMES 
+https://www.embedded.fm/episodes/254
+
+Gabriel Jacobo (@gabrieljacobo) spoke with us about embedded graphics, contributing to the Linux SDL, using MQTT, and working far from his employers.
+
+Gabriel.s blog and resume are available on his site mdqinc.com. His github repo is under gabomdq. 
+
+SDL is Simple DirectMedia Layer (wiki). It is not so simple.
+
+For MQTT-based home automation, he uses the Raspberry Pi Home Assistant build and many Node MCUs (ESP8266s running Lua, Micropython, or Arduino Framework).
+
+

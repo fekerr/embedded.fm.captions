@@ -1,1 +1,1 @@
-./capscan.py ../originalCaptions/254_captions.sbv werdz254.txt > capscan254.txt
+./capscan.py ../originalCaptions/254_captions.sbv words254Original.txt > capscan254Original.txt

@@ -1,41 +1,71 @@
 #!/usr/bin/python
-#TODO review shbang?
 
-# fekerr 20180909-20180911
-# Simple python script used for review and refresh of
-# python, and to do some work.
+AUTHORDATE="fekerr 20180909-20180919"
+
+# capscan.py - scan YouTube captions.sbv files
 #
-# Print arguments in command line;
+# Command line:
+#   capscan.py < captions.sbv [wordfile [syncMode]]
+#
+# Scan YouTube Captions in .sbv format
+# Output lightly parsed:
+#
+# Caption number: begin, end: text
+#
+# begin and end are caption times from start of recording,
+# in floating point seconds
+# text of caption
+#
+# after scanning through file, output a list of words to another
+# file or stdout
+#
+
+# This is coded as a simple python script.
+# It servers as a review and refresh of python,
+# and may be used as an example of:  "This is one way to do it, then
+# let's do it a better way!"
+
+# Some early design notes and brainstorming:
+#
+# (debug) Print arguments in command line;
 # Start parsing YouTube .sbv captions file;
 # Parse time stamps;
 # Start generating word lists, vocabularies, ....
-# Give up and actually design it.
 # ....
 # Other ideas: print out as "event" list,
-# Left column starts with timeStamp, then as "caption start time" and "caption end time" are reached, indicate that.
+# Left column starts with timeStamp, then as "caption start time"
+# and "caption end time" are reached, indicate that.
 #
-# .srt format where each caption has a number is somewhat useful, but we don't need that extra information, really.
+# .srt format where each caption has a number is somewhat useful,
+# but we don't need that extra information, really, since it seems easy to
+# generate on the fly.
 #
-# TODO: waiting on actual design :)
 # "Start caption
 # ....
 # Would be nice to play back mp3 from python.
 # ....
-# Would be nice to play back with some of the previous ideas, with time delays, and some
-# interactive keyboard controls to allow adding notations, such as "Speaker Change", "Fix Caption", Todo, etc.
-# Just keep it simple and allow entering some set of keyboard keys and put them in an output file in some
-# easily scanned notation.
+# Would be nice to play back with some of the previous ideas,
+# with time delays, and some  interactive keyboard controls
+# to allow adding notations, such as "Speaker Change", "Fix Caption", Todo, etc.
+# Just keep it simple and allow entering some set of keyboard keys and put them
+# in an output file in some easily scanned notation.
 # ....
-# Eventually could have some variables to configure at the beginning, such as list of speakers and tags for each one.
+# Eventually could have some variables to configure at the beginning, such as list
+# of speakers and tags for each one.
 # ....
 
 import sys
 import time
 
-print "capscan.py: fekerr 20180909-20180911"
+# syncMode setting sleeps until the begin caption time is met
+# TODO: better command line options
+syncMode = True
+
+print "capscan.py:, ", AUTHORDATE
 print "Simple python script to scan YouTube .SBV captions files."
-print "Usage: capscan <caption.sbv> [werdz.txt]"
+print "Usage: capscan <caption.sbv> [wordsList.txt [syncMode]]"
 print
+
 argvLen = len(sys.argv)
 print "Arguments on command line:", argvLen, ":"
 
@@ -45,6 +75,9 @@ for i in sys.argv:
 if argvLen < 2:
     print "Insufficient arguments."
     exit()
+
+if argvLen > 3:
+    syncMode = int(sys.argv[3])
 
 print "Attempting very simple open of sys.argv[1]=", sys.argv[1]
 f = open(sys.argv[1], "r")
@@ -73,8 +106,8 @@ def convertTimeStamp(timeStampString):
 #    text line
 #    blank line
 
-# TODO: .srt file format seems to just have an integer number on a line before the timestamp begin, end, line.
-# TODO: support .srt file format eventually, or instead....
+# TODO: .srt file format seems to just have an integer number on a line
+#   (starting at 1), before the timestamp begin, end, line.
 
 # Treat three lines as one record, or
 # treat as 3 fields, each on separate lines.
@@ -84,35 +117,48 @@ def convertTimeStamp(timeStampString):
 # caption object (collect the 3 lines, then have a list of them)
 # words objects (a word, count of occurrance, location used, words before and after it?)
 # Sequence of words is also important, or the probabilities of one word following another?
-# Currently sorting the set at the end: copy set to list and sort list. Yeah, who cares about efficiency?
-# Obviously should be word/word sequence objects eventually, not just a simple set.
+# Currently sorting the set at the end: copy set to list and sort list.
+#   Yeah, who cares about efficiency?
+# Obviously should be word/word sequence objects/data structures eventually, not just a simple set.
 
 vocabWords = set()
 fieldindex=0
+captionNumber=0
+currentCaption=[0,0,None]
+captionList=[]
+
+startTime=time.time()
+print "Start Time = ", startTime
 
 for line in f:
     if fieldindex == 0:
-#        print "TS=", line
-
         beg,end=line.split(",")
         begins=convertTimeStamp(beg)
         ends=convertTimeStamp(end)
 
-#       print begins, ends,
-        print '{0:09.3f}, {1:0<09.3f}'.format(begins, ends),
+        currentCaption=[begins,ends,'']
+        captionList.append(currentCaption)
+        print '{0:05d}: {1:09.3f}, {2:0<09.3f}'.format(captionNumber, begins, ends),
+
+        waitForTs=begins - (time.time() - startTime)
+        if syncMode and (waitForTs > 0.0):
+            time.sleep(waitForTs)
 
         fieldindex=fieldindex+1
     elif fieldindex == 1:
-        print line.strip();
+        captionList[captionNumber][2] = line.strip()
+        print captionList[captionNumber][2]
 
 # TODO: check if this misses any words
 
-        for i in line.split(" "):
+#        for i in line.split(" "):
+        for i in captionList[captionNumber][2].split(" "):
             vocabWords.add(i.strip());
 
         fieldindex=fieldindex+1
     elif fieldindex == 2:
 #        print "Blank=", line
+        captionNumber = captionNumber + 1
         fieldindex=0
 
 f.close()
