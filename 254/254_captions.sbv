@@ -2,7 +2,7 @@
 [Music]
 
 0:00:06.160,0:00:14.900
-Hello this is Embedded. I am Elecia White
+[E:] Hello this is Embedded. I am Elecia White
 
 0:00:11.660,0:00:18.109
 here with Christopher White. When I say
@@ -14,19 +14,19 @@ graphics do you assume I mean a big game
 computer? What about in embedded systems?
 
 0:00:21.279,0:00:28.089
-This week we'll be talking to Gabriel Jacobo
+This week we'll be talking to Gabriel
 
 0:00:24.679,0:00:31.640
-about embedded graphics and MQTT home
+Jacobo about embedded graphics and MQTT home
 
 0:00:28.089,0:00:32.239
-[**] have real thanks
+automation. [C:] Hi Gabriel, thanks
 
 0:00:31.640,0:00:35.780
-for joining us
+for joining us.
 
 0:00:32.239,0:00:38.780
-hi crease another yeah that's going good
+[G:] Hi Chris and Elecia, how's it going? [E:] Good.
 
 0:00:35.780,0:00:40.250
 I know you have worked at some company
@@ -44,7 +44,7 @@ introduction of yourself as though you
 were meeting us for the first time at a
 
 0:00:49.280,0:00:55.670
-technical conference all right my name
+technical conference? [G:] All right my name
 
 0:00:52.640,0:00:59.179
 is Gabriel or Gabrielle in Spanish I'm
@@ -62,10 +62,10 @@ in software or firmware development and
 lately I've been working for graphics
 
 0:01:09.470,0:01:22.850
-and systems engineering I thought he
+and systems engineering. [E:] I thought he
 
 0:01:13.580,0:01:24.260
-would go on for longer I well let's do
+would go on for longer. [G:] Well I have 3 kids. [E:] Let's do
 
 0:01:22.850,0:01:27.080
 lightning round and we will dig into
@@ -80,61 +80,61 @@ introduction you have done many
 interesting things so lightning round we
 
 0:01:32.330,0:01:37.100
-asked you short questions we want short
+ask you short questions we want short
 
 0:01:34.160,0:01:39.260
-answers and if we were behaving
+answers and if we are behaving
 
 0:01:37.100,0:01:41.810
 ourselves we won't ask you why and how
 
 0:01:39.260,0:01:46.700
-and hi and all of that Christopher you
+and huh and all of that. Christopher you
 
 0:01:41.810,0:01:49.640
-ready yeah Gabrielle sure let's go Star
+ready? [C:] yeah Gabrielle [G:] sure let's go [C:] Star
 
 0:01:46.700,0:01:54.290
-Wars or Star Trek Star Wars what's the
+Wars or Star Trek [J:] Star Wars what's the
 
 0:01:49.640,0:01:59.340
-stuff what's your favorite x window
+stuff [E:] what's your favorite x window
 
 0:01:54.290,0:02:06.299
-manager wait up
+manager [G:][?] wait up
 
 0:01:59.340,0:02:08.819
-or Katie what's the I've been using kve
+[C:] Gnome or KDE? [G:] What's Gnome? I've been using KDE
 
 0:02:06.299,0:02:11.569
 constantly for the last ten years I
 
 0:02:08.819,0:02:14.900
-wouldn't change it for anything
+wouldn't exchange it for anything.
 
 0:02:11.569,0:02:18.599
-dinosaur movies are shark movies
+[E:] dinosaur movies or shark movies
 
 0:02:14.900,0:02:21.060
-dinosaur is the Amazon a river a
+[G:] dinosaur [C:] is the Amazon a river a
 
 0:02:18.599,0:02:28.760
-bookstore or a tribe of work fierce
+bookstore or a tribe of fierce
 
 0:02:21.060,0:02:32.579
-women for me it's a bookstore or online
+women [G:] for me it's a bookstore or online
 
 0:02:28.760,0:02:34.680
-shopping destination see ahead a sales
+shopping destination [E:] see I had a sales
 
 0:02:32.579,0:02:36.000
 platform in that in that question but
 
 0:02:34.680,0:02:38.760
-you just want a statement it's
+you just want a statement [C:] it's
 
 0:02:36.000,0:02:40.410
-tightening and I'm a little uncertain
+tightening [E:] and I'm a little uncertain
 
 0:02:38.760,0:02:42.269
 about your answer because when I asked
@@ -146,7 +146,7 @@ you about Amazon earlier in the week you
 said it was a river
 
 0:02:44.209,0:02:49.110
-yeah because Amazon doesn't really have
+[G:] yeah because Amazon doesn't really have
 
 0:02:47.040,0:02:52.799
 any presence in South America but
@@ -155,13 +155,13 @@ any presence in South America but
 anytime I go to the US Amazon is there
 
 0:02:52.799,0:03:02.010
-probably the first site IPC what color
+probably the first site [IPC?] [E:] What color
 
 0:02:57.750,0:03:06.209
 should a llama be a second what color
 
 0:03:02.010,0:03:09.480
-should a llama be Oh what color so the
+should a llama be [G:] Oh what color so the
 
 0:03:06.209,0:03:12.090
 thing is llama means flame in Spanish so
@@ -176,40 +176,40 @@ be enough different colors blue is the
 color of a good flame so I'd go with
 
 0:03:19.739,0:03:25.260
-that do you like to complete one project
+that [C:] do you like to complete one project
 
 0:03:22.019,0:03:27.359
-or start a dozen I'd like to complete
+or start a dozen [G:] I'd like to complete
 
 0:03:25.260,0:03:31.680
 one project what I actually do is start
 
 0:03:27.359,0:03:37.069
-at awesome alright that's going to dive
+a dozen. [E:] Awesome, All right let's dive
 
 0:03:31.680,0:03:39.989
-into things graphics when you say
+into things. Graphics--When you say
 
 0:03:37.069,0:03:42.510
 graphics and I know you've done a lot of
 
 0:03:39.989,0:03:45.209
-different working graphics what do you
+different work in graphics
 
 0:03:42.510,0:03:46.709
-what is what does that word really mean
+what does that word really mean
 
 0:03:45.209,0:03:51.109
 when you're talking about embedded
 
 0:03:46.709,0:03:53.609
-systems and graphics so graphics means
+systems and graphics [G:] so graphics means
 
 0:03:51.109,0:03:56.400
 different things to different people for
 
 0:03:53.609,0:03:59.160
-and users it means what probably what
+end users it means what probably what
 
 0:03:56.400,0:04:02.730
 they see on screen for designers it
@@ -218,7 +218,7 @@ they see on screen for designers it
 means the way they communicate with
 
 0:04:02.730,0:04:09.299
-users and for us for more engineers it's
+users and for us firmware engineers it's
 
 0:04:06.090,0:04:13.080
 the whole pipeline that goes from assets
@@ -227,7 +227,7 @@ the whole pipeline that goes from assets
 to some processing the frame buffer and
 
 0:04:13.080,0:04:19.230
-to the pixels of the display it's a
+eventually to the pixels of the display [E:] It's a
 
 0:04:17.430,0:04:22.160
 little odd because I would never say
@@ -239,13 +239,13 @@ I've worked in graphics but I have put
 bitmaps into flash and then gotten them
 
 0:04:25.710,0:04:30.420
-out and put them on the screen yeah
+out and put them on the screen [G:] yeah
 
 0:04:28.410,0:04:33.600
-should I be saying oh yeah graphics is
+[E:] should I be saying oh yeah graphics is
 
 0:04:30.420,0:04:35.850
-on my resume so when you did that did
+on my resume [G:] so when you did that did
 
 0:04:33.600,0:04:38.760
 you constantly write to the screen
@@ -260,10 +260,10 @@ amount of work possible to preserve
 battery for example one of that is I
 
 0:04:42.660,0:04:49.800
-think graphics work in a way yeah I did
+think graphics work in a way [E:] yeah I did
 
 0:04:47.520,0:04:52.530
-all that and I I actually drew a graph
+all that and I actually drew a graph
 
 0:04:49.800,0:04:53.640
 too so it wasn't just splatting things
@@ -272,13 +272,13 @@ too so it wasn't just splatting things
 on the screen I had to worry about
 
 0:04:53.640,0:04:56.130
-pixels yeah I could put that on your
+pixels [C:] yeah you could put that on your
 
 0:04:55.830,0:04:59.010
 resume
 
 0:04:56.130,0:05:02.600
-okay graphics right it's graphics
+[G:] okay graphics right it's graphics
 
 0:04:59.010,0:05:05.250
 essentially graphics is usually
@@ -305,7 +305,7 @@ display that's a fairly complicated
 process and definitely worth putting in
 
 0:05:21.480,0:05:30.480
-your wrist could you go through the
+your resume [E:] could you go through the
 
 0:05:24.540,0:05:32.430
 process for us so the center of the
@@ -314,7 +314,7 @@ process for us so the center of the
 graphics process is what's called a
 
 0:05:32.430,0:05:39.840
-frame buffer which is a complicated work
+frame buffer which is a complicated word
 
 0:05:36.270,0:05:43.320
 for an array in memory a buffer where
@@ -350,7 +350,7 @@ memory or even directly to the frame
 buffer and then there's going to be some
 
 0:06:10.080,0:06:15.540
-processing than either by the CPU in
+processing then either by the CPU in
 
 0:06:13.110,0:06:18.570
 what's called software rendering or by a
@@ -380,7 +380,7 @@ frame buffer to the display has a little
 bit of complexity because the display is
 
 0:06:36.770,0:06:41.390
-doing it something and the CPU is doing
+doing it's own thing and the CPU is doing
 
 0:06:39.710,0:06:43.820
 its own thing and if you don't
@@ -392,16 +392,16 @@ coordinate that properly you end up
 seeing strange artifacts on screen which
 
 0:06:46.370,0:06:52.100
-you don't want and that depends on how
+you don't want [C:] and that depends on how
 
 0:06:48.800,0:06:53.150
-much complexity you have in the in the
+much complexity you have in the
 
 0:06:52.100,0:06:55.790
-thing you're displaying if you're doing
+thing you're displaying. If you're doing
 
 0:06:53.150,0:06:57.380
-something very static then usually don't
+something very static then you usually don't
 
 0:06:55.790,0:07:00.290
 worry about that but if you have a lot
@@ -419,10 +419,10 @@ oh I don't want to update the screen
 while I'm still updating the data and
 
 0:07:07.460,0:07:12.560
-I'm put that I want to put on it for the
+that I want to put on it for the
 
 0:07:08.810,0:07:14.870
-next update exactly and that it seems
+next update [G:] exactly [E:] and that it seems
 
 0:07:12.560,0:07:17.210
 you have a frame buffer on your LCD and
@@ -434,7 +434,7 @@ the micro isn't asked acting as frame
 buffer and having to send things every
 
 0:07:20.560,0:07:27.920
-update yeah so this place typically work
+update yeah so displays typically work
 
 0:07:25.430,0:07:31.100
 in one of two configurations the
