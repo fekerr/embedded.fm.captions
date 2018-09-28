@@ -155,22 +155,22 @@ any presence in South America but
 anytime I go to the US Amazon is there
 
 0:02:52.799,0:03:02.010
-probably the first site [IPC?] [E:] What color
+probably the first site I visit. [E:] What color
 
 0:02:57.750,0:03:06.209
-should a llama be a second what color
+should a llama be? [G:] Say again? [E:] What color
 
 0:03:02.010,0:03:09.480
-should a llama be [G:] Oh what color so the
+should a llama be [G:] Oh what color. So the
 
 0:03:06.209,0:03:12.090
 thing is llama means flame in Spanish so
 
 0:03:09.480,0:03:15.810
-that's why we're talking about it it'd
+that's why we're talking about it
 
 0:03:12.090,0:03:19.739
-be enough different colors blue is the
+being different colors. Blue is the
 
 0:03:15.810,0:03:22.019
 color of a good flame so I'd go with
@@ -302,7 +302,7 @@ moving assets from the flash to the
 display that's a fairly complicated
 
 0:05:18.870,0:05:24.540
-process and definitely worth putting in
+process and definitely worth putting on
 
 0:05:21.480,0:05:30.480
 your resume [E:] could you go through the
@@ -326,7 +326,7 @@ the pixel information is going to be and
 it's going to be sent to the display
 
 0:05:45.300,0:05:53.370
-through some mechanism the assets
+through some mechanism. The assets
 
 0:05:49.560,0:05:55.800
 typically come from a flash storage SD
@@ -422,7 +422,7 @@ while I'm still updating the data and
 that I want to put on it for the
 
 0:07:08.810,0:07:14.870
-next update [G:] exactly [E:] and that it seems
+next update [G:] exactly [E:] and that assumes
 
 0:07:12.560,0:07:17.210
 you have a frame buffer on your LCD and
@@ -434,7 +434,7 @@ the micro isn't asked acting as frame
 buffer and having to send things every
 
 0:07:20.560,0:07:27.920
-update yeah so displays typically work
+update [G:] yeah so displays typically work
 
 0:07:25.430,0:07:31.100
 in one of two configurations the
@@ -443,13 +443,13 @@ in one of two configurations the
 simplest one I afford the display is
 
 0:07:31.100,0:07:37.100
-basically a mode that emulates what all
+basically a mode that emulates what old
 
 0:07:33.350,0:07:40.250
-CRTs display did which is you have a see
+CRTs display did which is you have a
 
 0:07:37.100,0:07:43.160
-every sync signal and H horizontal sync
+VSYNC signal and H horizontal sync
 
 0:07:40.250,0:07:44.660
 signal and pixels and you send stuff to
@@ -476,13 +476,13 @@ a given time and then that gets
 displayed to pixels after a certain
 
 0:08:02.960,0:08:08.930
-refresh period yes if your data sheet
+refresh period [E:] yes if your data sheet
 
 0:08:06.230,0:08:12.440
-says you have to use H sink in vsync run
+says you have to use HSYNC and VSYNC, run
 
 0:08:08.930,0:08:14.390
-away run away very quickly oh well I
+away, run away very quickly. Well I
 
 0:08:12.440,0:08:18.290
 mean you have to often cuz it's cheaper
@@ -500,16 +500,16 @@ you pay for it in your processor because
 you know your processor is doing all of
 
 0:08:25.070,0:08:31.040
-that everyone knows that freeware is
+that [*G:] everyone knows that freeware is
 
 0:08:27.350,0:08:34.219
 free so that's why they're typically
 
 0:08:31.040,0:08:38.630
-used to exchange our complexity for free
+used to exchange our complexity for freeware
 
 0:08:34.219,0:08:40.310
-or complexity so that's all how you
+complexity so that's all how you
 
 0:08:38.630,0:08:42.890
 would deal with like a bear
